@@ -1,0 +1,282 @@
+[
+  {
+    "id": "1",
+    "name": "מר שיבולת (שי בן בסט)",
+    "category": "גיימינג וטכנולוגיה",
+    "bio": "גיימר וכוכב יוטיוב מוביל, AI-מומחה ומרצה בתחום ההייטק עם תשוקה למשחקי מחשב, הומור, טכנולוגיה וחדשנות.",
+    "imageUrl": "/talents/shibolet.png",
+    "totalFollowers": 415000,
+    "platformFollowers": {
+      "youtube": 260000,
+      "tiktok": 107000,
+      "instagram": 48000
+    },
+    "engagement": "6.8%",
+    "audience": {
+      "age": "16-28",
+      "gender": "70% גברים, 30% נשים",
+      "location": "ישראל, ארה\"ב"
+    },
+    "socialMedia": {
+      "youtube": "https://www.youtube.com/@SHIB",
+      "tiktok": "https://www.tiktok.com/@mrshibolet",
+      "instagram": "https://www.instagram.com/mrshibolet/"
+    },
+    "previousCollaborations": [
+      "נינטנדו",
+      "פלייסטיישן",
+      "רייזר",
+      "לוגיטק"
+    ],
+    "strengths": ["#GAMING", "#LECTURES", "#TECHNOLOGY", "#GAME STREAMING", "#INNOVATION"]
+  },
+  {
+    "id": "2",
+    "name": "עומר ירון",
+    "category": "מדע וטכנולוגיה",
+    "bio": "עומר בן 22, יוצר כריזמטי בתחום המדע והטכנולוגיה, רקע בצילום ובימוי, לשעבר ביחידת הסרטה בצה\"ל, יוצר תוכן ויראלי בעברית ואנגלית.",
+    "imageUrl": "/talents/Omer Yaron.png",
+    "totalFollowers": 44800,
+    "platformFollowers": {
+      "youtube": 24000,
+      "tiktok": 17300,
+      "instagram": 3500
+    },
+    "engagement": "5.2%",
+    "audience": {
+      "age": "18-34",
+      "gender": "65% גברים, 35% נשים",
+      "location": "ישראל, ארה\"ב, בריטניה"
+    },
+    "socialMedia": {
+      "youtube": "https://youtube.com/@omer_yaron",
+      "tiktok": "https://www.tiktok.com/@omeryaron_",
+      "instagram": "https://www.instagram.com/omer.yaron"
+    },
+    "previousCollaborations": [
+      "מיקרוסופט",
+      "סמסונג",
+      "אינטל",
+      "משרד המדע"
+    ],
+    "strengths": ["#SCIENCE", "#TECHNOLOGY", "#EDUCATION", "#INNOVATION", "#HEALTH"]
+  },
+  {
+    "id": "3",
+    "name": "רועי (Roee Firewolf)",
+    "category": "גיימינג ותוכן",
+    "bio": "בן 22, יוצא 8200, מהיוטיוברים המובילים בישראל. מפעיל את ערוצי FireWolf ו-FireWolf2 עם תוכן גיימינג ווידאו.",
+    "imageUrl": "/talents/Firewolf.png",
+    "totalFollowers": 542000,
+    "platformFollowers": {
+      "youtube": 465000,
+      "tiktok": 54000,
+      "instagram": 23000
+    },
+    "engagement": "7.1%",
+    "audience": {
+      "age": "16-30",
+      "gender": "75% גברים, 25% נשים",
+      "location": "ישראל"
+    },
+    "socialMedia": {
+      "youtube": "https://youtube.com/@firewolff",
+      "youtube2": "https://youtube.com/@firewolf2",
+      "tiktok": "https://www.tiktok.com/@roeefirewolf",
+      "instagram": "https://www.instagram.com/roeefirewolf"
+    },
+    "previousCollaborations": [
+      "נינטנדו",
+      "EA Games",
+      "Ubisoft",
+      "Steam"
+    ],
+    "strengths": ["#GAMING", "#FOOD", "#TECHNOLOGY", "#VIDEO", "#TRAVEL"]
+  },
+  {
+    "id": "4",
+    "name": "מיטל ריינבו קווין",
+    "category": "גיימינג",
+    "bio": "הגיימרית המובילה בישראל עם מעל 200K עוקבים ביוטיוב, יוצרת תוכן אישי, גיימינג וחינוכי.",
+    "imageUrl": "/talents/rainbow_queen.jpeg",
+    "totalFollowers": 270000,
+    "platformFollowers": {
+      "youtube": 212000,
+      "instagram": 41000,
+      "tiktok": 17000
+    },
+    "engagement": "6.5%",
+    "audience": {
+      "age": "16-28",
+      "gender": "60% נשים, 40% גברים",
+      "location": "ישראל"
+    },
+    "socialMedia": {
+      "youtube": "https://www.youtube.com/rainbowqueen",
+      "tiktok": "https://www.tiktok.com/@rainbqueen",
+      "instagram": "https://www.instagram.com/rainbqueen/"
+    },
+    "previousCollaborations": [
+      "נינטנדו",
+      "פלייסטיישן",
+      "רייזר",
+      "לוגיטק"
+    ],
+    "strengths": ["#GAMING"]
+  },
+  {
+    "id": "5",
+    "name": "גל כהן",
+    "category": "גיימינג וטכנולוגיה",
+    "bio": "יוטיובר גיימר בן 22, מתמחה בגיימינג וקרוס-פלטפורם סטרימינג. מוביל בבראול סטארס.",
+    "imageUrl": "/talents/GalCohen.png",
+    "totalFollowers": 235000,
+    "platformFollowers": {
+      "youtube": 187000,
+      "tiktok": 33000,
+      "instagram": 15000
+    },
+    "engagement": "5.8%",
+    "audience": {
+      "age": "16-25",
+      "gender": "80% גברים, 20% נשים",
+      "location": "ישראל"
+    },
+    "socialMedia": {
+      "youtube": "https://youtube.com/@galcohenofficial",
+      "tiktok": "https://www.tiktok.com/@galcohenyt",
+      "instagram": "https://www.instagram.com/galcohenofficial"
+    },
+    "previousCollaborations": [
+      "Supercell",
+      "Clash Royale",
+      "Brawl Stars",
+      "Mobile Gaming"
+    ],
+    "strengths": ["#GAMING", "#TECHNOLOGY", "#GAME STREAMING"]
+  },
+  {
+    "id": "6",
+    "name": "מיכל מצוב",
+    "category": "לייף סטייל ואופנה",
+    "bio": "בת 29, יוצרת תוכן מובילה עם קהל נאמן, משתתפת המרוץ למיליון 2024, מתמחה בלייף סטייל, אופנה, אוכל ועוד.",
+    "imageUrl": "/talents/MichalMatzov.png",
+    "totalFollowers": 908000,
+    "platformFollowers": {
+      "youtube": 404000,
+      "instagram": 322000,
+      "tiktok": 182000
+    },
+    "engagement": "8.2%",
+    "audience": {
+      "age": "18-35",
+      "gender": "75% נשים, 25% גברים",
+      "location": "ישראל"
+    },
+    "socialMedia": {
+      "youtube": "https://youtube.com/@michalmatzov",
+      "youtube2": "https://youtube.com/@michalmatzovvlogs",
+      "tiktok": "https://www.tiktok.com/@michalmatzov",
+      "instagram": "https://www.instagram.com/michal_matzov"
+    },
+    "previousCollaborations": [
+      "זארה",
+      "H&M",
+      "ספורה",
+      "מנגו"
+    ],
+    "strengths": ["#COMEDY", "#TRAVEL", "#FASHION", "#FOOD", "#LIFESTYLE"]
+  },
+  {
+    "id": "7",
+    "name": "ישראל גליצקי",
+    "category": "קולנוע ובידור",
+    "bio": "יוצר תוכן בתחום הקולנוע והבידור עם מעל 4 שנות ניסיון ביצירת ולוגים וסרטונים.",
+    "imageUrl": "/talents/Israel Galitsky.png",
+    "totalFollowers": 128000,
+    "platformFollowers": {
+      "youtube": 114000,
+      "tiktok": 14000
+    },
+    "engagement": "4.5%",
+    "audience": {
+      "age": "20-40",
+      "gender": "60% גברים, 40% נשים",
+      "location": "ישראל"
+    },
+    "socialMedia": {
+      "youtube": "https://youtube.com/@israelgalitsky",
+      "tiktok": "https://www.tiktok.com/@israel_galitsky",
+      "instagram": "https://www.instagram.com/israel_galitsky"
+    },
+    "previousCollaborations": [
+      "Netflix",
+      "HOT",
+      "כאן 11",
+      "רשת 13"
+    ],
+    "strengths": ["#CINEMA", "#ENTERTAINMENT", "#VLOGS", "#REVIEWS"]
+  },
+  {
+    "id": "8",
+    "name": "מינה (CinnaMinaa)",
+    "category": "גיימינג",
+    "bio": "בת 20, יוצרת תוכן גיימינג עם קהל מעורב, מתמקדת בקשר לקהילה וסטרימינג ייחודי.",
+    "imageUrl": "/talents/Cinaminna.png",
+    "totalFollowers": 51000,
+    "platformFollowers": {
+      "youtube": 43000,
+      "instagram": 4000,
+      "tiktok": 4000
+    },
+    "engagement": "7.8%",
+    "audience": {
+      "age": "16-25",
+      "gender": "50% נשים, 50% גברים",
+      "location": "ישראל"
+    },
+    "socialMedia": {
+      "youtube": "https://youtube.com/@cinnaminaa",
+      "instagram": "https://instagram.com/cinnaminaa",
+      "tiktok": "https://tiktok.com/@cinnaminaa"
+    },
+    "previousCollaborations": [
+      "Twitch",
+      "Discord",
+      "Steam",
+      "Epic Games"
+    ],
+    "strengths": ["#GAMING", "#STREAMING", "#COMMUNITY"]
+  },
+  {
+    "id": "9",
+    "name": "דוד ששון (2BOF)",
+    "category": "גיימינג ומיינקראפט",
+    "bio": "יוצר תוכן גיימינג ותיק, מוכר בעיקר מתוכן מיינקראפט, פעיל מעל 13 שנה.",
+    "imageUrl": "/talents/2bof.png",
+    "totalFollowers": 195600,
+    "platformFollowers": {
+      "youtube": 172000,
+      "tiktok": 18000,
+      "instagram": 5600
+    },
+    "engagement": "5.5%",
+    "audience": {
+      "age": "12-25",
+      "gender": "70% גברים, 30% נשים",
+      "location": "ישראל"
+    },
+    "socialMedia": {
+      "youtube": "https://youtube.com/@2bof",
+      "tiktok": "https://tiktok.com/@2bof",
+      "instagram": "https://instagram.com/2bof"
+    },
+    "previousCollaborations": [
+      "Minecraft",
+      "Mojang",
+      "Microsoft Gaming",
+      "Roblox"
+    ],
+    "strengths": ["#MINECRAFT", "#GAMING", "#TUTORIALS", "#BUILDING"]
+  }
+]

@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+
+    /* Brand colors - Purple theme */
+    --primary: 270 60% 25%; /* Deep purple */
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 15 60% 75%; /* Peach/salmon */
+    --secondary-foreground: 270 60% 25%;
+
+    --accent: 240 70% 20%; /* Navy blue */
+    --accent-foreground: 0 0% 100%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 270 60% 25%;
+
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  
+  html {
+    font-family: 'Heebo', sans-serif;
+  }
+  
+  body {
+    @apply bg-background text-foreground;
+    direction: rtl;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold;
+  }
+}
+
+.butterfly-gradient {
+  @apply bg-gradient-to-r from-secondary to-secondary/70;
+}
+
+.talent-card {
+  @apply relative overflow-hidden rounded-lg transition-all duration-300 hover:shadow-xl;
+}
+
+.talent-card:hover img {
+  @apply scale-105;
+}
+
+.talent-card img {
+  @apply transition-all duration-500;
+}
+
+.section-title {
+  @apply text-3xl md:text-4xl font-bold mb-8 text-primary relative inline-block;
+}
+
+.section-title::after {
+  content: '';
+  @apply absolute bottom-0 right-0 h-1 w-1/2 bg-secondary;
+}
+
+.butterfly-button {
+  @apply px-6 py-3 bg-primary text-white rounded-full hover:bg-primary/90 transition-all duration-300 font-medium;
+}
+
+.butterfly-button-secondary {
+  @apply px-6 py-3 bg-secondary text-primary rounded-full hover:bg-secondary/90 transition-all duration-300 font-medium;
+}
+
+.butterfly-button-outline {
+  @apply px-6 py-3 border-2 border-primary text-primary rounded-full hover:bg-primary/10 transition-all duration-300 font-medium;
+}
+
+.follower-counter {
+  @apply transition-all duration-300 cursor-pointer;
+}
+
+.follower-counter:hover {
+  @apply transform scale-110 bg-primary/20 text-primary;
+}

@@ -1,0 +1,77 @@
+[
+  {
+    "id": "samsung",
+    "name": "סמסונג",
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg"
+  },
+  {
+    "id": "nintendo",
+    "name": "נינטנדו",
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Nintendo.svg"
+  },
+  {
+    "id": "asus",
+    "name": "אסוס",
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2e/ASUS_Logo.svg"
+  },
+  {
+    "id": "google",
+    "name": "גוגל",
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg"
+  },
+  {
+    "id": "dominos",
+    "name": "דומינוס",
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Domino%27s_pizza_logo.svg"
+  },
+  {
+    "id": "doritos",
+    "name": "דוריטוס",
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/he/thumb/9/9a/Doritos_Logo_%282013%29.png/330px-Doritos_Logo_%282013%29.png"
+  },
+  {
+    "id": "moviez",
+    "name": "מוביז",
+    "logoUrl": "https://moviz.co.il/wp-content/uploads/2022/07/LOGO-MOVIZ-e1657026490982.png"
+  },
+  {
+    "id": "elbit",
+    "name": "אלביט מערכות",
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/he/thumb/1/14/%D7%90%D7%9C%D7%91%D7%99%D7%98_%D7%9E%D7%A2%D7%A8%D7%9B%D7%95%D7%AA_2008.svg/330px-%D7%90%D7%9C%D7%91%D7%99%D7%98_%D7%9E%D7%A2%D7%A8%D7%9B%D7%95%D7%AA_2008.svg.png"
+  },
+  {
+    "id": "education",
+    "name": "משרד החינוך",
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/he/thumb/1/15/Ministry_of_Education.svg/195px-Ministry_of_Education.svg.png"
+  },
+  {
+    "id": "israelpost",
+    "name": "דואר ישראל",
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/he/thumb/6/6d/DoarIsrael.svg/330px-DoarIsrael.svg.png"
+  },
+  {
+    "id": "v1",
+    "name": "v1",
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/he/thumb/a/a0/V1News.png/250px-V1News.png"
+  },
+  {
+    "id": "kashcash",
+    "name": "kashcash",
+    "logoUrl": "https://yt3.googleusercontent.com/RXF-ZuEIxdYeXi80Oab8WEVkEARJncATFAVJF_0fjK2ceu46gwoNfh51mfrO7uffTsMYpXRHPQ=s900-c-k-c0x00ffffff-no-rj"
+  },
+  {
+    "id": "tadiran",
+    "name": "Tadiran",
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/he/thumb/7/7b/Logo-tadiran-.png/330px-Logo-tadiran-.png"
+  },
+  {
+    "id": "hashmal",
+    "name": "מחסני חשמל",
+    "logoUrl": "https://yt3.googleusercontent.com/ytc/AIdro_kokHOMCLL73X_xXUeSd4b0CD34S7JyH_uDXP3kwTsEI4E=s900-c-k-c0x00ffffff-no-rj"
+  },
+  {
+    "id": "matchmasters",
+    "name": "Match Masters",
+    "logoUrl": "https://www.candivore.io/assets/images/logo-match-masters.png"
+  }
+]

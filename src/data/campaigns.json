@@ -1,0 +1,82 @@
+[
+  {
+    "id": "1",
+    "title": "קמפיין קיץ 2023",
+    "client": "קוקה קולה",
+    "description": "קמפיין ברשתות החברתיות עם 5 משפיענים מובילים שהגיע לחשיפה של מעל 2 מיליון צפיות",
+    "imageUrl": "https://images.unsplash.com/photo-1527960471264-932f39eb5846?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    "category": "קמפיין דיגיטלי",
+    "kpis": {
+      "views": 2100000,
+      "engagement": 150000,
+      "shares": 25000,
+      "reach": 1800000
+    },
+    "talents": ["1", "3", "5"],
+    "platforms": ["instagram", "tiktok"],
+    "startDate": "2023-06-01",
+    "endDate": "2023-08-31",
+    "content": [
+      {
+        "url": "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+        "type": "image",
+        "description": "פוסט השקה של הקמפיין"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1600880292089-90a7e086ee0c?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+        "type": "image",
+        "description": "סטורי מתוך הקמפיין"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "title": "השקת מוצר חדש",
+    "client": "סמסונג",
+    "description": "השקת סדרת הגלקסי החדשה עם משפיעני טכנולוגיה מובילים",
+    "imageUrl": "https://images.unsplash.com/photo-1550029402-226115b7c579?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    "category": "השקת מוצר",
+    "kpis": {
+      "views": 1500000,
+      "engagement": 120000,
+      "shares": 18000,
+      "reach": 1200000
+    },
+    "talents": ["1", "2"],
+    "platforms": ["youtube", "instagram"],
+    "startDate": "2023-09-15",
+    "endDate": "2023-10-15",
+    "content": [
+      {
+        "url": "https://images.unsplash.com/photo-1546868871-7041f2a55e12?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+        "type": "image",
+        "description": "סקירת מוצר"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "title": "סדרת תוכן לנוער",
+    "client": "משרד החינוך",
+    "description": "סדרת תוכן חינוכית בנושא בטיחות ברשת עם משפיענים אהובים על בני נוער",
+    "imageUrl": "https://images.unsplash.com/photo-1531482615713-2afd69097998?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    "category": "תוכן חינוכי",
+    "kpis": {
+      "views": 800000,
+      "engagement": 95000,
+      "shares": 12000,
+      "reach": 650000
+    },
+    "talents": ["3", "4", "6"],
+    "platforms": ["tiktok", "instagram", "youtube"],
+    "startDate": "2023-11-01",
+    "endDate": "2023-12-31",
+    "content": [
+      {
+        "url": "https://images.unsplash.com/photo-1588702547919-26089e690ecc?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+        "type": "image",
+        "description": "סדנה בבית ספר"
+      }
+    ]
+  }
+]
