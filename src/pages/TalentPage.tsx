@@ -102,42 +102,31 @@ const TalentPage = () => {
                   <div>
                     <h3 className="text-sm font-semibold text-gray-700 mb-3">פירוט לפי פלטפורמה</h3>
                     <div className="space-y-3">
-                      {talent.platformFollowers.instagram && (
-                        <div className="flex items-center justify-between p-3 bg-pink-50 rounded-lg">
+                      {talent.platformFollowers.map((channel, index) => (
+                        <div key={index} className="flex items-center justify-between p-3 rounded-lg" 
+                             style={{
+                               backgroundColor: channel.platform === 'instagram' ? '#fdf2f8' : 
+                                               channel.platform === 'youtube' ? '#fef2f2' : 
+                                               channel.platform === 'tiktok' ? '#f9fafb' : '#eff6ff'
+                             }}>
                           <div className="flex items-center gap-2">
-                            <Instagram size={18} className="text-pink-500" />
-                            <span className="text-sm font-medium">Instagram</span>
+                            {channel.platform === 'instagram' && <Instagram size={18} className="text-pink-500" />}
+                            {channel.platform === 'youtube' && <Youtube size={18} className="text-red-500" />}
+                            {channel.platform === 'tiktok' && <TikTokIcon size={18} />}
+                            {channel.platform === 'facebook' && <Facebook size={18} className="text-blue-500" />}
+                            <div className="flex flex-col">
+                              <span className="text-sm font-medium">
+                                {channel.platform === 'instagram' ? 'Instagram' :
+                                 channel.platform === 'youtube' ? 'YouTube' :
+                                 channel.platform === 'tiktok' ? 'TikTok' :
+                                 channel.platform === 'facebook' ? 'Facebook' : channel.platform}
+                              </span>
+                              <span className="text-xs text-gray-500">{channel.name}</span>
+                            </div>
                           </div>
-                          <span className="text-sm font-bold">{new Intl.NumberFormat('he-IL').format(talent.platformFollowers.instagram)}</span>
+                          <span className="text-sm font-bold">{new Intl.NumberFormat('he-IL').format(channel.followers)}</span>
                         </div>
-                      )}
-                      {talent.platformFollowers.youtube && (
-                        <div className="flex items-center justify-between p-3 bg-red-50 rounded-lg">
-                          <div className="flex items-center gap-2">
-                            <Youtube size={18} className="text-red-500" />
-                            <span className="text-sm font-medium">YouTube</span>
-                          </div>
-                          <span className="text-sm font-bold">{new Intl.NumberFormat('he-IL').format(talent.platformFollowers.youtube)}</span>
-                        </div>
-                      )}
-                      {talent.platformFollowers.tiktok && (
-                        <div className="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
-                          <div className="flex items-center gap-2">
-                            <TikTokIcon size={18} />
-                            <span className="text-sm font-medium">TikTok</span>
-                          </div>
-                          <span className="text-sm font-bold">{new Intl.NumberFormat('he-IL').format(talent.platformFollowers.tiktok)}</span>
-                        </div>
-                      )}
-                      {talent.platformFollowers.facebook && (
-                        <div className="flex items-center justify-between p-3 bg-blue-50 rounded-lg">
-                          <div className="flex items-center gap-2">
-                            <Facebook size={18} className="text-blue-500" />
-                            <span className="text-sm font-medium">Facebook</span>
-                          </div>
-                          <span className="text-sm font-bold">{new Intl.NumberFormat('he-IL').format(talent.platformFollowers.facebook)}</span>
-                        </div>
-                      )}
+                      ))}
                     </div>
                   </div>
                 </div>
@@ -165,31 +154,17 @@ const TalentPage = () => {
               </div>
 
               {/* Social Media Links */}
-              <div className="flex justify-center gap-4 mb-8">
-                {talent.socialMedia?.instagram && (
-                  <a href={talent.socialMedia.instagram} target="_blank" rel="noopener noreferrer" 
-                     className="p-4 bg-white rounded-full shadow-lg hover:shadow-xl hover:scale-110 transition-all duration-200">
-                    <Instagram size={24} className="text-pink-500" />
+              <div className="flex justify-center gap-4 mb-8 flex-wrap">
+                {talent.platformFollowers.map((channel, index) => (
+                  <a key={index} href={channel.url} target="_blank" rel="noopener noreferrer" 
+                     className="p-4 bg-white rounded-full shadow-lg hover:shadow-xl hover:scale-110 transition-all duration-200"
+                     title={`${channel.platform} - ${channel.name}`}>
+                    {channel.platform === 'instagram' && <Instagram size={24} className="text-pink-500" />}
+                    {channel.platform === 'youtube' && <Youtube size={24} className="text-red-500" />}
+                    {channel.platform === 'tiktok' && <TikTokIcon size={24} />}
+                    {channel.platform === 'facebook' && <Facebook size={24} className="text-blue-500" />}
                   </a>
-                )}
-                {talent.socialMedia?.youtube && (
-                  <a href={talent.socialMedia.youtube} target="_blank" rel="noopener noreferrer" 
-                     className="p-4 bg-white rounded-full shadow-lg hover:shadow-xl hover:scale-110 transition-all duration-200">
-                    <Youtube size={24} className="text-red-500" />
-                  </a>
-                )}
-                {talent.socialMedia?.tiktok && (
-                  <a href={talent.socialMedia.tiktok} target="_blank" rel="noopener noreferrer" 
-                     className="p-4 bg-white rounded-full shadow-lg hover:shadow-xl hover:scale-110 transition-all duration-200">
-                    <TikTokIcon size={24} />
-                  </a>
-                )}
-                {talent.socialMedia?.facebook && (
-                  <a href={talent.socialMedia.facebook} target="_blank" rel="noopener noreferrer" 
-                     className="p-4 bg-white rounded-full shadow-lg hover:shadow-xl hover:scale-110 transition-all duration-200">
-                    <Facebook size={24} className="text-blue-500" />
-                  </a>
-                )}
+                ))}
               </div>
 
               {/* CTA Button */}
