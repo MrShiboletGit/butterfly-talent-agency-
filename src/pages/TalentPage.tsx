@@ -253,10 +253,7 @@ const TalentPage = () => {
                           <span className="text-gray-600">מגדר:</span>
                           <span className="font-medium">{talent.audience.gender}</span>
                         </div>
-                        <div className="flex justify-between">
-                          <span className="text-gray-600">מיקום:</span>
-                          <span className="font-medium">{talent.audience.location}</span>
-                        </div>
+
                       </div>
                     </div>
                   )}
