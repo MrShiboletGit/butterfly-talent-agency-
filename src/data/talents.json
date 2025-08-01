@@ -1,141 +1,16 @@
 [
   {
     "id": "1",
-    "name": "מר שיבולת (שי בן בסט)",
-    "category": "גיימינג וטכנולוגיה",
-    "bio": "גיימר וכוכב יוטיוב מוביל, AI-מומחה ומרצה בתחום ההייטק עם תשוקה למשחקי מחשב, הומור, טכנולוגיה וחדשנות.",
-    "imageUrl": "/talents/shibolet.png",
-    "totalFollowers": 578000,
-    "platformFollowers": [
-      {
-        "platform": "youtube",
-        "name": "SHIB",
-        "followers": 275000,
-        "url": "https://www.youtube.com/@SHIB"
-      },
-      {
-        "platform": "youtube",
-        "name": "שיבולת 2",
-        "followers": 271000,
-        "url": "https://www.youtube.com/@shibolet2"
-      },
-      {
-        "platform": "youtube",
-        "name": "שיבולת 3",
-        "followers": 32000,
-        "url": "https://www.youtube.com/@shibolet3"
-      },
-      {
-        "platform": "tiktok",
-        "name": "mrshibolet",
-        "followers": 113000,
-        "url": "https://www.tiktok.com/@mrshibolet"
-      },
-      {
-        "platform": "instagram",
-        "name": "mrshibolet",
-        "followers": 47000,
-        "url": "https://www.instagram.com/mrshibolet/"
-      }
-    ],
-    "engagement": "6.8%",
-    "audience": {
-      "age": "12-28",
-      "gender": "70% גברים, 30% נשים"
-    },
-    "socialMedia": {
-      "youtube": "https://www.youtube.com/@SHIB",
-      "youtube2": "https://www.youtube.com/@shibolet2",
-      "youtube3": "https://www.youtube.com/@shibolet3",
-      "tiktok": "https://www.tiktok.com/@mrshibolet",
-      "instagram": "https://www.instagram.com/mrshibolet/"
-    },
-    "previousCollaborations": [
-      "נינטנדו",
-      "פלייסטיישן",
-      "רייזר",
-      "לוגיטק"
-    ],
-    "strengths": ["#GAMING", "#LECTURES", "#TECHNOLOGY", "#GAME STREAMING", "#INNOVATION"]
-  },
-  {
-    "id": "2",
-    "name": "עומר ירון",
-    "category": "מדע וטכנולוגיה",
-    "bio": "עומר בן 22, יוצר כריזמטי בתחום המדע והטכנולוגיה, רקע בצילום ובימוי, לשעבר ביחידת הסרטה בצה\"ל, יוצר תוכן ויראלי בעברית ואנגלית.",
-    "imageUrl": "/talents/Omer Yaron.png",
-    "totalFollowers": 51900,
-    "platformFollowers": [
-      {
-        "platform": "youtube",
-        "name": "omer_yaron",
-        "followers": 20200,
-        "url": "https://youtube.com/@omer_yaron"
-      },
-      {
-        "platform": "tiktok",
-        "name": "omeryaron_",
-        "followers": 27700,
-        "url": "https://www.tiktok.com/@omeryaron_"
-      },
-      {
-        "platform": "instagram",
-        "name": "omer.yaron",
-        "followers": 4000,
-        "url": "https://www.instagram.com/omer.yaron"
-      }
-    ],
-    "engagement": "5.2%",
-    "audience": {
-      "age": "18-34",
-      "gender": "65% גברים, 35% נשים"
-    },
-    "socialMedia": {
-      "youtube": "https://youtube.com/@omer_yaron",
-      "tiktok": "https://www.tiktok.com/@omeryaron_",
-      "instagram": "https://www.instagram.com/omer.yaron"
-    },
-    "previousCollaborations": [
-      "מיקרוסופט",
-      "סמסונג",
-      "אינטל",
-      "משרד המדע"
-    ],
-    "strengths": ["#SCIENCE", "#TECHNOLOGY", "#EDUCATION", "#INNOVATION", "#HEALTH"]
-  },
-  {
-    "id": "3",
     "name": "רועי (Roee Firewolf)",
     "category": "גיימינג ותוכן",
     "bio": "בן 22, יוצא 8200, מהיוטיוברים המובילים בישראל. מפעיל את ערוצי FireWolf ו-FireWolf2 עם תוכן גיימינג ווידאו.",
     "imageUrl": "/talents/Firewolf.png",
-    "totalFollowers": 574400,
-    "platformFollowers": [
-      {
-        "platform": "youtube",
-        "name": "FireWolf",
-        "followers": 318000,
-        "url": "https://youtube.com/@firewolff"
-      },
-      {
-        "platform": "youtube",
-        "name": "FireWolf2",
-        "followers": 167000,
-        "url": "https://youtube.com/@firewolf2"
-      },
-      {
-        "platform": "tiktok",
-        "name": "roeefirewolf",
-        "followers": 64100,
-        "url": "https://www.tiktok.com/@roeefirewolf"
-      },
-      {
-        "platform": "instagram",
-        "name": "roeefirewolf",
-        "followers": 25300,
-        "url": "https://www.instagram.com/roeefirewolf"
-      }
-    ],
+    "totalFollowers": 407400,
+    "platformFollowers": {
+      "youtube": 318000,
+      "tiktok": 64100,
+      "instagram": 25300
+    },
     "engagement": "7.1%",
     "audience": {
       "age": "12-25",
@@ -156,128 +31,17 @@
     "strengths": ["#GAMING", "#FOOD", "#TECHNOLOGY", "#VIDEO", "#TRAVEL"]
   },
   {
-    "id": "4",
-    "name": "מיטל ריינבו קווין",
-    "category": "גיימינג",
-    "bio": "הגיימרית המובילה בישראל עם מעל 200K עוקבים ביוטיוב, יוצרת תוכן אישי, גיימינג וחינוכי.",
-    "imageUrl": "/talents/rainbow_queen.jpeg",
-    "totalFollowers": 274000,
-    "platformFollowers": [
-      {
-        "platform": "youtube",
-        "name": "rainbowqueen",
-        "followers": 215000,
-        "url": "https://www.youtube.com/rainbowqueen"
-      },
-      {
-        "platform": "instagram",
-        "name": "rainbqueen",
-        "followers": 16500,
-        "url": "https://www.instagram.com/rainbqueen/"
-      },
-      {
-        "platform": "tiktok",
-        "name": "rainbqueen",
-        "followers": 42500,
-        "url": "https://www.tiktok.com/@rainbqueen"
-      }
-    ],
-    "engagement": "6.5%",
-    "audience": {
-      "age": "12-28",
-      "gender": "60% נשים, 40% גברים"
-    },
-    "socialMedia": {
-      "youtube": "https://www.youtube.com/rainbowqueen",
-      "tiktok": "https://www.tiktok.com/@rainbqueen",
-      "instagram": "https://www.instagram.com/rainbqueen/"
-    },
-    "previousCollaborations": [
-      "נינטנדו",
-      "פלייסטיישן",
-      "רייזר",
-      "לוגיטק"
-    ],
-    "strengths": ["#GAMING"]
-  },
-  {
-    "id": "5",
-    "name": "גל כהן",
-    "category": "גיימינג וטכנולוגיה",
-    "bio": "יוטיובר גיימר בן 22, מתמחה בגיימינג וקרוס-פלטפורם סטרימינג. מוביל בבראול סטארס.",
-    "imageUrl": "/talents/GalCohen.png",
-    "totalFollowers": 337900,
-    "platformFollowers": [
-      {
-        "platform": "youtube",
-        "name": "galcohenofficial",
-        "followers": 250000,
-        "url": "https://youtube.com/@galcohenofficial"
-      },
-      {
-        "platform": "instagram",
-        "name": "galcohenofficial",
-        "followers": 20600,
-        "url": "https://www.instagram.com/galcohenofficial"
-      },
-      {
-        "platform": "tiktok",
-        "name": "galcohenyt",
-        "followers": 67300,
-        "url": "https://www.tiktok.com/@galcohenyt"
-      }
-    ],
-    "engagement": "5.8%",
-    "audience": {
-      "age": "16-25",
-      "gender": "80% גברים, 20% נשים"
-    },
-    "socialMedia": {
-      "youtube": "https://youtube.com/@galcohenofficial",
-      "tiktok": "https://www.tiktok.com/@galcohenyt",
-      "instagram": "https://www.instagram.com/galcohenofficial"
-    },
-    "previousCollaborations": [
-      "Supercell",
-      "Clash Royale",
-      "Brawl Stars",
-      "Mobile Gaming"
-    ],
-    "strengths": ["#GAMING", "#TECHNOLOGY", "#GAME STREAMING"]
-  },
-  {
-    "id": "6",
+    "id": "2",
     "name": "מיכל מצוב",
     "category": "לייף סטייל ואופנה",
     "bio": "בת 29, יוצרת תוכן מובילה עם קהל נאמן, משתתפת המרוץ למיליון 2024, מתמחה בלייף סטייל, אופנה, אוכל ועוד.",
     "imageUrl": "/talents/MichalMatzov.png",
-    "totalFollowers": 1084400,
-    "platformFollowers": [
-      {
-        "platform": "youtube",
-        "name": "michalmatzov",
-        "followers": 435000,
-        "url": "https://youtube.com/@michalmatzov"
-      },
-      {
-        "platform": "youtube",
-        "name": "michalmatzovvlogs",
-        "followers": 204000,
-        "url": "https://youtube.com/@michalmatzovvlogs"
-      },
-      {
-        "platform": "instagram",
-        "name": "michal_matzov",
-        "followers": 104000,
-        "url": "https://www.instagram.com/michal_matzov"
-      },
-      {
-        "platform": "tiktok",
-        "name": "michalmatzov",
-        "followers": 341400,
-        "url": "https://www.tiktok.com/@michalmatzov"
-      }
-    ],
+    "totalFollowers": 880400,
+    "platformFollowers": {
+      "youtube": 435000,
+      "instagram": 104000,
+      "tiktok": 341400
+    },
     "engagement": "8.2%",
     "audience": {
       "age": "12-30",
@@ -298,32 +62,137 @@
     "strengths": ["#COMEDY", "#TRAVEL", "#FASHION", "#FOOD", "#LIFESTYLE"]
   },
   {
+    "id": "3",
+    "name": "מר שיבולת (שי בן בסט)",
+    "category": "גיימינג וטכנולוגיה",
+    "bio": "גיימר וכוכב יוטיוב מוביל, AI-מומחה ומרצה בתחום ההייטק עם תשוקה למשחקי מחשב, הומור, טכנולוגיה וחדשנות.",
+    "imageUrl": "/talents/shibolet.png",
+    "totalFollowers": 435000,
+    "platformFollowers": {
+      "youtube": 275000,
+      "tiktok": 113000,
+      "instagram": 47000
+    },
+    "engagement": "6.8%",
+    "audience": {
+      "age": "12-28",
+      "gender": "70% גברים, 30% נשים"
+    },
+    "socialMedia": {
+      "youtube": "https://www.youtube.com/@SHIB",
+      "tiktok": "https://www.tiktok.com/@mrshibolet",
+      "instagram": "https://www.instagram.com/mrshibolet/"
+    },
+    "previousCollaborations": [
+      "נינטנדו",
+      "פלייסטיישן",
+      "רייזר",
+      "לוגיטק"
+    ],
+    "strengths": ["#GAMING", "#LECTURES", "#TECHNOLOGY", "#GAME STREAMING", "#INNOVATION"]
+  },
+  {
+    "id": "4",
+    "name": "מיטל ריינבו קווין",
+    "category": "גיימינג",
+    "bio": "הגיימרית המובילה בישראל עם מעל 200K עוקבים ביוטיוב, יוצרת תוכן אישי, גיימינג וחינוכי.",
+    "imageUrl": "/talents/rainbow_queen.jpeg",
+    "totalFollowers": 274000,
+    "platformFollowers": {
+      "youtube": 215000,
+      "instagram": 16500,
+      "tiktok": 42500
+    },
+    "engagement": "6.5%",
+    "audience": {
+      "age": "12-28",
+      "gender": "60% נשים, 40% גברים"
+    },
+    "socialMedia": {
+      "youtube": "https://www.youtube.com/rainbowqueen",
+      "tiktok": "https://www.tiktok.com/@rainbqueen",
+      "instagram": "https://www.instagram.com/rainbqueen/"
+    },
+    "previousCollaborations": [
+      "נינטנדו",
+      "פלייסטיישן",
+      "רייזר",
+      "לוגיטק"
+    ],
+    "strengths": ["#GAMING"]
+  },
+  {
+    "id": "5",
+    "name": "עומר ירון",
+    "category": "מדע וטכנולוגיה",
+    "bio": "עומר בן 22, יוצר כריזמטי בתחום המדע והטכנולוגיה, רקע בצילום ובימוי, לשעבר ביחידת הסרטה בצה\"ל, יוצר תוכן ויראלי בעברית ואנגלית.",
+    "imageUrl": "/talents/Omer Yaron.png",
+    "totalFollowers": 51900,
+    "platformFollowers": {
+      "youtube": 20200,
+      "tiktok": 27700,
+      "instagram": 4000
+    },
+    "engagement": "5.2%",
+    "audience": {
+      "age": "18-34",
+      "gender": "65% גברים, 35% נשים"
+    },
+    "socialMedia": {
+      "youtube": "https://youtube.com/@omer_yaron",
+      "tiktok": "https://www.tiktok.com/@omeryaron_",
+      "instagram": "https://www.instagram.com/omer.yaron"
+    },
+    "previousCollaborations": [
+      "מיקרוסופט",
+      "סמסונג",
+      "אינטל",
+      "משרד המדע"
+    ],
+    "strengths": ["#SCIENCE", "#TECHNOLOGY", "#EDUCATION", "#INNOVATION", "#HEALTH"]
+  },
+  {
+    "id": "6",
+    "name": "גל כהן",
+    "category": "גיימינג וטכנולוגיה",
+    "bio": "יוטיובר גיימר בן 22, מתמחה בגיימינג וקרוס-פלטפורם סטרימינג. מוביל בבראול סטארס.",
+    "imageUrl": "/talents/GalCohen.png",
+    "totalFollowers": 337900,
+    "platformFollowers": {
+      "youtube": 250000,
+      "instagram": 20600,
+      "tiktok": 67300
+    },
+    "engagement": "5.8%",
+    "audience": {
+      "age": "16-25",
+      "gender": "80% גברים, 20% נשים"
+    },
+    "socialMedia": {
+      "youtube": "https://youtube.com/@galcohenofficial",
+      "tiktok": "https://www.tiktok.com/@galcohenyt",
+      "instagram": "https://www.instagram.com/galcohenofficial"
+    },
+    "previousCollaborations": [
+      "Supercell",
+      "Clash Royale",
+      "Brawl Stars",
+      "Mobile Gaming"
+    ],
+    "strengths": ["#GAMING", "#TECHNOLOGY", "#GAME STREAMING"]
+  },
+  {
     "id": "7",
     "name": "ישראל גליצקי",
     "category": "קולנוע ובידור",
     "bio": "יוצר תוכן בתחום הקולנוע והבידור עם מעל 4 שנות ניסיון ביצירת ולוגים וסרטונים.",
     "imageUrl": "/talents/Israel Galitsky.png",
     "totalFollowers": 153400,
-    "platformFollowers": [
-      {
-        "platform": "youtube",
-        "name": "israelgalitsky",
-        "followers": 4700,
-        "url": "https://youtube.com/@israelgalitsky"
-      },
-      {
-        "platform": "tiktok",
-        "name": "israel_galitsky",
-        "followers": 132300,
-        "url": "https://www.tiktok.com/@israel_galitsky"
-      },
-      {
-        "platform": "instagram",
-        "name": "israel_galitsky",
-        "followers": 16400,
-        "url": "https://www.instagram.com/israel_galitsky"
-      }
-    ],
+    "platformFollowers": {
+      "youtube": 4700,
+      "tiktok": 132300,
+      "instagram": 16400
+    },
     "engagement": "4.5%",
     "audience": {
       "age": "10-35",
@@ -349,26 +218,11 @@
     "bio": "בת 20, יוצרת תוכן גיימינג עם קהל מעורב, מתמקדת בקשר לקהילה וסטרימינג ייחודי.",
     "imageUrl": "/talents/Cinaminna.png",
     "totalFollowers": 51000,
-    "platformFollowers": [
-      {
-        "platform": "youtube",
-        "name": "cinnaminaa",
-        "followers": 43000,
-        "url": "https://youtube.com/@cinnaminaa"
-      },
-      {
-        "platform": "instagram",
-        "name": "cinnaminaa",
-        "followers": 4000,
-        "url": "https://instagram.com/cinnaminaa"
-      },
-      {
-        "platform": "tiktok",
-        "name": "cinnaminaa",
-        "followers": 4000,
-        "url": "https://tiktok.com/@cinnaminaa"
-      }
-    ],
+    "platformFollowers": {
+      "youtube": 43000,
+      "instagram": 4000,
+      "tiktok": 4000
+    },
     "engagement": "7.8%",
     "audience": {
       "age": "12-25",
@@ -394,26 +248,11 @@
     "bio": "יוצר תוכן גיימינג ותיק, מוכר בעיקר מתוכן מיינקראפט, פעיל מעל 13 שנה.",
     "imageUrl": "/talents/2bof.png",
     "totalFollowers": 195600,
-    "platformFollowers": [
-      {
-        "platform": "youtube",
-        "name": "2bof",
-        "followers": 172000,
-        "url": "https://youtube.com/@2bof"
-      },
-      {
-        "platform": "tiktok",
-        "name": "2bof",
-        "followers": 18000,
-        "url": "https://tiktok.com/@2bof"
-      },
-      {
-        "platform": "instagram",
-        "name": "2bof",
-        "followers": 5600,
-        "url": "https://instagram.com/2bof"
-      }
-    ],
+    "platformFollowers": {
+      "youtube": 172000,
+      "tiktok": 18000,
+      "instagram": 5600
+    },
     "engagement": "5.5%",
     "audience": {
       "age": "12-32",
