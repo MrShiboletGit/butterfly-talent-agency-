@@ -1,37 +1,6 @@
 [
   {
     "id": "1",
-    "name": "רועי (Roee Firewolf)",
-    "category": "גיימינג ותוכן",
-    "bio": "בן 22, יוצא 8200, מהיוטיוברים המובילים בישראל. מפעיל את ערוצי FireWolf ו-FireWolf2 עם תוכן גיימינג ווידאו.",
-    "imageUrl": "/talents/Firewolf.png",
-    "totalFollowers": 407400,
-    "platformFollowers": {
-      "youtube": 318000,
-      "tiktok": 64100,
-      "instagram": 25300
-    },
-    "engagement": "7.1%",
-    "audience": {
-      "age": "12-25",
-      "gender": "75% גברים, 25% נשים"
-    },
-    "socialMedia": {
-      "youtube": "https://youtube.com/@firewolff",
-      "youtube2": "https://youtube.com/@firewolf2",
-      "tiktok": "https://www.tiktok.com/@roeefirewolf",
-      "instagram": "https://www.instagram.com/roeefirewolf"
-    },
-    "previousCollaborations": [
-      "נינטנדו",
-      "EA Games",
-      "Ubisoft",
-      "Steam"
-    ],
-    "strengths": ["#GAMING", "#FOOD", "#TECHNOLOGY", "#VIDEO", "#TRAVEL"]
-  },
-  {
-    "id": "2",
     "name": "מיכל מצוב",
     "category": "לייף סטייל ואופנה",
     "bio": "בת 29, יוצרת תוכן מובילה עם קהל נאמן, משתתפת המרוץ למיליון 2024, מתמחה בלייף סטייל, אופנה, אוכל ועוד.",
@@ -62,7 +31,7 @@
     "strengths": ["#COMEDY", "#TRAVEL", "#FASHION", "#FOOD", "#LIFESTYLE"]
   },
   {
-    "id": "3",
+    "id": "2",
     "name": "מר שיבולת (שי בן בסט)",
     "category": "גיימינג וטכנולוגיה",
     "bio": "גיימר וכוכב יוטיוב מוביל, AI-מומחה ומרצה בתחום ההייטק עם תשוקה למשחקי מחשב, הומור, טכנולוגיה וחדשנות.",
@@ -92,67 +61,38 @@
     "strengths": ["#GAMING", "#LECTURES", "#TECHNOLOGY", "#GAME STREAMING", "#INNOVATION"]
   },
   {
-    "id": "4",
-    "name": "מיטל ריינבו קווין",
-    "category": "גיימינג",
-    "bio": "הגיימרית המובילה בישראל עם מעל 200K עוקבים ביוטיוב, יוצרת תוכן אישי, גיימינג וחינוכי.",
-    "imageUrl": "/talents/rainbow_queen.jpeg",
-    "totalFollowers": 274000,
+    "id": "3",
+    "name": "רועי (Roee Firewolf)",
+    "category": "גיימינג ותוכן",
+    "bio": "בן 22, יוצא 8200, מהיוטיוברים המובילים בישראל. מפעיל את ערוצי FireWolf ו-FireWolf2 עם תוכן גיימינג ווידאו.",
+    "imageUrl": "/talents/Firewolf.png",
+    "totalFollowers": 407400,
     "platformFollowers": {
-      "youtube": 215000,
-      "instagram": 16500,
-      "tiktok": 42500
+      "youtube": 318000,
+      "tiktok": 64100,
+      "instagram": 25300
     },
-    "engagement": "6.5%",
+    "engagement": "7.1%",
     "audience": {
-      "age": "12-28",
-      "gender": "60% נשים, 40% גברים"
+      "age": "12-25",
+      "gender": "75% גברים, 25% נשים"
     },
     "socialMedia": {
-      "youtube": "https://www.youtube.com/rainbowqueen",
-      "tiktok": "https://www.tiktok.com/@rainbqueen",
-      "instagram": "https://www.instagram.com/rainbqueen/"
+      "youtube": "https://youtube.com/@firewolff",
+      "youtube2": "https://youtube.com/@firewolf2",
+      "tiktok": "https://www.tiktok.com/@roeefirewolf",
+      "instagram": "https://www.instagram.com/roeefirewolf"
     },
     "previousCollaborations": [
       "נינטנדו",
-      "פלייסטיישן",
-      "רייזר",
-      "לוגיטק"
+      "EA Games",
+      "Ubisoft",
+      "Steam"
     ],
-    "strengths": ["#GAMING"]
+    "strengths": ["#GAMING", "#FOOD", "#TECHNOLOGY", "#VIDEO", "#TRAVEL"]
   },
   {
-    "id": "5",
-    "name": "עומר ירון",
-    "category": "מדע וטכנולוגיה",
-    "bio": "עומר בן 22, יוצר כריזמטי בתחום המדע והטכנולוגיה, רקע בצילום ובימוי, לשעבר ביחידת הסרטה בצה\"ל, יוצר תוכן ויראלי בעברית ואנגלית.",
-    "imageUrl": "/talents/Omer Yaron.png",
-    "totalFollowers": 51900,
-    "platformFollowers": {
-      "youtube": 20200,
-      "tiktok": 27700,
-      "instagram": 4000
-    },
-    "engagement": "5.2%",
-    "audience": {
-      "age": "18-34",
-      "gender": "65% גברים, 35% נשים"
-    },
-    "socialMedia": {
-      "youtube": "https://youtube.com/@omer_yaron",
-      "tiktok": "https://www.tiktok.com/@omeryaron_",
-      "instagram": "https://www.instagram.com/omer.yaron"
-    },
-    "previousCollaborations": [
-      "מיקרוסופט",
-      "סמסונג",
-      "אינטל",
-      "משרד המדע"
-    ],
-    "strengths": ["#SCIENCE", "#TECHNOLOGY", "#EDUCATION", "#INNOVATION", "#HEALTH"]
-  },
-  {
-    "id": "6",
+    "id": "4",
     "name": "גל כהן",
     "category": "גיימינג וטכנולוגיה",
     "bio": "יוטיובר גיימר בן 22, מתמחה בגיימינג וקרוס-פלטפורם סטרימינג. מוביל בבראול סטארס.",
@@ -182,7 +122,37 @@
     "strengths": ["#GAMING", "#TECHNOLOGY", "#GAME STREAMING"]
   },
   {
-    "id": "7",
+    "id": "5",
+    "name": "מיטל ריינבו קווין",
+    "category": "גיימינג",
+    "bio": "הגיימרית המובילה בישראל עם מעל 200K עוקבים ביוטיוב, יוצרת תוכן אישי, גיימינג וחינוכי.",
+    "imageUrl": "/talents/rainbow_queen.jpeg",
+    "totalFollowers": 274000,
+    "platformFollowers": {
+      "youtube": 215000,
+      "instagram": 16500,
+      "tiktok": 42500
+    },
+    "engagement": "6.5%",
+    "audience": {
+      "age": "12-28",
+      "gender": "60% נשים, 40% גברים"
+    },
+    "socialMedia": {
+      "youtube": "https://www.youtube.com/rainbowqueen",
+      "tiktok": "https://www.tiktok.com/@rainbqueen",
+      "instagram": "https://www.instagram.com/rainbqueen/"
+    },
+    "previousCollaborations": [
+      "נינטנדו",
+      "פלייסטיישן",
+      "רייזר",
+      "לוגיטק"
+    ],
+    "strengths": ["#GAMING"]
+  },
+  {
+    "id": "6",
     "name": "ישראל גליצקי",
     "category": "קולנוע ובידור",
     "bio": "יוצר תוכן בתחום הקולנוע והבידור עם מעל 4 שנות ניסיון ביצירת ולוגים וסרטונים.",
@@ -212,37 +182,7 @@
     "strengths": ["#CINEMA", "#ENTERTAINMENT", "#VLOGS", "#REVIEWS"]
   },
   {
-    "id": "8",
-    "name": "מינה (CinnaMinaa)",
-    "category": "גיימינג",
-    "bio": "בת 20, יוצרת תוכן גיימינג עם קהל מעורב, מתמקדת בקשר לקהילה וסטרימינג ייחודי.",
-    "imageUrl": "/talents/Cinaminna.png",
-    "totalFollowers": 51000,
-    "platformFollowers": {
-      "youtube": 43000,
-      "instagram": 4000,
-      "tiktok": 4000
-    },
-    "engagement": "7.8%",
-    "audience": {
-      "age": "12-25",
-      "gender": "50% נשים, 50% גברים"
-    },
-    "socialMedia": {
-      "youtube": "https://youtube.com/@cinnaminaa",
-      "instagram": "https://instagram.com/cinnaminaa",
-      "tiktok": "https://tiktok.com/@cinnaminaa"
-    },
-    "previousCollaborations": [
-      "Twitch",
-      "Discord",
-      "Steam",
-      "Epic Games"
-    ],
-    "strengths": ["#GAMING", "#STREAMING", "#COMMUNITY"]
-  },
-  {
-    "id": "9",
+    "id": "7",
     "name": "דוד ששון (2BOF)",
     "category": "גיימינג ומיינקראפט",
     "bio": "יוצר תוכן גיימינג ותיק, מוכר בעיקר מתוכן מיינקראפט, פעיל מעל 13 שנה.",
@@ -270,5 +210,65 @@
       "Roblox"
     ],
     "strengths": ["#MINECRAFT", "#GAMING", "#TUTORIALS", "#BUILDING"]
+  },
+  {
+    "id": "8",
+    "name": "עומר ירון",
+    "category": "מדע וטכנולוגיה",
+    "bio": "עומר בן 22, יוצר כריזמטי בתחום המדע והטכנולוגיה, רקע בצילום ובימוי, לשעבר ביחידת הסרטה בצה\"ל, יוצר תוכן ויראלי בעברית ואנגלית.",
+    "imageUrl": "/talents/Omer Yaron.png",
+    "totalFollowers": 51900,
+    "platformFollowers": {
+      "youtube": 20200,
+      "tiktok": 27700,
+      "instagram": 4000
+    },
+    "engagement": "5.2%",
+    "audience": {
+      "age": "18-34",
+      "gender": "65% גברים, 35% נשים"
+    },
+    "socialMedia": {
+      "youtube": "https://youtube.com/@omer_yaron",
+      "tiktok": "https://www.tiktok.com/@omeryaron_",
+      "instagram": "https://www.instagram.com/omer.yaron"
+    },
+    "previousCollaborations": [
+      "מיקרוסופט",
+      "סמסונג",
+      "אינטל",
+      "משרד המדע"
+    ],
+    "strengths": ["#SCIENCE", "#TECHNOLOGY", "#EDUCATION", "#INNOVATION", "#HEALTH"]
+  },
+  {
+    "id": "9",
+    "name": "מינה (CinnaMinaa)",
+    "category": "גיימינג",
+    "bio": "בת 20, יוצרת תוכן גיימינג עם קהל מעורב, מתמקדת בקשר לקהילה וסטרימינג ייחודי.",
+    "imageUrl": "/talents/Cinaminna.png",
+    "totalFollowers": 51000,
+    "platformFollowers": {
+      "youtube": 43000,
+      "instagram": 4000,
+      "tiktok": 4000
+    },
+    "engagement": "7.8%",
+    "audience": {
+      "age": "12-25",
+      "gender": "50% נשים, 50% גברים"
+    },
+    "socialMedia": {
+      "youtube": "https://youtube.com/@cinnaminaa",
+      "instagram": "https://instagram.com/cinnaminaa",
+      "tiktok": "https://tiktok.com/@cinnaminaa"
+    },
+    "previousCollaborations": [
+      "Twitch",
+      "Discord",
+      "Steam",
+      "Epic Games"
+    ],
+    "strengths": ["#GAMING", "#STREAMING", "#COMMUNITY"]
   }
 ]
