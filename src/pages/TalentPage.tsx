@@ -261,22 +261,7 @@ const TalentPage = () => {
                     </div>
                   )}
 
-                  {/* Previous Collaborations */}
-                  {talent.previousCollaborations && talent.previousCollaborations.length > 0 && (
-                    <div>
-                      <h3 className="text-sm font-semibold text-gray-700 mb-3">שיתופי פעולה קודמים</h3>
-                      <div className="flex flex-wrap gap-2">
-                        {talent.previousCollaborations.map((collab, index) => (
-                          <span 
-                            key={index}
-                            className="px-2 py-1 bg-gray-100 text-gray-700 text-xs rounded-full"
-                          >
-                            {collab}
-                          </span>
-                        ))}
-                      </div>
-                    </div>
-                  )}
+
                 </div>
               </div>
             </div>
