@@ -22,7 +22,7 @@ const Header = () => {
             <img 
               src="/blue logo.svg" 
               alt="Butterfly Logo" 
-              className="w-20 h-20"
+              className="w-14 h-14"
             />
           </div>
         </Link>

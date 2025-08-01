@@ -54,6 +54,89 @@
   h1, h2, h3, h4, h5, h6 {
     @apply font-bold;
   }
+
+  /* Screen reader only class */
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+
+  /* Reduced motion support */
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+
+  /* Custom reduced motion class */
+  :root[style*="--reduced-motion: reduce"] *,
+  :root[style*="--reduced-motion: reduce"] *::before,
+  :root[style*="--reduced-motion: reduce"] *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  /* Focus indicators for accessibility */
+  :root[style*="--focus-visible"] *:focus-visible {
+    outline: var(--focus-visible) !important;
+    outline-offset: 2px !important;
+  }
+
+  /* Enhanced focus indicators */
+  button:focus-visible,
+  a:focus-visible,
+  input:focus-visible,
+  select:focus-visible,
+  textarea:focus-visible {
+    outline: 2px solid #0066cc !important;
+    outline-offset: 2px !important;
+  }
+
+  /* Skip to content link for keyboard users */
+  .skip-link {
+    position: absolute;
+    top: -40px;
+    left: 6px;
+    background: #0066cc;
+    color: white;
+    padding: 8px;
+    text-decoration: none;
+    border-radius: 4px;
+    z-index: 10000;
+  }
+
+  .skip-link:focus {
+    top: 6px;
+  }
+
+  /* High contrast mode enhancements */
+  .high-contrast {
+    filter: contrast(150%) brightness(120%) !important;
+  }
+
+  /* Large text mode */
+  .large-text {
+    font-size: 120% !important;
+  }
+
+  /* Color blind support */
+  .color-blind-support {
+    filter: saturate(150%) hue-rotate(180deg) !important;
+  }
 }
 
 .butterfly-gradient {

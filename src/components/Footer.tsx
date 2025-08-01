@@ -29,6 +29,9 @@ const Footer = () => {
               <li>
                 <Link to="/contact" className="hover:text-secondary transition-colors">צור קשר</Link>
               </li>
+              <li>
+                <Link to="/accessibility" className="hover:text-secondary transition-colors">הצהרת נגישות</Link>
+              </li>
             </ul>
           </div>
           
