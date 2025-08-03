@@ -1,9 +1,11 @@
 import { useParams, Link, useNavigate } from 'react-router-dom';
-import { Instagram, Facebook, Twitter, Youtube, ArrowRight, X, Star, Sparkles } from 'lucide-react';
+import { Instagram, Facebook, Twitter, Youtube, ArrowRight, X, Star, Sparkles, Eye, Calendar } from 'lucide-react';
 import { useState } from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import talentsData from '../data/talents.json';
+import campaignsData from '../data/campaigns.json';
+import clientsData from '../data/clients.json';
 
 // Custom TikTok icon component
 const TikTokIcon = ({ size = 24 }: { size?: number }) => (
@@ -17,6 +19,23 @@ const TalentPage = () => {
   const navigate = useNavigate();
   const talent = talentsData.find(t => t.id === id);
   const [isImageModalOpen, setIsImageModalOpen] = useState(false);
+  
+  // Get campaigns this talent participated in
+  const talentCampaigns = campaignsData.filter(campaign => campaign.talents.includes(id!));
+  
+  const formatNumber = (num: number) => {
+    if (num >= 1000000) {
+      return (num / 1000000).toFixed(1) + 'M';
+    } else if (num >= 1000) {
+      return (num / 1000).toFixed(1) + 'K';
+    }
+    return num.toString();
+  };
+
+  const getClientName = (clientId: string) => {
+    const client = clientsData.find(c => c.id === clientId);
+    return client ? client.name : clientId;
+  };
 
   if (!talent) {
     return (
@@ -264,6 +283,79 @@ const TalentPage = () => {
             </div>
           </div>
         </section>
+
+        {/* Campaigns Section */}
+        {talentCampaigns.length > 0 && (
+          <section className="py-12 bg-gray-50">
+            <div className="container mx-auto px-6">
+              <div className="text-center mb-12">
+                <h2 className="text-3xl font-bold text-gray-900 mb-4">הקמפיינים של {talent.name}</h2>
+                <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+                  קמפיינים מוצלחים שהשתתף בהם
+                </p>
+              </div>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                {talentCampaigns.map((campaign) => (
+                  <Link 
+                    key={campaign.id} 
+                    to={`/campaign/${campaign.id}`}
+                    className="group bg-white rounded-lg shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden"
+                  >
+                    <div className="relative overflow-hidden bg-gray-50">
+                      <div className="w-full h-48 flex items-center justify-center p-8">
+                        <img 
+                          src={clientsData.find(c => c.id === campaign.clientId)?.logoUrl || campaign.imageUrl} 
+                          alt={getClientName(campaign.clientId)}
+                          className="max-w-full max-h-full object-contain"
+                        />
+                      </div>
+                      <div className="absolute top-4 right-4 bg-primary text-white px-3 py-1 rounded-full text-sm font-medium">
+                        {campaign.category}
+                      </div>
+                    </div>
+                    
+                    <div className="p-6">
+                      <h3 className="text-xl font-bold text-gray-900 group-hover:text-primary transition-colors mb-3">
+                        {campaign.title}
+                      </h3>
+                      
+                      <p className="text-gray-600 mb-4 line-clamp-2">
+                        {campaign.description}
+                      </p>
+                      
+                      <div className="space-y-3">
+                        {/* Client */}
+                        <div className="flex items-center text-sm text-gray-500">
+                          <span className="font-medium text-gray-700">לקוח:</span>
+                          <span className="mr-2">{getClientName(campaign.clientId)}</span>
+                        </div>
+                        
+                        {/* Views */}
+                        <div className="flex items-center text-sm text-gray-500">
+                          <Eye className="w-4 h-4 ml-2" />
+                          <span className="font-medium text-gray-700">צפיות:</span>
+                          <span className="mr-2">{formatNumber(campaign.kpis.views)}</span>
+                        </div>
+                        
+                        {/* Date */}
+                        <div className="flex items-center text-sm text-gray-500">
+                          <Calendar className="w-4 h-4 ml-2" />
+                          <span className="font-medium text-gray-700">תאריך:</span>
+                          <span className="mr-2">
+                            {new Date(campaign.startDate).toLocaleDateString('he-IL', { 
+                              year: 'numeric', 
+                              month: 'short' 
+                            })}
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          </section>
+        )}
 
         {/* Image Modal - Full Screen */}
         {isImageModalOpen && (

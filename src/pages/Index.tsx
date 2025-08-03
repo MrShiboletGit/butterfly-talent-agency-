@@ -4,6 +4,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import TalentCarousel from '../components/TalentCarousel';
 import ClientsSection from '../components/ClientsSection';
+import CampaignsCarousel from '../components/CampaignsCarousel';
 
 const Index = () => {
   return (
@@ -54,6 +55,11 @@ const Index = () => {
               </p>
             </div>
             <ClientsSection />
+            <div className="text-center mt-8">
+              <Link to="/clients" className="butterfly-button text-lg px-8 py-3">
+                צפה בכל הלקוחות
+              </Link>
+            </div>
           </div>
         </section>
 
@@ -98,6 +104,19 @@ const Index = () => {
                 </p>
               </div>
             </div>
+          </div>
+        </section>
+
+        {/* Campaigns Section */}
+        <section className="py-12 bg-white">
+          <div className="container mx-auto px-6">
+            <div className="text-center mb-12">
+              <h2 className="section-title">הקמפיינים שלנו</h2>
+              <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+                קמפיינים מוצלחים שיצרנו עם הלקוחות והטאלנטים שלנו
+              </p>
+            </div>
+            <CampaignsCarousel />
           </div>
         </section>
 
