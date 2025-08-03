@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Eye, Users, Calendar, TrendingUp, ChevronLeft, ChevronRight } from 'lucide-react';
 import campaignsData from '../data/campaigns.json';
@@ -23,11 +23,55 @@ interface Campaign {
   platforms: string[];
   startDate: string;
   endDate: string;
-  content: any[];
+  content: Array<{
+    url: string;
+    type: string;
+    description: string;
+    platform: string;
+    views: number;
+    likes: number;
+    comments: number;
+    shares: number;
+    talent: string;
+    saves?: number;
+  }>;
 }
 
 const CampaignsCarousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [isMobile, setIsMobile] = useState(false);
+
+  // Check if mobile on mount and resize
+  useEffect(() => {
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth < 768);
+    };
+    
+    checkMobile();
+    window.addEventListener('resize', checkMobile);
+    return () => window.removeEventListener('resize', checkMobile);
+  }, []);
+
+  // Process campaigns: sort by date and filter by most recent per client
+  const processedCampaigns = campaignsData
+    .sort((a, b) => new Date(b.startDate).getTime() - new Date(a.startDate).getTime())
+    .reduce((acc: Campaign[], campaign) => {
+      // Check if we already have a campaign from this client
+      const existingClientCampaign = acc.find(c => c.clientId === campaign.clientId);
+      if (!existingClientCampaign) {
+        acc.push(campaign);
+      }
+      return acc;
+    }, []);
+
+  // Show 3 campaigns at a time on desktop, 1 on mobile
+  const campaignsPerView = isMobile ? 1 : 3;
+  const maxIndex = Math.max(0, processedCampaigns.length - campaignsPerView);
+
+  // Reset currentIndex when switching between mobile/desktop
+  useEffect(() => {
+    setCurrentIndex(0);
+  }, [isMobile]);
   
   const formatNumber = (num: number) => {
     if (num >= 1000000) {
@@ -52,17 +96,17 @@ const CampaignsCarousel = () => {
 
   const nextSlide = () => {
     setCurrentIndex((prevIndex) => 
-      prevIndex + 3 >= campaignsData.length ? 0 : prevIndex + 3
+      prevIndex + campaignsPerView >= processedCampaigns.length ? 0 : prevIndex + campaignsPerView
     );
   };
 
   const prevSlide = () => {
     setCurrentIndex((prevIndex) => 
-      prevIndex - 3 < 0 ? Math.max(0, campaignsData.length - 3) : prevIndex - 3
+      prevIndex - campaignsPerView < 0 ? Math.max(0, processedCampaigns.length - campaignsPerView) : prevIndex - campaignsPerView
     );
   };
 
-  const visibleCampaigns = campaignsData.slice(currentIndex, currentIndex + 3);
+  const visibleCampaigns = processedCampaigns.slice(currentIndex, currentIndex + campaignsPerView);
 
   return (
     <div className="relative">
@@ -84,7 +128,7 @@ const CampaignsCarousel = () => {
       </button>
 
       {/* Campaigns Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div className={`grid gap-8 ${isMobile ? 'grid-cols-1' : 'grid-cols-3'}`}>
         {visibleCampaigns.map((campaign: Campaign) => (
           <Link 
             key={campaign.id} 
@@ -173,12 +217,12 @@ const CampaignsCarousel = () => {
 
       {/* Dots Indicator */}
       <div className="flex justify-center mt-8 space-x-2 space-x-reverse">
-        {Array.from({ length: Math.ceil(campaignsData.length / 3) }, (_, index) => (
+        {Array.from({ length: Math.ceil(processedCampaigns.length / campaignsPerView) }, (_, index) => (
           <button
             key={index}
-            onClick={() => setCurrentIndex(index * 3)}
+            onClick={() => setCurrentIndex(index * campaignsPerView)}
             className={`w-3 h-3 rounded-full transition-all duration-200 ${
-              index === Math.floor(currentIndex / 3) 
+              index === Math.floor(currentIndex / campaignsPerView) 
                 ? 'bg-primary' 
                 : 'bg-gray-300 hover:bg-gray-400'
             }`}
