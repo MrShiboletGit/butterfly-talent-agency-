@@ -42,6 +42,12 @@ const Header = () => {
             טאלנטים
           </Link>
           <Link 
+            to="/campaigns" 
+            className={`transition-colors ${isActive('/campaigns') ? 'text-primary font-medium' : 'text-foreground hover:text-primary'}`}
+          >
+            קמפיינים
+          </Link>
+          <Link 
             to="/contact" 
             className={`butterfly-button ${isActive('/contact') ? 'bg-primary/90' : ''}`}
           >
@@ -76,6 +82,13 @@ const Header = () => {
               onClick={() => setIsMenuOpen(false)}
             >
               טאלנטים
+            </Link>
+            <Link 
+              to="/campaigns" 
+              className={`py-2 transition-colors ${isActive('/campaigns') ? 'text-primary font-medium' : 'text-foreground hover:text-primary'}`}
+              onClick={() => setIsMenuOpen(false)}
+            >
+              קמפיינים
             </Link>
             <Link 
               to="/contact" 
