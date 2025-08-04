@@ -71,11 +71,6 @@ const ClientsPage = () => {
                       
                       <div className="space-y-3">
                         <div className="flex items-center justify-between text-sm text-gray-500">
-                          <span className="font-medium text-gray-700">קמפיינים:</span>
-                          <span>{clientCampaigns.length}</span>
-                        </div>
-                        
-                        <div className="flex items-center justify-between text-sm text-gray-500">
                           <span className="font-medium text-gray-700">סה"כ צפיות:</span>
                           <span>{formatNumber(totalViews)}</span>
                         </div>
