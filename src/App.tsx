@@ -14,6 +14,7 @@ import NotFound from "./pages/NotFound";
 import ContactPage from "./pages/ContactPage";
 import Accessibility from "./pages/Accessibility";
 import AccessibilityWidget from "./components/AccessibilityWidget";
+import ScrollToTop from "./components/ScrollToTop";
 
 const queryClient = new QueryClient();
 
@@ -23,6 +24,7 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter>
+        <ScrollToTop />
         {/* Skip to content link for keyboard users */}
         <a href="#main-content" className="skip-link">
           דלג לתוכן הראשי
