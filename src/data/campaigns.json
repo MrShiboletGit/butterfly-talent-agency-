@@ -1,5 +1,102 @@
 [
   {
+    "id": "tadiran-app-launch-campaign-2025",
+    "title": "השקה של אפליקציה לשליטה במזגן",
+    "clientId": "tadiran",
+    "description": "קמפיין השקה מוצלח עבור אפליקציה חדשה לשליטה במזגן של טאדירן, עם שיתוף פעולה של מר שיבולת",
+    "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    "category": "קמפיין השקה",
+    "kpis": {
+      "views": 43300,
+      "engagement": 1001,
+      "shares": 27,
+      "reach": 43300,
+      "impressions": 43300
+    },
+    "talents": ["2"],
+    "platforms": ["instagram"],
+    "startDate": "2025-01-20",
+    "endDate": "2025-02-20",
+    "content": [
+      {
+        "url": "https://www.instagram.com/mrshibolet/reel/DMIHafuNjBw/",
+        "type": "reel",
+        "description": "ריל השקה אפליקציה לשליטה במזגן - טאדירן",
+        "platform": "instagram",
+        "views": 20300,
+        "likes": 962,
+        "comments": 12,
+        "shares": 27,
+        "talent": "2"
+      },
+      {
+        "url": "https://www.instagram.com/mrshibolet/stories/",
+        "type": "story",
+        "description": "סטורי השקה אפליקציה לשליטה במזגן - טאדירן",
+        "platform": "instagram",
+        "views": 23000,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "talent": "2"
+      }
+    ],
+    "details": {
+      "objective": "השקת אפליקציה חדשה לשליטה במזגן של טאדירן",
+      "strategy": "שימוש במשפיען מוביל ליצירת תוכן אותנטי ומעניין על האפליקציה החדשה",
+      "results": "הקמפיין הגיע ליותר מ-43 אלף צפיות עם אחוזי מעורבות גבוהים"
+    }
+  },
+  {
+    "id": "bill-book-yedioth-campaign-2025",
+    "title": "הספר של ביל - קידום מכירות ספר",
+    "clientId": "yedioth-books",
+    "description": "קמפיין קידום מכירות מוצלח עבור הספר של ביל בהוצאת ידיעות ספרים, עם שיתוף פעולה של ישראל גליטסקי",
+    "imageUrl": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    "category": "קמפיין ספרים",
+    "kpis": {
+      "views": 64000,
+      "engagement": 4882,
+      "shares": 493,
+      "reach": 64000,
+      "impressions": 64000
+    },
+    "talents": ["6"],
+    "platforms": ["instagram", "tiktok"],
+    "startDate": "2025-08-01",
+    "endDate": "2025-08-31",
+    "content": [
+             {
+         "url": "https://www.instagram.com/reel/DM-I-75CDfa/?igsh=MWcydHJndDFwaXFrbA==",
+         "type": "reel",
+         "description": "ריל קידום הספר של ביל - ידיעות ספרים",
+         "platform": "instagram",
+         "views": 15000,
+         "likes": 461,
+         "comments": 28,
+         "shares": 0,
+         "talent": "6"
+       },
+       {
+         "url": "https://vt.tiktok.com/ZSS9kTnsu/",
+         "type": "short-form-video",
+         "description": "סרטון TikTok קידום הספר של ביל - ידיעות ספרים",
+         "platform": "tiktok",
+         "views": 52000,
+         "likes": 4441,
+         "comments": 379,
+         "saves": 0,
+         "shares": 493,
+         "talent": "6"
+       }
+    ],
+    "details": {
+      "objective": "קידום מכירות הספר של ביל בהוצאת ידיעות ספרים",
+      "strategy": "שימוש במשפיען מוביל ליצירת תוכן אותנטי ומעניין על הספר",
+      "results": "הקמפיין הגיע ליותר מ-64 אלף צפיות עם אחוזי מעורבות גבוהים"
+    }
+  },
+  {
     "id": "jooba-paramount-campaign-2024",
     "title": "Jooba אפליקציית מסחר לנוער",
     "clientId": "paramount",

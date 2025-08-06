@@ -73,5 +73,10 @@
     "id": "matchmasters",
     "name": "Match Masters",
     "logoUrl": "https://www.candivore.io/assets/images/logo-match-masters.png"
+  },
+  {
+    "id": "yedioth-books",
+    "name": "ידיעות ספרים",
+    "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSc6WlNDMCuCJZ5mRxgSGkv0-jkLJj3C5ASYA&s"
   }
 ]

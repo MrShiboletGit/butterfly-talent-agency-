@@ -144,21 +144,24 @@ const ContentCarousel = ({ content }: ContentCarouselProps) => {
   };
 
   const nextSlide = () => {
+    if (sortedContent.length <= 3) return; // No navigation needed if 3 or fewer items
     setCurrentIndex((prevIndex) => 
       prevIndex + 3 >= sortedContent.length ? 0 : prevIndex + 3
     );
   };
 
   const prevSlide = () => {
+    if (sortedContent.length <= 3) return; // No navigation needed if 3 or fewer items
     setCurrentIndex((prevIndex) => 
       prevIndex - 3 < 0 ? Math.max(0, sortedContent.length - 3) : prevIndex - 3
     );
   };
 
-  // Get current items to display (3 at a time)
+  // Get current items to display (up to 3 at a time)
   const getCurrentItems = () => {
     const items = [];
-    for (let i = 0; i < 3; i++) {
+    const maxItems = Math.min(3, sortedContent.length);
+    for (let i = 0; i < maxItems; i++) {
       const index = (currentIndex + i) % sortedContent.length;
       items.push(sortedContent[index]);
     }
@@ -169,25 +172,29 @@ const ContentCarousel = ({ content }: ContentCarouselProps) => {
 
   return (
     <div className="relative">
-      {/* Navigation Buttons */}
-      <button
-        onClick={prevSlide}
-        className="absolute left-4 top-1/2 transform -translate-y-1/2 z-10 bg-white/80 hover:bg-white text-gray-800 rounded-full p-2 shadow-lg transition-all duration-200"
-        aria-label="Previous content"
-      >
-        <ChevronLeft className="w-6 h-6" />
-      </button>
-      
-      <button
-        onClick={nextSlide}
-        className="absolute right-4 top-1/2 transform -translate-y-1/2 z-10 bg-white/80 hover:bg-white text-gray-800 rounded-full p-2 shadow-lg transition-all duration-200"
-        aria-label="Next content"
-      >
-        <ChevronRight className="w-6 h-6" />
-      </button>
+      {/* Navigation Buttons - only show if more than 3 items */}
+      {sortedContent.length > 3 && (
+        <>
+          <button
+            onClick={prevSlide}
+            className="absolute left-4 top-1/2 transform -translate-y-1/2 z-10 bg-white/80 hover:bg-white text-gray-800 rounded-full p-2 shadow-lg transition-all duration-200"
+            aria-label="Previous content"
+          >
+            <ChevronLeft className="w-6 h-6" />
+          </button>
+          
+          <button
+            onClick={nextSlide}
+            className="absolute right-4 top-1/2 transform -translate-y-1/2 z-10 bg-white/80 hover:bg-white text-gray-800 rounded-full p-2 shadow-lg transition-all duration-200"
+            aria-label="Next content"
+          >
+            <ChevronRight className="w-6 h-6" />
+          </button>
+        </>
+      )}
 
-      {/* Content Grid - 3 items */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+      {/* Content Grid - dynamic columns based on content count */}
+      <div className={`grid gap-6 ${currentItems.length === 1 ? 'grid-cols-1' : currentItems.length === 2 ? 'grid-cols-1 md:grid-cols-2' : 'grid-cols-1 md:grid-cols-3'}`}>
         {currentItems.map((item, index) => (
           <div key={`${currentIndex}-${index}`} className="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-100">
             {/* Content Header */}
@@ -384,21 +391,23 @@ const ContentCarousel = ({ content }: ContentCarouselProps) => {
         ))}
       </div>
 
-      {/* Dots Indicator */}
-      <div className="flex justify-center mt-8 space-x-2 space-x-reverse">
-        {Array.from({ length: Math.ceil(sortedContent.length / 3) }, (_, index) => (
-          <button
-            key={index}
-            onClick={() => setCurrentIndex(index * 3)}
-            className={`w-3 h-3 rounded-full transition-all duration-200 ${
-              Math.floor(currentIndex / 3) === index
-                ? 'bg-primary' 
-                : 'bg-gray-300 hover:bg-gray-400'
-            }`}
-            aria-label={`Go to content group ${index + 1}`}
-          />
-        ))}
-      </div>
+      {/* Dots Indicator - only show if more than 3 items */}
+      {sortedContent.length > 3 && (
+        <div className="flex justify-center mt-8 space-x-2 space-x-reverse">
+          {Array.from({ length: Math.ceil(sortedContent.length / 3) }, (_, index) => (
+            <button
+              key={index}
+              onClick={() => setCurrentIndex(index * 3)}
+              className={`w-3 h-3 rounded-full transition-all duration-200 ${
+                Math.floor(currentIndex / 3) === index
+                  ? 'bg-primary' 
+                  : 'bg-gray-300 hover:bg-gray-400'
+              }`}
+              aria-label={`Go to content group ${index + 1}`}
+            />
+          ))}
+        </div>
+      )}
     </div>
   );
 };
