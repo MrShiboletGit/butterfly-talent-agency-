@@ -1,5 +1,53 @@
 [
   {
+    "id": "glorious-gaming-accessories-campaign-2025",
+    "title": "קידום סט אביזרי גיימינג",
+    "clientId": "glorious-gaming",
+    "description": "קמפיין קידום מוצלח עבור סט אביזרי גיימינג של Glorious Gaming, עם שיתוף פעולה של רועי Firewolf",
+    "imageUrl": "https://images.unsplash.com/photo-1542751371-adc38448a05e?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    "category": "קמפיין גיימינג",
+    "kpis": {
+      "views": 64000,
+      "engagement": 2085,
+      "shares": 38,
+      "reach": 64000,
+      "impressions": 64000
+    },
+    "talents": ["3"],
+    "platforms": ["youtube", "tiktok"],
+    "startDate": "2025-08-01",
+    "endDate": "2025-08-31",
+    "content": [
+      {
+        "url": "https://www.youtube.com/shorts/N9-B7dB6bnY",
+        "type": "short-form-video",
+        "description": "YouTube Shorts - קידום סט אביזרי גיימינג Glorious Gaming",
+        "platform": "youtube",
+        "views": 48000,
+        "likes": 1300,
+        "comments": 26,
+        "talent": "3"
+      },
+      {
+        "url": "https://www.tiktok.com/@roeefirewolf/video/7534761181425257735?_r=1&_t=ZS-8ybIGup0mCz",
+        "type": "short-form-video",
+        "description": "TikTok - קידום סט אביזרי גיימינג Glorious Gaming",
+        "platform": "tiktok",
+        "views": 16000,
+        "likes": 682,
+        "comments": 21,
+        "saves": 36,
+        "shares": 38,
+        "talent": "3"
+      }
+    ],
+    "details": {
+      "objective": "קידום סט אביזרי גיימינג של Glorious Gaming",
+      "strategy": "שימוש במשפיען גיימינג מוביל ליצירת תוכן אותנטי ומעניין על האביזרים",
+      "results": "הקמפיין הגיע ליותר מ-64 אלף צפיות עם אחוזי מעורבות גבוהים"
+    }
+  },
+  {
     "id": "tadiran-app-launch-campaign-july-2025",
     "title": "השקה של אפליקציה לשליטה במזגן",
     "clientId": "tadiran",
@@ -547,5 +595,75 @@
        "strategy": "מהלך משפיענים כולל ומסונכרן עם פעילות העגה להקרנה של הסרט",
        "results": "הקמפיין הגיע ל-3.2 מיליון צפיות בכל המדיות החברתיות עם עידוד רכישת כרטיסים"
      }
+  },
+  {
+    "id": "moviez-end-july-campaign-2025",
+    "title": "סרט בקולנוע - קמפיין סוף יולי",
+    "clientId": "moviez",
+    "description": "קמפיין קידום סרט בקולנוע בסוף יולי, עם שיתוף פעולה של פיירוולף ועומר ירון",
+    "imageUrl": "https://images.unsplash.com/photo-1536440136628-849c177e76a1?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    "category": "קמפיין קולנוע",
+    "kpis": {
+      "views": 2150000,
+      "engagement": 15000,
+      "shares": 533,
+      "reach": 2150000,
+      "impressions": 2150000
+    },
+    "talents": ["3", "8"],
+    "platforms": ["youtube", "tiktok"],
+    "startDate": "2025-07-29",
+    "endDate": "2025-07-31",
+    "content": [
+      {
+        "url": "https://www.youtube.com/shorts/Em0PnE3HG6c",
+        "type": "short-form-video",
+        "description": "YouTube Shorts - סרט בקולנוע",
+        "platform": "youtube",
+        "views": 442000,
+        "likes": 8500,
+        "comments": 2910,
+        "talent": "3"
+      },
+      {
+        "url": "https://www.tiktok.com/@roeefirewolf/video/7525110938639355154",
+        "type": "short-form-video",
+        "description": "TikTok - סרט בקולנוע",
+        "platform": "tiktok",
+        "views": 798000,
+        "likes": 1239,
+        "comments": 114,
+        "saves": 0,
+        "shares": 119,
+        "talent": "3"
+      },
+      {
+        "url": "https://www.tiktok.com/@omeryaron_/video/7525006149415046418",
+        "type": "short-form-video",
+        "description": "TikTok - סרט בקולנוע",
+        "platform": "tiktok",
+        "views": 1100000,
+        "likes": 4928,
+        "comments": 238,
+        "saves": 401,
+        "shares": 0,
+        "talent": "8"
+      },
+      {
+        "url": "https://www.youtube.com/shorts/nBK3eqK89Kg",
+        "type": "short-form-video",
+        "description": "YouTube Shorts - סרט בקולנוע",
+        "platform": "youtube",
+        "views": 97000,
+        "likes": 6600,
+        "comments": 436,
+        "talent": "8"
+      }
+    ],
+    "details": {
+      "objective": "קידום סרט בקולנוע בסוף יולי",
+      "strategy": "שימוש במשפיענים מובילים ליצירת תוכן אותנטי ומעניין על הסרט",
+      "results": "הקמפיין הגיע ליותר מ-2.1 מיליון צפיות עם אחוזי מעורבות גבוהים"
+    }
   }
 ]
