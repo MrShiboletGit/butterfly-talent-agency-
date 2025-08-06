@@ -1,6 +1,6 @@
 [
   {
-    "id": "tadiran-app-launch-campaign-2025",
+    "id": "tadiran-app-launch-campaign-july-2025",
     "title": "השקה של אפליקציה לשליטה במזגן",
     "clientId": "tadiran",
     "description": "קמפיין השקה מוצלח עבור אפליקציה חדשה לשליטה במזגן של טאדירן, עם שיתוף פעולה של מר שיבולת",
@@ -15,8 +15,8 @@
     },
     "talents": ["2"],
     "platforms": ["instagram"],
-    "startDate": "2025-01-20",
-    "endDate": "2025-02-20",
+    "startDate": "2025-07-01",
+    "endDate": "2025-07-31",
     "content": [
       {
         "url": "https://www.instagram.com/mrshibolet/reel/DMIHafuNjBw/",
@@ -45,6 +45,158 @@
       "objective": "השקת אפליקציה חדשה לשליטה במזגן של טאדירן",
       "strategy": "שימוש במשפיען מוביל ליצירת תוכן אותנטי ומעניין על האפליקציה החדשה",
       "results": "הקמפיין הגיע ליותר מ-43 אלף צפיות עם אחוזי מעורבות גבוהים"
+    }
+  },
+  {
+    "id": "education-ministry-ai-cyber-campaign-2024",
+    "title": "קמפיין למניעת פשעי רשת בבינה מלאכותית בשיתוף 105",
+    "clientId": "education-ministry",
+    "description": "קמפיין חשוב למניעת פשעי רשת בבינה מלאכותית בשיתוף עם 105, עם שיתוף פעולה של מר שיבולת",
+    "imageUrl": "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    "category": "קמפיין חינוכי",
+    "kpis": {
+      "views": 1818000,
+      "engagement": 3506,
+      "shares": 0,
+      "reach": 1818000,
+      "impressions": 1818000
+    },
+    "talents": ["2", "1"],
+    "platforms": ["youtube", "tiktok"],
+    "startDate": "2024-09-01",
+    "endDate": "2024-12-31",
+    "content": [
+      {
+        "url": "https://www.youtube.com/shorts/BUt5r_AOBbs",
+        "type": "short-form-video",
+        "description": "YouTube Shorts - קמפיין למניעת פשעי רשת בבינה מלאכותית",
+        "platform": "youtube",
+        "views": 18000,
+        "likes": 1000,
+        "comments": 32,
+        "talent": "2"
+      },
+      {
+        "url": "https://www.tiktok.com/@105childonlineprotection/video/7356596852634012929",
+        "type": "short-form-video",
+        "description": "TikTok - קמפיין למניעת פשעי רשת בבינה מלאכותית",
+        "platform": "tiktok",
+        "views": 1800000,
+        "likes": 2324,
+        "comments": 50,
+        "saves": 169,
+        "shares": 0,
+        "talent": "1"
+      }
+    ],
+    "details": {
+      "objective": "הגברת המודעות למניעת פשעי רשת בבינה מלאכותית בקרב ילדים ונוער",
+      "strategy": "שימוש במשפיען מוביל ליצירת תוכן חינוכי ומעניין על בטיחות ברשת",
+      "results": "הקמפיין הגיע ליותר מ-1.8 מיליון צפיות עם אחוזי מעורבות גבוהים"
+    }
+  },
+  {
+    "id": "elbit-employer-branding-campaign-2024",
+    "title": "מיתוג מעסיק אלביט 2024 - מר שיבולת וסימולטור טיסה המתקדם בעולם",
+    "clientId": "elbit",
+    "description": "קמפיין מיתוג מעסיק מוצלח עבור אלביט, עם הצגת סימולטור הטיסה המתקדם בעולם ושיתוף פעולה של מר שיבולת",
+    "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    "category": "קמפיין מיתוג מעסיק",
+    "kpis": {
+      "views": 99000,
+      "engagement": 3927,
+      "shares": 56,
+      "reach": 99000,
+      "impressions": 99000
+    },
+    "talents": ["2"],
+    "platforms": ["tiktok", "instagram", "youtube"],
+    "startDate": "2024-09-01",
+    "endDate": "2024-12-31",
+    "content": [
+      {
+        "url": "https://www.tiktok.com/@mrshibolet/video/7413704318131506440",
+        "type": "short-form-video",
+        "description": "TikTok - מיתוג מעסיק אלביט וסימולטור טיסה",
+        "platform": "tiktok",
+        "views": 18000,
+        "likes": 690,
+        "comments": 12,
+        "shares": 56,
+        "talent": "2"
+      },
+      {
+        "url": "https://www.instagram.com/p/C_0F-x9o-bt/",
+        "type": "post",
+        "description": "Instagram Post - מיתוג מעסיק אלביט וסימולטור טיסה",
+        "platform": "instagram",
+        "views": 12000,
+        "likes": 295,
+        "comments": 20,
+        "talent": "2"
+      },
+      {
+        "url": "https://www.youtube.com/shorts/swFJDavOBHE",
+        "type": "short-form-video",
+        "description": "YouTube Shorts - מיתוג מעסיק אלביט וסימולטור טיסה",
+        "platform": "youtube",
+        "views": 69000,
+        "likes": 2900,
+        "comments": 25,
+        "talent": "2"
+      }
+    ],
+    "details": {
+      "objective": "מיתוג אלביט כמעסיק מוביל בתחום הטכנולוגיה והביטחון",
+      "strategy": "שימוש במשפיען מוביל להצגת הטכנולוגיה המתקדמת של החברה",
+      "results": "הקמפיין הגיע ליותר מ-99 אלף צפיות עם אחוזי מעורבות גבוהים"
+    }
+  },
+  {
+    "id": "israel-post-mastercard-campaign-2024",
+    "title": "השקה של כרטיס מאסטרקארד פרמיום בנק הדואר",
+    "clientId": "israel-post",
+    "description": "קמפיין השקה מוצלח עבור כרטיס מאסטרקארד פרמיום של בנק הדואר, המיועד לגיימרים לקניית משחקים ברשת בצורה בטוחה יותר",
+    "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    "category": "קמפיין השקה",
+    "kpis": {
+      "views": 38000,
+      "engagement": 195,
+      "shares": 0,
+      "reach": 38000,
+      "impressions": 38000
+    },
+    "talents": ["2"],
+    "platforms": ["instagram"],
+    "startDate": "2024-09-01",
+    "endDate": "2024-12-31",
+    "content": [
+      {
+        "url": "https://www.instagram.com/p/C_k3NtGoNWO/",
+        "type": "post",
+        "description": "Instagram Post - השקה כרטיס מאסטרקארד פרמיום בנק הדואר",
+        "platform": "instagram",
+        "views": 15000,
+        "likes": 187,
+        "comments": 8,
+        "talent": "2"
+      },
+      {
+        "url": "https://www.instagram.com/mrshibolet/stories/",
+        "type": "story",
+        "description": "Instagram Stories - השקה כרטיס מאסטרקארד פרמיום בנק הדואר",
+        "platform": "instagram",
+        "views": 23000,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "talent": "2"
+      }
+    ],
+    "details": {
+      "objective": "השקת כרטיס מאסטרקארד פרמיום של בנק הדואר לגיימרים",
+      "strategy": "שימוש במשפיען מוביל להצגת היתרונות של הכרטיס לקניית משחקים",
+      "results": "הקמפיין הגיע ליותר מ-38 אלף צפיות עם אחוזי מעורבות גבוהים"
     }
   },
   {

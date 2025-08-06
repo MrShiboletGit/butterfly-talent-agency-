@@ -45,7 +45,17 @@
     "logoUrl": "https://upload.wikimedia.org/wikipedia/he/thumb/1/15/Ministry_of_Education.svg/195px-Ministry_of_Education.svg.png"
   },
   {
+    "id": "education-ministry",
+    "name": "משרד החינוך",
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/he/thumb/1/15/Ministry_of_Education.svg/195px-Ministry_of_Education.svg.png"
+  },
+  {
     "id": "israelpost",
+    "name": "דואר ישראל",
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/he/thumb/6/6d/DoarIsrael.svg/330px-DoarIsrael.svg.png"
+  },
+  {
+    "id": "israel-post",
     "name": "דואר ישראל",
     "logoUrl": "https://upload.wikimedia.org/wikipedia/he/thumb/6/6d/DoarIsrael.svg/330px-DoarIsrael.svg.png"
   },
