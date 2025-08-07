@@ -24,11 +24,7 @@
     "name": "דומינוס",
     "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Domino%27s_pizza_logo.svg"
   },
-  {
-    "id": "doritos",
-    "name": "דוריטוס",
-    "logoUrl": "https://upload.wikimedia.org/wikipedia/he/thumb/9/9a/Doritos_Logo_%282013%29.png/330px-Doritos_Logo_%282013%29.png"
-  },
+
   {
     "id": "moviez",
     "name": "מוביז",
@@ -78,5 +74,10 @@
     "id": "yedioth-books",
     "name": "ידיעות ספרים",
     "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSc6WlNDMCuCJZ5mRxgSGkv0-jkLJj3C5ASYA&s"
+  },
+  {
+    "id": "glorious-gaming",
+    "name": "Glorious Gaming",
+    "logoUrl": "https://image-cdn.jambuntech.dev/XAbQ8ZDoDDIwKZU3eIrLqKdjustuhxayV2jNrPwG/400x/filters:format(webp)/tk-file/glorious_logo_58531f527bd64a62142611fef75d50c0.png"
   }
 ]

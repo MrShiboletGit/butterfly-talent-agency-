@@ -99,7 +99,7 @@
     "id": "education-ministry-ai-cyber-campaign-2024",
     "title": "קמפיין למניעת פשעי רשת בבינה מלאכותית בשיתוף 105",
     "clientId": "education-ministry",
-    "description": "קמפיין חשוב למניעת פשעי רשת בבינה מלאכותית בשיתוף עם 105, עם שיתוף פעולה של מר שיבולת",
+    "description": "קמפיין חשוב למניעת פשעי רשת בבינה מלאכותית בשיתוף עם 105, מר שיבולת",
     "imageUrl": "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
     "category": "קמפיין חינוכי",
     "kpis": {
@@ -598,9 +598,9 @@
   },
   {
     "id": "moviez-end-july-campaign-2025",
-    "title": "סרט בקולנוע - קמפיין סוף יולי",
+    "title": "קידום סרט חדש - סופרמן בקולנוע",
     "clientId": "moviez",
-    "description": "קמפיין קידום סרט בקולנוע בסוף יולי, עם שיתוף פעולה של פיירוולף ועומר ירון",
+    "description": "קמפיין קידום סרט חדש - סופרמן בקולנוע בסוף יולי, עם שיתוף פעולה של פיירוולף ועומר ירון",
     "imageUrl": "https://images.unsplash.com/photo-1536440136628-849c177e76a1?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
     "category": "קמפיין קולנוע",
     "kpis": {
@@ -618,7 +618,7 @@
       {
         "url": "https://www.youtube.com/shorts/Em0PnE3HG6c",
         "type": "short-form-video",
-        "description": "YouTube Shorts - סרט בקולנוע",
+        "description": "YouTube Shorts - קידום סרט סופרמן בקולנוע",
         "platform": "youtube",
         "views": 442000,
         "likes": 8500,
@@ -628,7 +628,7 @@
       {
         "url": "https://www.tiktok.com/@roeefirewolf/video/7525110938639355154",
         "type": "short-form-video",
-        "description": "TikTok - סרט בקולנוע",
+        "description": "TikTok - קידום סרט סופרמן בקולנוע",
         "platform": "tiktok",
         "views": 798000,
         "likes": 1239,
@@ -640,7 +640,7 @@
       {
         "url": "https://www.tiktok.com/@omeryaron_/video/7525006149415046418",
         "type": "short-form-video",
-        "description": "TikTok - סרט בקולנוע",
+        "description": "TikTok - קידום סרט סופרמן בקולנוע",
         "platform": "tiktok",
         "views": 1100000,
         "likes": 4928,
@@ -652,7 +652,7 @@
       {
         "url": "https://www.youtube.com/shorts/nBK3eqK89Kg",
         "type": "short-form-video",
-        "description": "YouTube Shorts - סרט בקולנוע",
+        "description": "YouTube Shorts - קידום סרט סופרמן בקולנוע",
         "platform": "youtube",
         "views": 97000,
         "likes": 6600,
@@ -661,8 +661,8 @@
       }
     ],
     "details": {
-      "objective": "קידום סרט בקולנוע בסוף יולי",
-      "strategy": "שימוש במשפיענים מובילים ליצירת תוכן אותנטי ומעניין על הסרט",
+      "objective": "קידום סרט חדש - סופרמן בקולנוע",
+      "strategy": "שימוש במשפיענים מובילים ליצירת תוכן אותנטי ומעניין על הסרט החדש",
       "results": "הקמפיין הגיע ליותר מ-2.1 מיליון צפיות עם אחוזי מעורבות גבוהים"
     }
   }
