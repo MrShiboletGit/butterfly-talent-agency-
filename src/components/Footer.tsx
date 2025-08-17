@@ -32,6 +32,9 @@ const Footer = () => {
               <li>
                 <Link to="/accessibility" className="hover:text-secondary transition-colors">הצהרת נגישות</Link>
               </li>
+              <li>
+                <Link to="/privacy" className="hover:text-secondary transition-colors">מדיניות פרטיות</Link>
+              </li>
             </ul>
           </div>
           

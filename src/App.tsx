@@ -13,6 +13,7 @@ import ClientsPage from "./pages/ClientsPage";
 import NotFound from "./pages/NotFound";
 import ContactPage from "./pages/ContactPage";
 import Accessibility from "./pages/Accessibility";
+import PrivacyPage from "./pages/PrivacyPage";
 import AccessibilityWidget from "./components/AccessibilityWidget";
 import ScrollToTop from "./components/ScrollToTop";
 
@@ -40,6 +41,7 @@ const App = () => (
                  <Route path="/client/:id" element={<ClientPage />} />
                  <Route path="/contact" element={<ContactPage />} />
                  <Route path="/accessibility" element={<Accessibility />} />
+                 <Route path="/privacy" element={<PrivacyPage />} />
                  {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
                  <Route path="*" element={<NotFound />} />
                </Routes>

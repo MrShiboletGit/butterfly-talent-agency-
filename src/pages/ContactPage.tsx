@@ -19,7 +19,8 @@ const ContactPage = () => {
     email: '',
     phone: '',
     company: '',
-    message: state?.message || ''
+    message: state?.message || '',
+    privacyPolicy: false
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitStatus, setSubmitStatus] = useState<'idle' | 'success' | 'error'>('idle');
@@ -41,8 +42,21 @@ const ContactPage = () => {
     });
   };
 
+  const handleCheckboxChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setFormData({
+      ...formData,
+      [e.target.name]: e.target.checked
+    });
+  };
+
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    
+    if (!formData.privacyPolicy) {
+      alert('עליך לאשר את מדיניות הפרטיות כדי להמשיך');
+      return;
+    }
+    
     setIsSubmitting(true);
     setSubmitStatus('idle');
 
@@ -71,7 +85,8 @@ const ContactPage = () => {
         email: '',
         phone: '',
         company: '',
-        message: ''
+        message: '',
+        privacyPolicy: false
       });
     } catch (error) {
       console.error('Error sending email:', error);
@@ -239,6 +254,30 @@ const ContactPage = () => {
                       className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent"
                       placeholder="ספרו לנו על הפרויקט שלכם..."
                     />
+                  </div>
+
+                  <div className="flex items-start gap-3">
+                    <input
+                      type="checkbox"
+                      id="privacyPolicy"
+                      name="privacyPolicy"
+                      required
+                      checked={formData.privacyPolicy}
+                      onChange={handleCheckboxChange}
+                      className="mt-1 h-4 w-4 text-primary focus:ring-primary border-gray-300 rounded"
+                    />
+                    <label htmlFor="privacyPolicy" className="text-sm text-gray-700 leading-relaxed">
+                      אני מאשר/ת שהפרטים שמסרתי בטופס ישמשו לצורך יצירת קשר בלבד, בהתאם ל{' '}
+                      <a 
+                        href="/privacy" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="text-primary hover:underline font-medium"
+                      >
+                        מדיניות הפרטיות
+                      </a>{' '}
+                      של האתר אשר לינק אליה נמצא בתחתית כל עמוד.
+                    </label>
                   </div>
 
                   <button
