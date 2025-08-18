@@ -1,5 +1,73 @@
 [
   {
+    "id": "samsung-q3-campaign-august-2025",
+    "title": "קמפיין שנתי סמסונג - רבעון 3 חודש אוגוסט",
+    "clientId": "samsung",
+    "description": "קמפיין שנתי מוצלח עבור סמסונג ברבעון השלישי של 2025",
+    "imageUrl": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    "category": "קמפיין שנתי",
+    "kpis": {
+      "views": 397000,
+      "engagement": 10027,
+      "shares": 108,
+      "reach": 397000,
+      "impressions": 397000
+    },
+    "talents": ["3", "2"],
+    "platforms": ["youtube", "tiktok"],
+    "startDate": "2025-08-01",
+    "endDate": "2025-08-31",
+    "content": [
+      {
+        "url": "https://www.youtube.com/shorts/f0vXHfwAFeU",
+        "type": "short-form-video",
+        "description": "YouTube Shorts - גל כהן קמפיין סמסונג Q3",
+        "platform": "youtube",
+        "views": 197000,
+        "likes": 8200,
+        "comments": 66,
+        "talent": "3"
+      },
+      {
+        "url": "https://www.tiktok.com/@galcohenyt/video/7537255610304466194",
+        "type": "short-form-video",
+        "description": "TikTok - גל כהן קמפיין סמסונג Q3",
+        "platform": "tiktok",
+        "views": 25000,
+        "likes": 1701,
+        "comments": 50,
+        "saves": 97,
+        "talent": "3"
+      },
+      {
+        "url": "https://www.youtube.com/shorts/ybvEg-PC9NI",
+        "type": "short-form-video",
+        "description": "YouTube Shorts - שיבולת קמפיין סמסונג Q3",
+        "platform": "youtube",
+        "views": 170000,
+        "likes": 3200,
+        "comments": 75,
+        "talent": "2"
+      },
+      {
+        "url": "https://www.tiktok.com/@mrshibolet/video/7537277349780294919",
+        "type": "short-form-video",
+        "description": "TikTok - שיבולת קמפיין סמסונג Q3",
+        "platform": "tiktok",
+        "views": 10000,
+        "likes": 371,
+        "comments": 9,
+        "saves": 11,
+        "talent": "2"
+      }
+    ],
+    "details": {
+      "objective": "קידום מוצרי סמסונג ברבעון השלישי של 2025",
+      "strategy": "שימוש בשני משפיענים מובילים ליצירת תוכן אותנטי ומעניין על מוצרי סמסונג",
+      "results": "הקמפיין הגיע ליותר מ-397 אלף צפיות עם אחוזי מעורבות גבוהים"
+    }
+  },
+  {
     "id": "glorious-gaming-accessories-campaign-2025",
     "title": "קידום סט אביזרי גיימינג",
     "clientId": "glorious-gaming",
