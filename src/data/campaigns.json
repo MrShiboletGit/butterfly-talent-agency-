@@ -147,11 +147,11 @@
     "imageUrl": "https://images.unsplash.com/photo-1542751371-adc38448a05e?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
     "category": "קמפיין גיימינג",
     "kpis": {
-      "views": 64000,
+      "views": 122000,
       "engagement": 2085,
       "shares": 38,
-      "reach": 64000,
-      "impressions": 64000
+      "reach": 122000,
+      "impressions": 122000
     },
     "talents": ["3"],
     "platforms": ["youtube", "tiktok"],
@@ -163,7 +163,7 @@
         "type": "short-form-video",
         "description": "YouTube Shorts - קידום סט אביזרי גיימינג Glorious Gaming",
         "platform": "youtube",
-        "views": 48000,
+        "views": 96000,
         "likes": 1300,
         "comments": 26,
         "talent": "3"
@@ -173,7 +173,7 @@
         "type": "short-form-video",
         "description": "TikTok - קידום סט אביזרי גיימינג Glorious Gaming",
         "platform": "tiktok",
-        "views": 16000,
+        "views": 26000,
         "likes": 682,
         "comments": 21,
         "saves": 36,
