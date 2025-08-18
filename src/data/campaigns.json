@@ -1,5 +1,41 @@
 [
   {
+    "id": "nintendo-firewolf-campaign-2025",
+    "title": "נינטנדו סוויץ 2 - השקה",
+    "clientId": "nintendo",
+    "description": "קמפיין מוצלח עבור נינטנדו עם רועי פיירזולף",
+    "imageUrl": "https://images.unsplash.com/photo-1542751371-adc38448a05e?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    "category": "קמפיין גיימינג",
+    "kpis": {
+      "views": 207000,
+      "engagement": 4163,
+      "shares": 0,
+      "reach": 207000,
+      "impressions": 207000
+    },
+    "talents": ["3"],
+    "platforms": ["youtube"],
+    "startDate": "2025-07-01",
+    "endDate": "2025-07-31",
+    "content": [
+      {
+        "url": "https://www.youtube.com/shorts/45CVAns8rXc",
+        "type": "short-form-video",
+        "description": "YouTube Shorts - רועי פיירזולף קמפיין נינטנדו",
+        "platform": "youtube",
+        "views": 207000,
+        "likes": 4100,
+        "comments": 63,
+        "talent": "3"
+      }
+    ],
+    "details": {
+      "objective": "קידום מוצרי נינטנדו עם משפיען גיימינג מוביל",
+      "strategy": "שימוש ברועי פיירזולף ליצירת תוכן אותנטי ומעניין על מוצרי נינטנדו",
+      "results": "הקמפיין הגיע ליותר מ-207 אלף צפיות עם אחוזי מעורבות גבוהים"
+    }
+  },
+  {
     "id": "samsung-q3-campaign-august-2025",
     "title": "קמפיין שנתי סמסונג - רבעון 3 חודש אוגוסט",
     "clientId": "samsung",
