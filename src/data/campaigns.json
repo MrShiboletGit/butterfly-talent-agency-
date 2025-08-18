@@ -1,5 +1,41 @@
 [
   {
+    "id": "electricity-stores-gal-cohen-campaign-2025",
+    "title": "קידום מבצעים מחסני חשמל",
+    "clientId": "electricity-stores",
+    "description": "קמפיין קידום מבצעים מוצלח עבור מחסני חשמל עם גל כהן",
+    "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    "category": "קמפיין קידום מבצעים",
+    "kpis": {
+      "views": 157000,
+      "engagement": 4440,
+      "shares": 0,
+      "reach": 157000,
+      "impressions": 157000
+    },
+    "talents": ["4"],
+    "platforms": ["youtube"],
+    "startDate": "2025-05-01",
+    "endDate": "2025-05-31",
+    "content": [
+      {
+        "url": "https://www.youtube.com/shorts/xGd0d4OEmVQ",
+        "type": "short-form-video",
+        "description": "YouTube Shorts - גל כהן קידום מבצעים מחסני חשמל",
+        "platform": "youtube",
+        "views": 157000,
+        "likes": 4400,
+        "comments": 40,
+        "talent": "4"
+      }
+    ],
+    "details": {
+      "objective": "קידום מבצעים של מחסני חשמל עם משפיען מוביל",
+      "strategy": "שימוש בגל כהן ליצירת תוכן אותנטי ומעניין על המבצעים",
+      "results": "הקמפיין הגיע ליותר מ-157 אלף צפיות עם אחוזי מעורבות גבוהים"
+    }
+  },
+  {
     "id": "nintendo-firewolf-campaign-2025",
     "title": "נינטנדו סוויץ 2 - השקה",
     "clientId": "nintendo",
