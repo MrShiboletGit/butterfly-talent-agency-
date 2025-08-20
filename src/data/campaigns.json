@@ -1,5 +1,61 @@
 [
   {
+    "id": "logitech-gaming-party-gal-cohen-2025",
+    "title": "לוג'יטק מסיבת הגיימינג",
+    "clientId": "logitech-israel",
+    "description": "קמפיין מוצלח עבור לוג'יטק ישראל עם גל כהן במסיבת הגיימינג",
+    "imageUrl": "https://images.unsplash.com/photo-1542751371-adc38448a05e?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    "category": "קמפיין גיימינג",
+    "kpis": {
+      "views": 66000,
+      "engagement": 3024,
+      "shares": 0,
+      "reach": 66000,
+      "impressions": 66000
+    },
+    "talents": ["4"],
+    "platforms": ["youtube", "tiktok", "instagram"],
+    "startDate": "2025-08-01",
+    "endDate": "2025-08-31",
+    "content": [
+      {
+        "url": "https://www.tiktok.com/@galcohenyt/video/7540251397405560084",
+        "type": "short-form-video",
+        "description": "TikTok - גל כהן קמפיין לוג'יטק מסיבת הגיימינג",
+        "platform": "tiktok",
+        "views": 21000,
+        "likes": 696,
+        "comments": 50,
+        "talent": "4"
+      },
+      {
+        "url": "https://www.youtube.com/shorts/u6Xa60YcCTE",
+        "type": "short-form-video",
+        "description": "YouTube Shorts - גל כהן קמפיין לוג'יטק מסיבת הגיימינג",
+        "platform": "youtube",
+        "views": 45000,
+        "likes": 2300,
+        "comments": 28,
+        "talent": "4"
+      },
+      {
+        "url": "https://www.instagram.com/p/DNiMuYVIL7C/",
+        "type": "post",
+        "description": "Instagram Post - גל כהן קמפיין לוג'יטק מסיבת הגיימינג",
+        "platform": "instagram",
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "talent": "4"
+      }
+    ],
+    "details": {
+      "objective": "קידום מוצרי לוג'יטק במסיבת הגיימינג עם משפיען גיימינג מוביל",
+      "strategy": "שימוש בגל כהן ליצירת תוכן אותנטי ומעניין על מוצרי לוג'יטק במסיבת הגיימינג",
+      "results": "הקמפיין הגיע ליותר מ-66 אלף צפיות עם אחוזי מעורבות גבוהים"
+    }
+  },
+  {
     "id": "electricity-stores-gal-cohen-campaign-2025",
     "title": "קידום מבצעים מחסני חשמל",
     "clientId": "hashmal",

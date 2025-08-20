@@ -75,5 +75,10 @@
     "id": "glorious-gaming",
     "name": "Glorious Gaming",
     "logoUrl": "https://image-cdn.jambuntech.dev/XAbQ8ZDoDDIwKZU3eIrLqKdjustuhxayV2jNrPwG/400x/filters:format(webp)/tk-file/glorious_logo_58531f527bd64a62142611fef75d50c0.png"
+  },
+  {
+    "id": "logitech-israel",
+    "name": "לוג'יטק ישראל",
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Logitech_logo.png"
   }
 ]
