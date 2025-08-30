@@ -20,12 +20,6 @@
     "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg"
   },
   {
-    "id": "dominos",
-    "name": "דומינוס",
-    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Domino%27s_pizza_logo.svg"
-  },
-
-  {
     "id": "moviez",
     "name": "מוביז",
     "logoUrl": "https://moviz.co.il/wp-content/uploads/2022/07/LOGO-MOVIZ-e1657026490982.png"
@@ -44,11 +38,6 @@
     "id": "israel-post",
     "name": "דואר ישראל",
     "logoUrl": "https://upload.wikimedia.org/wikipedia/he/thumb/6/6d/DoarIsrael.svg/330px-DoarIsrael.svg.png"
-  },
-  {
-    "id": "v1",
-    "name": "v1",
-    "logoUrl": "https://upload.wikimedia.org/wikipedia/he/thumb/a/a0/V1News.png/250px-V1News.png"
   },
   {
     "id": "kashcash",
