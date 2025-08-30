@@ -80,5 +80,10 @@
     "id": "logitech-israel",
     "name": "לוג'יטק ישראל",
     "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Logitech_logo.png"
+  },
+  {
+    "id": "sweetweet",
+    "name": "סוויטוויט",
+    "logoUrl": "https://media.licdn.com/dms/image/v2/C4E0BAQHVWW4PVk8EFQ/company-logo_200_200/company-logo_200_200/0/1660645296331/sweetweet_logo?e=2147483647&v=beta&t=Hk3heT_fo2DaL7p3ng_40awpFL4CShgbnnOtd93joRI"
   }
 ]

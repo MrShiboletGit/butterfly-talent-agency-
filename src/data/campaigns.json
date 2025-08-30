@@ -861,5 +861,144 @@
       "strategy": "שימוש במשפיענים מובילים ליצירת תוכן אותנטי ומעניין על הסרט החדש",
       "results": "הקמפיין הגיע ליותר מ-2.1 מיליון צפיות עם אחוזי מעורבות גבוהים"
     }
+  },
+  {
+    "id": "hashmal-summer-end-campaign-august-2025",
+    "title": "קמפיין סוף הקיץ - מחסני חשמל",
+    "clientId": "hashmal",
+    "description": "קמפיין סוף הקיץ מוצלח עבור מחסני חשמל",
+    "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    "category": "קמפיין קידום מבצעים",
+    "kpis": {
+      "views": 154200,
+      "engagement": 1077,
+      "shares": 0,
+      "reach": 154200,
+      "impressions": 154200
+    },
+    "talents": ["4"],
+    "platforms": ["youtube", "tiktok"],
+    "startDate": "2025-08-25",
+    "endDate": "2025-08-31",
+    "content": [
+      {
+        "url": "https://www.youtube.com/shorts/jujff6fK4Os",
+        "type": "short-form-video",
+        "description": "YouTube Shorts - קמפיין סוף הקיץ מחסני חשמל",
+        "platform": "youtube",
+        "views": 124000,
+        "likes": 5000,
+        "comments": 38,
+        "talent": "4"
+      },
+      {
+        "url": "https://www.tiktok.com/@galcohenyt/video/7542498337069583636",
+        "type": "short-form-video",
+        "description": "TikTok - קמפיין סוף הקיץ מחסני חשמל",
+        "platform": "tiktok",
+        "views": 28200,
+        "likes": 1006,
+        "comments": 27,
+        "saves": 44,
+        "talent": "4"
+      }
+    ],
+    "details": {
+      "objective": "קידום מבצעי סוף הקיץ של מחסני חשמל עם משפיען מוביל",
+      "strategy": "שימוש בגל כהן ליצירת תוכן אותנטי ומעניין על המבצעים",
+      "results": "הקמפיין הגיע ליותר מ-154 אלף צפיות עם אחוזי מעורבות גבוהים"
+    }
+  },
+  {
+    "id": "kashkash-back-to-school-campaign-august-2025",
+    "title": "קמפיין חזרה ללימודים עם קרביץ",
+    "clientId": "kashcash",
+    "description": "קמפיין חזרה ללימודים מוצלח עבור קרביץ",
+    "imageUrl": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    "category": "קמפיין חינוכי",
+    "kpis": {
+      "views": 78000,
+      "engagement": 1952,
+      "shares": 0,
+      "reach": 78000,
+      "impressions": 78000
+    },
+    "talents": ["2"],
+    "platforms": ["youtube", "tiktok"],
+    "startDate": "2025-08-25",
+    "endDate": "2025-08-31",
+    "content": [
+      {
+        "url": "https://www.youtube.com/shorts/-D1UatO_0zU",
+        "type": "short-form-video",
+        "description": "YouTube Shorts - קמפיין חזרה ללימודים עם קרביץ",
+        "platform": "youtube",
+        "views": 72000,
+        "likes": 1900,
+        "comments": 42,
+        "talent": "2"
+      },
+      {
+        "url": "https://www.tiktok.com/@mrshibolet/video/7543585916498021639",
+        "type": "short-form-video",
+        "description": "TikTok - קמפיין חזרה ללימודים עם קרביץ",
+        "platform": "tiktok",
+        "views": 6000,
+        "likes": 211,
+        "comments": 14,
+        "talent": "2"
+      }
+    ],
+    "details": {
+      "objective": "קידום מוצרי קרביץ לחזרה ללימודים עם משפיען מוביל",
+      "strategy": "שימוש בשיבולת ליצירת תוכן אותנטי ומעניין על המוצרים",
+      "results": "הקמפיין הגיע ליותר מ-78 אלף צפיות עם אחוזי מעורבות גבוהים"
+    }
+  },
+  {
+    "id": "sweetweet-mogo-mogo-launch-campaign-august-2025",
+    "title": "קמפיין השקה משקה מוגו מוגו",
+    "clientId": "sweetweet",
+    "description": "קמפיין השקה מוצלח עבור משקה מוגו מוגו של סוויטוויט",
+    "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    "category": "קמפיין השקה",
+    "kpis": {
+      "views": 90700,
+      "engagement": 3103,
+      "shares": 0,
+      "reach": 90700,
+      "impressions": 90700
+    },
+    "talents": ["4"],
+    "platforms": ["youtube", "tiktok"],
+    "startDate": "2025-08-25",
+    "endDate": "2025-08-31",
+    "content": [
+      {
+        "url": "https://www.youtube.com/shorts/i_KhWgAaC-c?si=RA2xf359qY1pKH-e",
+        "type": "short-form-video",
+        "description": "YouTube Shorts - השקה משקה מוגו מוגו סוויטוויט",
+        "platform": "youtube",
+        "views": 70000,
+        "likes": 2400,
+        "comments": 87,
+        "talent": "4"
+      },
+      {
+        "url": "https://www.tiktok.com/@galcohenyt/video/7543578746750586132",
+        "type": "short-form-video",
+        "description": "TikTok - השקה משקה מוגו מוגו סוויטוויט",
+        "platform": "tiktok",
+        "views": 20700,
+        "likes": 615,
+        "comments": 41,
+        "talent": "4"
+      }
+    ],
+    "details": {
+      "objective": "השקת משקה מוגו מוגו של סוויטוויט עם משפיען מוביל",
+      "strategy": "שימוש בגל כהן ליצירת תוכן אותנטי ומעניין על המשקה החדש",
+      "results": "הקמפיין הגיע ליותר מ-90 אלף צפיות עם אחוזי מעורבות גבוהים"
+    }
   }
 ]
