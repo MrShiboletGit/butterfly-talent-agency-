@@ -1000,5 +1000,120 @@
       "strategy": "שימוש בגל כהן ליצירת תוכן אותנטי ומעניין על המשקה החדש",
       "results": "הקמפיין הגיע ליותר מ-90 אלף צפיות עם אחוזי מעורבות גבוהים"
     }
+  },
+  {
+    "id": "cerave-end-year-party-firewolf-september-2025",
+    "title": "מסיבת סוף שנה סראווה",
+    "clientId": "cerave",
+    "description": "קמפיין מוצלח עבור CeraVe עם רועי פיירזולף במסיבת סוף השנה",
+    "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    "category": "קמפיין אירוע",
+    "kpis": {
+      "views": 86700,
+      "engagement": 3287,
+      "shares": 0,
+      "reach": 86700,
+      "impressions": 86700
+    },
+    "talents": ["3"],
+    "platforms": ["tiktok"],
+    "startDate": "2025-09-01",
+    "endDate": "2025-09-30",
+    "content": [
+      {
+        "url": "https://www.tiktok.com/@roeefirewolf/video/7545880178501618962",
+        "type": "short-form-video",
+        "description": "TikTok - רועי פיירזולף מסיבת סוף שנה CeraVe",
+        "platform": "tiktok",
+        "views": 86700,
+        "likes": 3068,
+        "comments": 43,
+        "saves": 178,
+        "talent": "3"
+      }
+    ],
+    "details": {
+      "objective": "קידום מסיבת סוף השנה של CeraVe עם משפיען מוביל",
+      "strategy": "שימוש ברועי פיירזולף ליצירת תוכן אותנטי ומעניין על האירוע",
+      "results": "הקמפיין הגיע ליותר מ-86 אלף צפיות עם אחוזי מעורבות גבוהים"
+    }
+  },
+  {
+    "id": "moviez-evil-dead-4-premiere-omer-yaron-2025",
+    "title": "לזמן את הרוע 4 - בכורה",
+    "clientId": "moviez",
+    "description": "קמפיין בכורה מוצלח עבור סרט 'לזמן את הרוע 4' עם עומר ירון וגל כהן",
+    "imageUrl": "https://images.unsplash.com/photo-1536440136628-849c177e76a1?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    "category": "קמפיין קולנוע",
+    "kpis": {
+      "views": 541800,
+      "engagement": 16888,
+      "shares": 0,
+      "reach": 541800,
+      "impressions": 541800
+    },
+    "talents": ["8", "4"],
+    "platforms": ["youtube", "tiktok", "instagram"],
+    "startDate": "2025-09-01",
+    "endDate": "2025-09-30",
+    "content": [
+      {
+        "url": "https://www.youtube.com/shorts/62GdFl6wzL4?si=TTbDuO9y5ey3pKIe",
+        "type": "short-form-video",
+        "description": "YouTube Shorts - עומר ירון לזמן את הרוע 4 בכורה",
+        "platform": "youtube",
+        "views": 54000,
+        "likes": 1700,
+        "comments": 34,
+        "talent": "8"
+      },
+      {
+        "url": "https://www.tiktok.com/@omeryaron_/video/7546155126982069522",
+        "type": "short-form-video",
+        "description": "TikTok - עומר ירון לזמן את הרוע 4 בכורה",
+        "platform": "tiktok",
+        "views": 361000,
+        "likes": 7872,
+        "comments": 253,
+        "saves": 868,
+        "talent": "8"
+      },
+      {
+        "url": "https://www.instagram.com/reel/DOI_704DS-U/?igsh=MmVybXo3cnFtdmt6",
+        "type": "reel",
+        "description": "Instagram Reel - עומר ירון לזמן את הרוע 4 בכורה",
+        "platform": "instagram",
+        "views": 24500,
+        "likes": 745,
+        "comments": 0,
+        "talent": "8"
+      },
+      {
+        "url": "https://www.youtube.com/shorts/HS1cBE_fBh8?si=WgJL0BTwZYcHAlJV",
+        "type": "short-form-video",
+        "description": "YouTube Shorts - גל כהן לזמן את הרוע 4 בכורה",
+        "platform": "youtube",
+        "views": 81000,
+        "likes": 4200,
+        "comments": 35,
+        "talent": "4"
+      },
+      {
+        "url": "https://vt.tiktok.com/ZSDJjcag7/",
+        "type": "short-form-video",
+        "description": "TikTok - גל כהן לזמן את הרוע 4 בכורה",
+        "platform": "tiktok",
+        "views": 19300,
+        "likes": 573,
+        "comments": 26,
+        "saves": 50,
+        "talent": "4"
+      }
+    ],
+    "details": {
+      "objective": "קידום בכורת הסרט 'לזמן את הרוע 4' עם משפיענים מובילים",
+      "strategy": "שימוש בעומר ירון וגל כהן ליצירת תוכן אותנטי ומעניין על הסרט החדש",
+      "results": "הקמפיין הגיע ליותר מ-541 אלף צפיות עם אחוזי מעורבות גבוהים"
+    }
   }
 ]
