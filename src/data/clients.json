@@ -2,7 +2,7 @@
   {
     "id": "samsung",
     "name": "סמסונג",
-    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg"
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Samsung_wordmark.svg"
   },
   {
     "id": "nintendo",
@@ -79,5 +79,10 @@
     "id": "cerave",
     "name": "CeraVe",
     "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsC7oLhe599QECYHR62W1TbktgXuEOKE5OZA&s"
+  },
+  {
+    "id": "ministry-transport",
+    "name": "משרד התחבורה",
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/he/thumb/a/a3/Israeli_Ministry_of_Transport_and_Road_Safety_Symbol.svg/250px-Israeli_Ministry_of_Transport_and_Road_Safety_Symbol.svg.png"
   }
 ]

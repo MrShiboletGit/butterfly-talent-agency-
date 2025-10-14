@@ -1115,5 +1115,208 @@
       "strategy": "שימוש בעומר ירון וגל כהן ליצירת תוכן אותנטי ומעניין על הסרט החדש",
       "results": "הקמפיין הגיע ליותר מ-541 אלף צפיות עם אחוזי מעורבות גבוהים"
     }
+  },
+  {
+    "id": "glorious-gaming-set-mrshibolet-september-2025",
+    "title": "קמפיין סט גיימינג",
+    "clientId": "glorious-gaming",
+    "description": "קמפיין קידום מוצלח עבור סט גיימינג של Glorious Gaming עם מר שיבולת",
+    "imageUrl": "https://images.unsplash.com/photo-1542751371-adc38448a05e?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    "category": "קמפיין גיימינג",
+    "kpis": {
+      "views": 55000,
+      "engagement": 1760,
+      "shares": 0,
+      "reach": 55000,
+      "impressions": 55000
+    },
+    "talents": ["2"],
+    "platforms": ["youtube", "tiktok"],
+    "startDate": "2025-09-01",
+    "endDate": "2025-09-30",
+    "content": [
+      {
+        "url": "https://www.tiktok.com/@mrshibolet/video/7552844244369591559",
+        "type": "short-form-video",
+        "description": "TikTok - מר שיבולת קמפיין סט גיימינג Glorious Gaming",
+        "platform": "tiktok",
+        "views": 22000,
+        "likes": 300,
+        "comments": 20,
+        "talent": "2"
+      },
+      {
+        "url": "https://www.youtube.com/shorts/liPJHGJQcr8",
+        "type": "short-form-video",
+        "description": "YouTube Shorts - מר שיבולת קמפיין סט גיימינג Glorious Gaming",
+        "platform": "youtube",
+        "views": 33000,
+        "likes": 1400,
+        "comments": 40,
+        "talent": "2"
+      }
+    ],
+    "details": {
+      "objective": "קידום סט גיימינג של Glorious Gaming עם משפיען גיימינג מוביל",
+      "strategy": "שימוש במר שיבולת ליצירת תוכן אותנטי ומעניין על סט הגיימינג",
+      "results": "הקמפיין הגיע ליותר מ-55 אלף צפיות עם אחוזי מעורבות גבוהים"
+    }
+  },
+  {
+    "id": "samsung-ai-campaign-september-2025",
+    "title": "בינה מלאכותית בסמסונג",
+    "clientId": "samsung",
+    "description": "קמפיין מוצלח עבור יכולות הבינה המלאכותית במוצרי סמסונג עם מר שיבולת וגל כהן",
+    "imageUrl": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    "category": "קמפיין טכנולוגיה",
+    "kpis": {
+      "views": 262000,
+      "engagement": 7055,
+      "shares": 171,
+      "reach": 262000,
+      "impressions": 262000
+    },
+    "talents": ["2", "4"],
+    "platforms": ["youtube", "tiktok"],
+    "startDate": "2025-09-01",
+    "endDate": "2025-09-30",
+    "content": [
+      {
+        "url": "https://www.tiktok.com/@mrshibolet/video/7553987551594417426",
+        "type": "short-form-video",
+        "description": "TikTok - מר שיבולת בינה מלאכותית בסמסונג",
+        "platform": "tiktok",
+        "views": 100000,
+        "likes": 1691,
+        "comments": 60,
+        "shares": 171,
+        "talent": "2"
+      },
+      {
+        "url": "https://www.youtube.com/shorts/7r6qDxN9Y8A",
+        "type": "short-form-video",
+        "description": "YouTube Shorts - מר שיבולת בינה מלאכותית בסמסונג",
+        "platform": "youtube",
+        "views": 92000,
+        "likes": 2600,
+        "comments": 62,
+        "talent": "2"
+      },
+      {
+        "url": "https://www.tiktok.com/@galcohenyt/video/7552510400206474497",
+        "type": "short-form-video",
+        "description": "TikTok - גל כהן בינה מלאכותית בסמסונג",
+        "platform": "tiktok",
+        "views": 19000,
+        "likes": 600,
+        "comments": 12,
+        "saves": 39,
+        "talent": "4"
+      },
+      {
+        "url": "https://www.youtube.com/shorts/IhgJRvtXDTU",
+        "type": "short-form-video",
+        "description": "YouTube Shorts - גל כהן בינה מלאכותית בסמסונג",
+        "platform": "youtube",
+        "views": 51000,
+        "likes": 1800,
+        "comments": 20,
+        "talent": "4"
+      }
+    ],
+    "details": {
+      "objective": "קידום יכולות הבינה המלאכותית במוצרי סמסונג עם משפיענים מובילים",
+      "strategy": "שימוש במר שיבולת וגל כהן ליצירת תוכן אותנטי ומעניין על טכנולוגיית ה-AI של סמסונג",
+      "results": "הקמפיין הגיע ליותר מ-262 אלף צפיות עם אחוזי מעורבות גבוהים"
+    }
+  },
+  {
+    "id": "moviz-thief-on-the-roof-israel-galitsky-october-2025",
+    "title": "גנב על הגג",
+    "clientId": "moviez",
+    "description": "קמפיין קידום מוצלח עבור הסרט 'גנב על הגג' עם ישראל גליצקי",
+    "imageUrl": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    "category": "קמפיין קולנוע",
+    "kpis": {
+      "views": 753000,
+      "engagement": 3860,
+      "shares": 667,
+      "reach": 753000,
+      "impressions": 753000
+    },
+    "talents": ["6"],
+    "platforms": ["tiktok"],
+    "startDate": "2025-10-01",
+    "endDate": "2025-10-31",
+    "content": [
+      {
+        "url": "https://vt.tiktok.com/ZSUjkLhA6/",
+        "type": "short-form-video",
+        "description": "TikTok - ישראל גליצקי גנב על הגג",
+        "platform": "tiktok",
+        "views": 753000,
+        "likes": 3100,
+        "comments": 93,
+        "shares": 667,
+        "talent": "6"
+      }
+    ],
+    "details": {
+      "objective": "קידום הסרט 'גנב על הגג' דרך פלטפורמות מדיה חברתית",
+      "strategy": "שימוש בישראל גליצקי ליצירת תוכן מרתק ואותנטי על הסרט בערוצי טיקטוק",
+      "results": "הקמפיין הגיע ליותר מ-753 אלף צפיות עם אחוזי מעורבות גבוהים"
+    }
+  },
+  {
+    "id": "ministry-transport-michal-matzov-october-2025",
+    "title": "קמפיין סוף שנה משרד התחבורה",
+    "clientId": "ministry-transport",
+    "description": "קמפיין קידום מוצלח עבור משרד התחבורה עם מיכל מצוב",
+    "imageUrl": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    "category": "קמפיין ציבורי",
+    "kpis": {
+      "views": 122000,
+      "engagement": 6821,
+      "shares": 591,
+      "reach": 122000,
+      "impressions": 122000
+    },
+    "talents": ["1"],
+    "platforms": ["youtube", "tiktok"],
+    "startDate": "2025-10-25",
+    "endDate": "2025-10-31",
+    "content": [
+      {
+        "url": "https://www.tiktok.com/@michalmatzov/video/7559195096663772434?_r=1&_t=ZS-90PDjWjaGox",
+        "type": "short-form-video",
+        "description": "TikTok - מיכל מצוב משרד התחבורה",
+        "platform": "tiktok",
+        "views": 57000,
+        "likes": 5125,
+        "comments": 296,
+        "shares": 591,
+        "talent": "1"
+      },
+      {
+        "url": "https://www.youtube.com/shorts/","type": "short-form-video",
+        "description": "YouTube Shorts - מיכל מצוב משרד התחבורה",
+        "platform": "youtube",
+        "views": 65000,
+        "likes": 1500,
+        "comments": 95,
+        "talent": "1"
+      }
+    ],
+    "details": {
+      "objective": "קידום תחבורה ציבורית בטוחה עם מיכל מצוב",
+      "strategy": "שימוש במיכל מצוב ליצירת תוכן אותנטי ומרתק על תחבורה ובטיחות בדרכים",
+      "results": "הקמפיין הגיע ליותר מ-122 אלף צפיות עם אחוזי מעורבות גבוהים"
+    }
+  },
+  {
+    "title": "קמפיין תיקוף",
+    "details": {
+      "objective": "קמפיין להעלאת המודעות לצורך התיקוף ברכבת"
+    }
   }
 ]
