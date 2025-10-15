@@ -132,9 +132,18 @@ const ContentCarousel = ({ content }: ContentCarouselProps) => {
           return `https://www.instagram.com/p/${postId}/embed/`;
         }
       } else if (platform === 'tiktok') {
+        // Handle regular TikTok URLs with video ID
         const videoId = url.match(/video\/(\d+)/)?.[1];
         if (videoId) {
           return `https://www.tiktok.com/embed/v2/${videoId}`;
+        }
+        
+        // Handle shortened TikTok URLs (vt.tiktok.com)
+        const shortUrlMatch = url.match(/vt\.tiktok\.com\/([^\/]+)/);
+        if (shortUrlMatch) {
+          // For shortened URLs, we'll use the original URL as fallback
+          // since we can't extract a proper video ID for embedding
+          return null;
         }
       }
     } catch (error) {
@@ -274,28 +283,33 @@ const ContentCarousel = ({ content }: ContentCarouselProps) => {
                  </div>
                ) : item.platform === 'tiktok' ? (
                  <div className="relative w-full h-full">
-                   <iframe
-                     src={getEmbedUrl(item.url, item.platform) || ''}
-                     title={item.description}
-                     className="w-full h-full rounded-t-lg"
-                     frameBorder="0"
-                     allowFullScreen
-                     style={{ aspectRatio: '9/16' }}
-                     onError={() => {
-                       // Fallback to thumbnail if embed fails
-                       const iframe = document.querySelector(`iframe[src="${getEmbedUrl(item.url, item.platform)}"]`) as HTMLIFrameElement;
-                       if (iframe) {
-                         iframe.style.display = 'none';
-                         iframe.nextElementSibling?.classList.remove('hidden');
-                       }
-                     }}
-                   />
-                   <div className="absolute inset-0 bg-gradient-to-br from-pink-400 to-purple-400 flex items-center justify-center hidden">
-                     <div className="text-center text-white">
-                       <div className="text-4xl mb-2">🎵</div>
-                       <div className="text-sm">TikTok Video</div>
+                   {getEmbedUrl(item.url, item.platform) ? (
+                     <iframe
+                       src={getEmbedUrl(item.url, item.platform) || ''}
+                       title={item.description}
+                       className="w-full h-full rounded-t-lg"
+                       frameBorder="0"
+                       allowFullScreen
+                       style={{ aspectRatio: '9/16' }}
+                       onError={() => {
+                         // Fallback to thumbnail if embed fails
+                         const iframe = document.querySelector(`iframe[src="${getEmbedUrl(item.url, item.platform)}"]`) as HTMLIFrameElement;
+                         if (iframe) {
+                           iframe.style.display = 'none';
+                           iframe.nextElementSibling?.classList.remove('hidden');
+                         }
+                       }}
+                     />
+                   ) : (
+                     // Show fallback for shortened URLs or when embed fails
+                     <div className="absolute inset-0 bg-gradient-to-br from-pink-400 to-purple-400 flex items-center justify-center">
+                       <div className="text-center text-white">
+                         <div className="text-4xl mb-2">🎵</div>
+                         <div className="text-sm">TikTok Video</div>
+                         <div className="text-xs mt-2 opacity-80">לחץ לצפייה בטיקטוק</div>
+                       </div>
                      </div>
-                   </div>
+                   )}
                  </div>
                ) : (
                  <img 
