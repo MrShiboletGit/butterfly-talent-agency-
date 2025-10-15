@@ -1298,7 +1298,8 @@
         "talent": "1"
       },
       {
-        "url": "https://www.youtube.com/shorts/","type": "short-form-video",
+        "url": "https://www.youtube.com/shorts/",
+        "type": "short-form-video",
         "description": "YouTube Shorts - מיכל מצוב משרד התחבורה",
         "platform": "youtube",
         "views": 65000,
