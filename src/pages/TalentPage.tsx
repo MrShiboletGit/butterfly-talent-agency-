@@ -21,7 +21,7 @@ const TalentPage = () => {
   const [isImageModalOpen, setIsImageModalOpen] = useState(false);
   
   // Get campaigns this talent participated in
-  const talentCampaigns = campaignsData.filter(campaign => campaign.talents.includes(id!));
+  const talentCampaigns = campaignsData.filter(campaign => campaign.talents && Array.isArray(campaign.talents) && campaign.talents.includes(id!));
   
   const formatNumber = (num: number) => {
     if (num >= 1000000) {
