@@ -1231,43 +1231,6 @@
     }
   },
   {
-    "id": "moviz-thief-on-the-roof-israel-galitsky-october-2025",
-    "title": "גנב על הגג",
-    "clientId": "moviez",
-    "description": "קמפיין קידום מוצלח עבור הסרט 'גנב על הגג' עם ישראל גליצקי",
-    "imageUrl": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-    "category": "קמפיין קולנוע",
-    "kpis": {
-      "views": 753000,
-      "engagement": 3860,
-      "shares": 667,
-      "reach": 753000,
-      "impressions": 753000
-    },
-    "talents": ["6"],
-    "platforms": ["tiktok"],
-    "startDate": "2025-10-01",
-    "endDate": "2025-10-31",
-    "content": [
-      {
-        "url": "https://www.tiktok.com/@israel_galitsky/video/7558834797532040456",
-        "type": "short-form-video",
-        "description": "TikTok - ישראל גליצקי גנב על הגג",
-        "platform": "tiktok",
-        "views": 753000,
-        "likes": 3100,
-        "comments": 93,
-        "shares": 667,
-        "talent": "6"
-      }
-    ],
-    "details": {
-      "objective": "קידום הסרט 'גנב על הגג' דרך פלטפורמות מדיה חברתית",
-      "strategy": "שימוש בישראל גליצקי ליצירת תוכן מרתק ואותנטי על הסרט בערוצי טיקטוק",
-      "results": "הקמפיין הגיע ליותר מ-753 אלף צפיות עם אחוזי מעורבות גבוהים"
-    }
-  },
-  {
     "id": "ministry-transport-michal-matzov-october-2025",
     "title": "קמפיין סוף שנה משרד התחבורה",
     "clientId": "ministry-transport",
