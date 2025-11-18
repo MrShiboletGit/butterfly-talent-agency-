@@ -293,7 +293,7 @@
   },
   {
     "id": "education-ministry-ai-cyber-campaign-2024",
-    "title": "קמפיין למניעת פשעי רשת בבינה מלאכותית בשיתוף 105",
+    "title": "במש למניעת פשעי רשת בבינה מלאכותית בשיתוף 105",
     "clientId": "education-ministry",
     "description": "קמפיין חשוב למניעת פשעי רשת בבינה מלאכותית בשיתוף עם 105",
     "imageUrl": "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
@@ -1117,52 +1117,6 @@
     }
   },
   {
-    "id": "glorious-gaming-set-mrshibolet-september-2025",
-    "title": "קמפיין סט גיימינג",
-    "clientId": "glorious-gaming",
-    "description": "קמפיין קידום מוצלח עבור סט גיימינג של Glorious Gaming עם מר שיבולת",
-    "imageUrl": "https://images.unsplash.com/photo-1542751371-adc38448a05e?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-    "category": "קמפיין גיימינג",
-    "kpis": {
-      "views": 55000,
-      "engagement": 1760,
-      "shares": 0,
-      "reach": 55000,
-      "impressions": 55000
-    },
-    "talents": ["2"],
-    "platforms": ["youtube", "tiktok"],
-    "startDate": "2025-09-01",
-    "endDate": "2025-09-30",
-    "content": [
-      {
-        "url": "https://www.tiktok.com/@mrshibolet/video/7552844244369591559",
-        "type": "short-form-video",
-        "description": "TikTok - מר שיבולת קמפיין סט גיימינג Glorious Gaming",
-        "platform": "tiktok",
-        "views": 22000,
-        "likes": 300,
-        "comments": 20,
-        "talent": "2"
-      },
-      {
-        "url": "https://www.youtube.com/shorts/liPJHGJQcr8",
-        "type": "short-form-video",
-        "description": "YouTube Shorts - מר שיבולת קמפיין סט גיימינג Glorious Gaming",
-        "platform": "youtube",
-        "views": 33000,
-        "likes": 1400,
-        "comments": 40,
-        "talent": "2"
-      }
-    ],
-    "details": {
-      "objective": "קידום סט גיימינג של Glorious Gaming עם משפיען גיימינג מוביל",
-      "strategy": "שימוש במר שיבולת ליצירת תוכן אותנטי ומעניין על סט הגיימינג",
-      "results": "הקמפיין הגיע ליותר מ-55 אלף צפיות עם אחוזי מעורבות גבוהים"
-    }
-  },
-  {
     "id": "samsung-ai-campaign-september-2025",
     "title": "בינה מלאכותית בסמסונג",
     "clientId": "samsung",
@@ -1232,7 +1186,7 @@
   },
   {
     "id": "ministry-transport-michal-matzov-october-2025",
-    "title": "קמפיין סוף שנה משרד התחבורה",
+    "title": "קמפיין לעוף על התיקוף -העלאת מודעות",
     "clientId": "ministry-transport",
     "description": "קמפיין קידום מוצלח עבור משרד התחבורה עם מיכל מצוב",
     "imageUrl": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
@@ -1275,6 +1229,92 @@
       "objective": "קידום תחבורה ציבורית בטוחה עם מיכל מצוב",
       "strategy": "שימוש במיכל מצוב ליצירת תוכן אותנטי ומרתק על תחבורה ובטיחות בדרכים",
       "results": "הקמפיין הגיע ליותר מ-122 אלף צפיות עם אחוזי מעורבות גבוהים"
+    }
+  },
+  {
+    "id": "glorious-gaming-quarterly-campaign-mrshibolet-september-november-2025",
+    "title": "גלוריוס קמפיין רבעוני",
+    "clientId": "glorious-gaming",
+    "description": "קמפיין רבעוני מוצלח עבור Glorious Gaming עם מר שיבולת",
+    "imageUrl": "https://images.unsplash.com/photo-1542751371-adc38448a05e?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    "category": "קמפיין גיימינג",
+    "kpis": {
+      "views": 353009,
+      "engagement": 11784,
+      "shares": 0,
+      "reach": 353009,
+      "impressions": 353009
+    },
+    "talents": ["2"],
+    "platforms": ["youtube", "tiktok"],
+    "startDate": "2025-09-01",
+    "endDate": "2025-11-30",
+    "content": [
+      {
+        "url": "https://www.tiktok.com/@mrshibolet/video/7552844244369591559",
+        "type": "short-form-video",
+        "description": "TikTok - מר שיבולת גלוריוס קמפיין רבעוני",
+        "platform": "tiktok",
+        "views": 57215,
+        "likes": 1318,
+        "comments": 0,
+        "talent": "2"
+      },
+      {
+        "url": "https://www.tiktok.com/@mrshibolet/video/7562901857182420232",
+        "type": "short-form-video",
+        "description": "TikTok - מר שיבולת גלוריוס קמפיין רבעוני",
+        "platform": "tiktok",
+        "views": 172131,
+        "likes": 5864,
+        "comments": 0,
+        "talent": "2"
+      },
+      {
+        "url": "https://www.tiktok.com/@mrshibolet/video/7571068094081256711",
+        "type": "short-form-video",
+        "description": "TikTok - מר שיבולת גלוריוס קמפיין רבעוני",
+        "platform": "tiktok",
+        "views": 47432,
+        "likes": 1150,
+        "comments": 0,
+        "talent": "2"
+      },
+      {
+        "url": "https://www.youtube.com/shorts/liPJHGJQcr8",
+        "type": "short-form-video",
+        "description": "YouTube Shorts - מר שיבולת גלוריוס קמפיין רבעוני",
+        "platform": "youtube",
+        "views": 36829,
+        "likes": 1500,
+        "comments": 0,
+        "talent": "2"
+      },
+      {
+        "url": "https://www.youtube.com/shorts/tJLia9nXTow",
+        "type": "short-form-video",
+        "description": "YouTube Shorts - מר שיבולת גלוריוס קמפיין רבעוני",
+        "platform": "youtube",
+        "views": 25402,
+        "likes": 1001,
+        "comments": 0,
+        "talent": "2"
+      },
+      {
+        "url": "https://www.youtube.com/shorts/0qjJSuIfY0k",
+        "type": "short-form-video",
+        "description": "YouTube Shorts - מר שיבולת גלוריוס קמפיין רבעוני",
+        "platform": "youtube",
+        "views": 15000,
+        "likes": 951,
+        "comments": 0,
+        "talent": "2"
+      }
+    ],
+    "details": {
+      "objective": "קידום מוצרי Glorious Gaming בקמפיין רבעוני עם משפיען גיימינג מוביל",
+      "strategy": "שימוש במר שיבולת ליצירת תוכן אותנטי ומעניין על מוצרי Glorious Gaming",
+      "results": "הקמפיין הגיע ליותר מ-353 אלף צפיות עם אחוזי מעורבות גבוהים"
     }
   }
 ]
