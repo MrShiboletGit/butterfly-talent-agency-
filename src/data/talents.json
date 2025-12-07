@@ -2,16 +2,15 @@
   {
     "id": "1",
     "name": "מיכל מצוב",
-    "category": "לייף סטייל ואופנה",
-    "bio": "בת 29, יוצרת תוכן מובילה עם קהל נאמן, משתתפת המרוץ למיליון 2024, מתמחה בלייף סטייל, אופנה, אוכל ועוד.",
+    "category": "חינוך ולייף סטייל ",
+    "bio": " יוצרת תוכן מובילה עם קהל נאמן, האחות הגדולה של היוטיוב משתתפת המרוץ למיליון 2024, מתמחה בלייף סטייל, חינוך, אופנה , אוכל ועוד.",
     "imageUrl": "/talents/MichalMatzov.png",
-    "totalFollowers": 880400,
+    "totalFollowers": 899400,
     "platformFollowers": {
-      "youtube": 435000,
+      "youtube": 447000,
       "instagram": 104000,
-      "tiktok": 341400
+      "tiktok": 348400
     },
-
     "audience": {
       "age": "12-30",
       "gender": "75% נשים, 25% גברים"
@@ -28,7 +27,13 @@
       "ספורה",
       "מנגו"
     ],
-    "strengths": ["#COMEDY", "#TRAVEL", "#FASHION", "#FOOD", "#LIFESTYLE"]
+    "strengths": [
+      "#COMEDY",
+      "#TRAVEL",
+      "#FASHION",
+      "#FOOD",
+      "#LIFESTYLE"
+    ]
   },
   {
     "id": "2",
@@ -36,13 +41,12 @@
     "category": "גיימינג וטכנולוגיה",
     "bio": "גיימר וכוכב יוטיוב מוביל, AI-מומחה ומרצה בתחום ההייטק עם תשוקה למשחקי מחשב, הומור, טכנולוגיה וחדשנות.",
     "imageUrl": "/talents/shibolet.png",
-    "totalFollowers": 435000,
+    "totalFollowers": 440000,
     "platformFollowers": {
-      "youtube": 275000,
-      "tiktok": 113000,
+      "youtube": 279000,
+      "tiktok": 114000,
       "instagram": 47000
     },
-
     "audience": {
       "age": "12-28",
       "gender": "70% גברים, 30% נשים"
@@ -58,7 +62,13 @@
       "רייזר",
       "לוגיטק"
     ],
-    "strengths": ["#GAMING", "#LECTURES", "#TECHNOLOGY", "#GAME STREAMING", "#INNOVATION"]
+    "strengths": [
+      "#GAMING",
+      "#LECTURES",
+      "#TECHNOLOGY",
+      "#GAME STREAMING",
+      "#INNOVATION"
+    ]
   },
   {
     "id": "3",
@@ -66,13 +76,12 @@
     "category": "גיימינג ותוכן",
     "bio": "בן 22, יוצא 8200, מהיוטיוברים המובילים בישראל. מפעיל את ערוצי FireWolf ו-FireWolf2 עם תוכן גיימינג ווידאו.",
     "imageUrl": "/talents/Firewolf.png",
-    "totalFollowers": 407400,
+    "totalFollowers": 412400,
     "platformFollowers": {
-      "youtube": 318000,
-      "tiktok": 64100,
+      "youtube": 321000,
+      "tiktok": 66100,
       "instagram": 25300
     },
-
     "audience": {
       "age": "12-25",
       "gender": "75% גברים, 25% נשים"
@@ -89,7 +98,13 @@
       "Ubisoft",
       "Steam"
     ],
-    "strengths": ["#GAMING", "#FOOD", "#TECHNOLOGY", "#VIDEO", "#TRAVEL"]
+    "strengths": [
+      "#GAMING",
+      "#FOOD",
+      "#TECHNOLOGY",
+      "#VIDEO",
+      "#TRAVEL"
+    ]
   },
   {
     "id": "4",
@@ -97,11 +112,11 @@
     "category": "גיימינג ושורטים",
     "bio": "יוטיובר גיימר בן 22, מתמחה בגיימינג וקרוס-פלטפורם סטרימינג. מוביל בבראול סטארס.",
     "imageUrl": "/talents/GalCohen.png",
-    "totalFollowers": 337900,
+    "totalFollowers": 366900,
     "platformFollowers": {
-      "youtube": 250000,
+      "youtube": 279000,
       "instagram": 20600,
-      "tiktok": 67300
+      "tiktok": 76300
     },
     "engagement": "5.8%",
     "audience": {
@@ -119,7 +134,11 @@
       "Brawl Stars",
       "Mobile Gaming"
     ],
-    "strengths": ["#GAMING", "#COOLSHORTS", "#GAME STREAMING"]
+    "strengths": [
+      "#GAMING",
+      "#COOLSHORTS",
+      "#GAME STREAMING"
+    ]
   },
   {
     "id": "5",
@@ -129,11 +148,10 @@
     "imageUrl": "/talents/rainbow_queen.jpeg",
     "totalFollowers": 274000,
     "platformFollowers": {
-      "youtube": 215000,
+      "youtube": 214000,
       "instagram": 16500,
-      "tiktok": 42500
+      "tiktok": 43500
     },
-
     "audience": {
       "age": "12-28",
       "gender": "60% נשים, 40% גברים"
@@ -149,7 +167,9 @@
       "רייזר",
       "לוגיטק"
     ],
-    "strengths": ["#GAMING"]
+    "strengths": [
+      "#GAMING"
+    ]
   },
   {
     "id": "6",
@@ -157,13 +177,12 @@
     "category": "קולנוע ובידור",
     "bio": "יוצר תוכן בתחום הקולנוע והבידור עם מעל 4 שנות ניסיון ביצירת ולוגים וסרטונים.",
     "imageUrl": "/talents/Israel Galitsky.png",
-    "totalFollowers": 153400,
+    "totalFollowers": 165930,
     "platformFollowers": {
-      "youtube": 4700,
-      "tiktok": 132300,
+      "youtube": 6530,
+      "tiktok": 143700,
       "instagram": 16400
     },
-
     "audience": {
       "age": "10-35",
       "gender": "60% גברים, 40% נשים"
@@ -179,7 +198,12 @@
       "כאן 11",
       "רשת 13"
     ],
-    "strengths": ["#CINEMA", "#ENTERTAINMENT", "#VLOGS", "#REVIEWS"]
+    "strengths": [
+      "#CINEMA",
+      "#ENTERTAINMENT",
+      "#VLOGS",
+      "#REVIEWS"
+    ]
   },
   {
     "id": "7",
@@ -187,21 +211,20 @@
     "category": "גיימינג ומיינקראפט",
     "bio": "יוצר תוכן גיימינג ותיק, מוכר בעיקר מתוכן מיינקראפט, פעיל מעל 13 שנה.",
     "imageUrl": "/talents/2bof.png",
-    "totalFollowers": 195600,
+    "totalFollowers": 203600,
     "platformFollowers": {
-      "youtube": 172000,
-      "tiktok": 18000,
-      "instagram": 5600
+      "youtube": 178000,
+      "tiktok": 19900,
+      "instagram": 5700
     },
-
     "audience": {
       "age": "12-32",
       "gender": "70% גברים, 30% נשים"
     },
     "socialMedia": {
       "youtube": "https://youtube.com/@2bof",
-      "tiktok": "https://tiktok.com/@2bof",
-      "instagram": "https://instagram.com/2bof"
+      "tiktok": "https://tiktok.com/@david_2bof",
+      "instagram": "hhttps://www.instagram.com/david_2bof/"
     },
     "previousCollaborations": [
       "Minecraft",
@@ -209,7 +232,12 @@
       "Microsoft Gaming",
       "Roblox"
     ],
-    "strengths": ["#MINECRAFT", "#GAMING", "#TUTORIALS", "#BUILDING"]
+    "strengths": [
+      "#MINECRAFT",
+      "#GAMING",
+      "#TUTORIALS",
+      "#BUILDING"
+    ]
   },
   {
     "id": "8",
@@ -217,11 +245,11 @@
     "category": "מדע וטכנולוגיה",
     "bio": "עומר בן 22, יוצר כריזמטי בתחום המדע והטכנולוגיה, רקע בצילום ובימוי, לשעבר ביחידת הסרטה בצה\"ל, יוצר תוכן ויראלי בעברית ואנגלית.",
     "imageUrl": "/talents/Omer Yaron.png",
-    "totalFollowers": 51900,
+    "totalFollowers": 103500,
     "platformFollowers": {
-      "youtube": 20200,
-      "tiktok": 27700,
-      "instagram": 4000
+      "youtube": 39200,
+      "tiktok": 51700,
+      "instagram": 12600
     },
     "engagement": "5.2%",
     "audience": {
@@ -239,7 +267,13 @@
       "אינטל",
       "משרד המדע"
     ],
-    "strengths": ["#SCIENCE", "#TECHNOLOGY", "#EDUCATION", "#INNOVATION", "#HEALTH"]
+    "strengths": [
+      "#SCIENCE",
+      "#TECHNOLOGY",
+      "#EDUCATION",
+      "#INNOVATION",
+      "#HEALTH"
+    ]
   },
   {
     "id": "9",
@@ -247,11 +281,11 @@
     "category": "גיימינג",
     "bio": "בת 20, יוצרת תוכן גיימינג עם קהל מעורב, מתמקדת בקשר לקהילה וסטרימינג ייחודי.",
     "imageUrl": "/talents/Cinaminna.png",
-    "totalFollowers": 51000,
+    "totalFollowers": 98000,
     "platformFollowers": {
-      "youtube": 43000,
+      "youtube": 29600,
       "instagram": 4000,
-      "tiktok": 4000
+      "tiktok": 64800
     },
     "engagement": "7.8%",
     "audience": {
@@ -260,8 +294,8 @@
     },
     "socialMedia": {
       "youtube": "https://youtube.com/@cinnaminaa",
-      "instagram": "https://instagram.com/cinnaminaa",
-      "tiktok": "https://tiktok.com/@cinnaminaa"
+      "instagram": "https://www.instagram.com/cinnaminaa_",
+      "tiktok": "https://www.tiktok.com/@mina_avrehanian"
     },
     "previousCollaborations": [
       "Twitch",
@@ -269,6 +303,10 @@
       "Steam",
       "Epic Games"
     ],
-    "strengths": ["#GAMING", "#STREAMING", "#COMMUNITY"]
+    "strengths": [
+      "#GAMING",
+      "#STREAMING",
+      "#COMMUNITY"
+    ]
   }
 ]
