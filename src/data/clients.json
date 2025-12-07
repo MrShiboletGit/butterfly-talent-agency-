@@ -84,5 +84,10 @@
     "id": "ministry-transport",
     "name": "משרד התחבורה",
     "logoUrl": "https://upload.wikimedia.org/wikipedia/he/thumb/a/a3/Israeli_Ministry_of_Transport_and_Road_Safety_Symbol.svg/250px-Israeli_Ministry_of_Transport_and_Road_Safety_Symbol.svg.png"
+  },
+  {
+    "id": "iai",
+    "name": "התעשייה האווירית",
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/he/thumb/c/c7/IAI_logo_2025.jpg/250px-IAI_logo_2025.jpg"
   }
 ]
