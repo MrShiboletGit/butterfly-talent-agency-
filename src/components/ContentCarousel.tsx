@@ -198,10 +198,11 @@ const ContentCarousel = ({ content }: ContentCarouselProps) => {
     const containerWidth = containerRef.current.offsetWidth;
     const threshold = containerWidth * 0.15;
     
+    // RTL: swipe left = next, swipe right = prev
     if (dragOffset > threshold) {
-      prevSlide();
-    } else if (dragOffset < -threshold) {
       nextSlide();
+    } else if (dragOffset < -threshold) {
+      prevSlide();
     }
     
     setIsDragging(false);
@@ -238,13 +239,13 @@ const ContentCarousel = ({ content }: ContentCarouselProps) => {
     handleDragEnd();
   };
 
-  // Calculate transform with drag offset
+  // Calculate transform with drag offset (RTL inverted)
   const getTransform = () => {
     const itemWidth = 100 / itemsPerView;
     const baseTransform = currentIndex * itemWidth;
     const containerWidth = containerRef.current?.offsetWidth || 0;
     const dragPercent = containerWidth > 0 ? (dragOffset / containerWidth) * 100 : 0;
-    return `translateX(${baseTransform - dragPercent}%)`;
+    return `translateX(${baseTransform + dragPercent}%)`;
   };
 
   return (
