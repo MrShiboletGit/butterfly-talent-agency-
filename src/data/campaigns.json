@@ -7,14 +7,20 @@
     "imageUrl": "https://images.unsplash.com/photo-1542751371-adc38448a05e?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
     "category": "קמפיין גיימינג",
     "kpis": {
-      "views": 66000,
-      "engagement": 3024,
+      "views": 178988,
+      "engagement": 7031,
       "shares": 0,
-      "reach": 66000,
-      "impressions": 66000
+      "reach": 178988,
+      "impressions": 178988
     },
-    "talents": ["4"],
-    "platforms": ["youtube", "tiktok", "instagram"],
+    "talents": [
+      "4"
+    ],
+    "platforms": [
+      "youtube",
+      "tiktok",
+      "instagram"
+    ],
     "startDate": "2025-08-01",
     "endDate": "2025-08-31",
     "content": [
@@ -23,8 +29,8 @@
         "type": "short-form-video",
         "description": "TikTok - גל כהן קמפיין לוג'יטק מסיבת הגיימינג",
         "platform": "tiktok",
-        "views": 21000,
-        "likes": 696,
+        "views": 42300,
+        "likes": 1042,
         "comments": 50,
         "talent": "4"
       },
@@ -33,8 +39,8 @@
         "type": "short-form-video",
         "description": "YouTube Shorts - גל כהן קמפיין לוג'יטק מסיבת הגיימינג",
         "platform": "youtube",
-        "views": 45000,
-        "likes": 2300,
+        "views": 136688,
+        "likes": 5826,
         "comments": 28,
         "talent": "4"
       },
@@ -44,7 +50,7 @@
         "description": "Instagram Post - גל כהן קמפיין לוג'יטק מסיבת הגיימינג",
         "platform": "instagram",
         "views": 0,
-        "likes": 0,
+        "likes": 85,
         "comments": 0,
         "talent": "4"
       }
@@ -63,14 +69,18 @@
     "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
     "category": "קמפיין קידום מבצעים",
     "kpis": {
-      "views": 157000,
-      "engagement": 4440,
+      "views": 180419,
+      "engagement": 4865,
       "shares": 0,
-      "reach": 157000,
-      "impressions": 157000
+      "reach": 180419,
+      "impressions": 180419
     },
-    "talents": ["4"],
-    "platforms": ["youtube"],
+    "talents": [
+      "4"
+    ],
+    "platforms": [
+      "youtube"
+    ],
     "startDate": "2025-05-01",
     "endDate": "2025-05-31",
     "content": [
@@ -79,8 +89,8 @@
         "type": "short-form-video",
         "description": "YouTube Shorts - גל כהן קידום מבצעים מחסני חשמל",
         "platform": "youtube",
-        "views": 157000,
-        "likes": 4400,
+        "views": 180419,
+        "likes": 4825,
         "comments": 40,
         "talent": "4"
       }
@@ -99,14 +109,18 @@
     "imageUrl": "https://images.unsplash.com/photo-1542751371-adc38448a05e?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
     "category": "קמפיין גיימינג",
     "kpis": {
-      "views": 207000,
-      "engagement": 4163,
+      "views": 265049,
+      "engagement": 4925,
       "shares": 0,
-      "reach": 207000,
-      "impressions": 207000
+      "reach": 265049,
+      "impressions": 265049
     },
-    "talents": ["3"],
-    "platforms": ["youtube"],
+    "talents": [
+      "3"
+    ],
+    "platforms": [
+      "youtube"
+    ],
     "startDate": "2025-07-01",
     "endDate": "2025-07-31",
     "content": [
@@ -115,8 +129,8 @@
         "type": "short-form-video",
         "description": "YouTube Shorts - רועי פיירזולף קמפיין נינטנדו",
         "platform": "youtube",
-        "views": 207000,
-        "likes": 4100,
+        "views": 265049,
+        "likes": 4862,
         "comments": 63,
         "talent": "3"
       }
@@ -135,14 +149,20 @@
     "imageUrl": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
     "category": "קמפיין שנתי",
     "kpis": {
-      "views": 397000,
-      "engagement": 10027,
-      "shares": 108,
-      "reach": 397000,
-      "impressions": 397000
+      "views": 520139,
+      "engagement": 17578,
+      "shares": 0,
+      "reach": 520139,
+      "impressions": 520139
     },
-    "talents": ["4", "2"],
-    "platforms": ["youtube", "tiktok"],
+    "talents": [
+      "4",
+      "2"
+    ],
+    "platforms": [
+      "youtube",
+      "tiktok"
+    ],
     "startDate": "2025-08-01",
     "endDate": "2025-08-31",
     "content": [
@@ -151,8 +171,8 @@
         "type": "short-form-video",
         "description": "YouTube Shorts - גל כהן קמפיין סמסונג Q3",
         "platform": "youtube",
-        "views": 197000,
-        "likes": 8200,
+        "views": 293194,
+        "likes": 11472,
         "comments": 66,
         "talent": "4"
       },
@@ -161,8 +181,8 @@
         "type": "short-form-video",
         "description": "TikTok - גל כהן קמפיין סמסונג Q3",
         "platform": "tiktok",
-        "views": 25000,
-        "likes": 1701,
+        "views": 35700,
+        "likes": 2014,
         "comments": 50,
         "saves": 97,
         "talent": "4"
@@ -172,8 +192,8 @@
         "type": "short-form-video",
         "description": "YouTube Shorts - שיבולת קמפיין סמסונג Q3",
         "platform": "youtube",
-        "views": 170000,
-        "likes": 3200,
+        "views": 177545,
+        "likes": 3343,
         "comments": 75,
         "talent": "2"
       },
@@ -182,8 +202,8 @@
         "type": "short-form-video",
         "description": "TikTok - שיבולת קמפיין סמסונג Q3",
         "platform": "tiktok",
-        "views": 10000,
-        "likes": 371,
+        "views": 13700,
+        "likes": 441,
         "comments": 9,
         "saves": 11,
         "talent": "2"
@@ -203,14 +223,19 @@
     "imageUrl": "https://images.unsplash.com/photo-1542751371-adc38448a05e?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
     "category": "קמפיין גיימינג",
     "kpis": {
-      "views": 122000,
-      "engagement": 2085,
+      "views": 142334,
+      "engagement": 3578,
       "shares": 38,
-      "reach": 122000,
-      "impressions": 122000
+      "reach": 142334,
+      "impressions": 142334
     },
-    "talents": ["3"],
-    "platforms": ["youtube", "tiktok"],
+    "talents": [
+      "3"
+    ],
+    "platforms": [
+      "youtube",
+      "tiktok"
+    ],
     "startDate": "2025-08-01",
     "endDate": "2025-08-31",
     "content": [
@@ -219,8 +244,8 @@
         "type": "short-form-video",
         "description": "YouTube Shorts - קידום סט אביזרי גיימינג Glorious Gaming",
         "platform": "youtube",
-        "views": 96000,
-        "likes": 1300,
+        "views": 99934,
+        "likes": 2222,
         "comments": 26,
         "talent": "3"
       },
@@ -229,8 +254,8 @@
         "type": "short-form-video",
         "description": "TikTok - קידום סט אביזרי גיימינג Glorious Gaming",
         "platform": "tiktok",
-        "views": 26000,
-        "likes": 682,
+        "views": 42400,
+        "likes": 1273,
         "comments": 21,
         "saves": 36,
         "shares": 38,
@@ -252,13 +277,17 @@
     "category": "קמפיין השקה",
     "kpis": {
       "views": 43300,
-      "engagement": 1001,
+      "engagement": 1628,
       "shares": 27,
       "reach": 43300,
       "impressions": 43300
     },
-    "talents": ["2"],
-    "platforms": ["instagram"],
+    "talents": [
+      "2"
+    ],
+    "platforms": [
+      "instagram"
+    ],
     "startDate": "2025-07-01",
     "endDate": "2025-07-31",
     "content": [
@@ -268,7 +297,7 @@
         "description": "ריל השקה אפליקציה לשליטה במזגן - טאדירן",
         "platform": "instagram",
         "views": 20300,
-        "likes": 962,
+        "likes": 1616,
         "comments": 12,
         "shares": 27,
         "talent": "2"
@@ -299,14 +328,20 @@
     "imageUrl": "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
     "category": "קמפיין חינוכי",
     "kpis": {
-      "views": 1818000,
-      "engagement": 3506,
+      "views": 1819492,
+      "engagement": 3636,
       "shares": 0,
-      "reach": 1818000,
-      "impressions": 1818000
+      "reach": 1819492,
+      "impressions": 1819492
     },
-    "talents": ["2", "1"],
-    "platforms": ["youtube", "tiktok"],
+    "talents": [
+      "2",
+      "1"
+    ],
+    "platforms": [
+      "youtube",
+      "tiktok"
+    ],
     "startDate": "2024-09-01",
     "endDate": "2024-12-31",
     "content": [
@@ -315,8 +350,8 @@
         "type": "short-form-video",
         "description": "YouTube Shorts - קמפיין למניעת פשעי רשת בבינה מלאכותית",
         "platform": "youtube",
-        "views": 18000,
-        "likes": 1000,
+        "views": 19492,
+        "likes": 1061,
         "comments": 32,
         "talent": "2"
       },
@@ -347,14 +382,20 @@
     "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
     "category": "קמפיין מיתוג מעסיק",
     "kpis": {
-      "views": 99000,
-      "engagement": 3927,
+      "views": 107712,
+      "engagement": 3975,
       "shares": 56,
-      "reach": 99000,
-      "impressions": 99000
+      "reach": 107712,
+      "impressions": 107712
     },
-    "talents": ["2"],
-    "platforms": ["tiktok", "instagram", "youtube"],
+    "talents": [
+      "2"
+    ],
+    "platforms": [
+      "tiktok",
+      "instagram",
+      "youtube"
+    ],
     "startDate": "2024-09-01",
     "endDate": "2024-12-31",
     "content": [
@@ -363,7 +404,7 @@
         "type": "short-form-video",
         "description": "TikTok - מיתוג מעסיק אלביט וסימולטור טיסה",
         "platform": "tiktok",
-        "views": 18000,
+        "views": 25400,
         "likes": 690,
         "comments": 12,
         "shares": 56,
@@ -375,7 +416,7 @@
         "description": "Instagram Post - מיתוג מעסיק אלביט וסימולטור טיסה",
         "platform": "instagram",
         "views": 12000,
-        "likes": 295,
+        "likes": 296,
         "comments": 20,
         "talent": "2"
       },
@@ -384,8 +425,8 @@
         "type": "short-form-video",
         "description": "YouTube Shorts - מיתוג מעסיק אלביט וסימולטור טיסה",
         "platform": "youtube",
-        "views": 69000,
-        "likes": 2900,
+        "views": 70312,
+        "likes": 2932,
         "comments": 25,
         "talent": "2"
       }
@@ -405,13 +446,17 @@
     "category": "קמפיין השקה",
     "kpis": {
       "views": 38000,
-      "engagement": 195,
+      "engagement": 196,
       "shares": 0,
       "reach": 38000,
       "impressions": 38000
     },
-    "talents": ["2"],
-    "platforms": ["instagram"],
+    "talents": [
+      "2"
+    ],
+    "platforms": [
+      "instagram"
+    ],
     "startDate": "2024-09-01",
     "endDate": "2024-12-31",
     "content": [
@@ -421,7 +466,7 @@
         "description": "Instagram Post - השקה כרטיס מאסטרקארד פרמיום בנק הדואר",
         "platform": "instagram",
         "views": 15000,
-        "likes": 187,
+        "likes": 188,
         "comments": 8,
         "talent": "2"
       },
@@ -451,40 +496,45 @@
     "imageUrl": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
     "category": "קמפיין ספרים",
     "kpis": {
-      "views": 64000,
-      "engagement": 4882,
+      "views": 98900,
+      "engagement": 8081,
       "shares": 493,
-      "reach": 64000,
-      "impressions": 64000
+      "reach": 98900,
+      "impressions": 98900
     },
-    "talents": ["6"],
-    "platforms": ["instagram", "tiktok"],
+    "talents": [
+      "6"
+    ],
+    "platforms": [
+      "instagram",
+      "tiktok"
+    ],
     "startDate": "2025-08-01",
     "endDate": "2025-08-31",
     "content": [
-             {
-         "url": "https://www.instagram.com/reel/DM-I-75CDfa/?igsh=MWcydHJndDFwaXFrbA==",
-         "type": "reel",
-         "description": "ריל קידום הספר של ביל - ידיעות ספרים",
-         "platform": "instagram",
-         "views": 15000,
-         "likes": 461,
-         "comments": 28,
-         "shares": 0,
-         "talent": "6"
-       },
-       {
-         "url": "https://www.tiktok.com/@israel_galitsky/video/7535054778527698184",
-         "type": "short-form-video",
-         "description": "סרטון TikTok קידום הספר של ביל - ידיעות ספרים",
-         "platform": "tiktok",
-         "views": 52000,
-         "likes": 4441,
-         "comments": 379,
-         "saves": 0,
-         "shares": 493,
-         "talent": "6"
-       }
+      {
+        "url": "https://www.instagram.com/reel/DM-I-75CDfa/?igsh=MWcydHJndDFwaXFrbA==",
+        "type": "reel",
+        "description": "ריל קידום הספר של ביל - ידיעות ספרים",
+        "platform": "instagram",
+        "views": 15000,
+        "likes": 572,
+        "comments": 28,
+        "shares": 0,
+        "talent": "6"
+      },
+      {
+        "url": "https://www.tiktok.com/@israel_galitsky/video/7535054778527698184",
+        "type": "short-form-video",
+        "description": "סרטון TikTok קידום הספר של ביל - ידיעות ספרים",
+        "platform": "tiktok",
+        "views": 83900,
+        "likes": 7102,
+        "comments": 379,
+        "saves": 0,
+        "shares": 493,
+        "talent": "6"
+      }
     ],
     "details": {
       "objective": "קידום מכירות הספר של ביל בהוצאת ידיעות ספרים",
@@ -500,14 +550,20 @@
     "imageUrl": "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
     "category": "קמפיין דיגיטלי",
     "kpis": {
-      "views": 245600,
-      "engagement": 10796,
+      "views": 355600,
+      "engagement": 16405,
       "shares": 1416,
-      "reach": 245600,
-      "impressions": 245600
+      "reach": 355600,
+      "impressions": 355600
     },
-    "talents": ["1", "2"],
-    "platforms": ["instagram", "tiktok"],
+    "talents": [
+      "1",
+      "2"
+    ],
+    "platforms": [
+      "instagram",
+      "tiktok"
+    ],
     "startDate": "2025-07-01",
     "endDate": "2025-07-31",
     "content": [
@@ -538,8 +594,8 @@
         "type": "short-form-video",
         "description": "סרטון TikTok - Jooba אפליקציית מסחר לנוער",
         "platform": "tiktok",
-        "views": 87200,
-        "likes": 5568,
+        "views": 110400,
+        "likes": 6439,
         "comments": 355,
         "saves": 1605,
         "shares": 798,
@@ -550,8 +606,8 @@
         "type": "short-form-video",
         "description": "סרטון TikTok נוסף - Jooba אפליקציית מסחר לנוער",
         "platform": "tiktok",
-        "views": 23600,
-        "likes": 800,
+        "views": 110400,
+        "likes": 6439,
         "comments": 48,
         "saves": 249,
         "shares": 84,
@@ -564,22 +620,34 @@
       "results": "הקמפיין הגיע ליותר מחצי מיליון צפיות עם אחוזי מעורבות גבוהים"
     }
   },
-           {
-           "id": "jurassic-world-moviz-campaign-2025",
-           "title": "עולם היורה - סרט בקולנוע",
-           "clientId": "moviez",
-           "description": "קמפיין השקה מרשים עבור סרט 'עולם היורה' בקולנוע שהגיע ל-3.2 מיליון צפיות",
-           "imageUrl": "https://images.unsplash.com/photo-1536440136628-849c177e76a1?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-           "category": "קמפיין קולנוע",
-               "kpis": {
-             "views": 3200000,
-             "engagement": 45000,
-             "shares": 1200,
-             "reach": 3200000,
-             "impressions": 3200000
-           },
-               "talents": ["2", "4", "1", "6", "7", "5", "9"],
-    "platforms": ["youtube", "instagram", "tiktok"],
+  {
+    "id": "jurassic-world-moviz-campaign-2025",
+    "title": "עולם היורה - סרט בקולנוע",
+    "clientId": "moviez",
+    "description": "קמפיין השקה מרשים עבור סרט 'עולם היורה' בקולנוע שהגיע ל-3.2 מיליון צפיות",
+    "imageUrl": "https://images.unsplash.com/photo-1536440136628-849c177e76a1?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    "category": "קמפיין קולנוע",
+    "kpis": {
+      "views": 3912420,
+      "engagement": 27534,
+      "shares": 551,
+      "reach": 3912420,
+      "impressions": 3912420
+    },
+    "talents": [
+      "2",
+      "4",
+      "1",
+      "6",
+      "7",
+      "5",
+      "9"
+    ],
+    "platforms": [
+      "youtube",
+      "instagram",
+      "tiktok"
+    ],
     "startDate": "2025-07-01",
     "endDate": "2025-07-31",
     "content": [
@@ -588,8 +656,8 @@
         "type": "short-form-video",
         "description": "סרטון TikTok - עולם היורה בקולנוע",
         "platform": "tiktok",
-        "views": 138000,
-        "likes": 356,
+        "views": 139600,
+        "likes": 390,
         "comments": 37,
         "shares": 16,
         "talent": "4"
@@ -599,8 +667,8 @@
         "type": "short-form-video",
         "description": "YouTube Shorts - עולם היורה בקולנוע",
         "platform": "youtube",
-        "views": 81000,
-        "likes": 3200,
+        "views": 93864,
+        "likes": 3520,
         "comments": 197,
         "talent": "4"
       },
@@ -614,23 +682,23 @@
         "comments": 20,
         "talent": "4"
       },
-                   {
-               "url": "https://www.youtube.com/shorts/cjgzTFNLkmM",
-               "type": "short-form-video",
-               "description": "YouTube Shorts - עולם היורה בקולנוע",
-               "platform": "youtube",
-               "views": 31000,
-               "likes": 1200,
-               "comments": 168,
-               "talent": "2"
-             },
+      {
+        "url": "https://www.youtube.com/shorts/cjgzTFNLkmM",
+        "type": "short-form-video",
+        "description": "YouTube Shorts - עולם היורה בקולנוע",
+        "platform": "youtube",
+        "views": 33117,
+        "likes": 1258,
+        "comments": 168,
+        "talent": "2"
+      },
       {
         "url": "https://www.tiktok.com/@mrshibolet/video/7522503929377082631",
         "type": "short-form-video",
         "description": "סרטון TikTok - עולם היורה בקולנוע",
         "platform": "tiktok",
-        "views": 1300000,
-        "likes": 4370,
+        "views": 1700000,
+        "likes": 5015,
         "comments": 203,
         "saves": 304,
         "talent": "2"
@@ -641,7 +709,7 @@
         "description": "Instagram Reel - עולם היורה בקולנוע",
         "platform": "instagram",
         "views": 18000,
-        "likes": 280,
+        "likes": 283,
         "comments": 50,
         "talent": "2"
       },
@@ -651,7 +719,7 @@
         "description": "Instagram Reel - עולם היורה בקולנוע",
         "platform": "instagram",
         "views": 20000,
-        "likes": 250,
+        "likes": 254,
         "comments": 42,
         "talent": "6"
       },
@@ -660,8 +728,8 @@
         "type": "short-form-video",
         "description": "TikTok - עולם היורה בקולנוע",
         "platform": "tiktok",
-        "views": 319000,
-        "likes": 1798,
+        "views": 320600,
+        "likes": 1857,
         "comments": 191,
         "saves": 109,
         "shares": 180,
@@ -672,8 +740,8 @@
         "type": "short-form-video",
         "description": "YouTube Shorts - עולם היורה בקולנוע",
         "platform": "youtube",
-        "views": 5000,
-        "likes": 124,
+        "views": 6165,
+        "likes": 145,
         "comments": 10,
         "talent": "6"
       },
@@ -682,8 +750,8 @@
         "type": "short-form-video",
         "description": "TikTok - עולם היורה בקולנוע",
         "platform": "tiktok",
-        "views": 215000,
-        "likes": 524,
+        "views": 336400,
+        "likes": 705,
         "comments": 19,
         "saves": 50,
         "shares": 22,
@@ -694,8 +762,8 @@
         "type": "short-form-video",
         "description": "YouTube Shorts - עולם היורה בקולנוע",
         "platform": "youtube",
-        "views": 20000,
-        "likes": 901,
+        "views": 24180,
+        "likes": 984,
         "comments": 59,
         "talent": "7"
       },
@@ -714,8 +782,8 @@
         "type": "short-form-video",
         "description": "TikTok - עולם היורה בקולנוע",
         "platform": "tiktok",
-        "views": 644000,
-        "likes": 5043,
+        "views": 814800,
+        "likes": 5474,
         "comments": 984,
         "saves": 375,
         "shares": 253,
@@ -727,7 +795,7 @@
         "description": "Instagram Reel - עולם היורה בקולנוע",
         "platform": "instagram",
         "views": 25000,
-        "likes": 455,
+        "likes": 490,
         "comments": 233,
         "talent": "1"
       },
@@ -736,8 +804,8 @@
         "type": "short-form-video",
         "description": "YouTube Shorts - עולם היורה בקולנוע",
         "platform": "youtube",
-        "views": 26000,
-        "likes": 900,
+        "views": 29660,
+        "likes": 920,
         "comments": 305,
         "talent": "1"
       },
@@ -746,8 +814,8 @@
         "type": "short-form-video",
         "description": "TikTok - עולם היורה בקולנוע",
         "platform": "tiktok",
-        "views": 208000,
-        "likes": 316,
+        "views": 249800,
+        "likes": 373,
         "comments": 119,
         "saves": 34,
         "shares": 69,
@@ -758,8 +826,8 @@
         "type": "short-form-video",
         "description": "YouTube Shorts - עולם היורה בקולנוע",
         "platform": "youtube",
-        "views": 21000,
-        "likes": 671,
+        "views": 24556,
+        "likes": 700,
         "comments": 165,
         "talent": "5"
       },
@@ -768,8 +836,8 @@
         "type": "short-form-video",
         "description": "YouTube Shorts - עולם היורה בקולנוע",
         "platform": "youtube",
-        "views": 23000,
-        "likes": 312,
+        "views": 34178,
+        "likes": 420,
         "comments": 53,
         "talent": "9"
       },
@@ -778,19 +846,19 @@
         "type": "short-form-video",
         "description": "TikTok - עולם היורה בקולנוע",
         "platform": "tiktok",
-        "views": 17000,
-        "likes": 490,
+        "views": 20500,
+        "likes": 573,
         "comments": 145,
         "saves": 36,
         "shares": 11,
         "talent": "9"
       }
     ],
-         "details": {
-       "objective": "הגברת המודעות לסרט 'עולם היורה' בקולנוע ועידוד רכישת כרטיסים",
-       "strategy": "מהלך משפיענים כולל ומסונכרן עם פעילות העגה להקרנה של הסרט",
-       "results": "הקמפיין הגיע ל-3.2 מיליון צפיות בכל המדיות החברתיות עם עידוד רכישת כרטיסים"
-     }
+    "details": {
+      "objective": "הגברת המודעות לסרט 'עולם היורה' בקולנוע ועידוד רכישת כרטיסים",
+      "strategy": "מהלך משפיענים כולל ומסונכרן עם פעילות העגה להקרנה של הסרט",
+      "results": "הקמפיין הגיע ל-3.2 מיליון צפיות בכל המדיות החברתיות עם עידוד רכישת כרטיסים"
+    }
   },
   {
     "id": "moviez-end-july-campaign-2025",
@@ -800,14 +868,20 @@
     "imageUrl": "https://images.unsplash.com/photo-1536440136628-849c177e76a1?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
     "category": "קמפיין קולנוע",
     "kpis": {
-      "views": 2150000,
-      "engagement": 15000,
-      "shares": 533,
-      "reach": 2150000,
-      "impressions": 2150000
+      "views": 2656472,
+      "engagement": 23361,
+      "shares": 119,
+      "reach": 2656472,
+      "impressions": 2656472
     },
-    "talents": ["3", "8"],
-    "platforms": ["youtube", "tiktok"],
+    "talents": [
+      "3",
+      "8"
+    ],
+    "platforms": [
+      "youtube",
+      "tiktok"
+    ],
     "startDate": "2025-07-29",
     "endDate": "2025-07-31",
     "content": [
@@ -816,8 +890,8 @@
         "type": "short-form-video",
         "description": "YouTube Shorts - קידום סרט סופרמן בקולנוע",
         "platform": "youtube",
-        "views": 442000,
-        "likes": 8500,
+        "views": 530802,
+        "likes": 9738,
         "comments": 2910,
         "talent": "3"
       },
@@ -826,8 +900,8 @@
         "type": "short-form-video",
         "description": "TikTok - קידום סרט סופרמן בקולנוע",
         "platform": "tiktok",
-        "views": 798000,
-        "likes": 1239,
+        "views": 801900,
+        "likes": 1299,
         "comments": 114,
         "saves": 0,
         "shares": 119,
@@ -838,8 +912,8 @@
         "type": "short-form-video",
         "description": "TikTok - קידום סרט סופרמן בקולנוע",
         "platform": "tiktok",
-        "views": 1100000,
-        "likes": 4928,
+        "views": 1200000,
+        "likes": 5415,
         "comments": 238,
         "saves": 401,
         "shares": 0,
@@ -850,8 +924,8 @@
         "type": "short-form-video",
         "description": "YouTube Shorts - קידום סרט סופרמן בקולנוע",
         "platform": "youtube",
-        "views": 97000,
-        "likes": 6600,
+        "views": 123770,
+        "likes": 2810,
         "comments": 436,
         "talent": "8"
       }
@@ -870,14 +944,19 @@
     "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
     "category": "קמפיין קידום מבצעים",
     "kpis": {
-      "views": 154200,
-      "engagement": 1077,
+      "views": 181605,
+      "engagement": 7097,
       "shares": 0,
-      "reach": 154200,
-      "impressions": 154200
+      "reach": 181605,
+      "impressions": 181605
     },
-    "talents": ["4"],
-    "platforms": ["youtube", "tiktok"],
+    "talents": [
+      "4"
+    ],
+    "platforms": [
+      "youtube",
+      "tiktok"
+    ],
     "startDate": "2025-08-25",
     "endDate": "2025-08-31",
     "content": [
@@ -886,8 +965,8 @@
         "type": "short-form-video",
         "description": "YouTube Shorts - קמפיין סוף הקיץ מחסני חשמל",
         "platform": "youtube",
-        "views": 124000,
-        "likes": 5000,
+        "views": 145105,
+        "likes": 5800,
         "comments": 38,
         "talent": "4"
       },
@@ -896,8 +975,8 @@
         "type": "short-form-video",
         "description": "TikTok - קמפיין סוף הקיץ מחסני חשמל",
         "platform": "tiktok",
-        "views": 28200,
-        "likes": 1006,
+        "views": 36500,
+        "likes": 1188,
         "comments": 27,
         "saves": 44,
         "talent": "4"
@@ -917,14 +996,19 @@
     "imageUrl": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
     "category": "קמפיין חינוכי",
     "kpis": {
-      "views": 78000,
-      "engagement": 1952,
+      "views": 116554,
+      "engagement": 2600,
       "shares": 0,
-      "reach": 78000,
-      "impressions": 78000
+      "reach": 116554,
+      "impressions": 116554
     },
-    "talents": ["2"],
-    "platforms": ["youtube", "tiktok"],
+    "talents": [
+      "2"
+    ],
+    "platforms": [
+      "youtube",
+      "tiktok"
+    ],
     "startDate": "2025-08-25",
     "endDate": "2025-08-31",
     "content": [
@@ -933,8 +1017,8 @@
         "type": "short-form-video",
         "description": "YouTube Shorts - קמפיין חזרה ללימודים עם קרביץ",
         "platform": "youtube",
-        "views": 72000,
-        "likes": 1900,
+        "views": 92354,
+        "likes": 2246,
         "comments": 42,
         "talent": "2"
       },
@@ -943,8 +1027,8 @@
         "type": "short-form-video",
         "description": "TikTok - קמפיין חזרה ללימודים עם קרביץ",
         "platform": "tiktok",
-        "views": 6000,
-        "likes": 211,
+        "views": 24200,
+        "likes": 298,
         "comments": 14,
         "talent": "2"
       }
@@ -963,14 +1047,19 @@
     "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
     "category": "קמפיין השקה",
     "kpis": {
-      "views": 90700,
-      "engagement": 3103,
+      "views": 146907,
+      "engagement": 4697,
       "shares": 0,
-      "reach": 90700,
-      "impressions": 90700
+      "reach": 146907,
+      "impressions": 146907
     },
-    "talents": ["4"],
-    "platforms": ["youtube", "tiktok"],
+    "talents": [
+      "4"
+    ],
+    "platforms": [
+      "youtube",
+      "tiktok"
+    ],
     "startDate": "2025-08-25",
     "endDate": "2025-08-31",
     "content": [
@@ -979,8 +1068,8 @@
         "type": "short-form-video",
         "description": "YouTube Shorts - השקה משקה מוגו מוגו סוויטוויט",
         "platform": "youtube",
-        "views": 70000,
-        "likes": 2400,
+        "views": 120607,
+        "likes": 3801,
         "comments": 87,
         "talent": "4"
       },
@@ -989,8 +1078,8 @@
         "type": "short-form-video",
         "description": "TikTok - השקה משקה מוגו מוגו סוויטוויט",
         "platform": "tiktok",
-        "views": 20700,
-        "likes": 615,
+        "views": 26300,
+        "likes": 768,
         "comments": 41,
         "talent": "4"
       }
@@ -1009,14 +1098,18 @@
     "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
     "category": "קמפיין אירוע",
     "kpis": {
-      "views": 86700,
-      "engagement": 3287,
+      "views": 136300,
+      "engagement": 4444,
       "shares": 0,
-      "reach": 86700,
-      "impressions": 86700
+      "reach": 136300,
+      "impressions": 136300
     },
-    "talents": ["3"],
-    "platforms": ["tiktok"],
+    "talents": [
+      "3"
+    ],
+    "platforms": [
+      "tiktok"
+    ],
     "startDate": "2025-09-01",
     "endDate": "2025-09-30",
     "content": [
@@ -1025,8 +1118,8 @@
         "type": "short-form-video",
         "description": "TikTok - רועי פיירזולף מסיבת סוף שנה CeraVe",
         "platform": "tiktok",
-        "views": 86700,
-        "likes": 3068,
+        "views": 136300,
+        "likes": 4223,
         "comments": 43,
         "saves": 178,
         "talent": "3"
@@ -1046,14 +1139,21 @@
     "imageUrl": "https://images.unsplash.com/photo-1536440136628-849c177e76a1?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
     "category": "קמפיין קולנוע",
     "kpis": {
-      "views": 541800,
-      "engagement": 16888,
+      "views": 711990,
+      "engagement": 21690,
       "shares": 0,
-      "reach": 541800,
-      "impressions": 541800
+      "reach": 711990,
+      "impressions": 711990
     },
-    "talents": ["8", "4"],
-    "platforms": ["youtube", "tiktok", "instagram"],
+    "talents": [
+      "8",
+      "4"
+    ],
+    "platforms": [
+      "youtube",
+      "tiktok",
+      "instagram"
+    ],
     "startDate": "2025-09-01",
     "endDate": "2025-09-30",
     "content": [
@@ -1062,8 +1162,8 @@
         "type": "short-form-video",
         "description": "YouTube Shorts - עומר ירון לזמן את הרוע 4 בכורה",
         "platform": "youtube",
-        "views": 54000,
-        "likes": 1700,
+        "views": 81972,
+        "likes": 2032,
         "comments": 34,
         "talent": "8"
       },
@@ -1072,8 +1172,8 @@
         "type": "short-form-video",
         "description": "TikTok - עומר ירון לזמן את הרוע 4 בכורה",
         "platform": "tiktok",
-        "views": 361000,
-        "likes": 7872,
+        "views": 399900,
+        "likes": 9239,
         "comments": 253,
         "saves": 868,
         "talent": "8"
@@ -1084,7 +1184,7 @@
         "description": "Instagram Reel - עומר ירון לזמן את הרוע 4 בכורה",
         "platform": "instagram",
         "views": 24500,
-        "likes": 745,
+        "likes": 903,
         "comments": 0,
         "talent": "8"
       },
@@ -1093,8 +1193,8 @@
         "type": "short-form-video",
         "description": "YouTube Shorts - גל כהן לזמן את הרוע 4 בכורה",
         "platform": "youtube",
-        "views": 81000,
-        "likes": 4200,
+        "views": 153318,
+        "likes": 7205,
         "comments": 35,
         "talent": "4"
       },
@@ -1103,8 +1203,8 @@
         "type": "short-form-video",
         "description": "TikTok - גל כהן לזמן את הרוע 4 בכורה",
         "platform": "tiktok",
-        "views": 19300,
-        "likes": 573,
+        "views": 52300,
+        "likes": 1045,
         "comments": 26,
         "saves": 50,
         "talent": "4"
@@ -1124,14 +1224,20 @@
     "imageUrl": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
     "category": "קמפיין טכנולוגיה",
     "kpis": {
-      "views": 262000,
-      "engagement": 7055,
+      "views": 219005,
+      "engagement": 7892,
       "shares": 171,
-      "reach": 262000,
-      "impressions": 262000
+      "reach": 219005,
+      "impressions": 219005
     },
-    "talents": ["2", "4"],
-    "platforms": ["youtube", "tiktok"],
+    "talents": [
+      "2",
+      "4"
+    ],
+    "platforms": [
+      "youtube",
+      "tiktok"
+    ],
     "startDate": "2025-09-01",
     "endDate": "2025-09-30",
     "content": [
@@ -1140,8 +1246,8 @@
         "type": "short-form-video",
         "description": "TikTok - מר שיבולת בינה מלאכותית בסמסונג",
         "platform": "tiktok",
-        "views": 100000,
-        "likes": 1691,
+        "views": 28600,
+        "likes": 2037,
         "comments": 60,
         "shares": 171,
         "talent": "2"
@@ -1151,8 +1257,8 @@
         "type": "short-form-video",
         "description": "YouTube Shorts - מר שיבולת בינה מלאכותית בסמסונג",
         "platform": "youtube",
-        "views": 92000,
-        "likes": 2600,
+        "views": 107076,
+        "likes": 2872,
         "comments": 62,
         "talent": "2"
       },
@@ -1161,8 +1267,8 @@
         "type": "short-form-video",
         "description": "TikTok - גל כהן בינה מלאכותית בסמסונג",
         "platform": "tiktok",
-        "views": 19000,
-        "likes": 600,
+        "views": 21700,
+        "likes": 691,
         "comments": 12,
         "saves": 39,
         "talent": "4"
@@ -1172,8 +1278,8 @@
         "type": "short-form-video",
         "description": "YouTube Shorts - גל כהן בינה מלאכותית בסמסונג",
         "platform": "youtube",
-        "views": 51000,
-        "likes": 1800,
+        "views": 61629,
+        "likes": 2099,
         "comments": 20,
         "talent": "4"
       }
@@ -1192,14 +1298,19 @@
     "imageUrl": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
     "category": "קמפיין ציבורי",
     "kpis": {
-      "views": 122000,
-      "engagement": 6821,
+      "views": 166748,
+      "engagement": 8126,
       "shares": 591,
-      "reach": 122000,
-      "impressions": 122000
+      "reach": 166748,
+      "impressions": 166748
     },
-    "talents": ["1"],
-    "platforms": ["youtube", "tiktok"],
+    "talents": [
+      "1"
+    ],
+    "platforms": [
+      "youtube",
+      "tiktok"
+    ],
     "startDate": "2025-10-25",
     "endDate": "2025-10-31",
     "content": [
@@ -1208,8 +1319,8 @@
         "type": "short-form-video",
         "description": "TikTok - מיכל מצוב משרד התחבורה",
         "platform": "tiktok",
-        "views": 57000,
-        "likes": 5125,
+        "views": 72300,
+        "likes": 5759,
         "comments": 296,
         "shares": 591,
         "talent": "1"
@@ -1219,8 +1330,8 @@
         "type": "short-form-video",
         "description": "YouTube Shorts - מיכל מצוב משרד התחבורה",
         "platform": "youtube",
-        "views": 65000,
-        "likes": 1500,
+        "views": 94448,
+        "likes": 1976,
         "comments": 95,
         "talent": "1"
       }
@@ -1239,14 +1350,19 @@
     "imageUrl": "https://images.unsplash.com/photo-1542751371-adc38448a05e?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
     "category": "קמפיין גיימינג",
     "kpis": {
-      "views": 353009,
-      "engagement": 11784,
+      "views": 356956,
+      "engagement": 12082,
       "shares": 0,
-      "reach": 353009,
-      "impressions": 353009
+      "reach": 356956,
+      "impressions": 356956
     },
-    "talents": ["2"],
-    "platforms": ["youtube", "tiktok"],
+    "talents": [
+      "2"
+    ],
+    "platforms": [
+      "youtube",
+      "tiktok"
+    ],
     "startDate": "2025-09-01",
     "endDate": "2025-11-30",
     "content": [
@@ -1255,8 +1371,8 @@
         "type": "short-form-video",
         "description": "TikTok - מר שיבולת גלוריוס קמפיין רבעוני",
         "platform": "tiktok",
-        "views": 57215,
-        "likes": 1318,
+        "views": 57300,
+        "likes": 1326,
         "comments": 0,
         "talent": "2"
       },
@@ -1265,8 +1381,8 @@
         "type": "short-form-video",
         "description": "TikTok - מר שיבולת גלוריוס קמפיין רבעוני",
         "platform": "tiktok",
-        "views": 172131,
-        "likes": 5864,
+        "views": 173100,
+        "likes": 5894,
         "comments": 0,
         "talent": "2"
       },
@@ -1275,8 +1391,8 @@
         "type": "short-form-video",
         "description": "TikTok - מר שיבולת גלוריוס קמפיין רבעוני",
         "platform": "tiktok",
-        "views": 47432,
-        "likes": 1150,
+        "views": 44500,
+        "likes": 1175,
         "comments": 0,
         "talent": "2"
       },
@@ -1285,8 +1401,8 @@
         "type": "short-form-video",
         "description": "YouTube Shorts - מר שיבולת גלוריוס קמפיין רבעוני",
         "platform": "youtube",
-        "views": 36829,
-        "likes": 1500,
+        "views": 37601,
+        "likes": 1548,
         "comments": 0,
         "talent": "2"
       },
@@ -1295,8 +1411,8 @@
         "type": "short-form-video",
         "description": "YouTube Shorts - מר שיבולת גלוריוס קמפיין רבעוני",
         "platform": "youtube",
-        "views": 25402,
-        "likes": 1001,
+        "views": 26939,
+        "likes": 1104,
         "comments": 0,
         "talent": "2"
       },
@@ -1305,8 +1421,8 @@
         "type": "short-form-video",
         "description": "YouTube Shorts - מר שיבולת גלוריוס קמפיין רבעוני",
         "platform": "youtube",
-        "views": 15000,
-        "likes": 951,
+        "views": 17516,
+        "likes": 1035,
         "comments": 0,
         "talent": "2"
       }
@@ -1325,14 +1441,20 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/he/thumb/c/c7/IAI_logo_2025.jpg/250px-IAI_logo_2025.jpg",
     "category": "קמפיין מיתוג מעסיק",
     "kpis": {
-      "views": 126100,
-      "engagement": 6321,
+      "views": 131423,
+      "engagement": 6383,
       "shares": 0,
-      "reach": 126100,
-      "impressions": 126100
+      "reach": 131423,
+      "impressions": 131423
     },
-    "talents": ["2"],
-    "platforms": ["youtube", "tiktok", "instagram"],
+    "talents": [
+      "2"
+    ],
+    "platforms": [
+      "youtube",
+      "tiktok",
+      "instagram"
+    ],
     "startDate": "2025-11-01",
     "endDate": "2025-11-30",
     "content": [
@@ -1341,8 +1463,8 @@
         "type": "short-form-video",
         "description": "YouTube Shorts - מר שיבולת קמפיין גיוס עובדים התעשייה האווירית",
         "platform": "youtube",
-        "views": 9300,
-        "likes": 306,
+        "views": 9793,
+        "likes": 348,
         "comments": 0,
         "talent": "2"
       },
@@ -1351,8 +1473,8 @@
         "type": "short-form-video",
         "description": "YouTube Shorts - מר שיבולת קמפיין גיוס עובדים התעשייה האווירית",
         "platform": "youtube",
-        "views": 9100,
-        "likes": 313,
+        "views": 10130,
+        "likes": 333,
         "comments": 0,
         "talent": "2"
       },
@@ -1361,8 +1483,8 @@
         "type": "short-form-video",
         "description": "TikTok - מר שיבולת קמפיין גיוס עובדים התעשייה האווירית",
         "platform": "tiktok",
-        "views": 59200,
-        "likes": 4239,
+        "views": 63000,
+        "likes": 4410,
         "comments": 0,
         "talent": "2"
       },
@@ -1372,7 +1494,7 @@
         "description": "Instagram Post - מר שיבולת קמפיין גיוס עובדים התעשייה האווירית",
         "platform": "instagram",
         "views": 40400,
-        "likes": 1300,
+        "likes": 1130,
         "comments": 0,
         "talent": "2"
       },
@@ -1382,7 +1504,7 @@
         "description": "Instagram Reel - מר שיבולת קמפיין גיוס עובדים התעשייה האווירית",
         "platform": "instagram",
         "views": 8100,
-        "likes": 163,
+        "likes": 162,
         "comments": 0,
         "talent": "2"
       }

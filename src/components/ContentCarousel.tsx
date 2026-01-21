@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef, useCallback } from 'react';
 import { ChevronLeft, ChevronRight, Play, ExternalLink, Eye, Heart, MessageCircle, Share2, Bookmark } from 'lucide-react';
 import talentsData from '../data/talents.json';
 
@@ -22,20 +22,42 @@ interface ContentCarouselProps {
 
 const ContentCarousel = ({ content }: ContentCarouselProps) => {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [isMobile, setIsMobile] = useState(false);
+  
+  // Drag state
+  const [isDragging, setIsDragging] = useState(false);
+  const [dragOffset, setDragOffset] = useState(0);
+  const dragStartX = useRef(0);
+  const containerRef = useRef<HTMLDivElement>(null);
 
   // Sort content by views in descending order
   const sortedContent = [...content].sort((a, b) => (b.views || 0) - (a.views || 0));
 
-     // Auto-rotate every 20 seconds
-   useEffect(() => {
-     const interval = setInterval(() => {
-       setCurrentIndex((prevIndex) => 
-         prevIndex + 3 >= sortedContent.length ? 0 : prevIndex + 3
-       );
-     }, 20000);
+  // Check if mobile on mount and resize
+  useEffect(() => {
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth < 768);
+    };
+    checkMobile();
+    window.addEventListener('resize', checkMobile);
+    return () => window.removeEventListener('resize', checkMobile);
+  }, []);
+
+  // Items per view based on screen size
+  const itemsPerView = isMobile ? 1 : 3;
+
+  // Auto-rotate every 20 seconds
+  useEffect(() => {
+    if (isDragging) return;
+    
+    const interval = setInterval(() => {
+      setCurrentIndex((prevIndex) => 
+        prevIndex + 1 >= sortedContent.length ? 0 : prevIndex + 1
+      );
+    }, 20000);
 
     return () => clearInterval(interval);
-  }, [sortedContent.length]);
+  }, [sortedContent.length, isDragging]);
 
   const formatNumber = (num: number) => {
     if (num >= 1000000) {
@@ -143,37 +165,92 @@ const ContentCarousel = ({ content }: ContentCarouselProps) => {
     return null;
   };
 
-  const nextSlide = () => {
-    if (sortedContent.length <= 3) return; // No navigation needed if 3 or fewer items
+  const nextSlide = useCallback(() => {
+    if (sortedContent.length <= itemsPerView) return;
     setCurrentIndex((prevIndex) => 
-      prevIndex + 3 >= sortedContent.length ? 0 : prevIndex + 3
+      prevIndex + 1 >= sortedContent.length ? 0 : prevIndex + 1
     );
-  };
+  }, [sortedContent.length, itemsPerView]);
 
-  const prevSlide = () => {
-    if (sortedContent.length <= 3) return; // No navigation needed if 3 or fewer items
+  const prevSlide = useCallback(() => {
+    if (sortedContent.length <= itemsPerView) return;
     setCurrentIndex((prevIndex) => 
-      prevIndex - 3 < 0 ? Math.max(0, sortedContent.length - 3) : prevIndex - 3
+      prevIndex - 1 < 0 ? sortedContent.length - 1 : prevIndex - 1
     );
-  };
+  }, [sortedContent.length, itemsPerView]);
 
-  // Get current items to display (up to 3 at a time)
-  const getCurrentItems = () => {
-    const items = [];
-    const maxItems = Math.min(3, sortedContent.length);
-    for (let i = 0; i < maxItems; i++) {
-      const index = (currentIndex + i) % sortedContent.length;
-      items.push(sortedContent[index]);
+  // Drag handlers
+  const handleDragStart = useCallback((clientX: number) => {
+    setIsDragging(true);
+    dragStartX.current = clientX;
+    setDragOffset(0);
+  }, []);
+
+  const handleDragMove = useCallback((clientX: number) => {
+    if (!isDragging || !containerRef.current) return;
+    const diff = clientX - dragStartX.current;
+    setDragOffset(diff);
+  }, [isDragging]);
+
+  const handleDragEnd = useCallback(() => {
+    if (!isDragging || !containerRef.current) return;
+    
+    const containerWidth = containerRef.current.offsetWidth;
+    const threshold = containerWidth * 0.15;
+    
+    if (dragOffset > threshold) {
+      prevSlide();
+    } else if (dragOffset < -threshold) {
+      nextSlide();
     }
-    return items;
+    
+    setIsDragging(false);
+    setDragOffset(0);
+  }, [isDragging, dragOffset, nextSlide, prevSlide]);
+
+  // Mouse events
+  const handleMouseDown = (e: React.MouseEvent) => {
+    handleDragStart(e.clientX);
   };
 
-  const currentItems = getCurrentItems();
+  const handleMouseMove = (e: React.MouseEvent) => {
+    handleDragMove(e.clientX);
+  };
+
+  const handleMouseUp = () => {
+    handleDragEnd();
+  };
+
+  const handleMouseLeave = () => {
+    if (isDragging) handleDragEnd();
+  };
+
+  // Touch events
+  const handleTouchStart = (e: React.TouchEvent) => {
+    handleDragStart(e.touches[0].clientX);
+  };
+
+  const handleTouchMove = (e: React.TouchEvent) => {
+    handleDragMove(e.touches[0].clientX);
+  };
+
+  const handleTouchEnd = () => {
+    handleDragEnd();
+  };
+
+  // Calculate transform with drag offset
+  const getTransform = () => {
+    const itemWidth = 100 / itemsPerView;
+    const baseTransform = currentIndex * itemWidth;
+    const containerWidth = containerRef.current?.offsetWidth || 0;
+    const dragPercent = containerWidth > 0 ? (dragOffset / containerWidth) * 100 : 0;
+    return `translateX(${baseTransform - dragPercent}%)`;
+  };
 
   return (
     <div className="relative">
-      {/* Navigation Buttons - only show if more than 3 items */}
-      {sortedContent.length > 3 && (
+      {/* Navigation Buttons - only show if more than itemsPerView items */}
+      {sortedContent.length > itemsPerView && (
         <>
           <button
             onClick={prevSlide}
@@ -193,10 +270,31 @@ const ContentCarousel = ({ content }: ContentCarouselProps) => {
         </>
       )}
 
-      {/* Content Grid - dynamic columns based on content count */}
-      <div className={`grid gap-6 ${currentItems.length === 1 ? 'grid-cols-1' : currentItems.length === 2 ? 'grid-cols-1 md:grid-cols-2' : 'grid-cols-1 md:grid-cols-3'}`}>
-        {currentItems.map((item, index) => (
-          <div key={`${currentIndex}-${index}`} className="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-100">
+      {/* Content Slider */}
+      <div 
+        ref={containerRef}
+        className="overflow-hidden cursor-grab active:cursor-grabbing"
+        onMouseDown={handleMouseDown}
+        onMouseMove={handleMouseMove}
+        onMouseUp={handleMouseUp}
+        onMouseLeave={handleMouseLeave}
+        onTouchStart={handleTouchStart}
+        onTouchMove={handleTouchMove}
+        onTouchEnd={handleTouchEnd}
+      >
+        <div 
+          className={`flex ${isDragging ? '' : 'transition-transform duration-500 ease-out'}`}
+          style={{ 
+            transform: getTransform(),
+            userSelect: 'none',
+          }}
+        >
+        {sortedContent.map((item, index) => (
+          <div 
+            key={`${currentIndex}-${index}`} 
+            className={`${isMobile ? 'w-full' : 'w-1/3'} flex-shrink-0 px-3`}
+          >
+          <div className="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-100">
             {/* Content Header */}
             <div className="p-4 border-b border-gray-100">
               <div className="flex items-center justify-between mb-2">
@@ -388,22 +486,24 @@ const ContentCarousel = ({ content }: ContentCarouselProps) => {
                </div>
              </div>
           </div>
+          </div>
         ))}
+        </div>
       </div>
 
-      {/* Dots Indicator - only show if more than 3 items */}
-      {sortedContent.length > 3 && (
+      {/* Dots Indicator - only show if more than itemsPerView items */}
+      {sortedContent.length > itemsPerView && (
         <div className="flex justify-center mt-8 space-x-2 space-x-reverse">
-          {Array.from({ length: Math.ceil(sortedContent.length / 3) }, (_, index) => (
+          {sortedContent.map((_, index) => (
             <button
               key={index}
-              onClick={() => setCurrentIndex(index * 3)}
+              onClick={() => setCurrentIndex(index)}
               className={`w-3 h-3 rounded-full transition-all duration-200 ${
-                Math.floor(currentIndex / 3) === index
+                currentIndex === index
                   ? 'bg-primary' 
                   : 'bg-gray-300 hover:bg-gray-400'
               }`}
-              aria-label={`Go to content group ${index + 1}`}
+              aria-label={`Go to content ${index + 1}`}
             />
           ))}
         </div>

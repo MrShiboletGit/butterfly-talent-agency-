@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef, useCallback } from 'react';
 import { Link } from 'react-router-dom';
 import { Eye, Users, Calendar, TrendingUp, ChevronLeft, ChevronRight } from 'lucide-react';
 import campaignsData from '../data/campaigns.json';
@@ -40,6 +40,12 @@ interface Campaign {
 const CampaignsCarousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isMobile, setIsMobile] = useState(false);
+  
+  // Drag state
+  const [isDragging, setIsDragging] = useState(false);
+  const [dragOffset, setDragOffset] = useState(0);
+  const dragStartX = useRef(0);
+  const containerRef = useRef<HTMLDivElement>(null);
 
   // Check if mobile on mount and resize
   useEffect(() => {
@@ -94,19 +100,85 @@ const CampaignsCarousel = () => {
     });
   };
 
-  const nextSlide = () => {
+  const nextSlide = useCallback(() => {
     setCurrentIndex((prevIndex) => 
-      prevIndex + campaignsPerView >= processedCampaigns.length ? 0 : prevIndex + campaignsPerView
+      prevIndex + 1 >= processedCampaigns.length ? 0 : prevIndex + 1
     );
+  }, [processedCampaigns.length]);
+
+  const prevSlide = useCallback(() => {
+    setCurrentIndex((prevIndex) => 
+      prevIndex - 1 < 0 ? processedCampaigns.length - 1 : prevIndex - 1
+    );
+  }, [processedCampaigns.length]);
+
+  // Drag handlers
+  const handleDragStart = useCallback((clientX: number) => {
+    setIsDragging(true);
+    dragStartX.current = clientX;
+    setDragOffset(0);
+  }, []);
+
+  const handleDragMove = useCallback((clientX: number) => {
+    if (!isDragging || !containerRef.current) return;
+    const diff = clientX - dragStartX.current;
+    setDragOffset(diff);
+  }, [isDragging]);
+
+  const handleDragEnd = useCallback(() => {
+    if (!isDragging || !containerRef.current) return;
+    
+    const containerWidth = containerRef.current.offsetWidth;
+    const threshold = containerWidth * 0.15;
+    
+    if (dragOffset > threshold) {
+      prevSlide();
+    } else if (dragOffset < -threshold) {
+      nextSlide();
+    }
+    
+    setIsDragging(false);
+    setDragOffset(0);
+  }, [isDragging, dragOffset, nextSlide, prevSlide]);
+
+  // Mouse events
+  const handleMouseDown = (e: React.MouseEvent) => {
+    handleDragStart(e.clientX);
   };
 
-  const prevSlide = () => {
-    setCurrentIndex((prevIndex) => 
-      prevIndex - campaignsPerView < 0 ? Math.max(0, processedCampaigns.length - campaignsPerView) : prevIndex - campaignsPerView
-    );
+  const handleMouseMove = (e: React.MouseEvent) => {
+    handleDragMove(e.clientX);
   };
 
-  const visibleCampaigns = processedCampaigns.slice(currentIndex, currentIndex + campaignsPerView);
+  const handleMouseUp = () => {
+    handleDragEnd();
+  };
+
+  const handleMouseLeave = () => {
+    if (isDragging) handleDragEnd();
+  };
+
+  // Touch events
+  const handleTouchStart = (e: React.TouchEvent) => {
+    handleDragStart(e.touches[0].clientX);
+  };
+
+  const handleTouchMove = (e: React.TouchEvent) => {
+    handleDragMove(e.touches[0].clientX);
+  };
+
+  const handleTouchEnd = () => {
+    handleDragEnd();
+  };
+
+  // Calculate transform with drag offset
+  const getTransform = () => {
+    const itemWidth = 100 / campaignsPerView;
+    const baseTransform = currentIndex * itemWidth;
+    const containerWidth = containerRef.current?.offsetWidth || 0;
+    const dragPercent = containerWidth > 0 ? (dragOffset / containerWidth) * 100 : 0;
+    return `translateX(${baseTransform - dragPercent}%)`;
+  };
 
   return (
     <div className="relative">
@@ -127,14 +199,35 @@ const CampaignsCarousel = () => {
         <ChevronRight className="w-6 h-6" />
       </button>
 
-      {/* Campaigns Grid */}
-      <div className={`grid gap-8 ${isMobile ? 'grid-cols-1' : 'grid-cols-3'}`}>
-        {visibleCampaigns.map((campaign: Campaign) => (
-          <Link 
+      {/* Campaigns Slider */}
+      <div 
+        ref={containerRef}
+        className="overflow-hidden cursor-grab active:cursor-grabbing"
+        onMouseDown={handleMouseDown}
+        onMouseMove={handleMouseMove}
+        onMouseUp={handleMouseUp}
+        onMouseLeave={handleMouseLeave}
+        onTouchStart={handleTouchStart}
+        onTouchMove={handleTouchMove}
+        onTouchEnd={handleTouchEnd}
+      >
+        <div 
+          className={`flex ${isDragging ? '' : 'transition-transform duration-500 ease-out'}`}
+          style={{ 
+            transform: getTransform(),
+            userSelect: 'none',
+          }}
+        >
+        {processedCampaigns.map((campaign: Campaign) => (
+          <div 
             key={campaign.id} 
-            to={`/campaign/${campaign.id}`}
-            className="group bg-white rounded-lg shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden"
+            className={`${isMobile ? 'w-full' : 'w-1/3'} flex-shrink-0 px-4`}
           >
+            <Link 
+              to={`/campaign/${campaign.id}`}
+              className="group bg-white rounded-lg shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden block"
+              onClick={(e) => isDragging && e.preventDefault()}
+            >
                                <div className="relative overflow-hidden bg-gray-50">
                      <div className="w-full h-48 flex items-center justify-center p-8">
                        <img 
@@ -212,17 +305,19 @@ const CampaignsCarousel = () => {
               </div>
             </div>
           </Link>
+          </div>
         ))}
+        </div>
       </div>
 
       {/* Dots Indicator */}
       <div className="flex justify-center mt-8 space-x-2 space-x-reverse">
-        {Array.from({ length: Math.ceil(processedCampaigns.length / campaignsPerView) }, (_, index) => (
+        {processedCampaigns.map((_, index) => (
           <button
             key={index}
-            onClick={() => setCurrentIndex(index * campaignsPerView)}
+            onClick={() => setCurrentIndex(index)}
             className={`w-3 h-3 rounded-full transition-all duration-200 ${
-              index === Math.floor(currentIndex / campaignsPerView) 
+              index === currentIndex 
                 ? 'bg-primary' 
                 : 'bg-gray-300 hover:bg-gray-400'
             }`}
