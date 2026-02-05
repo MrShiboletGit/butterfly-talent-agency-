@@ -23,7 +23,7 @@ const USER_STORAGE_KEY = 'admin_user';
 // Allowed emails for admin access
 const ALLOWED_EMAILS = [
   'mr.shibolet@gmail.com',
-  'contact@butterfly-talent.com'
+  'natilevi46@gmail.com'
 ];
 
 // Check if we're in development mode
