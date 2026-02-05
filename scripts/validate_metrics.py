@@ -377,7 +377,8 @@ class MetricsValidator:
         self.channel_results: list[ChannelMetrics] = []
         
         # Rate limiting delay (seconds between requests)
-        self.delay = 2
+        # Higher delay to avoid rate limiting from social media platforms
+        self.delay = 5
     
     def load_data(self) -> tuple[list, list]:
         """Load campaigns and talents JSON files"""
@@ -691,7 +692,7 @@ def main():
     log("="*60)
     log(f"Campaigns: {campaigns_path}")
     log(f"Talents: {talents_path}")
-    log(f"Delay between requests: 2 seconds")
+    log(f"Delay between requests: 5 seconds")
     
     # Initialize validator
     validator = MetricsValidator(str(campaigns_path), str(talents_path))
