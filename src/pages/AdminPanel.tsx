@@ -1,11 +1,12 @@
 import { useState, useEffect } from 'react';
 import { GoogleLogin, GoogleOAuthProvider } from '@react-oauth/google';
 import { useAuth } from '@/contexts/AuthContext';
-import { adminApi, type Client, type Talent, type NewClient, type NewTalent, type NewCampaign, type ContentItem } from '@/lib/adminApi';
+import { adminApi, type Client, type Talent, type Campaign, type NewClient, type NewTalent, type NewCampaign, type ContentItem } from '@/lib/adminApi';
 
 // Import JSON data for dev mode
 import clientsData from '@/data/clients.json';
 import talentsData from '@/data/talents.json';
+import campaignsData from '@/data/campaigns.json';
 
 const isDevelopment = import.meta.env.DEV;
 import { Button } from '@/components/ui/button';
@@ -18,7 +19,18 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@
 import { Badge } from '@/components/ui/badge';
 import { Separator } from '@/components/ui/separator';
 import { useToast } from '@/hooks/use-toast';
-import { RefreshCw, Plus, LogOut, User, AlertCircle, CheckCircle2, Loader2 } from 'lucide-react';
+import { RefreshCw, Plus, LogOut, User, AlertCircle, CheckCircle2, Loader2, Trash2 } from 'lucide-react';
+import {
+  AlertDialog,
+  AlertDialogAction,
+  AlertDialogCancel,
+  AlertDialogContent,
+  AlertDialogDescription,
+  AlertDialogFooter,
+  AlertDialogHeader,
+  AlertDialogTitle,
+  AlertDialogTrigger,
+} from '@/components/ui/alert-dialog';
 
 // Google Client ID - this should be set in environment variables
 const GOOGLE_CLIENT_ID = import.meta.env.VITE_GOOGLE_CLIENT_ID || '';
@@ -981,12 +993,274 @@ function CampaignForm({ token, clients, talents, onSuccess }: {
   );
 }
 
+// Delete confirmation dialog component
+function DeleteConfirmDialog({ 
+  itemType, 
+  itemName, 
+  onConfirm, 
+  isDeleting,
+  children 
+}: { 
+  itemType: string;
+  itemName: string;
+  onConfirm: () => void;
+  isDeleting: boolean;
+  children: React.ReactNode;
+}) {
+  return (
+    <AlertDialog>
+      <AlertDialogTrigger asChild>
+        {children}
+      </AlertDialogTrigger>
+      <AlertDialogContent>
+        <AlertDialogHeader>
+          <AlertDialogTitle className="text-red-600">
+            ⚠️ Delete {itemType}?
+          </AlertDialogTitle>
+          <AlertDialogDescription className="space-y-2">
+            <p>
+              Are you sure you want to delete <strong>"{itemName}"</strong>?
+            </p>
+            <p className="text-red-500 font-medium">
+              This action cannot be undone from the admin panel. 
+              However, you can recover it by reverting to a previous deployment in Vercel or using git.
+            </p>
+          </AlertDialogDescription>
+        </AlertDialogHeader>
+        <AlertDialogFooter>
+          <AlertDialogCancel disabled={isDeleting}>Cancel</AlertDialogCancel>
+          <AlertDialogAction
+            onClick={onConfirm}
+            disabled={isDeleting}
+            className="bg-red-600 hover:bg-red-700"
+          >
+            {isDeleting ? (
+              <>
+                <Loader2 className="w-4 h-4 mr-2 animate-spin" />
+                Deleting...
+              </>
+            ) : (
+              <>
+                <Trash2 className="w-4 h-4 mr-2" />
+                Yes, Delete
+              </>
+            )}
+          </AlertDialogAction>
+        </AlertDialogFooter>
+      </AlertDialogContent>
+    </AlertDialog>
+  );
+}
+
+// Manage section component for viewing and deleting items
+function ManageSection({ 
+  token, 
+  clients, 
+  talents, 
+  campaigns,
+  onDataChange 
+}: { 
+  token: string;
+  clients: Client[];
+  talents: Talent[];
+  campaigns: Campaign[];
+  onDataChange: () => void;
+}) {
+  const { toast } = useToast();
+  const [deletingId, setDeletingId] = useState<string | null>(null);
+  const [activeTab, setActiveTab] = useState<'clients' | 'talents' | 'campaigns'>('clients');
+
+  const handleDelete = async (type: 'client' | 'talent' | 'campaign', id: string, name: string) => {
+    if (isDevelopment) {
+      toast({
+        title: 'Development Mode',
+        description: 'Deleting data only works in production. Deploy to Vercel to enable this feature.',
+        variant: 'destructive',
+      });
+      return;
+    }
+
+    setDeletingId(id);
+
+    let result;
+    switch (type) {
+      case 'client':
+        result = await adminApi.deleteClient(token, id);
+        break;
+      case 'talent':
+        result = await adminApi.deleteTalent(token, id);
+        break;
+      case 'campaign':
+        result = await adminApi.deleteCampaign(token, id);
+        break;
+    }
+
+    if (result.success) {
+      toast({
+        title: 'Deleted Successfully',
+        description: `${name} has been deleted. You can recover it from Vercel deployments or git if needed.`,
+      });
+      onDataChange();
+    } else {
+      toast({
+        title: 'Delete Failed',
+        description: result.error || `Failed to delete ${type}`,
+        variant: 'destructive',
+      });
+    }
+
+    setDeletingId(null);
+  };
+
+  return (
+    <div className="space-y-6">
+      <div className="flex gap-2 flex-wrap">
+        <Button
+          variant={activeTab === 'clients' ? 'default' : 'outline'}
+          onClick={() => setActiveTab('clients')}
+        >
+          Clients ({clients.length})
+        </Button>
+        <Button
+          variant={activeTab === 'talents' ? 'default' : 'outline'}
+          onClick={() => setActiveTab('talents')}
+        >
+          Talents ({talents.length})
+        </Button>
+        <Button
+          variant={activeTab === 'campaigns' ? 'default' : 'outline'}
+          onClick={() => setActiveTab('campaigns')}
+        >
+          Campaigns ({campaigns.length})
+        </Button>
+      </div>
+
+      {/* Clients List */}
+      {activeTab === 'clients' && (
+        <div className="space-y-2">
+          {clients.length === 0 ? (
+            <p className="text-gray-500 text-center py-8">No clients found</p>
+          ) : (
+            clients.map(client => (
+              <div key={client.id} className="flex items-center justify-between p-4 bg-white rounded-lg border">
+                <div className="flex items-center gap-4">
+                  {client.logoUrl && (
+                    <img 
+                      src={client.logoUrl} 
+                      alt={client.name} 
+                      className="w-10 h-10 object-contain"
+                      onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }}
+                    />
+                  )}
+                  <div>
+                    <p className="font-medium">{client.name}</p>
+                    <p className="text-xs text-gray-500">ID: {client.id}</p>
+                  </div>
+                </div>
+                <DeleteConfirmDialog
+                  itemType="Client"
+                  itemName={client.name}
+                  onConfirm={() => handleDelete('client', client.id, client.name)}
+                  isDeleting={deletingId === client.id}
+                >
+                  <Button variant="ghost" size="sm" className="text-red-500 hover:text-red-700 hover:bg-red-50">
+                    <Trash2 className="w-4 h-4" />
+                  </Button>
+                </DeleteConfirmDialog>
+              </div>
+            ))
+          )}
+        </div>
+      )}
+
+      {/* Talents List */}
+      {activeTab === 'talents' && (
+        <div className="space-y-2">
+          {talents.length === 0 ? (
+            <p className="text-gray-500 text-center py-8">No talents found</p>
+          ) : (
+            talents.map(talent => (
+              <div key={talent.id} className="flex items-center justify-between p-4 bg-white rounded-lg border">
+                <div className="flex items-center gap-4">
+                  {talent.imageUrl && (
+                    <img 
+                      src={talent.imageUrl} 
+                      alt={talent.name} 
+                      className="w-10 h-10 object-cover rounded-full"
+                      onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }}
+                    />
+                  )}
+                  <div>
+                    <p className="font-medium">{talent.name}</p>
+                    <p className="text-xs text-gray-500">{talent.category} • {talent.totalFollowers?.toLocaleString() || 0} followers</p>
+                  </div>
+                </div>
+                <DeleteConfirmDialog
+                  itemType="Talent"
+                  itemName={talent.name}
+                  onConfirm={() => handleDelete('talent', talent.id, talent.name)}
+                  isDeleting={deletingId === talent.id}
+                >
+                  <Button variant="ghost" size="sm" className="text-red-500 hover:text-red-700 hover:bg-red-50">
+                    <Trash2 className="w-4 h-4" />
+                  </Button>
+                </DeleteConfirmDialog>
+              </div>
+            ))
+          )}
+        </div>
+      )}
+
+      {/* Campaigns List */}
+      {activeTab === 'campaigns' && (
+        <div className="space-y-2">
+          {campaigns.length === 0 ? (
+            <p className="text-gray-500 text-center py-8">No campaigns found</p>
+          ) : (
+            campaigns.map(campaign => (
+              <div key={campaign.id} className="flex items-center justify-between p-4 bg-white rounded-lg border">
+                <div className="flex items-center gap-4">
+                  {campaign.imageUrl && (
+                    <img 
+                      src={campaign.imageUrl} 
+                      alt={campaign.title} 
+                      className="w-10 h-10 object-cover rounded"
+                      onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }}
+                    />
+                  )}
+                  <div>
+                    <p className="font-medium">{campaign.title}</p>
+                    <p className="text-xs text-gray-500">
+                      {campaign.category} • {campaign.platforms?.join(', ') || 'No platforms'}
+                    </p>
+                  </div>
+                </div>
+                <DeleteConfirmDialog
+                  itemType="Campaign"
+                  itemName={campaign.title}
+                  onConfirm={() => handleDelete('campaign', campaign.id, campaign.title)}
+                  isDeleting={deletingId === campaign.id}
+                >
+                  <Button variant="ghost" size="sm" className="text-red-500 hover:text-red-700 hover:bg-red-50">
+                    <Trash2 className="w-4 h-4" />
+                  </Button>
+                </DeleteConfirmDialog>
+              </div>
+            ))
+          )}
+        </div>
+      )}
+    </div>
+  );
+}
+
 function AdminDashboard() {
   const { user, token, logout } = useAuth();
   const { toast } = useToast();
   const [isRebuilding, setIsRebuilding] = useState(false);
   const [clients, setClients] = useState<Client[]>([]);
   const [talents, setTalents] = useState<Talent[]>([]);
+  const [campaigns, setCampaigns] = useState<Campaign[]>([]);
   const [isLoadingData, setIsLoadingData] = useState(true);
 
   const loadData = async () => {
@@ -998,14 +1272,16 @@ function AdminDashboard() {
     if (isDevelopment) {
       setClients(clientsData as Client[]);
       setTalents(talentsData as Talent[]);
+      setCampaigns(campaignsData as Campaign[]);
       setIsLoadingData(false);
       return;
     }
     
     // Production mode: use API
-    const [clientsResult, talentsResult] = await Promise.all([
+    const [clientsResult, talentsResult, campaignsResult] = await Promise.all([
       adminApi.getClients(token),
       adminApi.getTalents(token),
+      adminApi.getCampaigns(token),
     ]);
     
     if (clientsResult.success && clientsResult.data) {
@@ -1014,6 +1290,10 @@ function AdminDashboard() {
     
     if (talentsResult.success && talentsResult.data) {
       setTalents(talentsResult.data.talents);
+    }
+    
+    if (campaignsResult.success && campaignsResult.data) {
+      setCampaigns(campaignsResult.data.campaigns);
     }
     
     setIsLoadingData(false);
@@ -1106,12 +1386,44 @@ function AdminDashboard() {
 
       {/* Main Content */}
       <main className="max-w-6xl mx-auto px-4 py-8">
-        <Tabs defaultValue="clients" className="space-y-6">
-          <TabsList className="grid w-full grid-cols-3">
+        <Tabs defaultValue="manage" className="space-y-6">
+          <TabsList className="grid w-full grid-cols-4">
+            <TabsTrigger value="manage" className="text-red-600 data-[state=active]:bg-red-50">
+              <Trash2 className="w-4 h-4 mr-1" /> Manage
+            </TabsTrigger>
             <TabsTrigger value="clients">Add Client</TabsTrigger>
             <TabsTrigger value="talents">Add Talent</TabsTrigger>
             <TabsTrigger value="campaigns">Add Campaign</TabsTrigger>
           </TabsList>
+          
+          <TabsContent value="manage">
+            <Card>
+              <CardHeader>
+                <CardTitle className="flex items-center gap-2">
+                  <Trash2 className="w-5 h-5 text-red-500" />
+                  Manage & Delete Entries
+                </CardTitle>
+                <CardDescription>
+                  View and delete existing entries. <strong className="text-amber-600">Deletions can be recovered</strong> by reverting to a previous Vercel deployment or using git history.
+                </CardDescription>
+              </CardHeader>
+              <CardContent>
+                {isLoadingData ? (
+                  <div className="flex items-center justify-center py-8">
+                    <Loader2 className="w-6 h-6 animate-spin text-gray-400" />
+                  </div>
+                ) : token ? (
+                  <ManageSection
+                    token={token}
+                    clients={clients}
+                    talents={talents}
+                    campaigns={campaigns}
+                    onDataChange={loadData}
+                  />
+                ) : null}
+              </CardContent>
+            </Card>
+          </TabsContent>
           
           <TabsContent value="clients">
             <Card>

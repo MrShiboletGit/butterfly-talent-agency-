@@ -201,4 +201,26 @@ export const adminApi = {
       body: JSON.stringify({ action }),
     });
   },
+
+  // Delete operations
+  async deleteClient(token: string, id: string): Promise<ApiResponse<{ message: string; deletedItem: Client }>> {
+    return makeRequest('/delete', token, {
+      method: 'DELETE',
+      body: JSON.stringify({ type: 'client', id }),
+    });
+  },
+
+  async deleteTalent(token: string, id: string): Promise<ApiResponse<{ message: string; deletedItem: Talent }>> {
+    return makeRequest('/delete', token, {
+      method: 'DELETE',
+      body: JSON.stringify({ type: 'talent', id }),
+    });
+  },
+
+  async deleteCampaign(token: string, id: string): Promise<ApiResponse<{ message: string; deletedItem: Campaign }>> {
+    return makeRequest('/delete', token, {
+      method: 'DELETE',
+      body: JSON.stringify({ type: 'campaign', id }),
+    });
+  },
 };
