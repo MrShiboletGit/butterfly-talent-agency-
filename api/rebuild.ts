@@ -1,5 +1,5 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
-import { verifyAuth } from './auth';
+import { verifyAuth } from './auth.js';
 
 interface DeploymentResponse {
   id: string;

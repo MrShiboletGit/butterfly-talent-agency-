@@ -1,6 +1,6 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
-import { verifyAuth } from './auth';
-import { getJsonFile, updateJsonFile } from './_utils/github';
+import { verifyAuth } from './auth.js';
+import { getJsonFile, updateJsonFile } from './_utils/github.js';
 
 interface Client {
   id: string;
