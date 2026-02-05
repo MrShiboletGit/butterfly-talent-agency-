@@ -1386,44 +1386,15 @@ function AdminDashboard() {
 
       {/* Main Content */}
       <main className="max-w-6xl mx-auto px-4 py-8">
-        <Tabs defaultValue="manage" className="space-y-6">
+        <Tabs defaultValue="clients" className="space-y-6">
           <TabsList className="grid w-full grid-cols-4">
-            <TabsTrigger value="manage" className="text-red-600 data-[state=active]:bg-red-50">
-              <Trash2 className="w-4 h-4 mr-1" /> Manage
-            </TabsTrigger>
             <TabsTrigger value="clients">Add Client</TabsTrigger>
             <TabsTrigger value="talents">Add Talent</TabsTrigger>
             <TabsTrigger value="campaigns">Add Campaign</TabsTrigger>
+            <TabsTrigger value="manage" className="text-red-600 data-[state=active]:bg-red-50">
+              <Trash2 className="w-4 h-4 mr-1" /> Manage
+            </TabsTrigger>
           </TabsList>
-          
-          <TabsContent value="manage">
-            <Card>
-              <CardHeader>
-                <CardTitle className="flex items-center gap-2">
-                  <Trash2 className="w-5 h-5 text-red-500" />
-                  Manage & Delete Entries
-                </CardTitle>
-                <CardDescription>
-                  View and delete existing entries. <strong className="text-amber-600">Deletions can be recovered</strong> by reverting to a previous Vercel deployment or using git history.
-                </CardDescription>
-              </CardHeader>
-              <CardContent>
-                {isLoadingData ? (
-                  <div className="flex items-center justify-center py-8">
-                    <Loader2 className="w-6 h-6 animate-spin text-gray-400" />
-                  </div>
-                ) : token ? (
-                  <ManageSection
-                    token={token}
-                    clients={clients}
-                    talents={talents}
-                    campaigns={campaigns}
-                    onDataChange={loadData}
-                  />
-                ) : null}
-              </CardContent>
-            </Card>
-          </TabsContent>
           
           <TabsContent value="clients">
             <Card>
@@ -1472,6 +1443,35 @@ function AdminDashboard() {
                     clients={clients} 
                     talents={talents}
                     onSuccess={loadData}
+                  />
+                ) : null}
+              </CardContent>
+            </Card>
+          </TabsContent>
+          
+          <TabsContent value="manage">
+            <Card>
+              <CardHeader>
+                <CardTitle className="flex items-center gap-2">
+                  <Trash2 className="w-5 h-5 text-red-500" />
+                  Manage & Delete Entries
+                </CardTitle>
+                <CardDescription>
+                  View and delete existing entries. <strong className="text-amber-600">Deletions can be recovered</strong> by reverting to a previous Vercel deployment or using git history.
+                </CardDescription>
+              </CardHeader>
+              <CardContent>
+                {isLoadingData ? (
+                  <div className="flex items-center justify-center py-8">
+                    <Loader2 className="w-6 h-6 animate-spin text-gray-400" />
+                  </div>
+                ) : token ? (
+                  <ManageSection
+                    token={token}
+                    clients={clients}
+                    talents={talents}
+                    campaigns={campaigns}
+                    onDataChange={loadData}
                   />
                 ) : null}
               </CardContent>
