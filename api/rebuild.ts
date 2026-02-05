@@ -8,96 +8,35 @@ interface DeploymentResponse {
 }
 
 async function triggerVercelRebuild(): Promise<{ success: boolean; deployment?: DeploymentResponse; error?: string }> {
-  const token = process.env.VERCEL_TOKEN;
-  const projectId = process.env.VERCEL_PROJECT_ID;
-  const teamId = process.env.VERCEL_TEAM_ID; // Optional, for team projects
+  // Use Deploy Hook - the simplest and most reliable way to trigger rebuilds
+  const hookUrl = process.env.VERCEL_DEPLOY_HOOK;
   
-  if (!token || !projectId) {
-    return { success: false, error: 'Missing Vercel configuration' };
+  if (!hookUrl) {
+    return { 
+      success: false, 
+      error: 'VERCEL_DEPLOY_HOOK not configured. Create a Deploy Hook in Vercel Project Settings → Git → Deploy Hooks' 
+    };
   }
   
   try {
-    // Create a new deployment by triggering a redeploy of the latest deployment
-    const deploymentsUrl = teamId 
-      ? `https://api.vercel.com/v6/deployments?projectId=${projectId}&teamId=${teamId}&limit=1`
-      : `https://api.vercel.com/v6/deployments?projectId=${projectId}&limit=1`;
+    const response = await fetch(hookUrl, { method: 'POST' });
     
-    // First, get the latest deployment
-    const listResponse = await fetch(deploymentsUrl, {
-      headers: {
-        'Authorization': `Bearer ${token}`,
-        'Content-Type': 'application/json'
-      }
-    });
-    
-    if (!listResponse.ok) {
-      const error = await listResponse.text();
-      console.error('Failed to list deployments:', error);
-      return { success: false, error: 'Failed to get current deployment' };
+    if (!response.ok) {
+      const error = await response.text();
+      console.error('Failed to trigger deploy hook:', error);
+      return { success: false, error: 'Failed to trigger rebuild via deploy hook' };
     }
     
-    const listData = await listResponse.json();
-    const latestDeployment = listData.deployments?.[0];
+    // Deploy hooks return a job object
+    const data = await response.json();
     
-    if (!latestDeployment) {
-      return { success: false, error: 'No deployments found' };
-    }
-    
-    // Trigger a new deployment using the deploy hook or by creating a deployment
-    // Using the project's production branch
-    const createUrl = teamId
-      ? `https://api.vercel.com/v13/deployments?teamId=${teamId}`
-      : 'https://api.vercel.com/v13/deployments';
-    
-    const createResponse = await fetch(createUrl, {
-      method: 'POST',
-      headers: {
-        'Authorization': `Bearer ${token}`,
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify({
-        name: latestDeployment.name,
-        project: projectId,
-        target: 'production',
-        gitSource: {
-          type: 'github',
-          ref: 'main', // or your default branch
-          repoId: latestDeployment.gitSource?.repoId
-        }
-      })
-    });
-    
-    if (!createResponse.ok) {
-      // Try alternative: use deploy hook if available
-      const hookUrl = process.env.VERCEL_DEPLOY_HOOK;
-      if (hookUrl) {
-        const hookResponse = await fetch(hookUrl, { method: 'POST' });
-        if (hookResponse.ok) {
-          return { 
-            success: true, 
-            deployment: { 
-              id: 'hook-triggered', 
-              url: '', 
-              state: 'BUILDING' 
-            } 
-          };
-        }
-      }
-      
-      const error = await createResponse.text();
-      console.error('Failed to create deployment:', error);
-      return { success: false, error: 'Failed to trigger rebuild. You may need to set up a deploy hook.' };
-    }
-    
-    const deploymentData = await createResponse.json();
-    
-    return {
-      success: true,
-      deployment: {
-        id: deploymentData.id,
-        url: deploymentData.url,
-        state: deploymentData.readyState || 'BUILDING'
-      }
+    return { 
+      success: true, 
+      deployment: { 
+        id: data.job?.id || 'triggered', 
+        url: '', 
+        state: 'BUILDING' 
+      } 
     };
   } catch (error) {
     console.error('Error triggering rebuild:', error);
