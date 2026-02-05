@@ -1,3 +1,4 @@
+import { Suspense, lazy } from "react";
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -14,10 +15,12 @@ import NotFound from "./pages/NotFound";
 import ContactPage from "./pages/ContactPage";
 import Accessibility from "./pages/Accessibility";
 import PrivacyPage from "./pages/PrivacyPage";
-import AdminPanel from "./pages/AdminPanel";
 import AccessibilityWidget from "./components/AccessibilityWidget";
 import ScrollToTop from "./components/ScrollToTop";
 import { AuthProvider } from "./contexts/AuthContext";
+
+// Lazy load AdminPanel to prevent it from affecting the main site
+const AdminPanel = lazy(() => import("./pages/AdminPanel"));
 
 const queryClient = new QueryClient();
 
@@ -46,7 +49,11 @@ const App = () => (
             <Route path="/accessibility" element={<Accessibility />} />
             <Route path="/privacy" element={<PrivacyPage />} />
             {/* Hidden admin panel - not linked in navigation */}
-            <Route path="/panel" element={<AdminPanel />} />
+            <Route path="/panel" element={
+              <Suspense fallback={<div className="min-h-screen flex items-center justify-center">Loading...</div>}>
+                <AdminPanel />
+              </Suspense>
+            } />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>
