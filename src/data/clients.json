@@ -54,7 +54,6 @@
     "name": "מחסני חשמל",
     "logoUrl": "https://yt3.googleusercontent.com/ytc/AIdro_kokHOMCLL73X_xXUeSd4b0CD34S7JyH_uDXP3kwTsEI4E=s900-c-k-c0x00ffffff-no-rj"
   },
-
   {
     "id": "yedioth-books",
     "name": "ידיעות ספרים",
@@ -89,5 +88,10 @@
     "id": "iai",
     "name": "התעשייה האווירית",
     "logoUrl": "https://upload.wikimedia.org/wikipedia/he/thumb/c/c7/IAI_logo_2025.jpg/250px-IAI_logo_2025.jpg"
+  },
+  {
+    "id": "lootlabs",
+    "name": "LootLabs",
+    "logoUrl": "https://cdn.prod.website-files.com/668ba61f0b223db53115e694/669cef95779abfadedd1ab5d_Lootlabs%20Logo-p-500.png"
   }
 ]
