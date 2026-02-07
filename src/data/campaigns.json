@@ -496,11 +496,11 @@
     "imageUrl": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
     "category": "קמפיין ספרים",
     "kpis": {
-      "views": 99700,
-      "engagement": 8102,
+      "views": 99800,
+      "engagement": 8103,
       "shares": 493,
-      "reach": 99700,
-      "impressions": 99700
+      "reach": 99800,
+      "impressions": 99800
     },
     "talents": [
       "6"
@@ -528,8 +528,8 @@
         "type": "short-form-video",
         "description": "סרטון TikTok קידום הספר של ביל - ידיעות ספרים",
         "platform": "tiktok",
-        "views": 84700,
-        "likes": 7123,
+        "views": 84800,
+        "likes": 7124,
         "comments": 379,
         "saves": 0,
         "shares": 493,
@@ -551,7 +551,7 @@
     "category": "קמפיין דיגיטלי",
     "kpis": {
       "views": 357000,
-      "engagement": 16423,
+      "engagement": 16425,
       "shares": 1416,
       "reach": 357000,
       "impressions": 357000
@@ -595,7 +595,7 @@
         "description": "סרטון TikTok - Jooba אפליקציית מסחר לנוער",
         "platform": "tiktok",
         "views": 111100,
-        "likes": 6448,
+        "likes": 6449,
         "comments": 355,
         "saves": 1605,
         "shares": 798,
@@ -607,7 +607,7 @@
         "description": "סרטון TikTok נוסף - Jooba אפליקציית מסחר לנוער",
         "platform": "tiktok",
         "views": 111100,
-        "likes": 6448,
+        "likes": 6449,
         "comments": 48,
         "saves": 249,
         "shares": 84,
@@ -629,7 +629,7 @@
     "category": "קמפיין קולנוע",
     "kpis": {
       "views": 3912720,
-      "engagement": 27538,
+      "engagement": 27539,
       "shares": 551,
       "reach": 3912720,
       "impressions": 3912720
@@ -783,7 +783,7 @@
         "description": "TikTok - עולם היורה בקולנוע",
         "platform": "tiktok",
         "views": 815000,
-        "likes": 5476,
+        "likes": 5477,
         "comments": 984,
         "saves": 375,
         "shares": 253,
@@ -1442,7 +1442,7 @@
     "category": "קמפיין מיתוג מעסיק",
     "kpis": {
       "views": 132623,
-      "engagement": 6430,
+      "engagement": 6431,
       "shares": 0,
       "reach": 132623,
       "impressions": 132623
@@ -1484,7 +1484,7 @@
         "description": "TikTok - מר שיבולת קמפיין גיוס עובדים התעשייה האווירית",
         "platform": "tiktok",
         "views": 64200,
-        "likes": 4457,
+        "likes": 4458,
         "comments": 0,
         "talent": "2"
       },
