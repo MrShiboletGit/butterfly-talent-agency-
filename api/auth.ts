@@ -3,7 +3,8 @@ import type { VercelRequest, VercelResponse } from '@vercel/node';
 const ALLOWED_EMAILS = [
   'mr.shibolet@gmail.com',
   'natilevi46@gmail.com',
-  's.benbasat@gmail.com'
+  's.benbasat@gmail.com',
+  'shai@lootlabs.gg'
 ];
 
 interface GoogleTokenPayload {
