@@ -1393,8 +1393,9 @@ function AdminDashboard() {
               <span>{user?.email}</span>
             </div>
             
-            <Button variant="ghost" size="sm" onClick={logout}>
-              <LogOut className="w-4 h-4" />
+            <Button variant="outline" size="sm" onClick={logout}>
+              <LogOut className="w-4 h-4 mr-2" />
+              Logout
             </Button>
           </div>
         </div>
