@@ -1284,6 +1284,20 @@ function AdminDashboard() {
       adminApi.getCampaigns(token),
     ]);
     
+    // Check if any request has an auth error (token expired)
+    const hasAuthError = clientsResult.isAuthError || talentsResult.isAuthError || campaignsResult.isAuthError;
+    
+    if (hasAuthError) {
+      toast({
+        title: 'Session Expired',
+        description: 'Your login session has expired. Please sign in again.',
+        variant: 'destructive',
+      });
+      logout();
+      setIsLoadingData(false);
+      return;
+    }
+    
     const errors: string[] = [];
     
     if (clientsResult.success && clientsResult.data) {

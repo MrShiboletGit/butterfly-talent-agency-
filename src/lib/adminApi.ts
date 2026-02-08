@@ -6,6 +6,7 @@ interface ApiResponse<T> {
   success: boolean;
   data?: T;
   error?: string;
+  isAuthError?: boolean;  // True when token is expired or invalid
 }
 
 async function makeRequest<T>(
@@ -26,7 +27,9 @@ async function makeRequest<T>(
     const data = await response.json();
 
     if (!response.ok) {
-      return { success: false, error: data.error || 'Request failed' };
+      // Check if it's an authentication error (401 or 403)
+      const isAuthError = response.status === 401 || response.status === 403;
+      return { success: false, error: data.error || 'Request failed', isAuthError };
     }
 
     return { success: true, data };
