@@ -113,9 +113,9 @@ export interface ContentItem {
 }
 
 export interface CampaignDetails {
-  objective: string;
-  strategy: string;
-  results: string;
+  objective?: string;
+  strategy?: string;
+  results?: string;
 }
 
 export interface Campaign {
@@ -137,7 +137,7 @@ export interface Campaign {
   startDate: string;
   endDate: string;
   content: ContentItem[];
-  details: CampaignDetails;
+  details?: CampaignDetails;
 }
 
 export interface NewCampaign {
@@ -151,7 +151,7 @@ export interface NewCampaign {
   startDate: string;
   endDate: string;
   content: ContentItem[];
-  details: CampaignDetails;
+  details?: CampaignDetails;
 }
 
 // API functions

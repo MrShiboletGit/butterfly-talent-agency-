@@ -231,24 +231,30 @@ const CampaignPage = () => {
           </div>
         </section>
 
-        {/* Campaign Details */}
-        {campaign.details && (
+        {/* Campaign Details - only show if at least one detail exists */}
+        {campaign.details && (campaign.details.objective || campaign.details.strategy || campaign.details.results) && (
           <section className="py-12 bg-gray-50">
             <div className="container mx-auto px-6">
               <h2 className="text-3xl font-bold text-center mb-12">פרטי הקמפיין</h2>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <div className="bg-white p-6 rounded-lg shadow-md">
-                  <h3 className="text-xl font-bold mb-4 text-primary">מטרה</h3>
-                  <p className="text-gray-600">{campaign.details.objective}</p>
-                </div>
-                <div className="bg-white p-6 rounded-lg shadow-md">
-                  <h3 className="text-xl font-bold mb-4 text-primary">אסטרטגיה</h3>
-                  <p className="text-gray-600">{campaign.details.strategy}</p>
-                </div>
-                <div className="bg-white p-6 rounded-lg shadow-md">
-                  <h3 className="text-xl font-bold mb-4 text-primary">תוצאות</h3>
-                  <p className="text-gray-600">{campaign.details.results}</p>
-                </div>
+                {campaign.details.objective && (
+                  <div className="bg-white p-6 rounded-lg shadow-md">
+                    <h3 className="text-xl font-bold mb-4 text-primary">מטרה</h3>
+                    <p className="text-gray-600">{campaign.details.objective}</p>
+                  </div>
+                )}
+                {campaign.details.strategy && (
+                  <div className="bg-white p-6 rounded-lg shadow-md">
+                    <h3 className="text-xl font-bold mb-4 text-primary">אסטרטגיה</h3>
+                    <p className="text-gray-600">{campaign.details.strategy}</p>
+                  </div>
+                )}
+                {campaign.details.results && (
+                  <div className="bg-white p-6 rounded-lg shadow-md">
+                    <h3 className="text-xl font-bold mb-4 text-primary">תוצאות</h3>
+                    <p className="text-gray-600">{campaign.details.results}</p>
+                  </div>
+                )}
               </div>
             </div>
           </section>

@@ -927,49 +927,46 @@ function CampaignForm({ token, clients, talents, onSuccess }: {
       <Separator />
 
       <div className="space-y-4">
-        <h4 className="font-medium">Campaign Details</h4>
+        <h4 className="font-medium">Campaign Details (Optional)</h4>
         <div className="space-y-4">
           <div className="space-y-2">
-            <Label htmlFor="objective">Objective *</Label>
+            <Label htmlFor="objective">Objective</Label>
             <Textarea
               id="objective"
-              value={formData.details.objective}
+              value={formData.details?.objective || ''}
               onChange={(e) => setFormData({
                 ...formData,
                 details: { ...formData.details, objective: e.target.value }
               })}
               placeholder="מטרת הקמפיין..."
-              required
               rows={2}
             />
           </div>
           
           <div className="space-y-2">
-            <Label htmlFor="strategy">Strategy *</Label>
+            <Label htmlFor="strategy">Strategy</Label>
             <Textarea
               id="strategy"
-              value={formData.details.strategy}
+              value={formData.details?.strategy || ''}
               onChange={(e) => setFormData({
                 ...formData,
                 details: { ...formData.details, strategy: e.target.value }
               })}
               placeholder="אסטרטגיית הקמפיין..."
-              required
               rows={2}
             />
           </div>
           
           <div className="space-y-2">
-            <Label htmlFor="results">Results *</Label>
+            <Label htmlFor="results">Results</Label>
             <Textarea
               id="results"
-              value={formData.details.results}
+              value={formData.details?.results || ''}
               onChange={(e) => setFormData({
                 ...formData,
                 details: { ...formData.details, results: e.target.value }
               })}
               placeholder="תוצאות הקמפיין..."
-              required
               rows={2}
             />
           </div>
