@@ -1284,16 +1284,32 @@ function AdminDashboard() {
       adminApi.getCampaigns(token),
     ]);
     
+    const errors: string[] = [];
+    
     if (clientsResult.success && clientsResult.data) {
       setClients(clientsResult.data.clients);
+    } else {
+      errors.push(`Clients: ${clientsResult.error || 'Failed to load'}`);
     }
     
     if (talentsResult.success && talentsResult.data) {
       setTalents(talentsResult.data.talents);
+    } else {
+      errors.push(`Talents: ${talentsResult.error || 'Failed to load'}`);
     }
     
     if (campaignsResult.success && campaignsResult.data) {
       setCampaigns(campaignsResult.data.campaigns);
+    } else {
+      errors.push(`Campaigns: ${campaignsResult.error || 'Failed to load'}`);
+    }
+    
+    if (errors.length > 0) {
+      toast({
+        title: 'Failed to load some data',
+        description: errors.join(', '),
+        variant: 'destructive',
+      });
     }
     
     setIsLoadingData(false);
