@@ -550,11 +550,11 @@
     "imageUrl": "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
     "category": "קמפיין דיגיטלי",
     "kpis": {
-      "views": 357200,
-      "engagement": 16425,
+      "views": 357400,
+      "engagement": 16433,
       "shares": 1416,
-      "reach": 357200,
-      "impressions": 357200
+      "reach": 357400,
+      "impressions": 357400
     },
     "talents": [
       "1",
@@ -594,8 +594,8 @@
         "type": "short-form-video",
         "description": "סרטון TikTok - Jooba אפליקציית מסחר לנוער",
         "platform": "tiktok",
-        "views": 111200,
-        "likes": 6449,
+        "views": 111300,
+        "likes": 6453,
         "comments": 355,
         "saves": 1605,
         "shares": 798,
@@ -606,8 +606,8 @@
         "type": "short-form-video",
         "description": "סרטון TikTok נוסף - Jooba אפליקציית מסחר לנוער",
         "platform": "tiktok",
-        "views": 111200,
-        "likes": 6449,
+        "views": 111300,
+        "likes": 6453,
         "comments": 48,
         "saves": 249,
         "shares": 84,
@@ -629,7 +629,7 @@
     "category": "קמפיין קולנוע",
     "kpis": {
       "views": 3912720,
-      "engagement": 27541,
+      "engagement": 27542,
       "shares": 551,
       "reach": 3912720,
       "impressions": 3912720
@@ -783,7 +783,7 @@
         "description": "TikTok - עולם היורה בקולנוע",
         "platform": "tiktok",
         "views": 815000,
-        "likes": 5477,
+        "likes": 5478,
         "comments": 984,
         "saves": 375,
         "shares": 253,
@@ -1098,11 +1098,11 @@
     "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
     "category": "קמפיין אירוע",
     "kpis": {
-      "views": 136500,
+      "views": 136600,
       "engagement": 4450,
       "shares": 0,
-      "reach": 136500,
-      "impressions": 136500
+      "reach": 136600,
+      "impressions": 136600
     },
     "talents": [
       "3"
@@ -1118,7 +1118,7 @@
         "type": "short-form-video",
         "description": "TikTok - רועי פיירזולף מסיבת סוף שנה CeraVe",
         "platform": "tiktok",
-        "views": 136500,
+        "views": 136600,
         "likes": 4229,
         "comments": 43,
         "saves": 178,
@@ -1442,7 +1442,7 @@
     "category": "קמפיין מיתוג מעסיק",
     "kpis": {
       "views": 132723,
-      "engagement": 6435,
+      "engagement": 6438,
       "shares": 0,
       "reach": 132723,
       "impressions": 132723
@@ -1484,7 +1484,7 @@
         "description": "TikTok - מר שיבולת קמפיין גיוס עובדים התעשייה האווירית",
         "platform": "tiktok",
         "views": 64300,
-        "likes": 4462,
+        "likes": 4465,
         "comments": 0,
         "talent": "2"
       },
