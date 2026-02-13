@@ -628,11 +628,11 @@
     "imageUrl": "https://images.unsplash.com/photo-1536440136628-849c177e76a1?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
     "category": "קמפיין קולנוע",
     "kpis": {
-      "views": 3912720,
-      "engagement": 27542,
+      "views": 3912820,
+      "engagement": 27543,
       "shares": 551,
-      "reach": 3912720,
-      "impressions": 3912720
+      "reach": 3912820,
+      "impressions": 3912820
     },
     "talents": [
       "2",
@@ -750,7 +750,7 @@
         "type": "short-form-video",
         "description": "TikTok - עולם היורה בקולנוע",
         "platform": "tiktok",
-        "views": 336400,
+        "views": 336500,
         "likes": 706,
         "comments": 19,
         "saves": 50,
@@ -847,7 +847,7 @@
         "description": "TikTok - עולם היורה בקולנוע",
         "platform": "tiktok",
         "views": 20500,
-        "likes": 573,
+        "likes": 574,
         "comments": 145,
         "saves": 36,
         "shares": 11,
@@ -1442,7 +1442,7 @@
     "category": "קמפיין מיתוג מעסיק",
     "kpis": {
       "views": 132723,
-      "engagement": 6438,
+      "engagement": 6439,
       "shares": 0,
       "reach": 132723,
       "impressions": 132723
@@ -1484,7 +1484,7 @@
         "description": "TikTok - מר שיבולת קמפיין גיוס עובדים התעשייה האווירית",
         "platform": "tiktok",
         "views": 64300,
-        "likes": 4465,
+        "likes": 4466,
         "comments": 0,
         "talent": "2"
       },
