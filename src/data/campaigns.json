@@ -497,7 +497,7 @@
     "category": "קמפיין ספרים",
     "kpis": {
       "views": 99900,
-      "engagement": 8103,
+      "engagement": 8104,
       "shares": 493,
       "reach": 99900,
       "impressions": 99900
@@ -529,7 +529,7 @@
         "description": "סרטון TikTok קידום הספר של ביל - ידיעות ספרים",
         "platform": "tiktok",
         "views": 84900,
-        "likes": 7124,
+        "likes": 7125,
         "comments": 379,
         "saves": 0,
         "shares": 493,
@@ -1441,11 +1441,11 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/he/thumb/c/c7/IAI_logo_2025.jpg/250px-IAI_logo_2025.jpg",
     "category": "קמפיין מיתוג מעסיק",
     "kpis": {
-      "views": 132723,
-      "engagement": 6439,
+      "views": 132823,
+      "engagement": 6441,
       "shares": 0,
-      "reach": 132723,
-      "impressions": 132723
+      "reach": 132823,
+      "impressions": 132823
     },
     "talents": [
       "2"
@@ -1483,8 +1483,8 @@
         "type": "short-form-video",
         "description": "TikTok - מר שיבולת קמפיין גיוס עובדים התעשייה האווירית",
         "platform": "tiktok",
-        "views": 64300,
-        "likes": 4466,
+        "views": 64400,
+        "likes": 4468,
         "comments": 0,
         "talent": "2"
       },
