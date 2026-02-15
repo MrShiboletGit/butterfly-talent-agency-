@@ -496,11 +496,11 @@
     "imageUrl": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
     "category": "קמפיין ספרים",
     "kpis": {
-      "views": 99900,
+      "views": 100000,
       "engagement": 8104,
       "shares": 493,
-      "reach": 99900,
-      "impressions": 99900
+      "reach": 100000,
+      "impressions": 100000
     },
     "talents": [
       "6"
@@ -528,7 +528,7 @@
         "type": "short-form-video",
         "description": "סרטון TikTok קידום הספר של ביל - ידיעות ספרים",
         "platform": "tiktok",
-        "views": 84900,
+        "views": 85000,
         "likes": 7125,
         "comments": 379,
         "saves": 0,
@@ -1047,11 +1047,11 @@
     "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
     "category": "קמפיין השקה",
     "kpis": {
-      "views": 146907,
+      "views": 147007,
       "engagement": 4699,
       "shares": 0,
-      "reach": 146907,
-      "impressions": 146907
+      "reach": 147007,
+      "impressions": 147007
     },
     "talents": [
       "4"
@@ -1078,7 +1078,7 @@
         "type": "short-form-video",
         "description": "TikTok - השקה משקה מוגו מוגו סוויטוויט",
         "platform": "tiktok",
-        "views": 26300,
+        "views": 26400,
         "likes": 770,
         "comments": 41,
         "talent": "4"
@@ -1099,7 +1099,7 @@
     "category": "קמפיין אירוע",
     "kpis": {
       "views": 136600,
-      "engagement": 4450,
+      "engagement": 4451,
       "shares": 0,
       "reach": 136600,
       "impressions": 136600
@@ -1119,7 +1119,7 @@
         "description": "TikTok - רועי פיירזולף מסיבת סוף שנה CeraVe",
         "platform": "tiktok",
         "views": 136600,
-        "likes": 4229,
+        "likes": 4230,
         "comments": 43,
         "saves": 178,
         "talent": "3"
@@ -1140,7 +1140,7 @@
     "category": "קמפיין קולנוע",
     "kpis": {
       "views": 712290,
-      "engagement": 21695,
+      "engagement": 21694,
       "shares": 0,
       "reach": 712290,
       "impressions": 712290
@@ -1173,7 +1173,7 @@
         "description": "TikTok - עומר ירון לזמן את הרוע 4 בכורה",
         "platform": "tiktok",
         "views": 400100,
-        "likes": 9241,
+        "likes": 9240,
         "comments": 253,
         "saves": 868,
         "talent": "8"
@@ -1225,7 +1225,7 @@
     "category": "קמפיין טכנולוגיה",
     "kpis": {
       "views": 219005,
-      "engagement": 7892,
+      "engagement": 7891,
       "shares": 171,
       "reach": 219005,
       "impressions": 219005
@@ -1247,7 +1247,7 @@
         "description": "TikTok - מר שיבולת בינה מלאכותית בסמסונג",
         "platform": "tiktok",
         "views": 28600,
-        "likes": 2036,
+        "likes": 2035,
         "comments": 60,
         "shares": 171,
         "talent": "2"
@@ -1351,7 +1351,7 @@
     "category": "קמפיין גיימינג",
     "kpis": {
       "views": 357156,
-      "engagement": 12083,
+      "engagement": 12084,
       "shares": 0,
       "reach": 357156,
       "impressions": 357156
@@ -1392,7 +1392,7 @@
         "description": "TikTok - מר שיבולת גלוריוס קמפיין רבעוני",
         "platform": "tiktok",
         "views": 44600,
-        "likes": 1175,
+        "likes": 1176,
         "comments": 0,
         "talent": "2"
       },
