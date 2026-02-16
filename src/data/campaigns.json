@@ -550,11 +550,11 @@
     "imageUrl": "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
     "category": "קמפיין דיגיטלי",
     "kpis": {
-      "views": 357400,
+      "views": 357600,
       "engagement": 16433,
       "shares": 1416,
-      "reach": 357400,
-      "impressions": 357400
+      "reach": 357600,
+      "impressions": 357600
     },
     "talents": [
       "1",
@@ -594,7 +594,7 @@
         "type": "short-form-video",
         "description": "סרטון TikTok - Jooba אפליקציית מסחר לנוער",
         "platform": "tiktok",
-        "views": 111300,
+        "views": 111400,
         "likes": 6453,
         "comments": 355,
         "saves": 1605,
@@ -606,7 +606,7 @@
         "type": "short-form-video",
         "description": "סרטון TikTok נוסף - Jooba אפליקציית מסחר לנוער",
         "platform": "tiktok",
-        "views": 111300,
+        "views": 111400,
         "likes": 6453,
         "comments": 48,
         "saves": 249,
@@ -1442,7 +1442,7 @@
     "category": "קמפיין מיתוג מעסיק",
     "kpis": {
       "views": 132823,
-      "engagement": 6441,
+      "engagement": 6442,
       "shares": 0,
       "reach": 132823,
       "impressions": 132823
@@ -1484,7 +1484,7 @@
         "description": "TikTok - מר שיבולת קמפיין גיוס עובדים התעשייה האווירית",
         "platform": "tiktok",
         "views": 64400,
-        "likes": 4468,
+        "likes": 4469,
         "comments": 0,
         "talent": "2"
       },

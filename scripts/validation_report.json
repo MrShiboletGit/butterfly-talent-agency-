@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-15T05:04:49.966013",
+  "generated_at": "2026-02-16T05:09:44.168111",
   "video_results": [
     {
       "url": "https://www.tiktok.com/@galcohenyt/video/7540251397405560084",
@@ -194,12 +194,12 @@
     {
       "url": "https://www.tiktok.com/@israel_galitsky/video/7535054778527698184",
       "platform": "tiktok",
-      "stored_views": 84900,
+      "stored_views": 85000,
       "stored_likes": 7125,
       "live_views": 85000,
       "live_likes": 7125,
       "error": null,
-      "views_diff_pct": 0.11778563015312131
+      "views_diff_pct": 0.0
     },
     {
       "url": "https://www.instagram.com/reel/DMIYpdKIqNU/?igsh=Z3E4Y3pqOWY3b2oy",
@@ -226,20 +226,20 @@
       "platform": "tiktok",
       "stored_views": 111300,
       "stored_likes": 6453,
-      "live_views": 111300,
+      "live_views": 111400,
       "live_likes": 6453,
       "error": null,
-      "views_diff_pct": 0.0
+      "views_diff_pct": 0.08984725965858043
     },
     {
       "url": "https://www.tiktok.com/@michalmatzov/video/7527310366653598984?_r=1&_t=ZS-8yYyPcptRRZ",
       "platform": "tiktok",
       "stored_views": 111300,
       "stored_likes": 6453,
-      "live_views": 111300,
+      "live_views": 111400,
       "live_likes": 6453,
       "error": null,
-      "views_diff_pct": 0.0
+      "views_diff_pct": 0.08984725965858043
     },
     {
       "url": "https://www.tiktok.com/@galcohenyt/video/7522490053461806343?_r=1&_t=ZS-8xh6Rcpzek5",
@@ -524,18 +524,18 @@
     {
       "url": "https://www.tiktok.com/@galcohenyt/video/7543578746750586132",
       "platform": "tiktok",
-      "stored_views": 26300,
+      "stored_views": 26400,
       "stored_likes": 770,
       "live_views": 26400,
       "live_likes": 770,
       "error": null,
-      "views_diff_pct": 0.38022813688212925
+      "views_diff_pct": 0.0
     },
     {
       "url": "https://www.tiktok.com/@roeefirewolf/video/7545880178501618962",
       "platform": "tiktok",
       "stored_views": 136600,
-      "stored_likes": 4229,
+      "stored_likes": 4230,
       "live_views": 136600,
       "live_likes": 4230,
       "error": null,
@@ -555,7 +555,7 @@
       "url": "https://www.tiktok.com/@omeryaron_/video/7546155126982069522",
       "platform": "tiktok",
       "stored_views": 400100,
-      "stored_likes": 9241,
+      "stored_likes": 9240,
       "live_views": 400100,
       "live_likes": 9240,
       "error": null,
@@ -567,8 +567,8 @@
       "stored_views": 24500,
       "stored_likes": 903,
       "live_views": null,
-      "live_likes": 903,
-      "error": null,
+      "live_likes": null,
+      "error": "No metrics found in embed",
       "views_diff_pct": null
     },
     {
@@ -595,7 +595,7 @@
       "url": "https://www.tiktok.com/@mrshibolet/video/7553987551594417426",
       "platform": "tiktok",
       "stored_views": 28600,
-      "stored_likes": 2036,
+      "stored_likes": 2035,
       "live_views": 28600,
       "live_likes": 2035,
       "error": null,
@@ -675,7 +675,7 @@
       "url": "https://www.tiktok.com/@mrshibolet/video/7571068094081256711",
       "platform": "tiktok",
       "stored_views": 44600,
-      "stored_likes": 1175,
+      "stored_likes": 1176,
       "live_views": 44600,
       "live_likes": 1176,
       "error": null,
@@ -737,7 +737,7 @@
       "stored_views": 64400,
       "stored_likes": 4468,
       "live_views": 64400,
-      "live_likes": 4468,
+      "live_likes": 4469,
       "error": null,
       "views_diff_pct": 0.0
     },
@@ -747,8 +747,8 @@
       "stored_views": 40400,
       "stored_likes": 1130,
       "live_views": null,
-      "live_likes": 1132,
-      "error": null,
+      "live_likes": null,
+      "error": "No metrics found in embed",
       "views_diff_pct": null
     },
     {
@@ -767,10 +767,10 @@
       "talent_name": "מיכל מצוב",
       "platform": "youtube",
       "url": "https://youtube.com/@michalmatzov",
-      "stored_followers": 450000,
+      "stored_followers": 451000,
       "live_followers": 451000,
       "error": null,
-      "diff_pct": 0.2222222222222222
+      "diff_pct": 0.0
     },
     {
       "talent_name": "מיכל מצוב",
@@ -858,9 +858,9 @@
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@galcohenyt",
       "stored_followers": 79600,
-      "live_followers": 79600,
+      "live_followers": 79700,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": 0.12562814070351758
     },
     {
       "talent_name": "גל כהן",
