@@ -629,7 +629,7 @@
     "category": "קמפיין קולנוע",
     "kpis": {
       "views": 3912820,
-      "engagement": 27543,
+      "engagement": 27544,
       "shares": 551,
       "reach": 3912820,
       "impressions": 3912820
@@ -751,7 +751,7 @@
         "description": "TikTok - עולם היורה בקולנוע",
         "platform": "tiktok",
         "views": 336500,
-        "likes": 706,
+        "likes": 707,
         "comments": 19,
         "saves": 50,
         "shares": 22,
@@ -1099,7 +1099,7 @@
     "category": "קמפיין אירוע",
     "kpis": {
       "views": 136600,
-      "engagement": 4451,
+      "engagement": 4452,
       "shares": 0,
       "reach": 136600,
       "impressions": 136600
@@ -1119,7 +1119,7 @@
         "description": "TikTok - רועי פיירזולף מסיבת סוף שנה CeraVe",
         "platform": "tiktok",
         "views": 136600,
-        "likes": 4230,
+        "likes": 4231,
         "comments": 43,
         "saves": 178,
         "talent": "3"
@@ -1441,11 +1441,11 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/he/thumb/c/c7/IAI_logo_2025.jpg/250px-IAI_logo_2025.jpg",
     "category": "קמפיין מיתוג מעסיק",
     "kpis": {
-      "views": 132823,
-      "engagement": 6442,
+      "views": 132923,
+      "engagement": 6443,
       "shares": 0,
-      "reach": 132823,
-      "impressions": 132823
+      "reach": 132923,
+      "impressions": 132923
     },
     "talents": [
       "2"
@@ -1483,8 +1483,8 @@
         "type": "short-form-video",
         "description": "TikTok - מר שיבולת קמפיין גיוס עובדים התעשייה האווירית",
         "platform": "tiktok",
-        "views": 64400,
-        "likes": 4469,
+        "views": 64500,
+        "likes": 4470,
         "comments": 0,
         "talent": "2"
       },
