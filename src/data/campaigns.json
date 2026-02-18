@@ -496,11 +496,11 @@
     "imageUrl": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
     "category": "קמפיין ספרים",
     "kpis": {
-      "views": 100000,
+      "views": 100100,
       "engagement": 8104,
       "shares": 493,
-      "reach": 100000,
-      "impressions": 100000
+      "reach": 100100,
+      "impressions": 100100
     },
     "talents": [
       "6"
@@ -528,7 +528,7 @@
         "type": "short-form-video",
         "description": "סרטון TikTok קידום הספר של ביל - ידיעות ספרים",
         "platform": "tiktok",
-        "views": 85000,
+        "views": 85100,
         "likes": 7125,
         "comments": 379,
         "saves": 0,
@@ -551,7 +551,7 @@
     "category": "קמפיין דיגיטלי",
     "kpis": {
       "views": 357600,
-      "engagement": 16433,
+      "engagement": 16439,
       "shares": 1416,
       "reach": 357600,
       "impressions": 357600
@@ -595,7 +595,7 @@
         "description": "סרטון TikTok - Jooba אפליקציית מסחר לנוער",
         "platform": "tiktok",
         "views": 111400,
-        "likes": 6453,
+        "likes": 6456,
         "comments": 355,
         "saves": 1605,
         "shares": 798,
@@ -607,7 +607,7 @@
         "description": "סרטון TikTok נוסף - Jooba אפליקציית מסחר לנוער",
         "platform": "tiktok",
         "views": 111400,
-        "likes": 6453,
+        "likes": 6456,
         "comments": 48,
         "saves": 249,
         "shares": 84,
@@ -628,11 +628,11 @@
     "imageUrl": "https://images.unsplash.com/photo-1536440136628-849c177e76a1?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
     "category": "קמפיין קולנוע",
     "kpis": {
-      "views": 3912820,
+      "views": 3912920,
       "engagement": 27544,
       "shares": 551,
-      "reach": 3912820,
-      "impressions": 3912820
+      "reach": 3912920,
+      "impressions": 3912920
     },
     "talents": [
       "2",
@@ -814,7 +814,7 @@
         "type": "short-form-video",
         "description": "TikTok - עולם היורה בקולנוע",
         "platform": "tiktok",
-        "views": 249800,
+        "views": 249900,
         "likes": 374,
         "comments": 119,
         "saves": 34,
@@ -997,7 +997,7 @@
     "category": "קמפיין חינוכי",
     "kpis": {
       "views": 116554,
-      "engagement": 2600,
+      "engagement": 2601,
       "shares": 0,
       "reach": 116554,
       "impressions": 116554
@@ -1028,7 +1028,7 @@
         "description": "TikTok - קמפיין חזרה ללימודים עם קרביץ",
         "platform": "tiktok",
         "views": 24200,
-        "likes": 298,
+        "likes": 299,
         "comments": 14,
         "talent": "2"
       }
@@ -1299,7 +1299,7 @@
     "category": "קמפיין ציבורי",
     "kpis": {
       "views": 166948,
-      "engagement": 8130,
+      "engagement": 8131,
       "shares": 591,
       "reach": 166948,
       "impressions": 166948
@@ -1320,7 +1320,7 @@
         "description": "TikTok - מיכל מצוב משרד התחבורה",
         "platform": "tiktok",
         "views": 72500,
-        "likes": 5763,
+        "likes": 5764,
         "comments": 296,
         "shares": 591,
         "talent": "1"
@@ -1442,7 +1442,7 @@
     "category": "קמפיין מיתוג מעסיק",
     "kpis": {
       "views": 132923,
-      "engagement": 6443,
+      "engagement": 6444,
       "shares": 0,
       "reach": 132923,
       "impressions": 132923
@@ -1484,7 +1484,7 @@
         "description": "TikTok - מר שיבולת קמפיין גיוס עובדים התעשייה האווירית",
         "platform": "tiktok",
         "views": 64500,
-        "likes": 4470,
+        "likes": 4471,
         "comments": 0,
         "talent": "2"
       },
