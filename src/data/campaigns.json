@@ -150,7 +150,7 @@
     "category": "קמפיין שנתי",
     "kpis": {
       "views": 520239,
-      "engagement": 17580,
+      "engagement": 17581,
       "shares": 0,
       "reach": 520239,
       "impressions": 520239
@@ -182,7 +182,7 @@
         "description": "TikTok - גל כהן קמפיין סמסונג Q3",
         "platform": "tiktok",
         "views": 35800,
-        "likes": 2016,
+        "likes": 2017,
         "comments": 50,
         "saves": 97,
         "talent": "4"
@@ -497,7 +497,7 @@
     "category": "קמפיין ספרים",
     "kpis": {
       "views": 100100,
-      "engagement": 8104,
+      "engagement": 8105,
       "shares": 493,
       "reach": 100100,
       "impressions": 100100
@@ -529,7 +529,7 @@
         "description": "סרטון TikTok קידום הספר של ביל - ידיעות ספרים",
         "platform": "tiktok",
         "views": 85100,
-        "likes": 7125,
+        "likes": 7126,
         "comments": 379,
         "saves": 0,
         "shares": 493,
@@ -1298,11 +1298,11 @@
     "imageUrl": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
     "category": "קמפיין ציבורי",
     "kpis": {
-      "views": 166948,
-      "engagement": 8131,
+      "views": 167048,
+      "engagement": 8132,
       "shares": 591,
-      "reach": 166948,
-      "impressions": 166948
+      "reach": 167048,
+      "impressions": 167048
     },
     "talents": [
       "1"
@@ -1319,8 +1319,8 @@
         "type": "short-form-video",
         "description": "TikTok - מיכל מצוב משרד התחבורה",
         "platform": "tiktok",
-        "views": 72500,
-        "likes": 5764,
+        "views": 72600,
+        "likes": 5765,
         "comments": 296,
         "shares": 591,
         "talent": "1"
@@ -1442,7 +1442,7 @@
     "category": "קמפיין מיתוג מעסיק",
     "kpis": {
       "views": 132923,
-      "engagement": 6444,
+      "engagement": 6446,
       "shares": 0,
       "reach": 132923,
       "impressions": 132923
@@ -1484,7 +1484,7 @@
         "description": "TikTok - מר שיבולת קמפיין גיוס עובדים התעשייה האווירית",
         "platform": "tiktok",
         "views": 64500,
-        "likes": 4471,
+        "likes": 4473,
         "comments": 0,
         "talent": "2"
       },
