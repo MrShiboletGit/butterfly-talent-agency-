@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-19T05:03:10.957704",
+  "generated_at": "2026-02-20T04:58:06.813064",
   "video_results": [
     {
       "url": "https://www.tiktok.com/@galcohenyt/video/7540251397405560084",
@@ -65,7 +65,7 @@
       "url": "https://www.tiktok.com/@galcohenyt/video/7537255610304466194",
       "platform": "tiktok",
       "stored_views": 35800,
-      "stored_likes": 2016,
+      "stored_likes": 2017,
       "live_views": 35800,
       "live_likes": 2017,
       "error": null,
@@ -117,8 +117,8 @@
       "stored_views": 20300,
       "stored_likes": 1616,
       "live_views": null,
-      "live_likes": 1600,
-      "error": null,
+      "live_likes": null,
+      "error": "No metrics found in embed",
       "views_diff_pct": null
     },
     {
@@ -157,8 +157,8 @@
       "stored_views": 12000,
       "stored_likes": 296,
       "live_views": null,
-      "live_likes": 296,
-      "error": null,
+      "live_likes": null,
+      "error": "No metrics found in embed",
       "views_diff_pct": null
     },
     {
@@ -195,7 +195,7 @@
       "url": "https://www.tiktok.com/@israel_galitsky/video/7535054778527698184",
       "platform": "tiktok",
       "stored_views": 85100,
-      "stored_likes": 7125,
+      "stored_likes": 7126,
       "live_views": 85100,
       "live_likes": 7126,
       "error": null,
@@ -226,20 +226,20 @@
       "platform": "tiktok",
       "stored_views": 111400,
       "stored_likes": 6456,
-      "live_views": 111400,
+      "live_views": 111500,
       "live_likes": 6456,
       "error": null,
-      "views_diff_pct": 0.0
+      "views_diff_pct": 0.08976660682226212
     },
     {
       "url": "https://www.tiktok.com/@michalmatzov/video/7527310366653598984?_r=1&_t=ZS-8yYyPcptRRZ",
       "platform": "tiktok",
       "stored_views": 111400,
       "stored_likes": 6456,
-      "live_views": 111400,
+      "live_views": 111500,
       "live_likes": 6456,
       "error": null,
-      "views_diff_pct": 0.0
+      "views_diff_pct": 0.08976660682226212
     },
     {
       "url": "https://www.tiktok.com/@galcohenyt/video/7522490053461806343?_r=1&_t=ZS-8xh6Rcpzek5",
@@ -634,12 +634,12 @@
     {
       "url": "https://www.tiktok.com/@michalmatzov/video/7559195096663772434?_r=1&_t=ZS-90PDjWjaGox",
       "platform": "tiktok",
-      "stored_views": 72500,
-      "stored_likes": 5764,
+      "stored_views": 72600,
+      "stored_likes": 5765,
       "live_views": 72600,
       "live_likes": 5765,
       "error": null,
-      "views_diff_pct": 0.13793103448275862
+      "views_diff_pct": 0.0
     },
     {
       "url": "https://www.youtube.com/shorts/oGXhioFYkwY",
@@ -735,11 +735,11 @@
       "url": "https://www.tiktok.com/@mrshibolet/video/7577367884666522898",
       "platform": "tiktok",
       "stored_views": 64500,
-      "stored_likes": 4471,
-      "live_views": 64500,
+      "stored_likes": 4473,
+      "live_views": 64600,
       "live_likes": 4473,
       "error": null,
-      "views_diff_pct": 0.0
+      "views_diff_pct": 0.15503875968992248
     },
     {
       "url": "https://www.instagram.com/p/DRj4nfaDcVU/",
@@ -777,9 +777,9 @@
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@michalmatzov",
       "stored_followers": 351300,
-      "live_followers": 351300,
+      "live_followers": 351400,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": 0.02846569883290635
     },
     {
       "talent_name": "מיכל מצוב",
@@ -848,19 +848,19 @@
       "talent_name": "גל כהן",
       "platform": "youtube",
       "url": "https://www.youtube.com/@GalCohenOfficial",
-      "stored_followers": 284000,
+      "stored_followers": 285000,
       "live_followers": 285000,
       "error": null,
-      "diff_pct": 0.35211267605633806
+      "diff_pct": 0.0
     },
     {
       "talent_name": "גל כהן",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@galcohenyt",
-      "stored_followers": 79800,
-      "live_followers": 79900,
+      "stored_followers": 79900,
+      "live_followers": 80000,
       "error": null,
-      "diff_pct": 0.12531328320802004
+      "diff_pct": 0.1251564455569462
     },
     {
       "talent_name": "גל כהן",
