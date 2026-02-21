@@ -149,11 +149,11 @@
     "imageUrl": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
     "category": "קמפיין שנתי",
     "kpis": {
-      "views": 520239,
-      "engagement": 17581,
+      "views": 520339,
+      "engagement": 17582,
       "shares": 0,
-      "reach": 520239,
-      "impressions": 520239
+      "reach": 520339,
+      "impressions": 520339
     },
     "talents": [
       "4",
@@ -181,8 +181,8 @@
         "type": "short-form-video",
         "description": "TikTok - גל כהן קמפיין סמסונג Q3",
         "platform": "tiktok",
-        "views": 35800,
-        "likes": 2017,
+        "views": 35900,
+        "likes": 2018,
         "comments": 50,
         "saves": 97,
         "talent": "4"
@@ -551,7 +551,7 @@
     "category": "קמפיין דיגיטלי",
     "kpis": {
       "views": 357800,
-      "engagement": 16439,
+      "engagement": 16443,
       "shares": 1416,
       "reach": 357800,
       "impressions": 357800
@@ -595,7 +595,7 @@
         "description": "סרטון TikTok - Jooba אפליקציית מסחר לנוער",
         "platform": "tiktok",
         "views": 111500,
-        "likes": 6456,
+        "likes": 6458,
         "comments": 355,
         "saves": 1605,
         "shares": 798,
@@ -607,7 +607,7 @@
         "description": "סרטון TikTok נוסף - Jooba אפליקציית מסחר לנוער",
         "platform": "tiktok",
         "views": 111500,
-        "likes": 6456,
+        "likes": 6458,
         "comments": 48,
         "saves": 249,
         "shares": 84,
@@ -629,7 +629,7 @@
     "category": "קמפיין קולנוע",
     "kpis": {
       "views": 3912920,
-      "engagement": 27544,
+      "engagement": 27543,
       "shares": 551,
       "reach": 3912920,
       "impressions": 3912920
@@ -698,7 +698,7 @@
         "description": "סרטון TikTok - עולם היורה בקולנוע",
         "platform": "tiktok",
         "views": 1700000,
-        "likes": 5015,
+        "likes": 5014,
         "comments": 203,
         "saves": 304,
         "talent": "2"
@@ -1442,7 +1442,7 @@
     "category": "קמפיין מיתוג מעסיק",
     "kpis": {
       "views": 133023,
-      "engagement": 6446,
+      "engagement": 6447,
       "shares": 0,
       "reach": 133023,
       "impressions": 133023
@@ -1484,7 +1484,7 @@
         "description": "TikTok - מר שיבולת קמפיין גיוס עובדים התעשייה האווירית",
         "platform": "tiktok",
         "views": 64600,
-        "likes": 4473,
+        "likes": 4474,
         "comments": 0,
         "talent": "2"
       },
