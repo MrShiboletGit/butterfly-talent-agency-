@@ -88,5 +88,10 @@
     "id": "iai",
     "name": "התעשייה האווירית",
     "logoUrl": "https://upload.wikimedia.org/wikipedia/he/thumb/c/c7/IAI_logo_2025.jpg/250px-IAI_logo_2025.jpg"
+  },
+  {
+    "id": "client",
+    "name": "פרימור",
+    "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRi_y9wTlZhxlxLTce1Xaee-HV2XkostX3M6SFTBFEHdg&s=10"
   }
 ]
