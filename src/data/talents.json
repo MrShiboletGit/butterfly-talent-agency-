@@ -342,5 +342,26 @@
     },
     "previousCollaborations": [],
     "strengths": []
+  },
+  {
+    "id": "11",
+    "totalFollowers": 300,
+    "name": "כללי",
+    "category": "כללי",
+    "bio": "טאלנטים מזדמנים שעובדים בשיתוף פעולה עם הסוכנות",
+    "imageUrl": "https://www.butterfly-talent.com/BlueFLY.svg",
+    "main": false,
+    "platformFollowers": {
+      "youtube": 100,
+      "instagram": 100,
+      "tiktok": 100
+    },
+    "audience": {
+      "age": "12-28",
+      "gender": "כללי"
+    },
+    "socialMedia": {},
+    "previousCollaborations": [],
+    "strengths": []
   }
 ]
