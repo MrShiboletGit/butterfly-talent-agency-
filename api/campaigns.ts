@@ -34,7 +34,6 @@ interface Campaign {
   title: string;
   clientId: string;
   description: string;
-  imageUrl: string;
   category: string;
   kpis: CampaignKPIs;
   talents: string[];
@@ -42,7 +41,7 @@ interface Campaign {
   startDate: string;
   endDate: string;
   content: ContentItem[];
-  details: CampaignDetails;
+  details?: CampaignDetails;
 }
 
 const DATA_PATH = 'src/data/campaigns.json';
@@ -67,17 +66,6 @@ function validateCampaign(campaign: unknown): { valid: boolean; error?: string; 
   
   if (!c.description || typeof c.description !== 'string' || c.description.trim().length === 0) {
     return { valid: false, error: 'Description is required' };
-  }
-  
-  if (!c.imageUrl || typeof c.imageUrl !== 'string' || c.imageUrl.trim().length === 0) {
-    return { valid: false, error: 'Image URL is required' };
-  }
-  
-  // Validate URL
-  try {
-    new URL(c.imageUrl as string);
-  } catch {
-    return { valid: false, error: 'Invalid image URL format' };
   }
   
   if (!c.category || typeof c.category !== 'string' || c.category.trim().length === 0) {
@@ -168,20 +156,16 @@ function validateCampaign(campaign: unknown): { valid: boolean; error?: string; 
     });
   }
   
-  // Validate details
-  if (!c.details || typeof c.details !== 'object') {
-    return { valid: false, error: 'Campaign details are required' };
-  }
-  
-  const details = c.details as Record<string, unknown>;
-  if (!details.objective || typeof details.objective !== 'string') {
-    return { valid: false, error: 'Campaign objective is required' };
-  }
-  if (!details.strategy || typeof details.strategy !== 'string') {
-    return { valid: false, error: 'Campaign strategy is required' };
-  }
-  if (!details.results || typeof details.results !== 'string') {
-    return { valid: false, error: 'Campaign results description is required' };
+  // Validate details (optional)
+  let parsedDetails: CampaignDetails | undefined;
+  if (c.details && typeof c.details === 'object') {
+    const details = c.details as Record<string, unknown>;
+    const objective = typeof details.objective === 'string' ? details.objective.trim() : '';
+    const strategy = typeof details.strategy === 'string' ? details.strategy.trim() : '';
+    const results = typeof details.results === 'string' ? details.results.trim() : '';
+    if (objective || strategy || results) {
+      parsedDetails = { objective, strategy, results };
+    }
   }
   
   return {
@@ -190,43 +174,44 @@ function validateCampaign(campaign: unknown): { valid: boolean; error?: string; 
       title: c.title as string,
       clientId: c.clientId as string,
       description: c.description as string,
-      imageUrl: c.imageUrl as string,
       category: c.category as string,
       talents,
       platforms,
       startDate: c.startDate as string,
       endDate: c.endDate as string,
       content: validatedContent,
-      details: {
-        objective: details.objective as string,
-        strategy: details.strategy as string,
-        results: details.results as string
-      }
+      ...(parsedDetails ? { details: parsedDetails } : {})
     }
   };
 }
 
 function generateCampaignId(title: string, clientId: string, existingIds: Set<string>): string {
-  // Create a slug from the title and client
-  let baseId = `${clientId}-${title}`
+  const titleSlug = title
     .toLowerCase()
     .replace(/[^\w\s-]/g, '')
     .replace(/\s+/g, '-')
     .replace(/-+/g, '-')
-    .trim();
-  
-  // Add year
+    .replace(/^-+|-+$/g, '');
+
   const year = new Date().getFullYear();
-  baseId = `${baseId}-${year}`;
-  
-  // Ensure uniqueness
+  let baseId: string;
+
+  if (titleSlug) {
+    baseId = `${clientId}-${titleSlug}-${year}`;
+  } else {
+    const uniqueSuffix = Date.now().toString(36).slice(-5);
+    baseId = `${clientId}-${uniqueSuffix}-${year}`;
+  }
+
+  baseId = baseId.replace(/-+/g, '-').replace(/^-+|-+$/g, '');
+
   let id = baseId;
   let counter = 1;
   while (existingIds.has(id)) {
     id = `${baseId}-${counter}`;
     counter++;
   }
-  
+
   return id;
 }
 

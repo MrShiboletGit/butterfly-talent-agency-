@@ -27,9 +27,10 @@ const TalentCarousel = () => {
     return () => window.removeEventListener('resize', checkMobile);
   }, []);
 
-  // Show 4 talents at a time on desktop, 1 on mobile
+  const mainTalents = talentsData.filter(talent => talent.main);
+
   const talentsPerView = isMobile ? 1 : 4;
-  const maxIndex = Math.max(0, talentsData.length - talentsPerView);
+  const maxIndex = Math.max(0, mainTalents.length - talentsPerView);
 
   useEffect(() => {
     if (!isAutoPlaying || isDragging) return;
@@ -146,7 +147,7 @@ const TalentCarousel = () => {
             userSelect: 'none',
           }}
         >
-          {talentsData.map((talent) => (
+          {mainTalents.map((talent) => (
             <div key={talent.id} className={`${isMobile ? 'w-full' : 'w-1/4'} flex-shrink-0 px-3`}>
               <TalentCard 
                 talent={talent}

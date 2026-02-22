@@ -76,6 +76,7 @@ export interface Talent {
   category: string;
   bio: string;
   imageUrl: string;
+  main: boolean;
   totalFollowers: number;
   platformFollowers: PlatformFollowers;
   audience: Audience;
@@ -90,6 +91,7 @@ export interface NewTalent {
   category: string;
   bio: string;
   imageUrl: string;
+  main: boolean;
   platformFollowers: PlatformFollowers;
   audience: Audience;
   socialMedia: SocialMedia;
@@ -123,7 +125,6 @@ export interface Campaign {
   title: string;
   clientId: string;
   description: string;
-  imageUrl: string;
   category: string;
   kpis: {
     views: number;
@@ -144,7 +145,6 @@ export interface NewCampaign {
   title: string;
   clientId: string;
   description: string;
-  imageUrl: string;
   category: string;
   talents: string[];
   platforms: string[];

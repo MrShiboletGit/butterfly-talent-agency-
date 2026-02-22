@@ -223,6 +223,7 @@ function TalentForm({ token, onSuccess }: { token: string; onSuccess: () => void
     category: '',
     bio: '',
     imageUrl: '',
+    main: false,
     platformFollowers: { youtube: 0, instagram: 0, tiktok: 0 },
     audience: { age: '', gender: '' },
     socialMedia: { youtube: '', instagram: '', tiktok: '' },
@@ -264,6 +265,7 @@ function TalentForm({ token, onSuccess }: { token: string; onSuccess: () => void
         category: '',
         bio: '',
         imageUrl: '',
+        main: false,
         platformFollowers: { youtube: 0, instagram: 0, tiktok: 0 },
         audience: { age: '', gender: '' },
         socialMedia: { youtube: '', instagram: '', tiktok: '' },
@@ -332,6 +334,17 @@ function TalentForm({ token, onSuccess }: { token: string; onSuccess: () => void
           placeholder="/talents/name.png or https://..."
           required
         />
+      </div>
+
+      <div className="flex items-center gap-2">
+        <input
+          id="mainTalent"
+          type="checkbox"
+          checked={formData.main}
+          onChange={(e) => setFormData({ ...formData, main: e.target.checked })}
+          className="h-4 w-4 rounded border-gray-300 text-primary focus:ring-primary"
+        />
+        <Label htmlFor="mainTalent">Main Talent (shown on homepage and talents page)</Label>
       </div>
       
       <Separator />
@@ -525,7 +538,6 @@ function CampaignForm({ token, clients, talents, onSuccess }: {
     title: '',
     clientId: '',
     description: '',
-    imageUrl: '',
     category: '',
     talents: [],
     platforms: [],
@@ -592,11 +604,13 @@ function CampaignForm({ token, clients, talents, onSuccess }: {
     
     setIsSubmitting(true);
 
+    const hasDetails = formData.details?.objective?.trim() || formData.details?.strategy?.trim() || formData.details?.results?.trim();
     const campaignData: NewCampaign = {
       ...formData,
       talents: selectedTalents,
       platforms: selectedPlatforms,
       content: contentItems,
+      details: hasDetails ? formData.details : undefined,
     };
 
     const result = await adminApi.addCampaign(token, campaignData);
@@ -610,7 +624,6 @@ function CampaignForm({ token, clients, talents, onSuccess }: {
         title: '',
         clientId: '',
         description: '',
-        imageUrl: '',
         category: '',
         talents: [],
         platforms: [],
@@ -680,18 +693,6 @@ function CampaignForm({ token, clients, talents, onSuccess }: {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        <div className="space-y-2">
-          <Label htmlFor="campaignImage">Image URL *</Label>
-          <Input
-            id="campaignImage"
-            type="url"
-            value={formData.imageUrl}
-            onChange={(e) => setFormData({ ...formData, imageUrl: e.target.value })}
-            placeholder="https://..."
-            required
-          />
-        </div>
-        
         <div className="space-y-2">
           <Label htmlFor="campaignCategory">Category *</Label>
           <Input
@@ -1217,14 +1218,6 @@ function ManageSection({
             campaigns.map(campaign => (
               <div key={campaign.id} className="flex items-center justify-between p-4 bg-white rounded-lg border">
                 <div className="flex items-center gap-4">
-                  {campaign.imageUrl && (
-                    <img 
-                      src={campaign.imageUrl} 
-                      alt={campaign.title} 
-                      className="w-10 h-10 object-cover rounded"
-                      onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }}
-                    />
-                  )}
                   <div>
                     <p className="font-medium">{campaign.title}</p>
                     <p className="text-xs text-gray-500">

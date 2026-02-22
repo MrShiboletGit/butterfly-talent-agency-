@@ -26,6 +26,7 @@ interface Talent {
   category: string;
   bio: string;
   imageUrl: string;
+  main: boolean;
   totalFollowers: number;
   platformFollowers: PlatformFollowers;
   audience: Audience;
@@ -150,6 +151,7 @@ function validateTalent(talent: unknown): { valid: boolean; error?: string; data
       category: t.category as string,
       bio: t.bio as string,
       imageUrl: t.imageUrl as string,
+      main: t.main === true,
       platformFollowers,
       audience: {
         age: aud.age as string,

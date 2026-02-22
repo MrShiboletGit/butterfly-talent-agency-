@@ -33,7 +33,8 @@
       "#FASHION",
       "#FOOD",
       "#LIFESTYLE"
-    ]
+    ],
+    "main": true
   },
   {
     "id": "2",
@@ -68,7 +69,8 @@
       "#TECHNOLOGY",
       "#GAME STREAMING",
       "#INNOVATION"
-    ]
+    ],
+    "main": true
   },
   {
     "id": "3",
@@ -104,7 +106,8 @@
       "#TECHNOLOGY",
       "#VIDEO",
       "#TRAVEL"
-    ]
+    ],
+    "main": true
   },
   {
     "id": "4",
@@ -138,7 +141,8 @@
       "#GAMING",
       "#COOLSHORTS",
       "#GAME STREAMING"
-    ]
+    ],
+    "main": true
   },
   {
     "id": "5",
@@ -169,7 +173,8 @@
     ],
     "strengths": [
       "#GAMING"
-    ]
+    ],
+    "main": true
   },
   {
     "id": "6",
@@ -203,7 +208,8 @@
       "#ENTERTAINMENT",
       "#VLOGS",
       "#REVIEWS"
-    ]
+    ],
+    "main": true
   },
   {
     "id": "7",
@@ -237,7 +243,8 @@
       "#GAMING",
       "#TUTORIALS",
       "#BUILDING"
-    ]
+    ],
+    "main": true
   },
   {
     "id": "8",
@@ -273,7 +280,8 @@
       "#EDUCATION",
       "#INNOVATION",
       "#HEALTH"
-    ]
+    ],
+    "main": true
   },
   {
     "id": "9",
@@ -307,6 +315,7 @@
       "#GAMING",
       "#STREAMING",
       "#COMMUNITY"
-    ]
+    ],
+    "main": true
   }
 ]

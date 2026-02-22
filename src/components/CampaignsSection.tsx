@@ -9,7 +9,6 @@ interface Campaign {
   title: string;
   clientId: string;
   description: string;
-  imageUrl: string;
   category: string;
   kpis: {
     views: number;
@@ -58,7 +57,7 @@ const CampaignsSection = () => {
           <div className="relative overflow-hidden bg-gray-50">
             <div className="w-full h-48 flex items-center justify-center p-8">
               <img 
-                src={clientsData.find(c => c.id === campaign.clientId)?.logoUrl || campaign.imageUrl} 
+                src={clientsData.find(c => c.id === campaign.clientId)?.logoUrl || ''} 
                 alt={getClientName(campaign.clientId)}
                 className="max-w-full max-h-full object-contain"
               />

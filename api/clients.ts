@@ -42,20 +42,18 @@ function validateClient(client: unknown): { valid: boolean; error?: string; data
 }
 
 function generateClientId(name: string, existingIds: Set<string>): string {
-  // Create a slug from the name
   let baseId = name
     .toLowerCase()
     .replace(/[^\w\s-]/g, '')
     .replace(/\s+/g, '-')
     .replace(/-+/g, '-')
-    .trim();
+    .replace(/^-+|-+$/g, '');
   
-  // If empty after sanitization, use a generic id
   if (!baseId) {
-    baseId = 'client';
+    const uniqueSuffix = Date.now().toString(36).slice(-5);
+    baseId = `client-${uniqueSuffix}`;
   }
   
-  // Ensure uniqueness
   let id = baseId;
   let counter = 1;
   while (existingIds.has(id)) {

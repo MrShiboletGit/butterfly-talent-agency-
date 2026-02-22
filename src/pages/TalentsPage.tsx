@@ -9,11 +9,11 @@ const TalentsPage = () => {
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
 
-  // Extract unique categories
-  const categories = Array.from(new Set(talentsData.map(talent => talent.category)));
+  const mainTalents = talentsData.filter(talent => talent.main);
 
-  // Filter talents based on search and category
-  const filteredTalents = talentsData.filter(talent => {
+  const categories = Array.from(new Set(mainTalents.map(talent => talent.category)));
+
+  const filteredTalents = mainTalents.filter(talent => {
     const matchesSearch = talent.name.toLowerCase().includes(searchTerm.toLowerCase()) || 
                          talent.category.toLowerCase().includes(searchTerm.toLowerCase());
     const matchesCategory = selectedCategory ? talent.category === selectedCategory : true;
