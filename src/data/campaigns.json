@@ -1514,5 +1514,48 @@
       "strategy": "שימוש במר שיבולת ליצירת תוכן אותנטי ומעניין על ההזדמנויות הקריירה והחידה השנתית",
       "results": "הקמפיין הגיע ליותר מ-126 אלף צפיות עם אחוזי מעורבות גבוהים"
     }
+  },
+  {
+    "id": "client--2026",
+    "kpis": {
+      "views": 50000,
+      "engagement": 5093,
+      "shares": 0,
+      "reach": 50000,
+      "impressions": 50000
+    },
+    "title": "קידום משקאות פרימור",
+    "clientId": "client",
+    "description": "קמפיין הומוריסטי לקידום סדרת המשקאות הלא מצוננים של פרימור",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRi_y9wTlZhxlxLTce1Xaee-HV2XkostX3M6SFTBFEHdg&s=10",
+    "category": "משקאות קלים",
+    "talents": [
+      "4"
+    ],
+    "platforms": [
+      "youtube",
+      "tiktok"
+    ],
+    "startDate": "2025-12-21",
+    "endDate": "2026-01-31",
+    "content": [
+      {
+        "url": "https://youtube.com/shorts/fRPj3u1ZWlc",
+        "type": "short-form-video",
+        "description": "קמפיין הומוריסטי לקידום סדרת המשקאות הלא מצוננים של פרימור",
+        "platform": "youtube",
+        "views": 50000,
+        "likes": 5000,
+        "comments": 93,
+        "talent": "4",
+        "saves": 0,
+        "shares": 0
+      }
+    ],
+    "details": {
+      "objective": "משקאות",
+      "strategy": "משקאות",
+      "results": "משקאות"
+    }
   }
 ]
