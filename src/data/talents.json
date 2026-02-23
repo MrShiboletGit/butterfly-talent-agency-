@@ -115,11 +115,11 @@
     "category": "גיימינג ושורטים",
     "bio": "יוטיובר גיימר בן 22, מתמחה בגיימינג וקרוס-פלטפורם סטרימינג. מוביל בבראול סטארס.",
     "imageUrl": "/talents/GalCohen.png",
-    "totalFollowers": 385600,
+    "totalFollowers": 386700,
     "platformFollowers": {
-      "youtube": 285000,
+      "youtube": 286000,
       "instagram": 20600,
-      "tiktok": 80000
+      "tiktok": 80100
     },
     "engagement": "5.8%",
     "audience": {
@@ -320,14 +320,14 @@
   },
   {
     "id": "10",
-    "totalFollowers": 117600,
+    "totalFollowers": 118500,
     "name": "סטינגר ישראל",
     "category": "גיימינג",
     "bio": "סטינגר ישראל הוא יוצר תוכן וגיימר בולט בזירת הגיימינג הישראלית, המוכר בזכות אנרגיה גבוהה, קצב מהיר וחיבור אותנטי לקהילה הצעירה.\nהתוכן שלו משלב גיימפליי תחרותי, אתגרים, ריאקשנים ושיתופי פעולה – עם דגש על הומור חד ועריכה דינמית שמחזיקה את הצופה מהשנייה הראשונה.",
     "imageUrl": "https://yt3.googleusercontent.com/PrXV1gQTzCVp8uOFkGUPHipTZBwznuEfPm7y5tGD1_TD54rLGB-9bNKABTZRKO3MMlndbKldAg=s900-c-k-c0x00ffffff-no-rj",
     "main": true,
     "platformFollowers": {
-      "youtube": 94000,
+      "youtube": 94900,
       "instagram": 2800,
       "tiktok": 20800
     },
