@@ -487,7 +487,7 @@
     "category": "קמפיין ספרים",
     "kpis": {
       "views": 100200,
-      "engagement": 8109,
+      "engagement": 8110,
       "shares": 493,
       "reach": 100200,
       "impressions": 100200
@@ -519,7 +519,7 @@
         "description": "סרטון TikTok קידום הספר של ביל - ידיעות ספרים",
         "platform": "tiktok",
         "views": 85200,
-        "likes": 7130,
+        "likes": 7131,
         "comments": 379,
         "saves": 0,
         "shares": 493,
@@ -539,11 +539,11 @@
     "description": "קמפיין דיגיטלי מוצלח עבור אפליקציית Jooba - פלטפורמת מסחר לנוער",
     "category": "קמפיין דיגיטלי",
     "kpis": {
-      "views": 358000,
-      "engagement": 16455,
+      "views": 358200,
+      "engagement": 16457,
       "shares": 1416,
-      "reach": 358000,
-      "impressions": 358000
+      "reach": 358200,
+      "impressions": 358200
     },
     "talents": [
       "1",
@@ -583,8 +583,8 @@
         "type": "short-form-video",
         "description": "סרטון TikTok - Jooba אפליקציית מסחר לנוער",
         "platform": "tiktok",
-        "views": 111600,
-        "likes": 6464,
+        "views": 111700,
+        "likes": 6465,
         "comments": 355,
         "saves": 1605,
         "shares": 798,
@@ -595,8 +595,8 @@
         "type": "short-form-video",
         "description": "סרטון TikTok נוסף - Jooba אפליקציית מסחר לנוער",
         "platform": "tiktok",
-        "views": 111600,
-        "likes": 6464,
+        "views": 111700,
+        "likes": 6465,
         "comments": 48,
         "saves": 249,
         "shares": 84,
@@ -1081,11 +1081,11 @@
     "description": "קמפיין מוצלח עבור CeraVe עם רועי פיירזולף במסיבת סוף השנה",
     "category": "קמפיין אירוע",
     "kpis": {
-      "views": 136700,
-      "engagement": 4456,
+      "views": 136800,
+      "engagement": 4463,
       "shares": 0,
-      "reach": 136700,
-      "impressions": 136700
+      "reach": 136800,
+      "impressions": 136800
     },
     "talents": [
       "3"
@@ -1101,8 +1101,8 @@
         "type": "short-form-video",
         "description": "TikTok - רועי פיירזולף מסיבת סוף שנה CeraVe",
         "platform": "tiktok",
-        "views": 136700,
-        "likes": 4235,
+        "views": 136800,
+        "likes": 4242,
         "comments": 43,
         "saves": 178,
         "talent": "3"
@@ -1420,7 +1420,7 @@
     "category": "קמפיין מיתוג מעסיק",
     "kpis": {
       "views": 133123,
-      "engagement": 6447,
+      "engagement": 6448,
       "shares": 0,
       "reach": 133123,
       "impressions": 133123
@@ -1462,7 +1462,7 @@
         "description": "TikTok - מר שיבולת קמפיין גיוס עובדים התעשייה האווירית",
         "platform": "tiktok",
         "views": 64700,
-        "likes": 4474,
+        "likes": 4475,
         "comments": 0,
         "talent": "2"
       },
