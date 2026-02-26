@@ -486,11 +486,11 @@
     "description": "קמפיין קידום מכירות מוצלח עבור הספר של ביל בהוצאת ידיעות ספרים",
     "category": "קמפיין ספרים",
     "kpis": {
-      "views": 100200,
-      "engagement": 8110,
+      "views": 100300,
+      "engagement": 8111,
       "shares": 493,
-      "reach": 100200,
-      "impressions": 100200
+      "reach": 100300,
+      "impressions": 100300
     },
     "talents": [
       "6"
@@ -518,8 +518,8 @@
         "type": "short-form-video",
         "description": "סרטון TikTok קידום הספר של ביל - ידיעות ספרים",
         "platform": "tiktok",
-        "views": 85200,
-        "likes": 7131,
+        "views": 85300,
+        "likes": 7132,
         "comments": 379,
         "saves": 0,
         "shares": 493,
@@ -1082,7 +1082,7 @@
     "category": "קמפיין אירוע",
     "kpis": {
       "views": 136800,
-      "engagement": 4463,
+      "engagement": 4465,
       "shares": 0,
       "reach": 136800,
       "impressions": 136800
@@ -1102,7 +1102,7 @@
         "description": "TikTok - רועי פיירזולף מסיבת סוף שנה CeraVe",
         "platform": "tiktok",
         "views": 136800,
-        "likes": 4242,
+        "likes": 4244,
         "comments": 43,
         "saves": 178,
         "talent": "3"
