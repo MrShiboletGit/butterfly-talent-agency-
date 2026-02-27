@@ -540,7 +540,7 @@
     "category": "קמפיין דיגיטלי",
     "kpis": {
       "views": 358200,
-      "engagement": 16457,
+      "engagement": 16461,
       "shares": 1416,
       "reach": 358200,
       "impressions": 358200
@@ -584,7 +584,7 @@
         "description": "סרטון TikTok - Jooba אפליקציית מסחר לנוער",
         "platform": "tiktok",
         "views": 111700,
-        "likes": 6465,
+        "likes": 6467,
         "comments": 355,
         "saves": 1605,
         "shares": 798,
@@ -596,7 +596,7 @@
         "description": "סרטון TikTok נוסף - Jooba אפליקציית מסחר לנוער",
         "platform": "tiktok",
         "views": 111700,
-        "likes": 6465,
+        "likes": 6467,
         "comments": 48,
         "saves": 249,
         "shares": 84,
@@ -1081,11 +1081,11 @@
     "description": "קמפיין מוצלח עבור CeraVe עם רועי פיירזולף במסיבת סוף השנה",
     "category": "קמפיין אירוע",
     "kpis": {
-      "views": 136800,
-      "engagement": 4465,
+      "views": 136900,
+      "engagement": 4467,
       "shares": 0,
-      "reach": 136800,
-      "impressions": 136800
+      "reach": 136900,
+      "impressions": 136900
     },
     "talents": [
       "3"
@@ -1101,8 +1101,8 @@
         "type": "short-form-video",
         "description": "TikTok - רועי פיירזולף מסיבת סוף שנה CeraVe",
         "platform": "tiktok",
-        "views": 136800,
-        "likes": 4244,
+        "views": 136900,
+        "likes": 4246,
         "comments": 43,
         "saves": 178,
         "talent": "3"
@@ -1279,7 +1279,7 @@
     "category": "קמפיין ציבורי",
     "kpis": {
       "views": 167048,
-      "engagement": 8132,
+      "engagement": 8131,
       "shares": 591,
       "reach": 167048,
       "impressions": 167048
@@ -1300,7 +1300,7 @@
         "description": "TikTok - מיכל מצוב משרד התחבורה",
         "platform": "tiktok",
         "views": 72600,
-        "likes": 5765,
+        "likes": 5764,
         "comments": 296,
         "shares": 591,
         "talent": "1"
