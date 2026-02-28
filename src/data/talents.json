@@ -78,9 +78,9 @@
     "category": "גיימינג ותוכן",
     "bio": "בן 22, יוצא 8200, מהיוטיוברים המובילים בישראל. מפעיל את ערוצי FireWolf ו-FireWolf2 עם תוכן גיימינג ווידאו.",
     "imageUrl": "/talents/Firewolf.png",
-    "totalFollowers": 411000,
+    "totalFollowers": 412000,
     "platformFollowers": {
-      "youtube": 320000,
+      "youtube": 321000,
       "tiktok": 65700,
       "instagram": 25300
     },
@@ -115,11 +115,11 @@
     "category": "גיימינג ושורטים",
     "bio": "יוטיובר גיימר בן 22, מתמחה בגיימינג וקרוס-פלטפורם סטרימינג. מוביל בבראול סטארס.",
     "imageUrl": "/talents/GalCohen.png",
-    "totalFollowers": 387300,
+    "totalFollowers": 388400,
     "platformFollowers": {
-      "youtube": 286000,
+      "youtube": 287000,
       "instagram": 20600,
-      "tiktok": 80700
+      "tiktok": 80800
     },
     "engagement": "5.8%",
     "audience": {
@@ -182,10 +182,10 @@
     "category": "קולנוע ובידור",
     "bio": "יוצר תוכן בתחום הקולנוע והבידור עם מעל 4 שנות ניסיון ביצירת ולוגים וסרטונים.",
     "imageUrl": "/talents/Israel Galitsky.png",
-    "totalFollowers": 173040,
+    "totalFollowers": 173140,
     "platformFollowers": {
       "youtube": 6640,
-      "tiktok": 150000,
+      "tiktok": 150100,
       "instagram": 16400
     },
     "audience": {
@@ -289,9 +289,9 @@
     "category": "גיימינג",
     "bio": "בת 20, יוצרת תוכן גיימינג עם קהל מעורב, מתמקדת בקשר לקהילה וסטרימינג ייחודי.",
     "imageUrl": "/talents/Cinaminna.png",
-    "totalFollowers": 101300,
+    "totalFollowers": 101400,
     "platformFollowers": {
-      "youtube": 31300,
+      "youtube": 31400,
       "instagram": 4000,
       "tiktok": 66000
     },
@@ -320,14 +320,14 @@
   },
   {
     "id": "10",
-    "totalFollowers": 118500,
+    "totalFollowers": 118600,
     "name": "סטינגר ישראל",
     "category": "גיימינג",
     "bio": "סטינגר ישראל הוא יוצר תוכן וגיימר בולט בזירת הגיימינג הישראלית, המוכר בזכות אנרגיה גבוהה, קצב מהיר וחיבור אותנטי לקהילה הצעירה.\nהתוכן שלו משלב גיימפליי תחרותי, אתגרים, ריאקשנים ושיתופי פעולה – עם דגש על הומור חד ועריכה דינמית שמחזיקה את הצופה מהשנייה הראשונה.",
     "imageUrl": "https://yt3.googleusercontent.com/PrXV1gQTzCVp8uOFkGUPHipTZBwznuEfPm7y5tGD1_TD54rLGB-9bNKABTZRKO3MMlndbKldAg=s900-c-k-c0x00ffffff-no-rj",
     "main": true,
     "platformFollowers": {
-      "youtube": 94900,
+      "youtube": 95000,
       "instagram": 2800,
       "tiktok": 20800
     },
