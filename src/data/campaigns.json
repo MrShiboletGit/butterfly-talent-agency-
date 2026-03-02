@@ -486,11 +486,11 @@
     "description": "קמפיין קידום מכירות מוצלח עבור הספר של ביל בהוצאת ידיעות ספרים",
     "category": "קמפיין ספרים",
     "kpis": {
-      "views": 100300,
+      "views": 100400,
       "engagement": 8111,
       "shares": 493,
-      "reach": 100300,
-      "impressions": 100300
+      "reach": 100400,
+      "impressions": 100400
     },
     "talents": [
       "6"
@@ -518,7 +518,7 @@
         "type": "short-form-video",
         "description": "סרטון TikTok קידום הספר של ביל - ידיעות ספרים",
         "platform": "tiktok",
-        "views": 85300,
+        "views": 85400,
         "likes": 7132,
         "comments": 379,
         "saves": 0,
@@ -1081,11 +1081,11 @@
     "description": "קמפיין מוצלח עבור CeraVe עם רועי פיירזולף במסיבת סוף השנה",
     "category": "קמפיין אירוע",
     "kpis": {
-      "views": 137100,
-      "engagement": 4475,
+      "views": 137200,
+      "engagement": 4480,
       "shares": 0,
-      "reach": 137100,
-      "impressions": 137100
+      "reach": 137200,
+      "impressions": 137200
     },
     "talents": [
       "3"
@@ -1101,8 +1101,8 @@
         "type": "short-form-video",
         "description": "TikTok - רועי פיירזולף מסיבת סוף שנה CeraVe",
         "platform": "tiktok",
-        "views": 137100,
-        "likes": 4254,
+        "views": 137200,
+        "likes": 4259,
         "comments": 43,
         "saves": 178,
         "talent": "3"
@@ -1121,11 +1121,11 @@
     "description": "קמפיין בכורה מוצלח עבור סרט 'לזמן את הרוע 4' עם עומר ירון וגל כהן",
     "category": "קמפיין קולנוע",
     "kpis": {
-      "views": 712390,
-      "engagement": 21695,
+      "views": 712490,
+      "engagement": 21696,
       "shares": 0,
-      "reach": 712390,
-      "impressions": 712390
+      "reach": 712490,
+      "impressions": 712490
     },
     "talents": [
       "8",
@@ -1154,8 +1154,8 @@
         "type": "short-form-video",
         "description": "TikTok - עומר ירון לזמן את הרוע 4 בכורה",
         "platform": "tiktok",
-        "views": 400200,
-        "likes": 9242,
+        "views": 400300,
+        "likes": 9243,
         "comments": 253,
         "saves": 868,
         "talent": "8"
