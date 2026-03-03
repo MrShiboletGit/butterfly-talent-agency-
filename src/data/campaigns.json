@@ -539,11 +539,11 @@
     "description": "קמפיין דיגיטלי מוצלח עבור אפליקציית Jooba - פלטפורמת מסחר לנוער",
     "category": "קמפיין דיגיטלי",
     "kpis": {
-      "views": 358400,
-      "engagement": 16465,
+      "views": 358600,
+      "engagement": 16467,
       "shares": 1416,
-      "reach": 358400,
-      "impressions": 358400
+      "reach": 358600,
+      "impressions": 358600
     },
     "talents": [
       "1",
@@ -583,8 +583,8 @@
         "type": "short-form-video",
         "description": "סרטון TikTok - Jooba אפליקציית מסחר לנוער",
         "platform": "tiktok",
-        "views": 111800,
-        "likes": 6469,
+        "views": 111900,
+        "likes": 6470,
         "comments": 355,
         "saves": 1605,
         "shares": 798,
@@ -595,8 +595,8 @@
         "type": "short-form-video",
         "description": "סרטון TikTok נוסף - Jooba אפליקציית מסחר לנוער",
         "platform": "tiktok",
-        "views": 111800,
-        "likes": 6469,
+        "views": 111900,
+        "likes": 6470,
         "comments": 48,
         "saves": 249,
         "shares": 84,
@@ -1081,11 +1081,11 @@
     "description": "קמפיין מוצלח עבור CeraVe עם רועי פיירזולף במסיבת סוף השנה",
     "category": "קמפיין אירוע",
     "kpis": {
-      "views": 137200,
-      "engagement": 4480,
+      "views": 137600,
+      "engagement": 4493,
       "shares": 0,
-      "reach": 137200,
-      "impressions": 137200
+      "reach": 137600,
+      "impressions": 137600
     },
     "talents": [
       "3"
@@ -1101,8 +1101,8 @@
         "type": "short-form-video",
         "description": "TikTok - רועי פיירזולף מסיבת סוף שנה CeraVe",
         "platform": "tiktok",
-        "views": 137200,
-        "likes": 4259,
+        "views": 137600,
+        "likes": 4272,
         "comments": 43,
         "saves": 178,
         "talent": "3"
@@ -1122,7 +1122,7 @@
     "category": "קמפיין קולנוע",
     "kpis": {
       "views": 712490,
-      "engagement": 21696,
+      "engagement": 21697,
       "shares": 0,
       "reach": 712490,
       "impressions": 712490
@@ -1155,7 +1155,7 @@
         "description": "TikTok - עומר ירון לזמן את הרוע 4 בכורה",
         "platform": "tiktok",
         "views": 400300,
-        "likes": 9243,
+        "likes": 9244,
         "comments": 253,
         "saves": 868,
         "talent": "8"
@@ -1279,7 +1279,7 @@
     "category": "קמפיין ציבורי",
     "kpis": {
       "views": 167148,
-      "engagement": 8132,
+      "engagement": 8134,
       "shares": 591,
       "reach": 167148,
       "impressions": 167148
@@ -1300,7 +1300,7 @@
         "description": "TikTok - מיכל מצוב משרד התחבורה",
         "platform": "tiktok",
         "views": 72700,
-        "likes": 5765,
+        "likes": 5767,
         "comments": 296,
         "shares": 591,
         "talent": "1"
