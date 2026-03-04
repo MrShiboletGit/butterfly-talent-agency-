@@ -1081,11 +1081,11 @@
     "description": "קמפיין מוצלח עבור CeraVe עם רועי פיירזולף במסיבת סוף השנה",
     "category": "קמפיין אירוע",
     "kpis": {
-      "views": 137600,
-      "engagement": 4493,
+      "views": 138000,
+      "engagement": 4507,
       "shares": 0,
-      "reach": 137600,
-      "impressions": 137600
+      "reach": 138000,
+      "impressions": 138000
     },
     "talents": [
       "3"
@@ -1101,8 +1101,8 @@
         "type": "short-form-video",
         "description": "TikTok - רועי פיירזולף מסיבת סוף שנה CeraVe",
         "platform": "tiktok",
-        "views": 137600,
-        "likes": 4272,
+        "views": 138000,
+        "likes": 4286,
         "comments": 43,
         "saves": 178,
         "talent": "3"
@@ -1121,11 +1121,11 @@
     "description": "קמפיין בכורה מוצלח עבור סרט 'לזמן את הרוע 4' עם עומר ירון וגל כהן",
     "category": "קמפיין קולנוע",
     "kpis": {
-      "views": 712490,
-      "engagement": 21697,
+      "views": 712590,
+      "engagement": 21700,
       "shares": 0,
-      "reach": 712490,
-      "impressions": 712490
+      "reach": 712590,
+      "impressions": 712590
     },
     "talents": [
       "8",
@@ -1154,8 +1154,8 @@
         "type": "short-form-video",
         "description": "TikTok - עומר ירון לזמן את הרוע 4 בכורה",
         "platform": "tiktok",
-        "views": 400300,
-        "likes": 9244,
+        "views": 400400,
+        "likes": 9247,
         "comments": 253,
         "saves": 868,
         "talent": "8"
