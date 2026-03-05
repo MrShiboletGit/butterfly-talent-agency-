@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-03-04T04:40:22.971909",
+  "generated_at": "2026-03-05T04:55:31.610000",
   "video_results": [
     {
       "url": "https://www.tiktok.com/@galcohenyt/video/7540251397405560084",
       "platform": "tiktok",
       "stored_views": 42300,
       "stored_likes": 1043,
-      "live_views": 42300,
-      "live_likes": 1043,
+      "live_views": 42400,
+      "live_likes": 1044,
       "error": null,
-      "views_diff_pct": 0.0
+      "views_diff_pct": 0.2364066193853428
     },
     {
       "url": "https://www.youtube.com/shorts/u6Xa60YcCTE",
@@ -86,10 +86,10 @@
       "platform": "tiktok",
       "stored_views": 13700,
       "stored_likes": 441,
-      "live_views": 13700,
+      "live_views": 13800,
       "live_likes": 441,
       "error": null,
-      "views_diff_pct": 0.0
+      "views_diff_pct": 0.7299270072992701
     },
     {
       "url": "https://www.youtube.com/shorts/N9-B7dB6bnY",
@@ -117,8 +117,8 @@
       "stored_views": 20300,
       "stored_likes": 1616,
       "live_views": null,
-      "live_likes": 1599,
-      "error": null,
+      "live_likes": null,
+      "error": "No metrics found in embed",
       "views_diff_pct": null
     },
     {
@@ -136,10 +136,10 @@
       "platform": "tiktok",
       "stored_views": 1800000,
       "stored_likes": 2324,
-      "live_views": null,
-      "live_likes": null,
-      "error": "ERROR: [TikTok] 7356596852634012929: Unexpected response from webpage request; please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U",
-      "views_diff_pct": null
+      "live_views": 1800000,
+      "live_likes": 2324,
+      "error": null,
+      "views_diff_pct": 0.0
     },
     {
       "url": "https://www.tiktok.com/@mrshibolet/video/7413704318131506440",
@@ -157,8 +157,8 @@
       "stored_views": 12000,
       "stored_likes": 296,
       "live_views": null,
-      "live_likes": 296,
-      "error": null,
+      "live_likes": null,
+      "error": "No metrics found in embed",
       "views_diff_pct": null
     },
     {
@@ -177,8 +177,8 @@
       "stored_views": 15000,
       "stored_likes": 188,
       "live_views": null,
-      "live_likes": 188,
-      "error": null,
+      "live_likes": null,
+      "error": "No metrics found in embed",
       "views_diff_pct": null
     },
     {
@@ -187,8 +187,8 @@
       "stored_views": 15000,
       "stored_likes": 572,
       "live_views": null,
-      "live_likes": 573,
-      "error": null,
+      "live_likes": null,
+      "error": "No metrics found in embed",
       "views_diff_pct": null
     },
     {
@@ -196,10 +196,10 @@
       "platform": "tiktok",
       "stored_views": 85400,
       "stored_likes": 7132,
-      "live_views": null,
-      "live_likes": null,
-      "error": "ERROR: [TikTok] 7535054778527698184: Unexpected response from webpage request; please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U",
-      "views_diff_pct": null
+      "live_views": 85500,
+      "live_likes": 7132,
+      "error": null,
+      "views_diff_pct": 0.117096018735363
     },
     {
       "url": "https://www.instagram.com/reel/DMIYpdKIqNU/?igsh=Z3E4Y3pqOWY3b2oy",
@@ -227,7 +227,7 @@
       "stored_views": 111900,
       "stored_likes": 6470,
       "live_views": 111900,
-      "live_likes": 6470,
+      "live_likes": 6472,
       "error": null,
       "views_diff_pct": 0.0
     },
@@ -236,10 +236,10 @@
       "platform": "tiktok",
       "stored_views": 111900,
       "stored_likes": 6470,
-      "live_views": null,
-      "live_likes": null,
-      "error": "ERROR: [TikTok] 7527310366653598984: Unexpected response from webpage request; please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U",
-      "views_diff_pct": null
+      "live_views": 111900,
+      "live_likes": 6472,
+      "error": null,
+      "views_diff_pct": 0.0
     },
     {
       "url": "https://www.tiktok.com/@galcohenyt/video/7522490053461806343?_r=1&_t=ZS-8xh6Rcpzek5",
@@ -267,8 +267,8 @@
       "stored_views": 13000,
       "stored_likes": 45,
       "live_views": null,
-      "live_likes": 45,
-      "error": null,
+      "live_likes": null,
+      "error": "No metrics found in embed",
       "views_diff_pct": null
     },
     {
@@ -286,10 +286,10 @@
       "platform": "tiktok",
       "stored_views": 1700000,
       "stored_likes": 5014,
-      "live_views": null,
-      "live_likes": null,
-      "error": "ERROR: [TikTok] 7522503929377082631: Unexpected response from webpage request; please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U",
-      "views_diff_pct": null
+      "live_views": 1700000,
+      "live_likes": 5014,
+      "error": null,
+      "views_diff_pct": 0.0
     },
     {
       "url": "https://www.instagram.com/mrshibolet/reel/DLnDKVmtTZ3/?hl=en",
@@ -297,8 +297,8 @@
       "stored_views": 18000,
       "stored_likes": 283,
       "live_views": null,
-      "live_likes": 283,
-      "error": null,
+      "live_likes": null,
+      "error": "No metrics found in embed",
       "views_diff_pct": null
     },
     {
@@ -307,8 +307,8 @@
       "stored_views": 20000,
       "stored_likes": 254,
       "live_views": null,
-      "live_likes": 254,
-      "error": null,
+      "live_likes": null,
+      "error": "No metrics found in embed",
       "views_diff_pct": null
     },
     {
@@ -366,10 +366,10 @@
       "platform": "tiktok",
       "stored_views": 815100,
       "stored_likes": 5483,
-      "live_views": null,
-      "live_likes": null,
-      "error": "ERROR: [TikTok] 7522499377584213266: Unexpected response from webpage request; please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U",
-      "views_diff_pct": null
+      "live_views": 815100,
+      "live_likes": 5483,
+      "error": null,
+      "views_diff_pct": 0.0
     },
     {
       "url": "https://www.instagram.com/reel/DLnEq4MNt2n/?igsh=cjM4ZmNnOWxyOTJy",
@@ -377,8 +377,8 @@
       "stored_views": 25000,
       "stored_likes": 490,
       "live_views": null,
-      "live_likes": 492,
-      "error": null,
+      "live_likes": null,
+      "error": "No metrics found in embed",
       "views_diff_pct": null
     },
     {
@@ -446,10 +446,10 @@
       "platform": "tiktok",
       "stored_views": 801900,
       "stored_likes": 1300,
-      "live_views": null,
-      "live_likes": null,
-      "error": "ERROR: [TikTok] 7525110938639355154: Unexpected response from webpage request; please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U",
-      "views_diff_pct": null
+      "live_views": 801900,
+      "live_likes": 1300,
+      "error": null,
+      "views_diff_pct": 0.0
     },
     {
       "url": "https://www.tiktok.com/@omeryaron_/video/7525006149415046418",
@@ -506,10 +506,10 @@
       "platform": "tiktok",
       "stored_views": 24200,
       "stored_likes": 299,
-      "live_views": null,
-      "live_likes": null,
-      "error": "ERROR: [TikTok] 7543585916498021639: Unexpected response from webpage request; please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U",
-      "views_diff_pct": null
+      "live_views": 24200,
+      "live_likes": 299,
+      "error": null,
+      "views_diff_pct": 0.0
     },
     {
       "url": "https://www.youtube.com/shorts/i_KhWgAaC-c?si=RA2xf359qY1pKH-e",
@@ -526,20 +526,20 @@
       "platform": "tiktok",
       "stored_views": 26400,
       "stored_likes": 770,
-      "live_views": null,
-      "live_likes": null,
-      "error": "ERROR: [TikTok] 7543578746750586132: Unexpected response from webpage request; please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U",
-      "views_diff_pct": null
+      "live_views": 26400,
+      "live_likes": 770,
+      "error": null,
+      "views_diff_pct": 0.0
     },
     {
       "url": "https://www.tiktok.com/@roeefirewolf/video/7545880178501618962",
       "platform": "tiktok",
-      "stored_views": 137600,
-      "stored_likes": 4272,
-      "live_views": 138000,
-      "live_likes": 4286,
+      "stored_views": 138000,
+      "stored_likes": 4286,
+      "live_views": 138700,
+      "live_likes": 4312,
       "error": null,
-      "views_diff_pct": 0.29069767441860467
+      "views_diff_pct": 0.5072463768115941
     },
     {
       "url": "https://www.youtube.com/shorts/62GdFl6wzL4?si=TTbDuO9y5ey3pKIe",
@@ -554,12 +554,12 @@
     {
       "url": "https://www.tiktok.com/@omeryaron_/video/7546155126982069522",
       "platform": "tiktok",
-      "stored_views": 400300,
-      "stored_likes": 9244,
+      "stored_views": 400400,
+      "stored_likes": 9247,
       "live_views": 400400,
       "live_likes": 9247,
       "error": null,
-      "views_diff_pct": 0.02498126405196103
+      "views_diff_pct": 0.0
     },
     {
       "url": "https://www.instagram.com/reel/DOI_704DS-U/?igsh=MmVybXo3cnFtdmt6",
@@ -567,8 +567,8 @@
       "stored_views": 24500,
       "stored_likes": 903,
       "live_views": null,
-      "live_likes": 903,
-      "error": null,
+      "live_likes": null,
+      "error": "No metrics found in embed",
       "views_diff_pct": null
     },
     {
@@ -587,7 +587,7 @@
       "stored_views": 52400,
       "stored_likes": 1047,
       "live_views": 52400,
-      "live_likes": 1047,
+      "live_likes": 1048,
       "error": null,
       "views_diff_pct": 0.0
     },
@@ -637,7 +637,7 @@
       "stored_views": 72700,
       "stored_likes": 5767,
       "live_views": 72700,
-      "live_likes": 5767,
+      "live_likes": 5768,
       "error": null,
       "views_diff_pct": 0.0
     },
@@ -677,7 +677,7 @@
       "stored_views": 44600,
       "stored_likes": 1176,
       "live_views": 44600,
-      "live_likes": 1176,
+      "live_likes": 1177,
       "error": null,
       "views_diff_pct": 0.0
     },
@@ -747,8 +747,8 @@
       "stored_views": 40400,
       "stored_likes": 1130,
       "live_views": null,
-      "live_likes": 1133,
-      "error": null,
+      "live_likes": null,
+      "error": "No metrics found in embed",
       "views_diff_pct": null
     },
     {
@@ -757,8 +757,8 @@
       "stored_views": 8100,
       "stored_likes": 162,
       "live_views": null,
-      "live_likes": 162,
-      "error": null,
+      "live_likes": null,
+      "error": "No metrics found in embed",
       "views_diff_pct": null
     }
   ],
@@ -804,9 +804,9 @@
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@mrshibolet",
       "stored_followers": 115700,
-      "live_followers": null,
-      "error": "Could not find follower count",
-      "diff_pct": null
+      "live_followers": 115600,
+      "error": null,
+      "diff_pct": -0.08643042350907519
     },
     {
       "talent_name": "מר שיבולת (שי בן בסט)",
@@ -831,9 +831,9 @@
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@roeefirewolf",
       "stored_followers": 65700,
-      "live_followers": null,
-      "error": "Could not find follower count",
-      "diff_pct": null
+      "live_followers": 65700,
+      "error": null,
+      "diff_pct": 0.0
     },
     {
       "talent_name": "רועי (Roee Firewolf)",
@@ -849,18 +849,18 @@
       "platform": "youtube",
       "url": "https://www.youtube.com/@GalCohenOfficial",
       "stored_followers": 288000,
-      "live_followers": 288000,
+      "live_followers": 289000,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": 0.3472222222222222
     },
     {
       "talent_name": "גל כהן",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@galcohenyt",
-      "stored_followers": 81400,
-      "live_followers": 81500,
+      "stored_followers": 81500,
+      "live_followers": 81700,
       "error": null,
-      "diff_pct": 0.12285012285012285
+      "diff_pct": 0.245398773006135
     },
     {
       "talent_name": "גל כהן",
@@ -956,19 +956,19 @@
       "talent_name": "עומר ירון",
       "platform": "youtube",
       "url": "https://youtube.com/@omer_yaron",
-      "stored_followers": 41700,
+      "stored_followers": 41800,
       "live_followers": 41800,
       "error": null,
-      "diff_pct": 0.2398081534772182
+      "diff_pct": 0.0
     },
     {
       "talent_name": "עומר ירון",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@omeryaron_",
-      "stored_followers": 52400,
+      "stored_followers": 52800,
       "live_followers": 52800,
       "error": null,
-      "diff_pct": 0.7633587786259541
+      "diff_pct": 0.0
     },
     {
       "talent_name": "עומר ירון",
