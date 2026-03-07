@@ -145,11 +145,11 @@
     "description": "קמפיין שנתי מוצלח עבור סמסונג ברבעון השלישי של 2025",
     "category": "קמפיין שנתי",
     "kpis": {
-      "views": 520439,
+      "views": 520339,
       "engagement": 17582,
       "shares": 0,
-      "reach": 520439,
-      "impressions": 520439
+      "reach": 520339,
+      "impressions": 520339
     },
     "talents": [
       "4",
@@ -198,7 +198,7 @@
         "type": "short-form-video",
         "description": "TikTok - שיבולת קמפיין סמסונג Q3",
         "platform": "tiktok",
-        "views": 13800,
+        "views": 13700,
         "likes": 441,
         "comments": 9,
         "saves": 11,
@@ -540,7 +540,7 @@
     "category": "קמפיין דיגיטלי",
     "kpis": {
       "views": 358800,
-      "engagement": 16475,
+      "engagement": 16479,
       "shares": 1416,
       "reach": 358800,
       "impressions": 358800
@@ -584,7 +584,7 @@
         "description": "סרטון TikTok - Jooba אפליקציית מסחר לנוער",
         "platform": "tiktok",
         "views": 112000,
-        "likes": 6474,
+        "likes": 6476,
         "comments": 355,
         "saves": 1605,
         "shares": 798,
@@ -596,7 +596,7 @@
         "description": "סרטון TikTok נוסף - Jooba אפליקציית מסחר לנוער",
         "platform": "tiktok",
         "views": 112000,
-        "likes": 6474,
+        "likes": 6476,
         "comments": 48,
         "saves": 249,
         "shares": 84,
@@ -616,11 +616,11 @@
     "description": "קמפיין השקה מרשים עבור סרט 'עולם היורה' בקולנוע שהגיע ל-3.2 מיליון צפיות",
     "category": "קמפיין קולנוע",
     "kpis": {
-      "views": 3913020,
+      "views": 3913120,
       "engagement": 27550,
       "shares": 551,
-      "reach": 3913020,
-      "impressions": 3913020
+      "reach": 3913120,
+      "impressions": 3913120
     },
     "talents": [
       "2",
@@ -770,7 +770,7 @@
         "type": "short-form-video",
         "description": "TikTok - עולם היורה בקולנוע",
         "platform": "tiktok",
-        "views": 815100,
+        "views": 815200,
         "likes": 5483,
         "comments": 984,
         "saves": 375,
@@ -856,7 +856,7 @@
     "category": "קמפיין קולנוע",
     "kpis": {
       "views": 2656472,
-      "engagement": 23363,
+      "engagement": 23364,
       "shares": 119,
       "reach": 2656472,
       "impressions": 2656472
@@ -900,7 +900,7 @@
         "description": "TikTok - קידום סרט סופרמן בקולנוע",
         "platform": "tiktok",
         "views": 1200000,
-        "likes": 5416,
+        "likes": 5417,
         "comments": 238,
         "saves": 401,
         "shares": 0,
@@ -1082,7 +1082,7 @@
     "category": "קמפיין אירוע",
     "kpis": {
       "views": 138800,
-      "engagement": 4533,
+      "engagement": 4535,
       "shares": 0,
       "reach": 138800,
       "impressions": 138800
@@ -1102,7 +1102,7 @@
         "description": "TikTok - רועי פיירזולף מסיבת סוף שנה CeraVe",
         "platform": "tiktok",
         "views": 138800,
-        "likes": 4312,
+        "likes": 4314,
         "comments": 43,
         "saves": 178,
         "talent": "3"
@@ -1122,7 +1122,7 @@
     "category": "קמפיין קולנוע",
     "kpis": {
       "views": 712690,
-      "engagement": 21701,
+      "engagement": 21702,
       "shares": 0,
       "reach": 712690,
       "impressions": 712690
@@ -1155,7 +1155,7 @@
         "description": "TikTok - עומר ירון לזמן את הרוע 4 בכורה",
         "platform": "tiktok",
         "views": 400500,
-        "likes": 9247,
+        "likes": 9248,
         "comments": 253,
         "saves": 868,
         "talent": "8"
@@ -1420,7 +1420,7 @@
     "category": "קמפיין מיתוג מעסיק",
     "kpis": {
       "views": 133123,
-      "engagement": 6447,
+      "engagement": 6449,
       "shares": 0,
       "reach": 133123,
       "impressions": 133123
@@ -1462,7 +1462,7 @@
         "description": "TikTok - מר שיבולת קמפיין גיוס עובדים התעשייה האווירית",
         "platform": "tiktok",
         "views": 64700,
-        "likes": 4474,
+        "likes": 4476,
         "comments": 0,
         "talent": "2"
       },

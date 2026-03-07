@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-06T04:53:29.261582",
+  "generated_at": "2026-03-07T04:32:41.458485",
   "video_results": [
     {
       "url": "https://www.tiktok.com/@galcohenyt/video/7540251397405560084",
@@ -86,10 +86,10 @@
       "platform": "tiktok",
       "stored_views": 13800,
       "stored_likes": 441,
-      "live_views": 13800,
+      "live_views": 13700,
       "live_likes": 441,
       "error": null,
-      "views_diff_pct": 0.0
+      "views_diff_pct": -0.7246376811594203
     },
     {
       "url": "https://www.youtube.com/shorts/N9-B7dB6bnY",
@@ -224,22 +224,22 @@
     {
       "url": "https://www.tiktok.com/@michalmatzov/video/7527310366653598984?_r=1&_t=ZS-8yYyPcptRRZ",
       "platform": "tiktok",
-      "stored_views": 111900,
-      "stored_likes": 6472,
+      "stored_views": 112000,
+      "stored_likes": 6474,
       "live_views": 112000,
-      "live_likes": 6474,
+      "live_likes": 6476,
       "error": null,
-      "views_diff_pct": 0.08936550491510277
+      "views_diff_pct": 0.0
     },
     {
       "url": "https://www.tiktok.com/@michalmatzov/video/7527310366653598984?_r=1&_t=ZS-8yYyPcptRRZ",
       "platform": "tiktok",
-      "stored_views": 111900,
-      "stored_likes": 6472,
+      "stored_views": 112000,
+      "stored_likes": 6474,
       "live_views": 112000,
-      "live_likes": 6474,
+      "live_likes": 6476,
       "error": null,
-      "views_diff_pct": 0.08936550491510277
+      "views_diff_pct": 0.0
     },
     {
       "url": "https://www.tiktok.com/@galcohenyt/video/7522490053461806343?_r=1&_t=ZS-8xh6Rcpzek5",
@@ -366,10 +366,10 @@
       "platform": "tiktok",
       "stored_views": 815100,
       "stored_likes": 5483,
-      "live_views": 815100,
+      "live_views": 815200,
       "live_likes": 5483,
       "error": null,
-      "views_diff_pct": 0.0
+      "views_diff_pct": 0.0122684333210649
     },
     {
       "url": "https://www.instagram.com/reel/DLnEq4MNt2n/?igsh=cjM4ZmNnOWxyOTJy",
@@ -457,7 +457,7 @@
       "stored_views": 1200000,
       "stored_likes": 5416,
       "live_views": 1200000,
-      "live_likes": 5416,
+      "live_likes": 5417,
       "error": null,
       "views_diff_pct": 0.0
     },
@@ -534,12 +534,12 @@
     {
       "url": "https://www.tiktok.com/@roeefirewolf/video/7545880178501618962",
       "platform": "tiktok",
-      "stored_views": 138700,
+      "stored_views": 138800,
       "stored_likes": 4312,
       "live_views": 138800,
-      "live_likes": 4312,
+      "live_likes": 4314,
       "error": null,
-      "views_diff_pct": 0.07209805335255948
+      "views_diff_pct": 0.0
     },
     {
       "url": "https://www.youtube.com/shorts/62GdFl6wzL4?si=TTbDuO9y5ey3pKIe",
@@ -554,12 +554,12 @@
     {
       "url": "https://www.tiktok.com/@omeryaron_/video/7546155126982069522",
       "platform": "tiktok",
-      "stored_views": 400400,
+      "stored_views": 400500,
       "stored_likes": 9247,
       "live_views": 400500,
-      "live_likes": 9247,
+      "live_likes": 9248,
       "error": null,
-      "views_diff_pct": 0.024975024975024976
+      "views_diff_pct": 0.0
     },
     {
       "url": "https://www.instagram.com/reel/DOI_704DS-U/?igsh=MmVybXo3cnFtdmt6",
@@ -635,7 +635,7 @@
       "url": "https://www.tiktok.com/@michalmatzov/video/7559195096663772434?_r=1&_t=ZS-90PDjWjaGox",
       "platform": "tiktok",
       "stored_views": 72700,
-      "stored_likes": 5768,
+      "stored_likes": 5769,
       "live_views": 72700,
       "live_likes": 5769,
       "error": null,
@@ -735,9 +735,9 @@
       "url": "https://www.tiktok.com/@mrshibolet/video/7577367884666522898",
       "platform": "tiktok",
       "stored_views": 64700,
-      "stored_likes": 4475,
+      "stored_likes": 4474,
       "live_views": 64700,
-      "live_likes": 4474,
+      "live_likes": 4476,
       "error": null,
       "views_diff_pct": 0.0
     },
@@ -776,10 +776,10 @@
       "talent_name": "מיכל מצוב",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@michalmatzov",
-      "stored_followers": 351800,
+      "stored_followers": 351900,
       "live_followers": 351900,
       "error": null,
-      "diff_pct": 0.02842524161455372
+      "diff_pct": 0.0
     },
     {
       "talent_name": "מיכל מצוב",
@@ -848,19 +848,19 @@
       "talent_name": "גל כהן",
       "platform": "youtube",
       "url": "https://www.youtube.com/@GalCohenOfficial",
-      "stored_followers": 289000,
+      "stored_followers": 290000,
       "live_followers": 290000,
       "error": null,
-      "diff_pct": 0.34602076124567477
+      "diff_pct": 0.0
     },
     {
       "talent_name": "גל כהן",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@galcohenyt",
-      "stored_followers": 81700,
-      "live_followers": 82200,
+      "stored_followers": 82200,
+      "live_followers": 82300,
       "error": null,
-      "diff_pct": 0.6119951040391677
+      "diff_pct": 0.12165450121654502
     },
     {
       "talent_name": "גל כהן",
@@ -885,9 +885,9 @@
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@rainbqueen",
       "stored_followers": 43400,
-      "live_followers": 43400,
+      "live_followers": 43300,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": -0.2304147465437788
     },
     {
       "talent_name": "מיטל ריינבו קווין",
@@ -911,10 +911,10 @@
       "talent_name": "ישראל גליצקי",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@israel_galitsky",
-      "stored_followers": 150200,
-      "live_followers": 150300,
+      "stored_followers": 150300,
+      "live_followers": 150200,
       "error": null,
-      "diff_pct": 0.06657789613848203
+      "diff_pct": -0.0665335994677312
     },
     {
       "talent_name": "ישראל גליצקי",
@@ -956,10 +956,10 @@
       "talent_name": "עומר ירון",
       "platform": "youtube",
       "url": "https://youtube.com/@omer_yaron",
-      "stored_followers": 41800,
+      "stored_followers": 41900,
       "live_followers": 41900,
       "error": null,
-      "diff_pct": 0.23923444976076555
+      "diff_pct": 0.0
     },
     {
       "talent_name": "עומר ירון",
