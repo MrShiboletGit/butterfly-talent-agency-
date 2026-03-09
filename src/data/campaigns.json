@@ -486,11 +486,11 @@
     "description": "קמפיין קידום מכירות מוצלח עבור הספר של ביל בהוצאת ידיעות ספרים",
     "category": "קמפיין ספרים",
     "kpis": {
-      "views": 100500,
-      "engagement": 8112,
+      "views": 100700,
+      "engagement": 8116,
       "shares": 493,
-      "reach": 100500,
-      "impressions": 100500
+      "reach": 100700,
+      "impressions": 100700
     },
     "talents": [
       "6"
@@ -518,8 +518,8 @@
         "type": "short-form-video",
         "description": "סרטון TikTok קידום הספר של ביל - ידיעות ספרים",
         "platform": "tiktok",
-        "views": 85500,
-        "likes": 7133,
+        "views": 85700,
+        "likes": 7137,
         "comments": 379,
         "saves": 0,
         "shares": 493,
@@ -539,11 +539,11 @@
     "description": "קמפיין דיגיטלי מוצלח עבור אפליקציית Jooba - פלטפורמת מסחר לנוער",
     "category": "קמפיין דיגיטלי",
     "kpis": {
-      "views": 358800,
-      "engagement": 16487,
+      "views": 359000,
+      "engagement": 16495,
       "shares": 1416,
-      "reach": 358800,
-      "impressions": 358800
+      "reach": 359000,
+      "impressions": 359000
     },
     "talents": [
       "1",
@@ -583,8 +583,8 @@
         "type": "short-form-video",
         "description": "סרטון TikTok - Jooba אפליקציית מסחר לנוער",
         "platform": "tiktok",
-        "views": 112000,
-        "likes": 6480,
+        "views": 112100,
+        "likes": 6484,
         "comments": 355,
         "saves": 1605,
         "shares": 798,
@@ -595,8 +595,8 @@
         "type": "short-form-video",
         "description": "סרטון TikTok נוסף - Jooba אפליקציית מסחר לנוער",
         "platform": "tiktok",
-        "views": 112000,
-        "likes": 6480,
+        "views": 112100,
+        "likes": 6484,
         "comments": 48,
         "saves": 249,
         "shares": 84,
@@ -617,7 +617,7 @@
     "category": "קמפיין קולנוע",
     "kpis": {
       "views": 3913120,
-      "engagement": 27551,
+      "engagement": 27552,
       "shares": 551,
       "reach": 3913120,
       "impressions": 3913120
@@ -771,7 +771,7 @@
         "description": "TikTok - עולם היורה בקולנוע",
         "platform": "tiktok",
         "views": 815200,
-        "likes": 5484,
+        "likes": 5485,
         "comments": 984,
         "saves": 375,
         "shares": 253,
@@ -1082,7 +1082,7 @@
     "category": "קמפיין אירוע",
     "kpis": {
       "views": 138900,
-      "engagement": 4537,
+      "engagement": 4539,
       "shares": 0,
       "reach": 138900,
       "impressions": 138900
@@ -1102,7 +1102,7 @@
         "description": "TikTok - רועי פיירזולף מסיבת סוף שנה CeraVe",
         "platform": "tiktok",
         "views": 138900,
-        "likes": 4316,
+        "likes": 4318,
         "comments": 43,
         "saves": 178,
         "talent": "3"
