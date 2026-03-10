@@ -145,11 +145,11 @@
     "description": "קמפיין שנתי מוצלח עבור סמסונג ברבעון השלישי של 2025",
     "category": "קמפיין שנתי",
     "kpis": {
-      "views": 520439,
+      "views": 520339,
       "engagement": 17582,
       "shares": 0,
-      "reach": 520439,
-      "impressions": 520439
+      "reach": 520339,
+      "impressions": 520339
     },
     "talents": [
       "4",
@@ -198,7 +198,7 @@
         "type": "short-form-video",
         "description": "TikTok - שיבולת קמפיין סמסונג Q3",
         "platform": "tiktok",
-        "views": 13800,
+        "views": 13700,
         "likes": 441,
         "comments": 9,
         "saves": 11,
@@ -486,11 +486,11 @@
     "description": "קמפיין קידום מכירות מוצלח עבור הספר של ביל בהוצאת ידיעות ספרים",
     "category": "קמפיין ספרים",
     "kpis": {
-      "views": 100700,
-      "engagement": 8116,
+      "views": 100900,
+      "engagement": 8124,
       "shares": 493,
-      "reach": 100700,
-      "impressions": 100700
+      "reach": 100900,
+      "impressions": 100900
     },
     "talents": [
       "6"
@@ -518,8 +518,8 @@
         "type": "short-form-video",
         "description": "סרטון TikTok קידום הספר של ביל - ידיעות ספרים",
         "platform": "tiktok",
-        "views": 85700,
-        "likes": 7137,
+        "views": 85900,
+        "likes": 7145,
         "comments": 379,
         "saves": 0,
         "shares": 493,
@@ -616,11 +616,11 @@
     "description": "קמפיין השקה מרשים עבור סרט 'עולם היורה' בקולנוע שהגיע ל-3.2 מיליון צפיות",
     "category": "קמפיין קולנוע",
     "kpis": {
-      "views": 3913120,
+      "views": 3913220,
       "engagement": 27552,
       "shares": 551,
-      "reach": 3913120,
-      "impressions": 3913120
+      "reach": 3913220,
+      "impressions": 3913220
     },
     "talents": [
       "2",
@@ -686,7 +686,7 @@
         "description": "סרטון TikTok - עולם היורה בקולנוע",
         "platform": "tiktok",
         "views": 1700000,
-        "likes": 5014,
+        "likes": 5013,
         "comments": 203,
         "saves": 304,
         "talent": "2"
@@ -738,7 +738,7 @@
         "type": "short-form-video",
         "description": "TikTok - עולם היורה בקולנוע",
         "platform": "tiktok",
-        "views": 336500,
+        "views": 336600,
         "likes": 709,
         "comments": 19,
         "saves": 50,
@@ -771,7 +771,7 @@
         "description": "TikTok - עולם היורה בקולנוע",
         "platform": "tiktok",
         "views": 815200,
-        "likes": 5485,
+        "likes": 5486,
         "comments": 984,
         "saves": 375,
         "shares": 253,
@@ -1082,7 +1082,7 @@
     "category": "קמפיין אירוע",
     "kpis": {
       "views": 138900,
-      "engagement": 4539,
+      "engagement": 4541,
       "shares": 0,
       "reach": 138900,
       "impressions": 138900
@@ -1102,7 +1102,7 @@
         "description": "TikTok - רועי פיירזולף מסיבת סוף שנה CeraVe",
         "platform": "tiktok",
         "views": 138900,
-        "likes": 4318,
+        "likes": 4320,
         "comments": 43,
         "saves": 178,
         "talent": "3"
@@ -1278,11 +1278,11 @@
     "description": "קמפיין קידום מוצלח עבור משרד התחבורה עם מיכל מצוב",
     "category": "קמפיין ציבורי",
     "kpis": {
-      "views": 167148,
+      "views": 167248,
       "engagement": 8136,
       "shares": 591,
-      "reach": 167148,
-      "impressions": 167148
+      "reach": 167248,
+      "impressions": 167248
     },
     "talents": [
       "1"
@@ -1299,7 +1299,7 @@
         "type": "short-form-video",
         "description": "TikTok - מיכל מצוב משרד התחבורה",
         "platform": "tiktok",
-        "views": 72700,
+        "views": 72800,
         "likes": 5769,
         "comments": 296,
         "shares": 591,
