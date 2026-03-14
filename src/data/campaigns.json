@@ -1419,11 +1419,11 @@
     "description": "קמפיין גיוס עובדים מוצלח עבור התעשייה האווירית - חידה שנתית 2025 עם מר שיבולת",
     "category": "קמפיין מיתוג מעסיק",
     "kpis": {
-      "views": 133123,
+      "views": 133223,
       "engagement": 6449,
       "shares": 0,
-      "reach": 133123,
-      "impressions": 133123
+      "reach": 133223,
+      "impressions": 133223
     },
     "talents": [
       "2"
@@ -1461,7 +1461,7 @@
         "type": "short-form-video",
         "description": "TikTok - מר שיבולת קמפיין גיוס עובדים התעשייה האווירית",
         "platform": "tiktok",
-        "views": 64700,
+        "views": 64800,
         "likes": 4476,
         "comments": 0,
         "talent": "2"
