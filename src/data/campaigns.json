@@ -486,11 +486,11 @@
     "description": "קמפיין קידום מכירות מוצלח עבור הספר של ביל בהוצאת ידיעות ספרים",
     "category": "קמפיין ספרים",
     "kpis": {
-      "views": 101200,
-      "engagement": 8132,
+      "views": 101300,
+      "engagement": 8134,
       "shares": 493,
-      "reach": 101200,
-      "impressions": 101200
+      "reach": 101300,
+      "impressions": 101300
     },
     "talents": [
       "6"
@@ -518,8 +518,8 @@
         "type": "short-form-video",
         "description": "סרטון TikTok קידום הספר של ביל - ידיעות ספרים",
         "platform": "tiktok",
-        "views": 86200,
-        "likes": 7153,
+        "views": 86300,
+        "likes": 7155,
         "comments": 379,
         "saves": 0,
         "shares": 493,
@@ -617,7 +617,7 @@
     "category": "קמפיין קולנוע",
     "kpis": {
       "views": 3913320,
-      "engagement": 27553,
+      "engagement": 27554,
       "shares": 551,
       "reach": 3913320,
       "impressions": 3913320
@@ -803,7 +803,7 @@
         "description": "TikTok - עולם היורה בקולנוע",
         "platform": "tiktok",
         "views": 249900,
-        "likes": 374,
+        "likes": 375,
         "comments": 119,
         "saves": 34,
         "shares": 69,
@@ -1278,11 +1278,11 @@
     "description": "קמפיין קידום מוצלח עבור משרד התחבורה עם מיכל מצוב",
     "category": "קמפיין ציבורי",
     "kpis": {
-      "views": 167248,
+      "views": 167348,
       "engagement": 8137,
       "shares": 591,
-      "reach": 167248,
-      "impressions": 167248
+      "reach": 167348,
+      "impressions": 167348
     },
     "talents": [
       "1"
@@ -1299,7 +1299,7 @@
         "type": "short-form-video",
         "description": "TikTok - מיכל מצוב משרד התחבורה",
         "platform": "tiktok",
-        "views": 72800,
+        "views": 72900,
         "likes": 5770,
         "comments": 296,
         "shares": 591,
