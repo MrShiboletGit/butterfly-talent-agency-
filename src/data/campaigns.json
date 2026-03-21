@@ -486,11 +486,11 @@
     "description": "קמפיין קידום מכירות מוצלח עבור הספר של ביל בהוצאת ידיעות ספרים",
     "category": "קמפיין ספרים",
     "kpis": {
-      "views": 101300,
-      "engagement": 8134,
+      "views": 101400,
+      "engagement": 8139,
       "shares": 493,
-      "reach": 101300,
-      "impressions": 101300
+      "reach": 101400,
+      "impressions": 101400
     },
     "talents": [
       "6"
@@ -518,8 +518,8 @@
         "type": "short-form-video",
         "description": "סרטון TikTok קידום הספר של ביל - ידיעות ספרים",
         "platform": "tiktok",
-        "views": 86300,
-        "likes": 7155,
+        "views": 86400,
+        "likes": 7160,
         "comments": 379,
         "saves": 0,
         "shares": 493,
@@ -539,11 +539,11 @@
     "description": "קמפיין דיגיטלי מוצלח עבור אפליקציית Jooba - פלטפורמת מסחר לנוער",
     "category": "קמפיין דיגיטלי",
     "kpis": {
-      "views": 360000,
+      "views": 360200,
       "engagement": 16515,
       "shares": 1416,
-      "reach": 360000,
-      "impressions": 360000
+      "reach": 360200,
+      "impressions": 360200
     },
     "talents": [
       "1",
@@ -583,7 +583,7 @@
         "type": "short-form-video",
         "description": "סרטון TikTok - Jooba אפליקציית מסחר לנוער",
         "platform": "tiktok",
-        "views": 112600,
+        "views": 112700,
         "likes": 6494,
         "comments": 355,
         "saves": 1605,
@@ -595,7 +595,7 @@
         "type": "short-form-video",
         "description": "סרטון TikTok נוסף - Jooba אפליקציית מסחר לנוער",
         "platform": "tiktok",
-        "views": 112600,
+        "views": 112700,
         "likes": 6494,
         "comments": 48,
         "saves": 249,
@@ -1279,7 +1279,7 @@
     "category": "קמפיין ציבורי",
     "kpis": {
       "views": 167348,
-      "engagement": 8137,
+      "engagement": 8138,
       "shares": 591,
       "reach": 167348,
       "impressions": 167348
@@ -1300,7 +1300,7 @@
         "description": "TikTok - מיכל מצוב משרד התחבורה",
         "platform": "tiktok",
         "views": 72900,
-        "likes": 5770,
+        "likes": 5771,
         "comments": 296,
         "shares": 591,
         "talent": "1"
