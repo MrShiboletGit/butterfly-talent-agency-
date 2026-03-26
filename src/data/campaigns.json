@@ -219,7 +219,7 @@
     "category": "קמפיין גיימינג",
     "kpis": {
       "views": 142434,
-      "engagement": 3580,
+      "engagement": 3581,
       "shares": 38,
       "reach": 142434,
       "impressions": 142434
@@ -250,7 +250,7 @@
         "description": "TikTok - קידום סט אביזרי גיימינג Glorious Gaming",
         "platform": "tiktok",
         "views": 42500,
-        "likes": 1275,
+        "likes": 1276,
         "comments": 21,
         "saves": 36,
         "shares": 38,
@@ -487,7 +487,7 @@
     "category": "קמפיין ספרים",
     "kpis": {
       "views": 101600,
-      "engagement": 8144,
+      "engagement": 8146,
       "shares": 493,
       "reach": 101600,
       "impressions": 101600
@@ -519,7 +519,7 @@
         "description": "סרטון TikTok קידום הספר של ביל - ידיעות ספרים",
         "platform": "tiktok",
         "views": 86600,
-        "likes": 7165,
+        "likes": 7167,
         "comments": 379,
         "saves": 0,
         "shares": 493,
@@ -539,11 +539,11 @@
     "description": "קמפיין דיגיטלי מוצלח עבור אפליקציית Jooba - פלטפורמת מסחר לנוער",
     "category": "קמפיין דיגיטלי",
     "kpis": {
-      "views": 360800,
-      "engagement": 16529,
+      "views": 361000,
+      "engagement": 16531,
       "shares": 1416,
-      "reach": 360800,
-      "impressions": 360800
+      "reach": 361000,
+      "impressions": 361000
     },
     "talents": [
       "1",
@@ -583,8 +583,8 @@
         "type": "short-form-video",
         "description": "סרטון TikTok - Jooba אפליקציית מסחר לנוער",
         "platform": "tiktok",
-        "views": 113000,
-        "likes": 6501,
+        "views": 113100,
+        "likes": 6502,
         "comments": 355,
         "saves": 1605,
         "shares": 798,
@@ -595,8 +595,8 @@
         "type": "short-form-video",
         "description": "סרטון TikTok נוסף - Jooba אפליקציית מסחר לנוער",
         "platform": "tiktok",
-        "views": 113000,
-        "likes": 6501,
+        "views": 113100,
+        "likes": 6502,
         "comments": 48,
         "saves": 249,
         "shares": 84,
@@ -1032,7 +1032,7 @@
     "category": "קמפיין השקה",
     "kpis": {
       "views": 147007,
-      "engagement": 4699,
+      "engagement": 4698,
       "shares": 0,
       "reach": 147007,
       "impressions": 147007
@@ -1063,7 +1063,7 @@
         "description": "TikTok - השקה משקה מוגו מוגו סוויטוויט",
         "platform": "tiktok",
         "views": 26400,
-        "likes": 770,
+        "likes": 769,
         "comments": 41,
         "talent": "4"
       }
@@ -1082,7 +1082,7 @@
     "category": "קמפיין אירוע",
     "kpis": {
       "views": 139300,
-      "engagement": 4552,
+      "engagement": 4553,
       "shares": 0,
       "reach": 139300,
       "impressions": 139300
@@ -1102,7 +1102,7 @@
         "description": "TikTok - רועי פיירזולף מסיבת סוף שנה CeraVe",
         "platform": "tiktok",
         "views": 139300,
-        "likes": 4331,
+        "likes": 4332,
         "comments": 43,
         "saves": 178,
         "talent": "3"
