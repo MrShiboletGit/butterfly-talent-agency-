@@ -145,11 +145,11 @@
     "description": "קמפיין שנתי מוצלח עבור סמסונג ברבעון השלישי של 2025",
     "category": "קמפיין שנתי",
     "kpis": {
-      "views": 520439,
+      "views": 520539,
       "engagement": 17586,
       "shares": 0,
-      "reach": 520439,
-      "impressions": 520439
+      "reach": 520539,
+      "impressions": 520539
     },
     "talents": [
       "4",
@@ -177,7 +177,7 @@
         "type": "short-form-video",
         "description": "TikTok - גל כהן קמפיין סמסונג Q3",
         "platform": "tiktok",
-        "views": 35900,
+        "views": 36000,
         "likes": 2022,
         "comments": 50,
         "saves": 97,
@@ -486,11 +486,11 @@
     "description": "קמפיין קידום מכירות מוצלח עבור הספר של ביל בהוצאת ידיעות ספרים",
     "category": "קמפיין ספרים",
     "kpis": {
-      "views": 101600,
-      "engagement": 8146,
+      "views": 101700,
+      "engagement": 8148,
       "shares": 493,
-      "reach": 101600,
-      "impressions": 101600
+      "reach": 101700,
+      "impressions": 101700
     },
     "talents": [
       "6"
@@ -518,8 +518,8 @@
         "type": "short-form-video",
         "description": "סרטון TikTok קידום הספר של ביל - ידיעות ספרים",
         "platform": "tiktok",
-        "views": 86600,
-        "likes": 7167,
+        "views": 86700,
+        "likes": 7169,
         "comments": 379,
         "saves": 0,
         "shares": 493,
@@ -539,11 +539,11 @@
     "description": "קמפיין דיגיטלי מוצלח עבור אפליקציית Jooba - פלטפורמת מסחר לנוער",
     "category": "קמפיין דיגיטלי",
     "kpis": {
-      "views": 361000,
-      "engagement": 16531,
+      "views": 361200,
+      "engagement": 16533,
       "shares": 1416,
-      "reach": 361000,
-      "impressions": 361000
+      "reach": 361200,
+      "impressions": 361200
     },
     "talents": [
       "1",
@@ -583,8 +583,8 @@
         "type": "short-form-video",
         "description": "סרטון TikTok - Jooba אפליקציית מסחר לנוער",
         "platform": "tiktok",
-        "views": 113100,
-        "likes": 6502,
+        "views": 113200,
+        "likes": 6503,
         "comments": 355,
         "saves": 1605,
         "shares": 798,
@@ -595,8 +595,8 @@
         "type": "short-form-video",
         "description": "סרטון TikTok נוסף - Jooba אפליקציית מסחר לנוער",
         "platform": "tiktok",
-        "views": 113100,
-        "likes": 6502,
+        "views": 113200,
+        "likes": 6503,
         "comments": 48,
         "saves": 249,
         "shares": 84,
@@ -1081,11 +1081,11 @@
     "description": "קמפיין מוצלח עבור CeraVe עם רועי פיירזולף במסיבת סוף השנה",
     "category": "קמפיין אירוע",
     "kpis": {
-      "views": 139300,
+      "views": 139400,
       "engagement": 4553,
       "shares": 0,
-      "reach": 139300,
-      "impressions": 139300
+      "reach": 139400,
+      "impressions": 139400
     },
     "talents": [
       "3"
@@ -1101,7 +1101,7 @@
         "type": "short-form-video",
         "description": "TikTok - רועי פיירזולף מסיבת סוף שנה CeraVe",
         "platform": "tiktok",
-        "views": 139300,
+        "views": 139400,
         "likes": 4332,
         "comments": 43,
         "saves": 178,
@@ -1122,7 +1122,7 @@
     "category": "קמפיין קולנוע",
     "kpis": {
       "views": 712990,
-      "engagement": 21705,
+      "engagement": 21708,
       "shares": 0,
       "reach": 712990,
       "impressions": 712990
@@ -1155,7 +1155,7 @@
         "description": "TikTok - עומר ירון לזמן את הרוע 4 בכורה",
         "platform": "tiktok",
         "views": 400700,
-        "likes": 9249,
+        "likes": 9251,
         "comments": 253,
         "saves": 868,
         "talent": "8"
@@ -1186,7 +1186,7 @@
         "description": "TikTok - גל כהן לזמן את הרוע 4 בכורה",
         "platform": "tiktok",
         "views": 52500,
-        "likes": 1050,
+        "likes": 1051,
         "comments": 26,
         "saves": 50,
         "talent": "4"
@@ -1205,11 +1205,11 @@
     "description": "קמפיין מוצלח עבור יכולות הבינה המלאכותית במוצרי סמסונג עם מר שיבולת וגל כהן",
     "category": "קמפיין טכנולוגיה",
     "kpis": {
-      "views": 219005,
+      "views": 219105,
       "engagement": 7891,
       "shares": 171,
-      "reach": 219005,
-      "impressions": 219005
+      "reach": 219105,
+      "impressions": 219105
     },
     "talents": [
       "2",
@@ -1248,7 +1248,7 @@
         "type": "short-form-video",
         "description": "TikTok - גל כהן בינה מלאכותית בסמסונג",
         "platform": "tiktok",
-        "views": 21700,
+        "views": 21800,
         "likes": 692,
         "comments": 12,
         "saves": 39,
