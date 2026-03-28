@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-27T05:19:04.637303",
+  "generated_at": "2026-03-28T05:03:56.004503",
   "video_results": [
     {
       "url": "https://www.tiktok.com/@galcohenyt/video/7540251397405560084",
@@ -64,12 +64,12 @@
     {
       "url": "https://www.tiktok.com/@galcohenyt/video/7537255610304466194",
       "platform": "tiktok",
-      "stored_views": 35900,
+      "stored_views": 36000,
       "stored_likes": 2022,
       "live_views": 36000,
-      "live_likes": 2022,
+      "live_likes": 2023,
       "error": null,
-      "views_diff_pct": 0.2785515320334262
+      "views_diff_pct": 0.0
     },
     {
       "url": "https://www.youtube.com/shorts/ybvEg-PC9NI",
@@ -194,12 +194,12 @@
     {
       "url": "https://www.tiktok.com/@israel_galitsky/video/7535054778527698184",
       "platform": "tiktok",
-      "stored_views": 86600,
-      "stored_likes": 7167,
+      "stored_views": 86700,
+      "stored_likes": 7169,
       "live_views": 86700,
-      "live_likes": 7169,
+      "live_likes": 7173,
       "error": null,
-      "views_diff_pct": 0.11547344110854503
+      "views_diff_pct": 0.0
     },
     {
       "url": "https://www.instagram.com/reel/DMIYpdKIqNU/?igsh=Z3E4Y3pqOWY3b2oy",
@@ -224,22 +224,22 @@
     {
       "url": "https://www.tiktok.com/@michalmatzov/video/7527310366653598984?_r=1&_t=ZS-8yYyPcptRRZ",
       "platform": "tiktok",
-      "stored_views": 113100,
-      "stored_likes": 6502,
+      "stored_views": 113200,
+      "stored_likes": 6503,
       "live_views": 113200,
-      "live_likes": 6503,
+      "live_likes": 6505,
       "error": null,
-      "views_diff_pct": 0.08841732979664013
+      "views_diff_pct": 0.0
     },
     {
       "url": "https://www.tiktok.com/@michalmatzov/video/7527310366653598984?_r=1&_t=ZS-8yYyPcptRRZ",
       "platform": "tiktok",
-      "stored_views": 113100,
-      "stored_likes": 6502,
+      "stored_views": 113200,
+      "stored_likes": 6503,
       "live_views": 113200,
-      "live_likes": 6503,
+      "live_likes": 6505,
       "error": null,
-      "views_diff_pct": 0.08841732979664013
+      "views_diff_pct": 0.0
     },
     {
       "url": "https://www.tiktok.com/@galcohenyt/video/7522490053461806343?_r=1&_t=ZS-8xh6Rcpzek5",
@@ -287,7 +287,7 @@
       "stored_views": 1700000,
       "stored_likes": 5013,
       "live_views": 1700000,
-      "live_likes": 5013,
+      "live_likes": 5012,
       "error": null,
       "views_diff_pct": 0.0
     },
@@ -506,10 +506,10 @@
       "platform": "tiktok",
       "stored_views": 24200,
       "stored_likes": 299,
-      "live_views": null,
-      "live_likes": null,
-      "error": "ERROR: [TikTok] 7543585916498021639: Video not available, status code 100004; please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U",
-      "views_diff_pct": null
+      "live_views": 24200,
+      "live_likes": 299,
+      "error": null,
+      "views_diff_pct": 0.0
     },
     {
       "url": "https://www.youtube.com/shorts/i_KhWgAaC-c?si=RA2xf359qY1pKH-e",
@@ -534,12 +534,12 @@
     {
       "url": "https://www.tiktok.com/@roeefirewolf/video/7545880178501618962",
       "platform": "tiktok",
-      "stored_views": 139300,
+      "stored_views": 139400,
       "stored_likes": 4332,
       "live_views": 139400,
       "live_likes": 4332,
       "error": null,
-      "views_diff_pct": 0.07178750897343862
+      "views_diff_pct": 0.0
     },
     {
       "url": "https://www.youtube.com/shorts/62GdFl6wzL4?si=TTbDuO9y5ey3pKIe",
@@ -555,7 +555,7 @@
       "url": "https://www.tiktok.com/@omeryaron_/video/7546155126982069522",
       "platform": "tiktok",
       "stored_views": 400700,
-      "stored_likes": 9249,
+      "stored_likes": 9251,
       "live_views": 400700,
       "live_likes": 9251,
       "error": null,
@@ -585,7 +585,7 @@
       "url": "https://www.tiktok.com/@galcohenyt/video/7548051354850168085",
       "platform": "tiktok",
       "stored_views": 52500,
-      "stored_likes": 1050,
+      "stored_likes": 1051,
       "live_views": 52500,
       "live_likes": 1051,
       "error": null,
@@ -614,12 +614,12 @@
     {
       "url": "https://www.tiktok.com/@galcohenyt/video/7552510400206474497",
       "platform": "tiktok",
-      "stored_views": 21700,
+      "stored_views": 21800,
       "stored_likes": 692,
       "live_views": 21800,
       "live_likes": 692,
       "error": null,
-      "views_diff_pct": 0.4608294930875576
+      "views_diff_pct": 0.0
     },
     {
       "url": "https://www.youtube.com/shorts/IhgJRvtXDTU",
@@ -776,10 +776,10 @@
       "talent_name": "מיכל מצוב",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@michalmatzov",
-      "stored_followers": 354700,
-      "live_followers": 355100,
+      "stored_followers": 355100,
+      "live_followers": 355300,
       "error": null,
-      "diff_pct": 0.11277135607555681
+      "diff_pct": 0.056322162771050406
     },
     {
       "talent_name": "מיכל מצוב",
@@ -794,10 +794,10 @@
       "talent_name": "מר שיבולת (שי בן בסט)",
       "platform": "youtube",
       "url": "https://www.youtube.com/@SHIB",
-      "stored_followers": 279000,
+      "stored_followers": 280000,
       "live_followers": 280000,
       "error": null,
-      "diff_pct": 0.35842293906810035
+      "diff_pct": 0.0
     },
     {
       "talent_name": "מר שיבולת (שי בן בסט)",
@@ -848,19 +848,19 @@
       "talent_name": "גל כהן",
       "platform": "youtube",
       "url": "https://www.youtube.com/@GalCohenOfficial",
-      "stored_followers": 298000,
+      "stored_followers": 299000,
       "live_followers": 299000,
       "error": null,
-      "diff_pct": 0.33557046979865773
+      "diff_pct": 0.0
     },
     {
       "talent_name": "גל כהן",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@galcohenyt",
-      "stored_followers": 84500,
-      "live_followers": 84600,
+      "stored_followers": 84600,
+      "live_followers": 84800,
       "error": null,
-      "diff_pct": 0.1183431952662722
+      "diff_pct": 0.2364066193853428
     },
     {
       "talent_name": "גל כהן",
@@ -912,9 +912,9 @@
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@israel_galitsky",
       "stored_followers": 150700,
-      "live_followers": 150700,
+      "live_followers": 150600,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": -0.06635700066357
     },
     {
       "talent_name": "ישראל גליצקי",
