@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-29T05:22:05.952116",
+  "generated_at": "2026-03-30T05:35:57.377279",
   "video_results": [
     {
       "url": "https://www.tiktok.com/@galcohenyt/video/7540251397405560084",
@@ -117,8 +117,8 @@
       "stored_views": 20300,
       "stored_likes": 1616,
       "live_views": null,
-      "live_likes": null,
-      "error": "No metrics found in embed",
+      "live_likes": 1583,
+      "error": null,
       "views_diff_pct": null
     },
     {
@@ -157,8 +157,8 @@
       "stored_views": 12000,
       "stored_likes": 296,
       "live_views": null,
-      "live_likes": null,
-      "error": "No metrics found in embed",
+      "live_likes": 296,
+      "error": null,
       "views_diff_pct": null
     },
     {
@@ -194,12 +194,12 @@
     {
       "url": "https://www.tiktok.com/@israel_galitsky/video/7535054778527698184",
       "platform": "tiktok",
-      "stored_views": 86700,
-      "stored_likes": 7173,
-      "live_views": 86800,
-      "live_likes": 7174,
+      "stored_views": 86800,
+      "stored_likes": 7174,
+      "live_views": 86900,
+      "live_likes": 7177,
       "error": null,
-      "views_diff_pct": 0.11534025374855825
+      "views_diff_pct": 0.1152073732718894
     },
     {
       "url": "https://www.instagram.com/reel/DMIYpdKIqNU/?igsh=Z3E4Y3pqOWY3b2oy",
@@ -224,22 +224,22 @@
     {
       "url": "https://www.tiktok.com/@michalmatzov/video/7527310366653598984?_r=1&_t=ZS-8yYyPcptRRZ",
       "platform": "tiktok",
-      "stored_views": 113200,
-      "stored_likes": 6505,
-      "live_views": 113300,
-      "live_likes": 6507,
+      "stored_views": 113300,
+      "stored_likes": 6507,
+      "live_views": 113400,
+      "live_likes": 6508,
       "error": null,
-      "views_diff_pct": 0.08833922261484099
+      "views_diff_pct": 0.088261253309797
     },
     {
       "url": "https://www.tiktok.com/@michalmatzov/video/7527310366653598984?_r=1&_t=ZS-8yYyPcptRRZ",
       "platform": "tiktok",
-      "stored_views": 113200,
-      "stored_likes": 6505,
-      "live_views": 113300,
-      "live_likes": 6507,
+      "stored_views": 113300,
+      "stored_likes": 6507,
+      "live_views": 113400,
+      "live_likes": 6508,
       "error": null,
-      "views_diff_pct": 0.08833922261484099
+      "views_diff_pct": 0.088261253309797
     },
     {
       "url": "https://www.tiktok.com/@galcohenyt/video/7522490053461806343?_r=1&_t=ZS-8xh6Rcpzek5",
@@ -455,7 +455,7 @@
       "url": "https://www.tiktok.com/@omeryaron_/video/7525006149415046418",
       "platform": "tiktok",
       "stored_views": 1200000,
-      "stored_likes": 5419,
+      "stored_likes": 5418,
       "live_views": 1200000,
       "live_likes": 5418,
       "error": null,
@@ -535,9 +535,9 @@
       "url": "https://www.tiktok.com/@roeefirewolf/video/7545880178501618962",
       "platform": "tiktok",
       "stored_views": 139400,
-      "stored_likes": 4332,
+      "stored_likes": 4333,
       "live_views": 139400,
-      "live_likes": 4333,
+      "live_likes": 4334,
       "error": null,
       "views_diff_pct": 0.0
     },
@@ -634,12 +634,12 @@
     {
       "url": "https://www.tiktok.com/@michalmatzov/video/7559195096663772434?_r=1&_t=ZS-90PDjWjaGox",
       "platform": "tiktok",
-      "stored_views": 72900,
-      "stored_likes": 5772,
+      "stored_views": 73000,
+      "stored_likes": 5773,
       "live_views": 73000,
-      "live_likes": 5773,
+      "live_likes": 5774,
       "error": null,
-      "views_diff_pct": 0.1371742112482853
+      "views_diff_pct": 0.0
     },
     {
       "url": "https://www.youtube.com/shorts/oGXhioFYkwY",
@@ -776,10 +776,10 @@
       "talent_name": "מיכל מצוב",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@michalmatzov",
-      "stored_followers": 355300,
-      "live_followers": 355400,
+      "stored_followers": 355400,
+      "live_followers": 355600,
       "error": null,
-      "diff_pct": 0.028145229383619477
+      "diff_pct": 0.056274620146314014
     },
     {
       "talent_name": "מיכל מצוב",
@@ -849,18 +849,18 @@
       "platform": "youtube",
       "url": "https://www.youtube.com/@GalCohenOfficial",
       "stored_followers": 299000,
-      "live_followers": 299000,
+      "live_followers": 300000,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": 0.33444816053511706
     },
     {
       "talent_name": "גל כהן",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@galcohenyt",
       "stored_followers": 84800,
-      "live_followers": 84800,
+      "live_followers": 85000,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": 0.2358490566037736
     },
     {
       "talent_name": "גל כהן",
@@ -902,19 +902,19 @@
       "talent_name": "ישראל גליצקי",
       "platform": "youtube",
       "url": "https://www.youtube.com/@israelgalitsky",
-      "stored_followers": 6620,
+      "stored_followers": 6610,
       "live_followers": 6610,
       "error": null,
-      "diff_pct": -0.1510574018126888
+      "diff_pct": 0.0
     },
     {
       "talent_name": "ישראל גליצקי",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@israel_galitsky",
-      "stored_followers": 150600,
+      "stored_followers": 150700,
       "live_followers": 150700,
       "error": null,
-      "diff_pct": 0.06640106241699867
+      "diff_pct": 0.0
     },
     {
       "talent_name": "ישראל גליצקי",
@@ -938,10 +938,10 @@
       "talent_name": "דוד ששון (2BOF)",
       "platform": "tiktok",
       "url": "https://tiktok.com/@david_2bof",
-      "stored_followers": 20400,
+      "stored_followers": 20500,
       "live_followers": 20500,
       "error": null,
-      "diff_pct": 0.49019607843137253
+      "diff_pct": 0.0
     },
     {
       "talent_name": "דוד ששון (2BOF)",
@@ -1002,9 +1002,9 @@
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@mina_avrehanian",
       "stored_followers": 65600,
-      "live_followers": 65600,
+      "live_followers": 65500,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": -0.1524390243902439
     },
     {
       "talent_name": "סטינגר ישראל",
