@@ -539,11 +539,11 @@
     "description": "קמפיין דיגיטלי מוצלח עבור אפליקציית Jooba - פלטפורמת מסחר לנוער",
     "category": "קמפיין דיגיטלי",
     "kpis": {
-      "views": 362000,
-      "engagement": 16555,
+      "views": 362200,
+      "engagement": 16557,
       "shares": 1416,
-      "reach": 362000,
-      "impressions": 362000
+      "reach": 362200,
+      "impressions": 362200
     },
     "talents": [
       "1",
@@ -583,8 +583,8 @@
         "type": "short-form-video",
         "description": "סרטון TikTok - Jooba אפליקציית מסחר לנוער",
         "platform": "tiktok",
-        "views": 113600,
-        "likes": 6514,
+        "views": 113700,
+        "likes": 6515,
         "comments": 355,
         "saves": 1605,
         "shares": 798,
@@ -595,8 +595,8 @@
         "type": "short-form-video",
         "description": "סרטון TikTok נוסף - Jooba אפליקציית מסחר לנוער",
         "platform": "tiktok",
-        "views": 113600,
-        "likes": 6514,
+        "views": 113700,
+        "likes": 6515,
         "comments": 48,
         "saves": 249,
         "shares": 84,
@@ -617,7 +617,7 @@
     "category": "קמפיין קולנוע",
     "kpis": {
       "views": 3913420,
-      "engagement": 27553,
+      "engagement": 27554,
       "shares": 551,
       "reach": 3913420,
       "impressions": 3913420
@@ -771,7 +771,7 @@
         "description": "TikTok - עולם היורה בקולנוע",
         "platform": "tiktok",
         "views": 815400,
-        "likes": 5487,
+        "likes": 5488,
         "comments": 984,
         "saves": 375,
         "shares": 253,
@@ -856,7 +856,7 @@
     "category": "קמפיין קולנוע",
     "kpis": {
       "views": 2656472,
-      "engagement": 23364,
+      "engagement": 23365,
       "shares": 119,
       "reach": 2656472,
       "impressions": 2656472
@@ -900,7 +900,7 @@
         "description": "TikTok - קידום סרט סופרמן בקולנוע",
         "platform": "tiktok",
         "views": 1200000,
-        "likes": 5417,
+        "likes": 5418,
         "comments": 238,
         "saves": 401,
         "shares": 0,
@@ -931,7 +931,7 @@
     "category": "קמפיין קידום מבצעים",
     "kpis": {
       "views": 181605,
-      "engagement": 7098,
+      "engagement": 7097,
       "shares": 0,
       "reach": 181605,
       "impressions": 181605
@@ -962,7 +962,7 @@
         "description": "TikTok - קמפיין סוף הקיץ מחסני חשמל",
         "platform": "tiktok",
         "views": 36500,
-        "likes": 1189,
+        "likes": 1188,
         "comments": 27,
         "saves": 44,
         "talent": "4"
@@ -1121,11 +1121,11 @@
     "description": "קמפיין בכורה מוצלח עבור סרט 'לזמן את הרוע 4' עם עומר ירון וגל כהן",
     "category": "קמפיין קולנוע",
     "kpis": {
-      "views": 712990,
-      "engagement": 21710,
+      "views": 713090,
+      "engagement": 21711,
       "shares": 0,
-      "reach": 712990,
-      "impressions": 712990
+      "reach": 713090,
+      "impressions": 713090
     },
     "talents": [
       "8",
@@ -1154,8 +1154,8 @@
         "type": "short-form-video",
         "description": "TikTok - עומר ירון לזמן את הרוע 4 בכורה",
         "platform": "tiktok",
-        "views": 400700,
-        "likes": 9252,
+        "views": 400800,
+        "likes": 9253,
         "comments": 253,
         "saves": 868,
         "talent": "8"
@@ -1205,11 +1205,11 @@
     "description": "קמפיין מוצלח עבור יכולות הבינה המלאכותית במוצרי סמסונג עם מר שיבולת וגל כהן",
     "category": "קמפיין טכנולוגיה",
     "kpis": {
-      "views": 219105,
+      "views": 219005,
       "engagement": 7891,
       "shares": 171,
-      "reach": 219105,
-      "impressions": 219105
+      "reach": 219005,
+      "impressions": 219005
     },
     "talents": [
       "2",
@@ -1248,7 +1248,7 @@
         "type": "short-form-video",
         "description": "TikTok - גל כהן בינה מלאכותית בסמסונג",
         "platform": "tiktok",
-        "views": 21800,
+        "views": 21700,
         "likes": 692,
         "comments": 12,
         "saves": 39,
@@ -1279,7 +1279,7 @@
     "category": "קמפיין ציבורי",
     "kpis": {
       "views": 167448,
-      "engagement": 8140,
+      "engagement": 8141,
       "shares": 591,
       "reach": 167448,
       "impressions": 167448
@@ -1300,7 +1300,7 @@
         "description": "TikTok - מיכל מצוב משרד התחבורה",
         "platform": "tiktok",
         "views": 73000,
-        "likes": 5773,
+        "likes": 5774,
         "comments": 296,
         "shares": 591,
         "talent": "1"
