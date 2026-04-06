@@ -486,11 +486,11 @@
     "description": "קמפיין קידום מכירות מוצלח עבור הספר של ביל בהוצאת ידיעות ספרים",
     "category": "קמפיין ספרים",
     "kpis": {
-      "views": 102000,
-      "engagement": 8157,
+      "views": 102100,
+      "engagement": 8158,
       "shares": 493,
-      "reach": 102000,
-      "impressions": 102000
+      "reach": 102100,
+      "impressions": 102100
     },
     "talents": [
       "6"
@@ -518,8 +518,8 @@
         "type": "short-form-video",
         "description": "סרטון TikTok קידום הספר של ביל - ידיעות ספרים",
         "platform": "tiktok",
-        "views": 87000,
-        "likes": 7178,
+        "views": 87100,
+        "likes": 7179,
         "comments": 379,
         "saves": 0,
         "shares": 493,
@@ -539,11 +539,11 @@
     "description": "קמפיין דיגיטלי מוצלח עבור אפליקציית Jooba - פלטפורמת מסחר לנוער",
     "category": "קמפיין דיגיטלי",
     "kpis": {
-      "views": 362200,
-      "engagement": 16557,
+      "views": 362400,
+      "engagement": 16561,
       "shares": 1416,
-      "reach": 362200,
-      "impressions": 362200
+      "reach": 362400,
+      "impressions": 362400
     },
     "talents": [
       "1",
@@ -583,8 +583,8 @@
         "type": "short-form-video",
         "description": "סרטון TikTok - Jooba אפליקציית מסחר לנוער",
         "platform": "tiktok",
-        "views": 113700,
-        "likes": 6515,
+        "views": 113800,
+        "likes": 6517,
         "comments": 355,
         "saves": 1605,
         "shares": 798,
@@ -595,8 +595,8 @@
         "type": "short-form-video",
         "description": "סרטון TikTok נוסף - Jooba אפליקציית מסחר לנוער",
         "platform": "tiktok",
-        "views": 113700,
-        "likes": 6515,
+        "views": 113800,
+        "likes": 6517,
         "comments": 48,
         "saves": 249,
         "shares": 84,
@@ -855,11 +855,11 @@
     "description": "קמפיין קידום סרט חדש - סופרמן בקולנוע בסוף יולי",
     "category": "קמפיין קולנוע",
     "kpis": {
-      "views": 2656472,
+      "views": 2656572,
       "engagement": 23365,
       "shares": 119,
-      "reach": 2656472,
-      "impressions": 2656472
+      "reach": 2656572,
+      "impressions": 2656572
     },
     "talents": [
       "3",
@@ -887,7 +887,7 @@
         "type": "short-form-video",
         "description": "TikTok - קידום סרט סופרמן בקולנוע",
         "platform": "tiktok",
-        "views": 801900,
+        "views": 802000,
         "likes": 1300,
         "comments": 114,
         "saves": 0,
@@ -1122,7 +1122,7 @@
     "category": "קמפיין קולנוע",
     "kpis": {
       "views": 713090,
-      "engagement": 21711,
+      "engagement": 21710,
       "shares": 0,
       "reach": 713090,
       "impressions": 713090
@@ -1155,7 +1155,7 @@
         "description": "TikTok - עומר ירון לזמן את הרוע 4 בכורה",
         "platform": "tiktok",
         "views": 400800,
-        "likes": 9253,
+        "likes": 9252,
         "comments": 253,
         "saves": 868,
         "talent": "8"
@@ -1205,11 +1205,11 @@
     "description": "קמפיין מוצלח עבור יכולות הבינה המלאכותית במוצרי סמסונג עם מר שיבולת וגל כהן",
     "category": "קמפיין טכנולוגיה",
     "kpis": {
-      "views": 219005,
+      "views": 219105,
       "engagement": 7891,
       "shares": 171,
-      "reach": 219005,
-      "impressions": 219005
+      "reach": 219105,
+      "impressions": 219105
     },
     "talents": [
       "2",
@@ -1248,7 +1248,7 @@
         "type": "short-form-video",
         "description": "TikTok - גל כהן בינה מלאכותית בסמסונג",
         "platform": "tiktok",
-        "views": 21700,
+        "views": 21800,
         "likes": 692,
         "comments": 12,
         "saves": 39,
