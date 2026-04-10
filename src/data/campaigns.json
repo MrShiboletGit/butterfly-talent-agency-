@@ -486,11 +486,11 @@
     "description": "קמפיין קידום מכירות מוצלח עבור הספר של ביל בהוצאת ידיעות ספרים",
     "category": "קמפיין ספרים",
     "kpis": {
-      "views": 102100,
+      "views": 102200,
       "engagement": 8161,
       "shares": 493,
-      "reach": 102100,
-      "impressions": 102100
+      "reach": 102200,
+      "impressions": 102200
     },
     "talents": [
       "6"
@@ -518,7 +518,7 @@
         "type": "short-form-video",
         "description": "סרטון TikTok קידום הספר של ביל - ידיעות ספרים",
         "platform": "tiktok",
-        "views": 87100,
+        "views": 87200,
         "likes": 7182,
         "comments": 379,
         "saves": 0,
@@ -539,11 +539,11 @@
     "description": "קמפיין דיגיטלי מוצלח עבור אפליקציית Jooba - פלטפורמת מסחר לנוער",
     "category": "קמפיין דיגיטלי",
     "kpis": {
-      "views": 362600,
-      "engagement": 16563,
+      "views": 362800,
+      "engagement": 16565,
       "shares": 1416,
-      "reach": 362600,
-      "impressions": 362600
+      "reach": 362800,
+      "impressions": 362800
     },
     "talents": [
       "1",
@@ -583,8 +583,8 @@
         "type": "short-form-video",
         "description": "סרטון TikTok - Jooba אפליקציית מסחר לנוער",
         "platform": "tiktok",
-        "views": 113900,
-        "likes": 6518,
+        "views": 114000,
+        "likes": 6519,
         "comments": 355,
         "saves": 1605,
         "shares": 798,
@@ -595,8 +595,8 @@
         "type": "short-form-video",
         "description": "סרטון TikTok נוסף - Jooba אפליקציית מסחר לנוער",
         "platform": "tiktok",
-        "views": 113900,
-        "likes": 6518,
+        "views": 114000,
+        "likes": 6519,
         "comments": 48,
         "saves": 249,
         "shares": 84,
@@ -1082,7 +1082,7 @@
     "category": "קמפיין אירוע",
     "kpis": {
       "views": 139500,
-      "engagement": 4556,
+      "engagement": 4557,
       "shares": 0,
       "reach": 139500,
       "impressions": 139500
@@ -1102,7 +1102,7 @@
         "description": "TikTok - רועי פיירזולף מסיבת סוף שנה CeraVe",
         "platform": "tiktok",
         "views": 139500,
-        "likes": 4335,
+        "likes": 4336,
         "comments": 43,
         "saves": 178,
         "talent": "3"
@@ -1121,11 +1121,11 @@
     "description": "קמפיין בכורה מוצלח עבור סרט 'לזמן את הרוע 4' עם עומר ירון וגל כהן",
     "category": "קמפיין קולנוע",
     "kpis": {
-      "views": 713090,
-      "engagement": 21710,
+      "views": 713190,
+      "engagement": 21712,
       "shares": 0,
-      "reach": 713090,
-      "impressions": 713090
+      "reach": 713190,
+      "impressions": 713190
     },
     "talents": [
       "8",
@@ -1154,8 +1154,8 @@
         "type": "short-form-video",
         "description": "TikTok - עומר ירון לזמן את הרוע 4 בכורה",
         "platform": "tiktok",
-        "views": 400800,
-        "likes": 9252,
+        "views": 400900,
+        "likes": 9253,
         "comments": 253,
         "saves": 868,
         "talent": "8"
@@ -1186,7 +1186,7 @@
         "description": "TikTok - גל כהן לזמן את הרוע 4 בכורה",
         "platform": "tiktok",
         "views": 52500,
-        "likes": 1052,
+        "likes": 1053,
         "comments": 26,
         "saves": 50,
         "talent": "4"
