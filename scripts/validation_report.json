@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-11T05:06:21.228513",
+  "generated_at": "2026-04-12T05:34:45.229057",
   "video_results": [
     {
       "url": "https://www.tiktok.com/@galcohenyt/video/7540251397405560084",
@@ -106,10 +106,10 @@
       "platform": "tiktok",
       "stored_views": 42500,
       "stored_likes": 1277,
-      "live_views": 42500,
-      "live_likes": 1277,
+      "live_views": 42600,
+      "live_likes": 1278,
       "error": null,
-      "views_diff_pct": 0.0
+      "views_diff_pct": 0.2352941176470588
     },
     {
       "url": "https://www.instagram.com/mrshibolet/reel/DMIHafuNjBw/",
@@ -225,21 +225,21 @@
       "url": "https://www.tiktok.com/@michalmatzov/video/7527310366653598984?_r=1&_t=ZS-8yYyPcptRRZ",
       "platform": "tiktok",
       "stored_views": 114000,
-      "stored_likes": 6519,
-      "live_views": 114000,
-      "live_likes": 6522,
+      "stored_likes": 6522,
+      "live_views": 114100,
+      "live_likes": 6524,
       "error": null,
-      "views_diff_pct": 0.0
+      "views_diff_pct": 0.08771929824561403
     },
     {
       "url": "https://www.tiktok.com/@michalmatzov/video/7527310366653598984?_r=1&_t=ZS-8yYyPcptRRZ",
       "platform": "tiktok",
       "stored_views": 114000,
-      "stored_likes": 6519,
-      "live_views": 114000,
-      "live_likes": 6522,
+      "stored_likes": 6522,
+      "live_views": 114100,
+      "live_likes": 6524,
       "error": null,
-      "views_diff_pct": 0.0
+      "views_diff_pct": 0.08771929824561403
     },
     {
       "url": "https://www.tiktok.com/@galcohenyt/video/7522490053461806343?_r=1&_t=ZS-8xh6Rcpzek5",
@@ -364,12 +364,12 @@
     {
       "url": "https://www.tiktok.com/@michalmatzov/video/7522499377584213266?_r=1&_t=ZS-8xh9edwxJx9",
       "platform": "tiktok",
-      "stored_views": 815400,
+      "stored_views": 815500,
       "stored_likes": 5488,
       "live_views": 815500,
-      "live_likes": 5488,
+      "live_likes": 5489,
       "error": null,
-      "views_diff_pct": 0.01226391954868776
+      "views_diff_pct": 0.0
     },
     {
       "url": "https://www.instagram.com/reel/DLnEq4MNt2n/?igsh=cjM4ZmNnOWxyOTJy",
@@ -424,12 +424,12 @@
     {
       "url": "https://www.tiktok.com/@mina_avrehanian/video/7522885064410041618?_r=1&_t=ZS-8xitOmCO9QY",
       "platform": "tiktok",
-      "stored_views": 20500,
+      "stored_views": 20600,
       "stored_likes": 574,
       "live_views": 20600,
       "live_likes": 574,
       "error": null,
-      "views_diff_pct": 0.4878048780487805
+      "views_diff_pct": 0.0
     },
     {
       "url": "https://www.youtube.com/shorts/Em0PnE3HG6c",
@@ -455,7 +455,7 @@
       "url": "https://www.tiktok.com/@omeryaron_/video/7525006149415046418",
       "platform": "tiktok",
       "stored_views": 1200000,
-      "stored_likes": 5418,
+      "stored_likes": 5417,
       "live_views": 1200000,
       "live_likes": 5417,
       "error": null,
@@ -776,10 +776,10 @@
       "talent_name": "מיכל מצוב",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@michalmatzov",
-      "stored_followers": 358800,
+      "stored_followers": 359000,
       "live_followers": 359000,
       "error": null,
-      "diff_pct": 0.055741360089186176
+      "diff_pct": 0.0
     },
     {
       "talent_name": "מיכל מצוב",
@@ -794,10 +794,10 @@
       "talent_name": "מר שיבולת (שי בן בסט)",
       "platform": "youtube",
       "url": "https://www.youtube.com/@SHIB",
-      "stored_followers": 280000,
+      "stored_followers": 279000,
       "live_followers": 279000,
       "error": null,
-      "diff_pct": -0.35714285714285715
+      "diff_pct": 0.0
     },
     {
       "talent_name": "מר שיבולת (שי בן בסט)",
@@ -911,10 +911,10 @@
       "talent_name": "ישראל גליצקי",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@israel_galitsky",
-      "stored_followers": 150800,
+      "stored_followers": 150900,
       "live_followers": 150900,
       "error": null,
-      "diff_pct": 0.0663129973474801
+      "diff_pct": 0.0
     },
     {
       "talent_name": "ישראל גליצקי",
@@ -956,10 +956,10 @@
       "talent_name": "עומר ירון",
       "platform": "youtube",
       "url": "https://youtube.com/@omer_yaron",
-      "stored_followers": 42100,
+      "stored_followers": 42000,
       "live_followers": 42000,
       "error": null,
-      "diff_pct": -0.23752969121140144
+      "diff_pct": 0.0
     },
     {
       "talent_name": "עומר ירון",
@@ -983,10 +983,10 @@
       "talent_name": "מינה (CinnaMinaa)",
       "platform": "youtube",
       "url": "https://youtube.com/@cinnaminaa",
-      "stored_followers": 31300,
+      "stored_followers": 31200,
       "live_followers": 31200,
       "error": null,
-      "diff_pct": -0.3194888178913738
+      "diff_pct": 0.0
     },
     {
       "talent_name": "מינה (CinnaMinaa)",
@@ -1011,9 +1011,9 @@
       "platform": "youtube",
       "url": "https://www.youtube.com/stingerisrael",
       "stored_followers": 95200,
-      "live_followers": 95200,
+      "live_followers": 95100,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": -0.10504201680672269
     },
     {
       "talent_name": "סטינגר ישראל",
