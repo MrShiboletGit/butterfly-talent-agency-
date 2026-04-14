@@ -616,11 +616,11 @@
     "description": "קמפיין השקה מרשים עבור סרט 'עולם היורה' בקולנוע שהגיע ל-3.2 מיליון צפיות",
     "category": "קמפיין קולנוע",
     "kpis": {
-      "views": 3913620,
+      "views": 3913720,
       "engagement": 27557,
       "shares": 551,
-      "reach": 3913620,
-      "impressions": 3913620
+      "reach": 3913720,
+      "impressions": 3913720
     },
     "talents": [
       "2",
@@ -802,7 +802,7 @@
         "type": "short-form-video",
         "description": "TikTok - עולם היורה בקולנוע",
         "platform": "tiktok",
-        "views": 249900,
+        "views": 250000,
         "likes": 375,
         "comments": 119,
         "saves": 34,
@@ -1122,7 +1122,7 @@
     "category": "קמפיין קולנוע",
     "kpis": {
       "views": 713190,
-      "engagement": 21713,
+      "engagement": 21715,
       "shares": 0,
       "reach": 713190,
       "impressions": 713190
@@ -1155,7 +1155,7 @@
         "description": "TikTok - עומר ירון לזמן את הרוע 4 בכורה",
         "platform": "tiktok",
         "views": 400900,
-        "likes": 9254,
+        "likes": 9255,
         "comments": 253,
         "saves": 868,
         "talent": "8"
@@ -1186,7 +1186,7 @@
         "description": "TikTok - גל כהן לזמן את הרוע 4 בכורה",
         "platform": "tiktok",
         "views": 52500,
-        "likes": 1053,
+        "likes": 1054,
         "comments": 26,
         "saves": 50,
         "talent": "4"
@@ -1279,7 +1279,7 @@
     "category": "קמפיין ציבורי",
     "kpis": {
       "views": 167548,
-      "engagement": 8143,
+      "engagement": 8144,
       "shares": 591,
       "reach": 167548,
       "impressions": 167548
@@ -1300,7 +1300,7 @@
         "description": "TikTok - מיכל מצוב משרד התחבורה",
         "platform": "tiktok",
         "views": 73100,
-        "likes": 5776,
+        "likes": 5777,
         "comments": 296,
         "shares": 591,
         "talent": "1"
