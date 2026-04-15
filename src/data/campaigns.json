@@ -539,11 +539,11 @@
     "description": "קמפיין דיגיטלי מוצלח עבור אפליקציית Jooba - פלטפורמת מסחר לנוער",
     "category": "קמפיין דיגיטלי",
     "kpis": {
-      "views": 363000,
-      "engagement": 16575,
+      "views": 363200,
+      "engagement": 16577,
       "shares": 1416,
-      "reach": 363000,
-      "impressions": 363000
+      "reach": 363200,
+      "impressions": 363200
     },
     "talents": [
       "1",
@@ -583,8 +583,8 @@
         "type": "short-form-video",
         "description": "סרטון TikTok - Jooba אפליקציית מסחר לנוער",
         "platform": "tiktok",
-        "views": 114100,
-        "likes": 6524,
+        "views": 114200,
+        "likes": 6525,
         "comments": 355,
         "saves": 1605,
         "shares": 798,
@@ -595,8 +595,8 @@
         "type": "short-form-video",
         "description": "סרטון TikTok נוסף - Jooba אפליקציית מסחר לנוער",
         "platform": "tiktok",
-        "views": 114100,
-        "likes": 6524,
+        "views": 114200,
+        "likes": 6525,
         "comments": 48,
         "saves": 249,
         "shares": 84,
@@ -617,7 +617,7 @@
     "category": "קמפיין קולנוע",
     "kpis": {
       "views": 3913720,
-      "engagement": 27557,
+      "engagement": 27559,
       "shares": 551,
       "reach": 3913720,
       "impressions": 3913720
@@ -771,7 +771,7 @@
         "description": "TikTok - עולם היורה בקולנוע",
         "platform": "tiktok",
         "views": 815500,
-        "likes": 5489,
+        "likes": 5491,
         "comments": 984,
         "saves": 375,
         "shares": 253,
@@ -1121,11 +1121,11 @@
     "description": "קמפיין בכורה מוצלח עבור סרט 'לזמן את הרוע 4' עם עומר ירון וגל כהן",
     "category": "קמפיין קולנוע",
     "kpis": {
-      "views": 713190,
-      "engagement": 21715,
+      "views": 713290,
+      "engagement": 21714,
       "shares": 0,
-      "reach": 713190,
-      "impressions": 713190
+      "reach": 713290,
+      "impressions": 713290
     },
     "talents": [
       "8",
@@ -1154,8 +1154,8 @@
         "type": "short-form-video",
         "description": "TikTok - עומר ירון לזמן את הרוע 4 בכורה",
         "platform": "tiktok",
-        "views": 400900,
-        "likes": 9255,
+        "views": 401000,
+        "likes": 9254,
         "comments": 253,
         "saves": 868,
         "talent": "8"
