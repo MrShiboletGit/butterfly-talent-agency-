@@ -7,7 +7,7 @@
     "category": "קמפיין גיימינג",
     "kpis": {
       "views": 179088,
-      "engagement": 7033,
+      "engagement": 7034,
       "shares": 0,
       "reach": 179088,
       "impressions": 179088
@@ -29,7 +29,7 @@
         "description": "TikTok - גל כהן קמפיין לוג'יטק מסיבת הגיימינג",
         "platform": "tiktok",
         "views": 42400,
-        "likes": 1044,
+        "likes": 1045,
         "comments": 50,
         "talent": "4"
       },
@@ -146,7 +146,7 @@
     "category": "קמפיין שנתי",
     "kpis": {
       "views": 520539,
-      "engagement": 17587,
+      "engagement": 17588,
       "shares": 0,
       "reach": 520539,
       "impressions": 520539
@@ -178,7 +178,7 @@
         "description": "TikTok - גל כהן קמפיין סמסונג Q3",
         "platform": "tiktok",
         "views": 36000,
-        "likes": 2023,
+        "likes": 2024,
         "comments": 50,
         "saves": 97,
         "talent": "4"
@@ -486,11 +486,11 @@
     "description": "קמפיין קידום מכירות מוצלח עבור הספר של ביל בהוצאת ידיעות ספרים",
     "category": "קמפיין ספרים",
     "kpis": {
-      "views": 102200,
+      "views": 102300,
       "engagement": 8161,
       "shares": 493,
-      "reach": 102200,
-      "impressions": 102200
+      "reach": 102300,
+      "impressions": 102300
     },
     "talents": [
       "6"
@@ -518,7 +518,7 @@
         "type": "short-form-video",
         "description": "סרטון TikTok קידום הספר של ביל - ידיעות ספרים",
         "platform": "tiktok",
-        "views": 87200,
+        "views": 87300,
         "likes": 7182,
         "comments": 379,
         "saves": 0,
@@ -540,7 +540,7 @@
     "category": "קמפיין דיגיטלי",
     "kpis": {
       "views": 363200,
-      "engagement": 16577,
+      "engagement": 16575,
       "shares": 1416,
       "reach": 363200,
       "impressions": 363200
@@ -584,7 +584,7 @@
         "description": "סרטון TikTok - Jooba אפליקציית מסחר לנוער",
         "platform": "tiktok",
         "views": 114200,
-        "likes": 6525,
+        "likes": 6524,
         "comments": 355,
         "saves": 1605,
         "shares": 798,
@@ -596,7 +596,7 @@
         "description": "סרטון TikTok נוסף - Jooba אפליקציית מסחר לנוער",
         "platform": "tiktok",
         "views": 114200,
-        "likes": 6525,
+        "likes": 6524,
         "comments": 48,
         "saves": 249,
         "shares": 84,
@@ -616,11 +616,11 @@
     "description": "קמפיין השקה מרשים עבור סרט 'עולם היורה' בקולנוע שהגיע ל-3.2 מיליון צפיות",
     "category": "קמפיין קולנוע",
     "kpis": {
-      "views": 3913720,
+      "views": 3913820,
       "engagement": 27559,
       "shares": 551,
-      "reach": 3913720,
-      "impressions": 3913720
+      "reach": 3913820,
+      "impressions": 3913820
     },
     "talents": [
       "2",
@@ -738,7 +738,7 @@
         "type": "short-form-video",
         "description": "TikTok - עולם היורה בקולנוע",
         "platform": "tiktok",
-        "views": 336600,
+        "views": 336700,
         "likes": 710,
         "comments": 19,
         "saves": 50,
