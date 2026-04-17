@@ -539,11 +539,11 @@
     "description": "קמפיין דיגיטלי מוצלח עבור אפליקציית Jooba - פלטפורמת מסחר לנוער",
     "category": "קמפיין דיגיטלי",
     "kpis": {
-      "views": 363200,
-      "engagement": 16575,
+      "views": 363400,
+      "engagement": 16577,
       "shares": 1416,
-      "reach": 363200,
-      "impressions": 363200
+      "reach": 363400,
+      "impressions": 363400
     },
     "talents": [
       "1",
@@ -583,8 +583,8 @@
         "type": "short-form-video",
         "description": "סרטון TikTok - Jooba אפליקציית מסחר לנוער",
         "platform": "tiktok",
-        "views": 114200,
-        "likes": 6524,
+        "views": 114300,
+        "likes": 6525,
         "comments": 355,
         "saves": 1605,
         "shares": 798,
@@ -595,8 +595,8 @@
         "type": "short-form-video",
         "description": "סרטון TikTok נוסף - Jooba אפליקציית מסחר לנוער",
         "platform": "tiktok",
-        "views": 114200,
-        "likes": 6524,
+        "views": 114300,
+        "likes": 6525,
         "comments": 48,
         "saves": 249,
         "shares": 84,
@@ -931,7 +931,7 @@
     "category": "קמפיין קידום מבצעים",
     "kpis": {
       "views": 181605,
-      "engagement": 7097,
+      "engagement": 7098,
       "shares": 0,
       "reach": 181605,
       "impressions": 181605
@@ -962,7 +962,7 @@
         "description": "TikTok - קמפיין סוף הקיץ מחסני חשמל",
         "platform": "tiktok",
         "views": 36500,
-        "likes": 1188,
+        "likes": 1189,
         "comments": 27,
         "saves": 44,
         "talent": "4"
@@ -1122,7 +1122,7 @@
     "category": "קמפיין קולנוע",
     "kpis": {
       "views": 713290,
-      "engagement": 21714,
+      "engagement": 21715,
       "shares": 0,
       "reach": 713290,
       "impressions": 713290
@@ -1186,7 +1186,7 @@
         "description": "TikTok - גל כהן לזמן את הרוע 4 בכורה",
         "platform": "tiktok",
         "views": 52500,
-        "likes": 1054,
+        "likes": 1055,
         "comments": 26,
         "saves": 50,
         "talent": "4"
