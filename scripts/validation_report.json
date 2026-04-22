@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-21T05:38:35.242604",
+  "generated_at": "2026-04-22T05:36:51.744929",
   "video_results": [
     {
       "url": "https://www.tiktok.com/@galcohenyt/video/7540251397405560084",
@@ -768,18 +768,18 @@
       "platform": "youtube",
       "url": "https://youtube.com/@michalmatzov",
       "stored_followers": 456000,
-      "live_followers": 456000,
+      "live_followers": 457000,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": 0.21929824561403508
     },
     {
       "talent_name": "מיכל מצוב",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@michalmatzov",
-      "stored_followers": 359800,
+      "stored_followers": 359900,
       "live_followers": 359900,
       "error": null,
-      "diff_pct": 0.027793218454697052
+      "diff_pct": 0.0
     },
     {
       "talent_name": "מיכל מצוב",
@@ -848,19 +848,19 @@
       "talent_name": "גל כהן",
       "platform": "youtube",
       "url": "https://www.youtube.com/@GalCohenOfficial",
-      "stored_followers": 304000,
+      "stored_followers": 305000,
       "live_followers": 305000,
       "error": null,
-      "diff_pct": 0.3289473684210526
+      "diff_pct": 0.0
     },
     {
       "talent_name": "גל כהן",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@galcohenyt",
       "stored_followers": 85900,
-      "live_followers": 85900,
+      "live_followers": 86000,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": 0.11641443538998836
     },
     {
       "talent_name": "גל כהן",
@@ -902,10 +902,10 @@
       "talent_name": "ישראל גליצקי",
       "platform": "youtube",
       "url": "https://www.youtube.com/@israelgalitsky",
-      "stored_followers": 6600,
-      "live_followers": 6620,
+      "stored_followers": 6620,
+      "live_followers": 6660,
       "error": null,
-      "diff_pct": 0.30303030303030304
+      "diff_pct": 0.6042296072507553
     },
     {
       "talent_name": "ישראל גליצקי",
