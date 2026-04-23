@@ -487,7 +487,7 @@
     "category": "קמפיין ספרים",
     "kpis": {
       "views": 102400,
-      "engagement": 8164,
+      "engagement": 8165,
       "shares": 493,
       "reach": 102400,
       "impressions": 102400
@@ -519,7 +519,7 @@
         "description": "סרטון TikTok קידום הספר של ביל - ידיעות ספרים",
         "platform": "tiktok",
         "views": 87400,
-        "likes": 7185,
+        "likes": 7186,
         "comments": 379,
         "saves": 0,
         "shares": 493,
@@ -539,11 +539,11 @@
     "description": "קמפיין דיגיטלי מוצלח עבור אפליקציית Jooba - פלטפורמת מסחר לנוער",
     "category": "קמפיין דיגיטלי",
     "kpis": {
-      "views": 363600,
-      "engagement": 16587,
+      "views": 363800,
+      "engagement": 16591,
       "shares": 1416,
-      "reach": 363600,
-      "impressions": 363600
+      "reach": 363800,
+      "impressions": 363800
     },
     "talents": [
       "1",
@@ -583,8 +583,8 @@
         "type": "short-form-video",
         "description": "סרטון TikTok - Jooba אפליקציית מסחר לנוער",
         "platform": "tiktok",
-        "views": 114400,
-        "likes": 6530,
+        "views": 114500,
+        "likes": 6532,
         "comments": 355,
         "saves": 1605,
         "shares": 798,
@@ -595,8 +595,8 @@
         "type": "short-form-video",
         "description": "סרטון TikTok נוסף - Jooba אפליקציית מסחר לנוער",
         "platform": "tiktok",
-        "views": 114400,
-        "likes": 6530,
+        "views": 114500,
+        "likes": 6532,
         "comments": 48,
         "saves": 249,
         "shares": 84,
@@ -616,11 +616,11 @@
     "description": "קמפיין השקה מרשים עבור סרט 'עולם היורה' בקולנוע שהגיע ל-3.2 מיליון צפיות",
     "category": "קמפיין קולנוע",
     "kpis": {
-      "views": 3913820,
-      "engagement": 27559,
+      "views": 3913920,
+      "engagement": 27560,
       "shares": 551,
-      "reach": 3913820,
-      "impressions": 3913820
+      "reach": 3913920,
+      "impressions": 3913920
     },
     "talents": [
       "2",
@@ -770,8 +770,8 @@
         "type": "short-form-video",
         "description": "TikTok - עולם היורה בקולנוע",
         "platform": "tiktok",
-        "views": 815500,
-        "likes": 5491,
+        "views": 815600,
+        "likes": 5492,
         "comments": 984,
         "saves": 375,
         "shares": 253,
@@ -981,11 +981,11 @@
     "description": "קמפיין חזרה ללימודים מוצלח עבור קרביץ",
     "category": "קמפיין חינוכי",
     "kpis": {
-      "views": 116554,
+      "views": 116654,
       "engagement": 2602,
       "shares": 0,
-      "reach": 116554,
-      "impressions": 116554
+      "reach": 116654,
+      "impressions": 116654
     },
     "talents": [
       "2"
@@ -1012,7 +1012,7 @@
         "type": "short-form-video",
         "description": "TikTok - קמפיין חזרה ללימודים עם קרביץ",
         "platform": "tiktok",
-        "views": 24200,
+        "views": 24300,
         "likes": 300,
         "comments": 14,
         "talent": "2"
@@ -1278,11 +1278,11 @@
     "description": "קמפיין קידום מוצלח עבור משרד התחבורה עם מיכל מצוב",
     "category": "קמפיין ציבורי",
     "kpis": {
-      "views": 167548,
+      "views": 167648,
       "engagement": 8144,
       "shares": 591,
-      "reach": 167548,
-      "impressions": 167548
+      "reach": 167648,
+      "impressions": 167648
     },
     "talents": [
       "1"
@@ -1299,7 +1299,7 @@
         "type": "short-form-video",
         "description": "TikTok - מיכל מצוב משרד התחבורה",
         "platform": "tiktok",
-        "views": 73100,
+        "views": 73200,
         "likes": 5777,
         "comments": 296,
         "shares": 591,
