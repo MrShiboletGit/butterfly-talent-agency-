@@ -486,11 +486,11 @@
     "description": "קמפיין קידום מכירות מוצלח עבור הספר של ביל בהוצאת ידיעות ספרים",
     "category": "קמפיין ספרים",
     "kpis": {
-      "views": 102500,
-      "engagement": 8169,
+      "views": 102600,
+      "engagement": 8170,
       "shares": 493,
-      "reach": 102500,
-      "impressions": 102500
+      "reach": 102600,
+      "impressions": 102600
     },
     "talents": [
       "6"
@@ -518,8 +518,8 @@
         "type": "short-form-video",
         "description": "סרטון TikTok קידום הספר של ביל - ידיעות ספרים",
         "platform": "tiktok",
-        "views": 87500,
-        "likes": 7190,
+        "views": 87600,
+        "likes": 7191,
         "comments": 379,
         "saves": 0,
         "shares": 493,

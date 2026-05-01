@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-30T06:09:37.476041",
+  "generated_at": "2026-05-01T06:28:03.031101",
   "video_results": [
     {
       "url": "https://www.tiktok.com/@galcohenyt/video/7540251397405560084",
@@ -27,7 +27,7 @@
       "stored_views": 0,
       "stored_likes": 85,
       "live_views": null,
-      "live_likes": 84,
+      "live_likes": 83,
       "error": null,
       "views_diff_pct": null
     },
@@ -157,8 +157,8 @@
       "stored_views": 12000,
       "stored_likes": 296,
       "live_views": null,
-      "live_likes": null,
-      "error": "No metrics found in embed",
+      "live_likes": 296,
+      "error": null,
       "views_diff_pct": null
     },
     {
@@ -196,10 +196,10 @@
       "platform": "tiktok",
       "stored_views": 87500,
       "stored_likes": 7190,
-      "live_views": 87500,
-      "live_likes": 7190,
+      "live_views": 87600,
+      "live_likes": 7191,
       "error": null,
-      "views_diff_pct": 0.0
+      "views_diff_pct": 0.1142857142857143
     },
     {
       "url": "https://www.instagram.com/reel/DMIYpdKIqNU/?igsh=Z3E4Y3pqOWY3b2oy",
@@ -225,7 +225,7 @@
       "url": "https://www.tiktok.com/@michalmatzov/video/7527310366653598984?_r=1&_t=ZS-8yYyPcptRRZ",
       "platform": "tiktok",
       "stored_views": 114800,
-      "stored_likes": 6537,
+      "stored_likes": 6538,
       "live_views": 114800,
       "live_likes": 6538,
       "error": null,
@@ -235,7 +235,7 @@
       "url": "https://www.tiktok.com/@michalmatzov/video/7527310366653598984?_r=1&_t=ZS-8yYyPcptRRZ",
       "platform": "tiktok",
       "stored_views": 114800,
-      "stored_likes": 6537,
+      "stored_likes": 6538,
       "live_views": 114800,
       "live_likes": 6538,
       "error": null,
@@ -335,7 +335,7 @@
       "url": "https://www.tiktok.com/@david_2bof/video/7522472432691662088?_r=1&_t=ZS-8xh0YdeLN4x",
       "platform": "tiktok",
       "stored_views": 336700,
-      "stored_likes": 710,
+      "stored_likes": 712,
       "live_views": 336700,
       "live_likes": 712,
       "error": null,
@@ -535,7 +535,7 @@
       "url": "https://www.tiktok.com/@roeefirewolf/video/7545880178501618962",
       "platform": "tiktok",
       "stored_views": 139500,
-      "stored_likes": 4338,
+      "stored_likes": 4337,
       "live_views": 139500,
       "live_likes": 4337,
       "error": null,
@@ -555,7 +555,7 @@
       "url": "https://www.tiktok.com/@omeryaron_/video/7546155126982069522",
       "platform": "tiktok",
       "stored_views": 401100,
-      "stored_likes": 9254,
+      "stored_likes": 9253,
       "live_views": 401100,
       "live_likes": 9253,
       "error": null,
@@ -635,7 +635,7 @@
       "url": "https://www.tiktok.com/@michalmatzov/video/7559195096663772434?_r=1&_t=ZS-90PDjWjaGox",
       "platform": "tiktok",
       "stored_views": 73200,
-      "stored_likes": 5777,
+      "stored_likes": 5778,
       "live_views": 73200,
       "live_likes": 5778,
       "error": null,
@@ -777,9 +777,9 @@
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@michalmatzov",
       "stored_followers": 360100,
-      "live_followers": 360100,
+      "live_followers": 360200,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": 0.027770063871146906
     },
     {
       "talent_name": "מיכל מצוב",
@@ -849,9 +849,9 @@
       "platform": "youtube",
       "url": "https://www.youtube.com/@GalCohenOfficial",
       "stored_followers": 306000,
-      "live_followers": 306000,
+      "live_followers": 307000,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": 0.32679738562091504
     },
     {
       "talent_name": "גל כהן",
@@ -912,9 +912,9 @@
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@israel_galitsky",
       "stored_followers": 151500,
-      "live_followers": 151500,
+      "live_followers": 151600,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": 0.066006600660066
     },
     {
       "talent_name": "ישראל גליצקי",
@@ -956,10 +956,10 @@
       "talent_name": "עומר ירון",
       "platform": "youtube",
       "url": "https://youtube.com/@omer_yaron",
-      "stored_followers": 42400,
+      "stored_followers": 42500,
       "live_followers": 42500,
       "error": null,
-      "diff_pct": 0.2358490566037736
+      "diff_pct": 0.0
     },
     {
       "talent_name": "עומר ירון",
@@ -984,9 +984,9 @@
       "platform": "youtube",
       "url": "https://youtube.com/@cinnaminaa",
       "stored_followers": 31200,
-      "live_followers": 31200,
+      "live_followers": 31100,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": -0.3205128205128205
     },
     {
       "talent_name": "מינה (CinnaMinaa)",
