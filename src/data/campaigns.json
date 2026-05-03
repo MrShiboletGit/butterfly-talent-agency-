@@ -540,7 +540,7 @@
     "category": "קמפיין דיגיטלי",
     "kpis": {
       "views": 364600,
-      "engagement": 16603,
+      "engagement": 16609,
       "shares": 1416,
       "reach": 364600,
       "impressions": 364600
@@ -584,7 +584,7 @@
         "description": "סרטון TikTok - Jooba אפליקציית מסחר לנוער",
         "platform": "tiktok",
         "views": 114900,
-        "likes": 6538,
+        "likes": 6541,
         "comments": 355,
         "saves": 1605,
         "shares": 798,
@@ -596,7 +596,7 @@
         "description": "סרטון TikTok נוסף - Jooba אפליקציית מסחר לנוער",
         "platform": "tiktok",
         "views": 114900,
-        "likes": 6538,
+        "likes": 6541,
         "comments": 48,
         "saves": 249,
         "shares": 84,
@@ -616,11 +616,11 @@
     "description": "קמפיין השקה מרשים עבור סרט 'עולם היורה' בקולנוע שהגיע ל-3.2 מיליון צפיות",
     "category": "קמפיין קולנוע",
     "kpis": {
-      "views": 3913920,
+      "views": 3914120,
       "engagement": 27566,
       "shares": 551,
-      "reach": 3913920,
-      "impressions": 3913920
+      "reach": 3914120,
+      "impressions": 3914120
     },
     "talents": [
       "2",
@@ -738,7 +738,7 @@
         "type": "short-form-video",
         "description": "TikTok - עולם היורה בקולנוע",
         "platform": "tiktok",
-        "views": 336700,
+        "views": 336800,
         "likes": 712,
         "comments": 19,
         "saves": 50,
@@ -770,7 +770,7 @@
         "type": "short-form-video",
         "description": "TikTok - עולם היורה בקולנוע",
         "platform": "tiktok",
-        "views": 815600,
+        "views": 815700,
         "likes": 5494,
         "comments": 984,
         "saves": 375,
