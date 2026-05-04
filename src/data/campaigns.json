@@ -539,11 +539,11 @@
     "description": "קמפיין דיגיטלי מוצלח עבור אפליקציית Jooba - פלטפורמת מסחר לנוער",
     "category": "קמפיין דיגיטלי",
     "kpis": {
-      "views": 364600,
-      "engagement": 16609,
+      "views": 364800,
+      "engagement": 16613,
       "shares": 1416,
-      "reach": 364600,
-      "impressions": 364600
+      "reach": 364800,
+      "impressions": 364800
     },
     "talents": [
       "1",
@@ -583,8 +583,8 @@
         "type": "short-form-video",
         "description": "סרטון TikTok - Jooba אפליקציית מסחר לנוער",
         "platform": "tiktok",
-        "views": 114900,
-        "likes": 6541,
+        "views": 115000,
+        "likes": 6543,
         "comments": 355,
         "saves": 1605,
         "shares": 798,
@@ -595,8 +595,8 @@
         "type": "short-form-video",
         "description": "סרטון TikTok נוסף - Jooba אפליקציית מסחר לנוער",
         "platform": "tiktok",
-        "views": 114900,
-        "likes": 6541,
+        "views": 115000,
+        "likes": 6543,
         "comments": 48,
         "saves": 249,
         "shares": 84,
@@ -1081,11 +1081,11 @@
     "description": "קמפיין מוצלח עבור CeraVe עם רועי פיירזולף במסיבת סוף השנה",
     "category": "קמפיין אירוע",
     "kpis": {
-      "views": 139500,
+      "views": 139600,
       "engagement": 4558,
       "shares": 0,
-      "reach": 139500,
-      "impressions": 139500
+      "reach": 139600,
+      "impressions": 139600
     },
     "talents": [
       "3"
@@ -1101,7 +1101,7 @@
         "type": "short-form-video",
         "description": "TikTok - רועי פיירזולף מסיבת סוף שנה CeraVe",
         "platform": "tiktok",
-        "views": 139500,
+        "views": 139600,
         "likes": 4337,
         "comments": 43,
         "saves": 178,
@@ -1122,7 +1122,7 @@
     "category": "קמפיין קולנוע",
     "kpis": {
       "views": 713490,
-      "engagement": 21715,
+      "engagement": 21714,
       "shares": 0,
       "reach": 713490,
       "impressions": 713490
@@ -1155,7 +1155,7 @@
         "description": "TikTok - עומר ירון לזמן את הרוע 4 בכורה",
         "platform": "tiktok",
         "views": 401100,
-        "likes": 9254,
+        "likes": 9253,
         "comments": 253,
         "saves": 868,
         "talent": "8"
