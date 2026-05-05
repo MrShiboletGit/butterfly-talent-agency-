@@ -540,7 +540,7 @@
     "category": "קמפיין דיגיטלי",
     "kpis": {
       "views": 364800,
-      "engagement": 16613,
+      "engagement": 16615,
       "shares": 1416,
       "reach": 364800,
       "impressions": 364800
@@ -584,7 +584,7 @@
         "description": "סרטון TikTok - Jooba אפליקציית מסחר לנוער",
         "platform": "tiktok",
         "views": 115000,
-        "likes": 6543,
+        "likes": 6544,
         "comments": 355,
         "saves": 1605,
         "shares": 798,
@@ -596,7 +596,7 @@
         "description": "סרטון TikTok נוסף - Jooba אפליקציית מסחר לנוער",
         "platform": "tiktok",
         "views": 115000,
-        "likes": 6543,
+        "likes": 6544,
         "comments": 48,
         "saves": 249,
         "shares": 84,
@@ -930,11 +930,11 @@
     "description": "קמפיין סוף הקיץ מוצלח עבור מחסני חשמל",
     "category": "קמפיין קידום מבצעים",
     "kpis": {
-      "views": 181605,
+      "views": 181705,
       "engagement": 7098,
       "shares": 0,
-      "reach": 181605,
-      "impressions": 181605
+      "reach": 181705,
+      "impressions": 181705
     },
     "talents": [
       "4"
@@ -961,7 +961,7 @@
         "type": "short-form-video",
         "description": "TikTok - קמפיין סוף הקיץ מחסני חשמל",
         "platform": "tiktok",
-        "views": 36500,
+        "views": 36600,
         "likes": 1189,
         "comments": 27,
         "saves": 44,
