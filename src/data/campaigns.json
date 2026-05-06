@@ -487,7 +487,7 @@
     "category": "קמפיין ספרים",
     "kpis": {
       "views": 102600,
-      "engagement": 8171,
+      "engagement": 8174,
       "shares": 493,
       "reach": 102600,
       "impressions": 102600
@@ -519,7 +519,7 @@
         "description": "סרטון TikTok קידום הספר של ביל - ידיעות ספרים",
         "platform": "tiktok",
         "views": 87600,
-        "likes": 7192,
+        "likes": 7195,
         "comments": 379,
         "saves": 0,
         "shares": 493,
@@ -539,11 +539,11 @@
     "description": "קמפיין דיגיטלי מוצלח עבור אפליקציית Jooba - פלטפורמת מסחר לנוער",
     "category": "קמפיין דיגיטלי",
     "kpis": {
-      "views": 364800,
-      "engagement": 16615,
+      "views": 365000,
+      "engagement": 16623,
       "shares": 1416,
-      "reach": 364800,
-      "impressions": 364800
+      "reach": 365000,
+      "impressions": 365000
     },
     "talents": [
       "1",
@@ -583,8 +583,8 @@
         "type": "short-form-video",
         "description": "סרטון TikTok - Jooba אפליקציית מסחר לנוער",
         "platform": "tiktok",
-        "views": 115000,
-        "likes": 6544,
+        "views": 115100,
+        "likes": 6548,
         "comments": 355,
         "saves": 1605,
         "shares": 798,
@@ -595,8 +595,8 @@
         "type": "short-form-video",
         "description": "סרטון TikTok נוסף - Jooba אפליקציית מסחר לנוער",
         "platform": "tiktok",
-        "views": 115000,
-        "likes": 6544,
+        "views": 115100,
+        "likes": 6548,
         "comments": 48,
         "saves": 249,
         "shares": 84,
@@ -1122,7 +1122,7 @@
     "category": "קמפיין קולנוע",
     "kpis": {
       "views": 713490,
-      "engagement": 21714,
+      "engagement": 21716,
       "shares": 0,
       "reach": 713490,
       "impressions": 713490
@@ -1155,7 +1155,7 @@
         "description": "TikTok - עומר ירון לזמן את הרוע 4 בכורה",
         "platform": "tiktok",
         "views": 401100,
-        "likes": 9253,
+        "likes": 9255,
         "comments": 253,
         "saves": 868,
         "talent": "8"
@@ -1205,11 +1205,11 @@
     "description": "קמפיין מוצלח עבור יכולות הבינה המלאכותית במוצרי סמסונג עם מר שיבולת וגל כהן",
     "category": "קמפיין טכנולוגיה",
     "kpis": {
-      "views": 219105,
+      "views": 219205,
       "engagement": 7892,
       "shares": 171,
-      "reach": 219105,
-      "impressions": 219105
+      "reach": 219205,
+      "impressions": 219205
     },
     "talents": [
       "2",
@@ -1227,7 +1227,7 @@
         "type": "short-form-video",
         "description": "TikTok - מר שיבולת בינה מלאכותית בסמסונג",
         "platform": "tiktok",
-        "views": 28600,
+        "views": 28700,
         "likes": 2036,
         "comments": 60,
         "shares": 171,
@@ -1279,7 +1279,7 @@
     "category": "קמפיין ציבורי",
     "kpis": {
       "views": 167648,
-      "engagement": 8145,
+      "engagement": 8146,
       "shares": 591,
       "reach": 167648,
       "impressions": 167648
@@ -1300,7 +1300,7 @@
         "description": "TikTok - מיכל מצוב משרד התחבורה",
         "platform": "tiktok",
         "views": 73200,
-        "likes": 5778,
+        "likes": 5779,
         "comments": 296,
         "shares": 591,
         "talent": "1"
