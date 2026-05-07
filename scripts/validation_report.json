@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-06T06:08:49.125219",
+  "generated_at": "2026-05-07T06:22:09.113376",
   "video_results": [
     {
       "url": "https://www.tiktok.com/@galcohenyt/video/7540251397405560084",
@@ -27,8 +27,8 @@
       "stored_views": 0,
       "stored_likes": 85,
       "live_views": null,
-      "live_likes": 83,
-      "error": null,
+      "live_likes": null,
+      "error": "HTTP 429",
       "views_diff_pct": null
     },
     {
@@ -118,7 +118,7 @@
       "stored_likes": 1616,
       "live_views": null,
       "live_likes": null,
-      "error": "No metrics found in embed",
+      "error": "HTTP 429",
       "views_diff_pct": null
     },
     {
@@ -158,7 +158,7 @@
       "stored_likes": 296,
       "live_views": null,
       "live_likes": null,
-      "error": "No metrics found in embed",
+      "error": "HTTP 429",
       "views_diff_pct": null
     },
     {
@@ -188,14 +188,14 @@
       "stored_likes": 572,
       "live_views": null,
       "live_likes": null,
-      "error": "No metrics found in embed",
+      "error": "HTTP 429",
       "views_diff_pct": null
     },
     {
       "url": "https://www.tiktok.com/@israel_galitsky/video/7535054778527698184",
       "platform": "tiktok",
       "stored_views": 87600,
-      "stored_likes": 7192,
+      "stored_likes": 7195,
       "live_views": 87600,
       "live_likes": 7195,
       "error": null,
@@ -208,7 +208,7 @@
       "stored_likes": 937,
       "live_views": null,
       "live_likes": null,
-      "error": "No metrics found in embed",
+      "error": "HTTP 429",
       "views_diff_pct": null
     },
     {
@@ -224,22 +224,22 @@
     {
       "url": "https://www.tiktok.com/@michalmatzov/video/7527310366653598984?_r=1&_t=ZS-8yYyPcptRRZ",
       "platform": "tiktok",
-      "stored_views": 115000,
-      "stored_likes": 6544,
+      "stored_views": 115100,
+      "stored_likes": 6548,
       "live_views": 115100,
-      "live_likes": 6548,
+      "live_likes": 6551,
       "error": null,
-      "views_diff_pct": 0.08695652173913043
+      "views_diff_pct": 0.0
     },
     {
       "url": "https://www.tiktok.com/@michalmatzov/video/7527310366653598984?_r=1&_t=ZS-8yYyPcptRRZ",
       "platform": "tiktok",
-      "stored_views": 115000,
-      "stored_likes": 6544,
+      "stored_views": 115100,
+      "stored_likes": 6548,
       "live_views": 115100,
-      "live_likes": 6548,
+      "live_likes": 6551,
       "error": null,
-      "views_diff_pct": 0.08695652173913043
+      "views_diff_pct": 0.0
     },
     {
       "url": "https://www.tiktok.com/@galcohenyt/video/7522490053461806343?_r=1&_t=ZS-8xh6Rcpzek5",
@@ -298,7 +298,7 @@
       "stored_likes": 283,
       "live_views": null,
       "live_likes": null,
-      "error": "No metrics found in embed",
+      "error": "HTTP 429",
       "views_diff_pct": null
     },
     {
@@ -308,7 +308,7 @@
       "stored_likes": 254,
       "live_views": null,
       "live_likes": null,
-      "error": "No metrics found in embed",
+      "error": "HTTP 429",
       "views_diff_pct": null
     },
     {
@@ -358,7 +358,7 @@
       "stored_likes": 131,
       "live_views": null,
       "live_likes": null,
-      "error": "No metrics found in embed",
+      "error": "HTTP 429",
       "views_diff_pct": null
     },
     {
@@ -378,7 +378,7 @@
       "stored_likes": 490,
       "live_views": null,
       "live_likes": null,
-      "error": "No metrics found in embed",
+      "error": "HTTP 429",
       "views_diff_pct": null
     },
     {
@@ -555,7 +555,7 @@
       "url": "https://www.tiktok.com/@omeryaron_/video/7546155126982069522",
       "platform": "tiktok",
       "stored_views": 401100,
-      "stored_likes": 9253,
+      "stored_likes": 9255,
       "live_views": 401100,
       "live_likes": 9255,
       "error": null,
@@ -568,7 +568,7 @@
       "stored_likes": 903,
       "live_views": null,
       "live_likes": null,
-      "error": "No metrics found in embed",
+      "error": "HTTP 429",
       "views_diff_pct": null
     },
     {
@@ -594,12 +594,12 @@
     {
       "url": "https://www.tiktok.com/@mrshibolet/video/7553987551594417426",
       "platform": "tiktok",
-      "stored_views": 28600,
+      "stored_views": 28700,
       "stored_likes": 2036,
       "live_views": 28700,
       "live_likes": 2036,
       "error": null,
-      "views_diff_pct": 0.34965034965034963
+      "views_diff_pct": 0.0
     },
     {
       "url": "https://www.youtube.com/shorts/7r6qDxN9Y8A",
@@ -635,7 +635,7 @@
       "url": "https://www.tiktok.com/@michalmatzov/video/7559195096663772434?_r=1&_t=ZS-90PDjWjaGox",
       "platform": "tiktok",
       "stored_views": 73200,
-      "stored_likes": 5778,
+      "stored_likes": 5779,
       "live_views": 73200,
       "live_likes": 5779,
       "error": null,
@@ -748,7 +748,7 @@
       "stored_likes": 1130,
       "live_views": null,
       "live_likes": null,
-      "error": "No metrics found in embed",
+      "error": "HTTP 429",
       "views_diff_pct": null
     },
     {
@@ -758,7 +758,7 @@
       "stored_likes": 162,
       "live_views": null,
       "live_likes": null,
-      "error": "No metrics found in embed",
+      "error": "HTTP 429",
       "views_diff_pct": null
     }
   ],
@@ -777,9 +777,9 @@
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@michalmatzov",
       "stored_followers": 360500,
-      "live_followers": 360500,
+      "live_followers": 360800,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": 0.08321775312066575
     },
     {
       "talent_name": "מיכל מצוב",
@@ -849,18 +849,18 @@
       "platform": "youtube",
       "url": "https://www.youtube.com/@GalCohenOfficial",
       "stored_followers": 309000,
-      "live_followers": 309000,
+      "live_followers": 310000,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": 0.3236245954692557
     },
     {
       "talent_name": "גל כהן",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@galcohenyt",
-      "stored_followers": 86300,
-      "live_followers": 86400,
+      "stored_followers": 86400,
+      "live_followers": 86500,
       "error": null,
-      "diff_pct": 0.11587485515643105
+      "diff_pct": 0.11574074074074073
     },
     {
       "talent_name": "גל כהן",
@@ -966,9 +966,9 @@
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@omeryaron_",
       "stored_followers": 52700,
-      "live_followers": 52700,
+      "live_followers": 52600,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": -0.18975332068311196
     },
     {
       "talent_name": "עומר ירון",
