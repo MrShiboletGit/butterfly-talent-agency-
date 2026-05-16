@@ -146,7 +146,7 @@
     "category": "קמפיין שנתי",
     "kpis": {
       "views": 520539,
-      "engagement": 17588,
+      "engagement": 17587,
       "shares": 0,
       "reach": 520539,
       "impressions": 520539
@@ -178,7 +178,7 @@
         "description": "TikTok - גל כהן קמפיין סמסונג Q3",
         "platform": "tiktok",
         "views": 36000,
-        "likes": 2024,
+        "likes": 2023,
         "comments": 50,
         "saves": 97,
         "talent": "4"
@@ -487,7 +487,7 @@
     "category": "קמפיין ספרים",
     "kpis": {
       "views": 102800,
-      "engagement": 8183,
+      "engagement": 8185,
       "shares": 493,
       "reach": 102800,
       "impressions": 102800
@@ -519,7 +519,7 @@
         "description": "סרטון TikTok קידום הספר של ביל - ידיעות ספרים",
         "platform": "tiktok",
         "views": 87800,
-        "likes": 7204,
+        "likes": 7206,
         "comments": 379,
         "saves": 0,
         "shares": 493,
@@ -539,11 +539,11 @@
     "description": "קמפיין דיגיטלי מוצלח עבור אפליקציית Jooba - פלטפורמת מסחר לנוער",
     "category": "קמפיין דיגיטלי",
     "kpis": {
-      "views": 365800,
-      "engagement": 16659,
+      "views": 366000,
+      "engagement": 16661,
       "shares": 1416,
-      "reach": 365800,
-      "impressions": 365800
+      "reach": 366000,
+      "impressions": 366000
     },
     "talents": [
       "1",
@@ -583,8 +583,8 @@
         "type": "short-form-video",
         "description": "סרטון TikTok - Jooba אפליקציית מסחר לנוער",
         "platform": "tiktok",
-        "views": 115500,
-        "likes": 6566,
+        "views": 115600,
+        "likes": 6567,
         "comments": 355,
         "saves": 1605,
         "shares": 798,
@@ -595,8 +595,8 @@
         "type": "short-form-video",
         "description": "סרטון TikTok נוסף - Jooba אפליקציית מסחר לנוער",
         "platform": "tiktok",
-        "views": 115500,
-        "likes": 6566,
+        "views": 115600,
+        "likes": 6567,
         "comments": 48,
         "saves": 249,
         "shares": 84,
@@ -616,11 +616,11 @@
     "description": "קמפיין השקה מרשים עבור סרט 'עולם היורה' בקולנוע שהגיע ל-3.2 מיליון צפיות",
     "category": "קמפיין קולנוע",
     "kpis": {
-      "views": 3914120,
+      "views": 3914220,
       "engagement": 27567,
       "shares": 551,
-      "reach": 3914120,
-      "impressions": 3914120
+      "reach": 3914220,
+      "impressions": 3914220
     },
     "talents": [
       "2",
@@ -770,7 +770,7 @@
         "type": "short-form-video",
         "description": "TikTok - עולם היורה בקולנוע",
         "platform": "tiktok",
-        "views": 815700,
+        "views": 815800,
         "likes": 5494,
         "comments": 984,
         "saves": 375,
@@ -1121,11 +1121,11 @@
     "description": "קמפיין בכורה מוצלח עבור סרט 'לזמן את הרוע 4' עם עומר ירון וגל כהן",
     "category": "קמפיין קולנוע",
     "kpis": {
-      "views": 713590,
-      "engagement": 21719,
+      "views": 713690,
+      "engagement": 21720,
       "shares": 0,
-      "reach": 713590,
-      "impressions": 713590
+      "reach": 713690,
+      "impressions": 713690
     },
     "talents": [
       "8",
@@ -1154,8 +1154,8 @@
         "type": "short-form-video",
         "description": "TikTok - עומר ירון לזמן את הרוע 4 בכורה",
         "platform": "tiktok",
-        "views": 401200,
-        "likes": 9258,
+        "views": 401300,
+        "likes": 9259,
         "comments": 253,
         "saves": 868,
         "talent": "8"
@@ -1419,11 +1419,11 @@
     "description": "קמפיין גיוס עובדים מוצלח עבור התעשייה האווירית - חידה שנתית 2025 עם מר שיבולת",
     "category": "קמפיין מיתוג מעסיק",
     "kpis": {
-      "views": 133223,
+      "views": 133323,
       "engagement": 6449,
       "shares": 0,
-      "reach": 133223,
-      "impressions": 133223
+      "reach": 133323,
+      "impressions": 133323
     },
     "talents": [
       "2"
@@ -1461,7 +1461,7 @@
         "type": "short-form-video",
         "description": "TikTok - מר שיבולת קמפיין גיוס עובדים התעשייה האווירית",
         "platform": "tiktok",
-        "views": 64800,
+        "views": 64900,
         "likes": 4476,
         "comments": 0,
         "talent": "2"
