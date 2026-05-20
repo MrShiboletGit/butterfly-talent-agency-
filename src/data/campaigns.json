@@ -539,11 +539,11 @@
     "description": "קמפיין דיגיטלי מוצלח עבור אפליקציית Jooba - פלטפורמת מסחר לנוער",
     "category": "קמפיין דיגיטלי",
     "kpis": {
-      "views": 366200,
-      "engagement": 16665,
+      "views": 366400,
+      "engagement": 16667,
       "shares": 1416,
-      "reach": 366200,
-      "impressions": 366200
+      "reach": 366400,
+      "impressions": 366400
     },
     "talents": [
       "1",
@@ -583,8 +583,8 @@
         "type": "short-form-video",
         "description": "סרטון TikTok - Jooba אפליקציית מסחר לנוער",
         "platform": "tiktok",
-        "views": 115700,
-        "likes": 6569,
+        "views": 115800,
+        "likes": 6570,
         "comments": 355,
         "saves": 1605,
         "shares": 798,
@@ -595,8 +595,8 @@
         "type": "short-form-video",
         "description": "סרטון TikTok נוסף - Jooba אפליקציית מסחר לנוער",
         "platform": "tiktok",
-        "views": 115700,
-        "likes": 6569,
+        "views": 115800,
+        "likes": 6570,
         "comments": 48,
         "saves": 249,
         "shares": 84,
@@ -856,7 +856,7 @@
     "category": "קמפיין קולנוע",
     "kpis": {
       "views": 2656572,
-      "engagement": 23368,
+      "engagement": 23369,
       "shares": 119,
       "reach": 2656572,
       "impressions": 2656572
@@ -900,7 +900,7 @@
         "description": "TikTok - קידום סרט סופרמן בקולנוע",
         "platform": "tiktok",
         "views": 1200000,
-        "likes": 5420,
+        "likes": 5421,
         "comments": 238,
         "saves": 401,
         "shares": 0,
@@ -1279,7 +1279,7 @@
     "category": "קמפיין ציבורי",
     "kpis": {
       "views": 167748,
-      "engagement": 8146,
+      "engagement": 8147,
       "shares": 591,
       "reach": 167748,
       "impressions": 167748
@@ -1300,7 +1300,7 @@
         "description": "TikTok - מיכל מצוב משרד התחבורה",
         "platform": "tiktok",
         "views": 73300,
-        "likes": 5779,
+        "likes": 5780,
         "comments": 296,
         "shares": 591,
         "talent": "1"
