@@ -540,7 +540,7 @@
     "category": "קמפיין דיגיטלי",
     "kpis": {
       "views": 366800,
-      "engagement": 16677,
+      "engagement": 16681,
       "shares": 1416,
       "reach": 366800,
       "impressions": 366800
@@ -584,7 +584,7 @@
         "description": "סרטון TikTok - Jooba אפליקציית מסחר לנוער",
         "platform": "tiktok",
         "views": 116000,
-        "likes": 6575,
+        "likes": 6577,
         "comments": 355,
         "saves": 1605,
         "shares": 798,
@@ -596,7 +596,7 @@
         "description": "סרטון TikTok נוסף - Jooba אפליקציית מסחר לנוער",
         "platform": "tiktok",
         "views": 116000,
-        "likes": 6575,
+        "likes": 6577,
         "comments": 48,
         "saves": 249,
         "shares": 84,
@@ -616,11 +616,11 @@
     "description": "קמפיין השקה מרשים עבור סרט 'עולם היורה' בקולנוע שהגיע ל-3.2 מיליון צפיות",
     "category": "קמפיין קולנוע",
     "kpis": {
-      "views": 3914420,
+      "views": 3914520,
       "engagement": 27569,
       "shares": 551,
-      "reach": 3914420,
-      "impressions": 3914420
+      "reach": 3914520,
+      "impressions": 3914520
     },
     "talents": [
       "2",
@@ -738,7 +738,7 @@
         "type": "short-form-video",
         "description": "TikTok - עולם היורה בקולנוע",
         "platform": "tiktok",
-        "views": 336800,
+        "views": 336900,
         "likes": 713,
         "comments": 19,
         "saves": 50,
@@ -856,7 +856,7 @@
     "category": "קמפיין קולנוע",
     "kpis": {
       "views": 2656572,
-      "engagement": 23370,
+      "engagement": 23369,
       "shares": 119,
       "reach": 2656572,
       "impressions": 2656572
@@ -888,7 +888,7 @@
         "description": "TikTok - קידום סרט סופרמן בקולנוע",
         "platform": "tiktok",
         "views": 802000,
-        "likes": 1301,
+        "likes": 1300,
         "comments": 114,
         "saves": 0,
         "shares": 119,
