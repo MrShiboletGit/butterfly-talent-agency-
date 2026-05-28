@@ -539,11 +539,11 @@
     "description": "קמפיין דיגיטלי מוצלח עבור אפליקציית Jooba - פלטפורמת מסחר לנוער",
     "category": "קמפיין דיגיטלי",
     "kpis": {
-      "views": 366800,
-      "engagement": 16681,
+      "views": 367000,
+      "engagement": 16683,
       "shares": 1416,
-      "reach": 366800,
-      "impressions": 366800
+      "reach": 367000,
+      "impressions": 367000
     },
     "talents": [
       "1",
@@ -583,8 +583,8 @@
         "type": "short-form-video",
         "description": "סרטון TikTok - Jooba אפליקציית מסחר לנוער",
         "platform": "tiktok",
-        "views": 116000,
-        "likes": 6577,
+        "views": 116100,
+        "likes": 6578,
         "comments": 355,
         "saves": 1605,
         "shares": 798,
@@ -595,8 +595,8 @@
         "type": "short-form-video",
         "description": "סרטון TikTok נוסף - Jooba אפליקציית מסחר לנוער",
         "platform": "tiktok",
-        "views": 116000,
-        "likes": 6577,
+        "views": 116100,
+        "likes": 6578,
         "comments": 48,
         "saves": 249,
         "shares": 84,
@@ -617,7 +617,7 @@
     "category": "קמפיין קולנוע",
     "kpis": {
       "views": 3914520,
-      "engagement": 27569,
+      "engagement": 27571,
       "shares": 551,
       "reach": 3914520,
       "impressions": 3914520
@@ -771,7 +771,7 @@
         "description": "TikTok - עולם היורה בקולנוע",
         "platform": "tiktok",
         "views": 815900,
-        "likes": 5495,
+        "likes": 5497,
         "comments": 984,
         "saves": 375,
         "shares": 253,
