@@ -486,11 +486,11 @@
     "description": "קמפיין קידום מכירות מוצלח עבור הספר של ביל בהוצאת ידיעות ספרים",
     "category": "קמפיין ספרים",
     "kpis": {
-      "views": 103100,
+      "views": 103200,
       "engagement": 8194,
       "shares": 493,
-      "reach": 103100,
-      "impressions": 103100
+      "reach": 103200,
+      "impressions": 103200
     },
     "talents": [
       "6"
@@ -518,7 +518,7 @@
         "type": "short-form-video",
         "description": "סרטון TikTok קידום הספר של ביל - ידיעות ספרים",
         "platform": "tiktok",
-        "views": 88100,
+        "views": 88200,
         "likes": 7215,
         "comments": 379,
         "saves": 0,
@@ -539,11 +539,11 @@
     "description": "קמפיין דיגיטלי מוצלח עבור אפליקציית Jooba - פלטפורמת מסחר לנוער",
     "category": "קמפיין דיגיטלי",
     "kpis": {
-      "views": 367000,
-      "engagement": 16685,
+      "views": 367200,
+      "engagement": 16687,
       "shares": 1416,
-      "reach": 367000,
-      "impressions": 367000
+      "reach": 367200,
+      "impressions": 367200
     },
     "talents": [
       "1",
@@ -583,8 +583,8 @@
         "type": "short-form-video",
         "description": "סרטון TikTok - Jooba אפליקציית מסחר לנוער",
         "platform": "tiktok",
-        "views": 116100,
-        "likes": 6579,
+        "views": 116200,
+        "likes": 6580,
         "comments": 355,
         "saves": 1605,
         "shares": 798,
@@ -595,8 +595,8 @@
         "type": "short-form-video",
         "description": "סרטון TikTok נוסף - Jooba אפליקציית מסחר לנוער",
         "platform": "tiktok",
-        "views": 116100,
-        "likes": 6579,
+        "views": 116200,
+        "likes": 6580,
         "comments": 48,
         "saves": 249,
         "shares": 84,
@@ -617,7 +617,7 @@
     "category": "קמפיין קולנוע",
     "kpis": {
       "views": 3914520,
-      "engagement": 27573,
+      "engagement": 27575,
       "shares": 551,
       "reach": 3914520,
       "impressions": 3914520
@@ -771,7 +771,7 @@
         "description": "TikTok - עולם היורה בקולנוע",
         "platform": "tiktok",
         "views": 815900,
-        "likes": 5499,
+        "likes": 5501,
         "comments": 984,
         "saves": 375,
         "shares": 253,
@@ -856,7 +856,7 @@
     "category": "קמפיין קולנוע",
     "kpis": {
       "views": 2656572,
-      "engagement": 23370,
+      "engagement": 23371,
       "shares": 119,
       "reach": 2656572,
       "impressions": 2656572
@@ -900,7 +900,7 @@
         "description": "TikTok - קידום סרט סופרמן בקולנוע",
         "platform": "tiktok",
         "views": 1200000,
-        "likes": 5422,
+        "likes": 5423,
         "comments": 238,
         "saves": 401,
         "shares": 0,
@@ -1122,7 +1122,7 @@
     "category": "קמפיין קולנוע",
     "kpis": {
       "views": 713790,
-      "engagement": 21722,
+      "engagement": 21723,
       "shares": 0,
       "reach": 713790,
       "impressions": 713790
@@ -1155,7 +1155,7 @@
         "description": "TikTok - עומר ירון לזמן את הרוע 4 בכורה",
         "platform": "tiktok",
         "views": 401400,
-        "likes": 9261,
+        "likes": 9262,
         "comments": 253,
         "saves": 868,
         "talent": "8"
