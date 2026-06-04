@@ -486,11 +486,11 @@
     "description": "קמפיין קידום מכירות מוצלח עבור הספר של ביל בהוצאת ידיעות ספרים",
     "category": "קמפיין ספרים",
     "kpis": {
-      "views": 103200,
-      "engagement": 8195,
+      "views": 103300,
+      "engagement": 8196,
       "shares": 493,
-      "reach": 103200,
-      "impressions": 103200
+      "reach": 103300,
+      "impressions": 103300
     },
     "talents": [
       "6"
@@ -518,8 +518,8 @@
         "type": "short-form-video",
         "description": "סרטון TikTok קידום הספר של ביל - ידיעות ספרים",
         "platform": "tiktok",
-        "views": 88200,
-        "likes": 7216,
+        "views": 88300,
+        "likes": 7217,
         "comments": 379,
         "saves": 0,
         "shares": 493,
@@ -856,7 +856,7 @@
     "category": "קמפיין קולנוע",
     "kpis": {
       "views": 2656672,
-      "engagement": 23372,
+      "engagement": 23373,
       "shares": 119,
       "reach": 2656672,
       "impressions": 2656672
@@ -900,7 +900,7 @@
         "description": "TikTok - קידום סרט סופרמן בקולנוע",
         "platform": "tiktok",
         "views": 1200000,
-        "likes": 5424,
+        "likes": 5425,
         "comments": 238,
         "saves": 401,
         "shares": 0,
@@ -1121,11 +1121,11 @@
     "description": "קמפיין בכורה מוצלח עבור סרט 'לזמן את הרוע 4' עם עומר ירון וגל כהן",
     "category": "קמפיין קולנוע",
     "kpis": {
-      "views": 713790,
-      "engagement": 21724,
+      "views": 713990,
+      "engagement": 21730,
       "shares": 0,
-      "reach": 713790,
-      "impressions": 713790
+      "reach": 713990,
+      "impressions": 713990
     },
     "talents": [
       "8",
@@ -1154,8 +1154,8 @@
         "type": "short-form-video",
         "description": "TikTok - עומר ירון לזמן את הרוע 4 בכורה",
         "platform": "tiktok",
-        "views": 401400,
-        "likes": 9263,
+        "views": 401600,
+        "likes": 9269,
         "comments": 253,
         "saves": 868,
         "talent": "8"
@@ -1278,11 +1278,11 @@
     "description": "קמפיין קידום מוצלח עבור משרד התחבורה עם מיכל מצוב",
     "category": "קמפיין ציבורי",
     "kpis": {
-      "views": 167748,
+      "views": 167848,
       "engagement": 8147,
       "shares": 591,
-      "reach": 167748,
-      "impressions": 167748
+      "reach": 167848,
+      "impressions": 167848
     },
     "talents": [
       "1"
@@ -1299,7 +1299,7 @@
         "type": "short-form-video",
         "description": "TikTok - מיכל מצוב משרד התחבורה",
         "platform": "tiktok",
-        "views": 73300,
+        "views": 73400,
         "likes": 5780,
         "comments": 296,
         "shares": 591,
