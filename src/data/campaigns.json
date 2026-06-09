@@ -486,11 +486,11 @@
     "description": "קמפיין קידום מכירות מוצלח עבור הספר של ביל בהוצאת ידיעות ספרים",
     "category": "קמפיין ספרים",
     "kpis": {
-      "views": 103300,
-      "engagement": 8196,
+      "views": 103400,
+      "engagement": 8197,
       "shares": 493,
-      "reach": 103300,
-      "impressions": 103300
+      "reach": 103400,
+      "impressions": 103400
     },
     "talents": [
       "6"
@@ -518,8 +518,8 @@
         "type": "short-form-video",
         "description": "סרטון TikTok קידום הספר של ביל - ידיעות ספרים",
         "platform": "tiktok",
-        "views": 88300,
-        "likes": 7217,
+        "views": 88400,
+        "likes": 7218,
         "comments": 379,
         "saves": 0,
         "shares": 493,
@@ -616,11 +616,11 @@
     "description": "קמפיין השקה מרשים עבור סרט 'עולם היורה' בקולנוע שהגיע ל-3.2 מיליון צפיות",
     "category": "קמפיין קולנוע",
     "kpis": {
-      "views": 3914620,
-      "engagement": 27583,
+      "views": 3914720,
+      "engagement": 27584,
       "shares": 551,
-      "reach": 3914620,
-      "impressions": 3914620
+      "reach": 3914720,
+      "impressions": 3914720
     },
     "talents": [
       "2",
@@ -686,7 +686,7 @@
         "description": "סרטון TikTok - עולם היורה בקולנוע",
         "platform": "tiktok",
         "views": 1700000,
-        "likes": 5015,
+        "likes": 5016,
         "comments": 203,
         "saves": 304,
         "talent": "2"
@@ -738,7 +738,7 @@
         "type": "short-form-video",
         "description": "TikTok - עולם היורה בקולנוע",
         "platform": "tiktok",
-        "views": 336900,
+        "views": 337000,
         "likes": 714,
         "comments": 19,
         "saves": 50,
@@ -1122,7 +1122,7 @@
     "category": "קמפיין קולנוע",
     "kpis": {
       "views": 718084,
-      "engagement": 21747,
+      "engagement": 21748,
       "shares": 0,
       "reach": 718084,
       "impressions": 718084
@@ -1155,7 +1155,7 @@
         "description": "TikTok - עומר ירון לזמן את הרוע 4 בכורה",
         "platform": "tiktok",
         "views": 401700,
-        "likes": 9269,
+        "likes": 9270,
         "comments": 253,
         "saves": 868,
         "talent": "8"
@@ -1279,7 +1279,7 @@
     "category": "קמפיין ציבורי",
     "kpis": {
       "views": 167848,
-      "engagement": 8148,
+      "engagement": 8150,
       "shares": 591,
       "reach": 167848,
       "impressions": 167848
@@ -1300,7 +1300,7 @@
         "description": "TikTok - מיכל מצוב משרד התחבורה",
         "platform": "tiktok",
         "views": 73400,
-        "likes": 5781,
+        "likes": 5783,
         "comments": 296,
         "shares": 591,
         "talent": "1"
@@ -1419,11 +1419,11 @@
     "description": "קמפיין גיוס עובדים מוצלח עבור התעשייה האווירית - חידה שנתית 2025 עם מר שיבולת",
     "category": "קמפיין מיתוג מעסיק",
     "kpis": {
-      "views": 133323,
-      "engagement": 6448,
+      "views": 134323,
+      "engagement": 6480,
       "shares": 0,
-      "reach": 133323,
-      "impressions": 133323
+      "reach": 134323,
+      "impressions": 134323
     },
     "talents": [
       "2"
@@ -1461,8 +1461,8 @@
         "type": "short-form-video",
         "description": "TikTok - מר שיבולת קמפיין גיוס עובדים התעשייה האווירית",
         "platform": "tiktok",
-        "views": 64900,
-        "likes": 4475,
+        "views": 65900,
+        "likes": 4507,
         "comments": 0,
         "talent": "2"
       },
