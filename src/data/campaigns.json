@@ -539,11 +539,11 @@
     "description": "קמפיין דיגיטלי מוצלח עבור אפליקציית Jooba - פלטפורמת מסחר לנוער",
     "category": "קמפיין דיגיטלי",
     "kpis": {
-      "views": 367800,
+      "views": 368000,
       "engagement": 16699,
       "shares": 1416,
-      "reach": 367800,
-      "impressions": 367800
+      "reach": 368000,
+      "impressions": 368000
     },
     "talents": [
       "1",
@@ -583,7 +583,7 @@
         "type": "short-form-video",
         "description": "סרטון TikTok - Jooba אפליקציית מסחר לנוער",
         "platform": "tiktok",
-        "views": 116500,
+        "views": 116600,
         "likes": 6586,
         "comments": 355,
         "saves": 1605,
@@ -595,7 +595,7 @@
         "type": "short-form-video",
         "description": "סרטון TikTok נוסף - Jooba אפליקציית מסחר לנוער",
         "platform": "tiktok",
-        "views": 116500,
+        "views": 116600,
         "likes": 6586,
         "comments": 48,
         "saves": 249,
@@ -617,7 +617,7 @@
     "category": "קמפיין קולנוע",
     "kpis": {
       "views": 3914720,
-      "engagement": 27584,
+      "engagement": 27585,
       "shares": 551,
       "reach": 3914720,
       "impressions": 3914720
@@ -771,7 +771,7 @@
         "description": "TikTok - עולם היורה בקולנוע",
         "platform": "tiktok",
         "views": 816000,
-        "likes": 5507,
+        "likes": 5508,
         "comments": 984,
         "saves": 375,
         "shares": 253,
@@ -1419,11 +1419,11 @@
     "description": "קמפיין גיוס עובדים מוצלח עבור התעשייה האווירית - חידה שנתית 2025 עם מר שיבולת",
     "category": "קמפיין מיתוג מעסיק",
     "kpis": {
-      "views": 134323,
-      "engagement": 6480,
+      "views": 134523,
+      "engagement": 6485,
       "shares": 0,
-      "reach": 134323,
-      "impressions": 134323
+      "reach": 134523,
+      "impressions": 134523
     },
     "talents": [
       "2"
@@ -1461,8 +1461,8 @@
         "type": "short-form-video",
         "description": "TikTok - מר שיבולת קמפיין גיוס עובדים התעשייה האווירית",
         "platform": "tiktok",
-        "views": 65900,
-        "likes": 4507,
+        "views": 66100,
+        "likes": 4512,
         "comments": 0,
         "talent": "2"
       },
