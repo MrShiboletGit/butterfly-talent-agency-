@@ -322,7 +322,7 @@
     "category": "קמפיין חינוכי",
     "kpis": {
       "views": 1819492,
-      "engagement": 3636,
+      "engagement": 3637,
       "shares": 0,
       "reach": 1819492,
       "impressions": 1819492
@@ -354,7 +354,7 @@
         "description": "TikTok - קמפיין למניעת פשעי רשת בבינה מלאכותית",
         "platform": "tiktok",
         "views": 1800000,
-        "likes": 2324,
+        "likes": 2325,
         "comments": 50,
         "saves": 169,
         "shares": 0,
@@ -486,11 +486,11 @@
     "description": "קמפיין קידום מכירות מוצלח עבור הספר של ביל בהוצאת ידיעות ספרים",
     "category": "קמפיין ספרים",
     "kpis": {
-      "views": 103400,
-      "engagement": 8200,
+      "views": 103500,
+      "engagement": 8201,
       "shares": 493,
-      "reach": 103400,
-      "impressions": 103400
+      "reach": 103500,
+      "impressions": 103500
     },
     "talents": [
       "6"
@@ -518,8 +518,8 @@
         "type": "short-form-video",
         "description": "סרטון TikTok קידום הספר של ביל - ידיעות ספרים",
         "platform": "tiktok",
-        "views": 88400,
-        "likes": 7221,
+        "views": 88500,
+        "likes": 7222,
         "comments": 379,
         "saves": 0,
         "shares": 493,
@@ -1082,7 +1082,7 @@
     "category": "קמפיין אירוע",
     "kpis": {
       "views": 139900,
-      "engagement": 4569,
+      "engagement": 4570,
       "shares": 0,
       "reach": 139900,
       "impressions": 139900
@@ -1102,7 +1102,7 @@
         "description": "TikTok - רועי פיירזולף מסיבת סוף שנה CeraVe",
         "platform": "tiktok",
         "views": 139900,
-        "likes": 4348,
+        "likes": 4349,
         "comments": 43,
         "saves": 178,
         "talent": "3"
@@ -1122,7 +1122,7 @@
     "category": "קמפיין קולנוע",
     "kpis": {
       "views": 718184,
-      "engagement": 21748,
+      "engagement": 21749,
       "shares": 0,
       "reach": 718184,
       "impressions": 718184
@@ -1155,7 +1155,7 @@
         "description": "TikTok - עומר ירון לזמן את הרוע 4 בכורה",
         "platform": "tiktok",
         "views": 401800,
-        "likes": 9270,
+        "likes": 9271,
         "comments": 253,
         "saves": 868,
         "talent": "8"
