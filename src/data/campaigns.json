@@ -486,11 +486,11 @@
     "description": "קמפיין קידום מכירות מוצלח עבור הספר של ביל בהוצאת ידיעות ספרים",
     "category": "קמפיין ספרים",
     "kpis": {
-      "views": 103500,
+      "views": 103600,
       "engagement": 8206,
       "shares": 493,
-      "reach": 103500,
-      "impressions": 103500
+      "reach": 103600,
+      "impressions": 103600
     },
     "talents": [
       "6"
@@ -518,7 +518,7 @@
         "type": "short-form-video",
         "description": "סרטון TikTok קידום הספר של ביל - ידיעות ספרים",
         "platform": "tiktok",
-        "views": 88500,
+        "views": 88600,
         "likes": 7227,
         "comments": 379,
         "saves": 0,
@@ -539,11 +539,11 @@
     "description": "קמפיין דיגיטלי מוצלח עבור אפליקציית Jooba - פלטפורמת מסחר לנוער",
     "category": "קמפיין דיגיטלי",
     "kpis": {
-      "views": 368600,
+      "views": 368800,
       "engagement": 16719,
       "shares": 1416,
-      "reach": 368600,
-      "impressions": 368600
+      "reach": 368800,
+      "impressions": 368800
     },
     "talents": [
       "1",
@@ -583,7 +583,7 @@
         "type": "short-form-video",
         "description": "סרטון TikTok - Jooba אפליקציית מסחר לנוער",
         "platform": "tiktok",
-        "views": 116900,
+        "views": 117000,
         "likes": 6596,
         "comments": 355,
         "saves": 1605,
@@ -595,7 +595,7 @@
         "type": "short-form-video",
         "description": "סרטון TikTok נוסף - Jooba אפליקציית מסחר לנוער",
         "platform": "tiktok",
-        "views": 116900,
+        "views": 117000,
         "likes": 6596,
         "comments": 48,
         "saves": 249,
@@ -617,7 +617,7 @@
     "category": "קמפיין קולנוע",
     "kpis": {
       "views": 3914820,
-      "engagement": 27589,
+      "engagement": 27590,
       "shares": 551,
       "reach": 3914820,
       "impressions": 3914820
@@ -739,7 +739,7 @@
         "description": "TikTok - עולם היורה בקולנוע",
         "platform": "tiktok",
         "views": 337000,
-        "likes": 714,
+        "likes": 715,
         "comments": 19,
         "saves": 50,
         "shares": 22,
@@ -1081,11 +1081,11 @@
     "description": "קמפיין מוצלח עבור CeraVe עם רועי פיירזולף במסיבת סוף השנה",
     "category": "קמפיין אירוע",
     "kpis": {
-      "views": 139900,
-      "engagement": 4575,
+      "views": 140000,
+      "engagement": 4576,
       "shares": 0,
-      "reach": 139900,
-      "impressions": 139900
+      "reach": 140000,
+      "impressions": 140000
     },
     "talents": [
       "3"
@@ -1101,8 +1101,8 @@
         "type": "short-form-video",
         "description": "TikTok - רועי פיירזולף מסיבת סוף שנה CeraVe",
         "platform": "tiktok",
-        "views": 139900,
-        "likes": 4354,
+        "views": 140000,
+        "likes": 4355,
         "comments": 43,
         "saves": 178,
         "talent": "3"
@@ -1122,7 +1122,7 @@
     "category": "קמפיין קולנוע",
     "kpis": {
       "views": 718284,
-      "engagement": 21751,
+      "engagement": 21750,
       "shares": 0,
       "reach": 718284,
       "impressions": 718284
@@ -1155,7 +1155,7 @@
         "description": "TikTok - עומר ירון לזמן את הרוע 4 בכורה",
         "platform": "tiktok",
         "views": 401900,
-        "likes": 9273,
+        "likes": 9272,
         "comments": 253,
         "saves": 868,
         "talent": "8"
