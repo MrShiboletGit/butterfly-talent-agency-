@@ -219,7 +219,7 @@
     "category": "קמפיין גיימינג",
     "kpis": {
       "views": 142634,
-      "engagement": 3584,
+      "engagement": 3585,
       "shares": 38,
       "reach": 142634,
       "impressions": 142634
@@ -250,7 +250,7 @@
         "description": "TikTok - קידום סט אביזרי גיימינג Glorious Gaming",
         "platform": "tiktok",
         "views": 42700,
-        "likes": 1279,
+        "likes": 1280,
         "comments": 21,
         "saves": 36,
         "shares": 38,
@@ -487,7 +487,7 @@
     "category": "קמפיין ספרים",
     "kpis": {
       "views": 103600,
-      "engagement": 8207,
+      "engagement": 8208,
       "shares": 493,
       "reach": 103600,
       "impressions": 103600
@@ -519,7 +519,7 @@
         "description": "סרטון TikTok קידום הספר של ביל - ידיעות ספרים",
         "platform": "tiktok",
         "views": 88600,
-        "likes": 7228,
+        "likes": 7229,
         "comments": 379,
         "saves": 0,
         "shares": 493,
@@ -539,11 +539,11 @@
     "description": "קמפיין דיגיטלי מוצלח עבור אפליקציית Jooba - פלטפורמת מסחר לנוער",
     "category": "קמפיין דיגיטלי",
     "kpis": {
-      "views": 368800,
+      "views": 369000,
       "engagement": 16723,
       "shares": 1416,
-      "reach": 368800,
-      "impressions": 368800
+      "reach": 369000,
+      "impressions": 369000
     },
     "talents": [
       "1",
@@ -583,7 +583,7 @@
         "type": "short-form-video",
         "description": "סרטון TikTok - Jooba אפליקציית מסחר לנוער",
         "platform": "tiktok",
-        "views": 117000,
+        "views": 117100,
         "likes": 6598,
         "comments": 355,
         "saves": 1605,
@@ -595,7 +595,7 @@
         "type": "short-form-video",
         "description": "סרטון TikTok נוסף - Jooba אפליקציית מסחר לנוער",
         "platform": "tiktok",
-        "views": 117000,
+        "views": 117100,
         "likes": 6598,
         "comments": 48,
         "saves": 249,
@@ -616,11 +616,11 @@
     "description": "קמפיין השקה מרשים עבור סרט 'עולם היורה' בקולנוע שהגיע ל-3.2 מיליון צפיות",
     "category": "קמפיין קולנוע",
     "kpis": {
-      "views": 3914820,
-      "engagement": 27591,
+      "views": 3914920,
+      "engagement": 27592,
       "shares": 551,
-      "reach": 3914820,
-      "impressions": 3914820
+      "reach": 3914920,
+      "impressions": 3914920
     },
     "talents": [
       "2",
@@ -770,8 +770,8 @@
         "type": "short-form-video",
         "description": "TikTok - עולם היורה בקולנוע",
         "platform": "tiktok",
-        "views": 816100,
-        "likes": 5512,
+        "views": 816200,
+        "likes": 5513,
         "comments": 984,
         "saves": 375,
         "shares": 253,
@@ -1082,7 +1082,7 @@
     "category": "קמפיין אירוע",
     "kpis": {
       "views": 140000,
-      "engagement": 4578,
+      "engagement": 4580,
       "shares": 0,
       "reach": 140000,
       "impressions": 140000
@@ -1102,7 +1102,7 @@
         "description": "TikTok - רועי פיירזולף מסיבת סוף שנה CeraVe",
         "platform": "tiktok",
         "views": 140000,
-        "likes": 4357,
+        "likes": 4359,
         "comments": 43,
         "saves": 178,
         "talent": "3"
@@ -1122,7 +1122,7 @@
     "category": "קמפיין קולנוע",
     "kpis": {
       "views": 718284,
-      "engagement": 21750,
+      "engagement": 21751,
       "shares": 0,
       "reach": 718284,
       "impressions": 718284
@@ -1155,7 +1155,7 @@
         "description": "TikTok - עומר ירון לזמן את הרוע 4 בכורה",
         "platform": "tiktok",
         "views": 401900,
-        "likes": 9272,
+        "likes": 9273,
         "comments": 253,
         "saves": 868,
         "talent": "8"
