@@ -616,11 +616,11 @@
     "description": "קמפיין השקה מרשים עבור סרט 'עולם היורה' בקולנוע שהגיע ל-3.2 מיליון צפיות",
     "category": "קמפיין קולנוע",
     "kpis": {
-      "views": 3914920,
+      "views": 3915020,
       "engagement": 27592,
       "shares": 551,
-      "reach": 3914920,
-      "impressions": 3914920
+      "reach": 3915020,
+      "impressions": 3915020
     },
     "talents": [
       "2",
@@ -716,7 +716,7 @@
         "type": "short-form-video",
         "description": "TikTok - עולם היורה בקולנוע",
         "platform": "tiktok",
-        "views": 320600,
+        "views": 320700,
         "likes": 1859,
         "comments": 191,
         "saves": 109,
@@ -856,7 +856,7 @@
     "category": "קמפיין קולנוע",
     "kpis": {
       "views": 2656672,
-      "engagement": 23376,
+      "engagement": 23381,
       "shares": 119,
       "reach": 2656672,
       "impressions": 2656672
@@ -900,7 +900,7 @@
         "description": "TikTok - קידום סרט סופרמן בקולנוע",
         "platform": "tiktok",
         "views": 1200000,
-        "likes": 5427,
+        "likes": 5432,
         "comments": 238,
         "saves": 401,
         "shares": 0,

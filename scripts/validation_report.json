@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-23T07:01:39.792815",
+  "generated_at": "2026-06-24T07:00:45.189381",
   "video_results": [
     {
       "url": "https://www.tiktok.com/@galcohenyt/video/7540251397405560084",
@@ -316,10 +316,10 @@
       "platform": "tiktok",
       "stored_views": 320600,
       "stored_likes": 1859,
-      "live_views": 320600,
+      "live_views": 320700,
       "live_likes": 1859,
       "error": null,
-      "views_diff_pct": 0.0
+      "views_diff_pct": 0.031191515907673113
     },
     {
       "url": "https://www.youtube.com/shorts/XH7fXvXISLE",
@@ -457,7 +457,7 @@
       "stored_views": 1200000,
       "stored_likes": 5427,
       "live_views": 1200000,
-      "live_likes": 5427,
+      "live_likes": 5432,
       "error": null,
       "views_diff_pct": 0.0
     },
@@ -776,10 +776,10 @@
       "talent_name": "מיכל מצוב",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@michalmatzov",
-      "stored_followers": 364300,
+      "stored_followers": 364400,
       "live_followers": 364400,
       "error": null,
-      "diff_pct": 0.02744990392533626
+      "diff_pct": 0.0
     },
     {
       "talent_name": "מיכל מצוב",
@@ -857,10 +857,10 @@
       "talent_name": "גל כהן",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@galcohenyt",
-      "stored_followers": 87300,
+      "stored_followers": 87200,
       "live_followers": 87200,
       "error": null,
-      "diff_pct": -0.11454753722794961
+      "diff_pct": 0.0
     },
     {
       "talent_name": "גל כהן",
@@ -902,19 +902,19 @@
       "talent_name": "ישראל גליצקי",
       "platform": "youtube",
       "url": "https://www.youtube.com/@israelgalitsky",
-      "stored_followers": 6670,
+      "stored_followers": 6660,
       "live_followers": 6660,
       "error": null,
-      "diff_pct": -0.14992503748125938
+      "diff_pct": 0.0
     },
     {
       "talent_name": "ישראל גליצקי",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@israel_galitsky",
-      "stored_followers": 153400,
+      "stored_followers": 153500,
       "live_followers": 153500,
       "error": null,
-      "diff_pct": 0.0651890482398957
+      "diff_pct": 0.0
     },
     {
       "talent_name": "ישראל גליצקי",
@@ -957,9 +957,9 @@
       "platform": "youtube",
       "url": "https://youtube.com/@omer_yaron",
       "stored_followers": 43900,
-      "live_followers": 43900,
+      "live_followers": 44000,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": 0.22779043280182232
     },
     {
       "talent_name": "עומר ירון",
