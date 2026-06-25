@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24T07:00:45.189381",
+  "generated_at": "2026-06-25T06:59:30.375416",
   "video_results": [
     {
       "url": "https://www.tiktok.com/@galcohenyt/video/7540251397405560084",
@@ -86,10 +86,10 @@
       "platform": "tiktok",
       "stored_views": 13800,
       "stored_likes": 441,
-      "live_views": 13800,
-      "live_likes": 441,
-      "error": null,
-      "views_diff_pct": 0.0
+      "live_views": null,
+      "live_likes": null,
+      "error": "ERROR: [TikTok] 7537277349780294919: Unexpected response from webpage request; please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U",
+      "views_diff_pct": null
     },
     {
       "url": "https://www.youtube.com/shorts/N9-B7dB6bnY",
@@ -197,7 +197,7 @@
       "stored_views": 88600,
       "stored_likes": 7229,
       "live_views": 88600,
-      "live_likes": 7229,
+      "live_likes": 7230,
       "error": null,
       "views_diff_pct": 0.0
     },
@@ -226,20 +226,20 @@
       "platform": "tiktok",
       "stored_views": 117100,
       "stored_likes": 6598,
-      "live_views": 117100,
-      "live_likes": 6598,
+      "live_views": 117200,
+      "live_likes": 6599,
       "error": null,
-      "views_diff_pct": 0.0
+      "views_diff_pct": 0.08539709649871904
     },
     {
       "url": "https://www.tiktok.com/@michalmatzov/video/7527310366653598984?_r=1&_t=ZS-8yYyPcptRRZ",
       "platform": "tiktok",
       "stored_views": 117100,
       "stored_likes": 6598,
-      "live_views": 117100,
+      "live_views": 117200,
       "live_likes": 6598,
       "error": null,
-      "views_diff_pct": 0.0
+      "views_diff_pct": 0.08539709649871904
     },
     {
       "url": "https://www.tiktok.com/@galcohenyt/video/7522490053461806343?_r=1&_t=ZS-8xh6Rcpzek5",
@@ -314,12 +314,12 @@
     {
       "url": "https://www.tiktok.com/@israel_galitsky/video/7522449152572181767?_r=1&_t=ZS-8xgtn0Ln9co",
       "platform": "tiktok",
-      "stored_views": 320600,
+      "stored_views": 320700,
       "stored_likes": 1859,
-      "live_views": 320700,
+      "live_views": 320600,
       "live_likes": 1859,
       "error": null,
-      "views_diff_pct": 0.031191515907673113
+      "views_diff_pct": -0.031181789834736514
     },
     {
       "url": "https://www.youtube.com/shorts/XH7fXvXISLE",
@@ -366,10 +366,10 @@
       "platform": "tiktok",
       "stored_views": 816200,
       "stored_likes": 5513,
-      "live_views": 816200,
-      "live_likes": 5513,
+      "live_views": 816300,
+      "live_likes": 5515,
       "error": null,
-      "views_diff_pct": 0.0
+      "views_diff_pct": 0.012251899044351875
     },
     {
       "url": "https://www.instagram.com/reel/DLnEq4MNt2n/?igsh=cjM4ZmNnOWxyOTJy",
@@ -455,7 +455,7 @@
       "url": "https://www.tiktok.com/@omeryaron_/video/7525006149415046418",
       "platform": "tiktok",
       "stored_views": 1200000,
-      "stored_likes": 5427,
+      "stored_likes": 5432,
       "live_views": 1200000,
       "live_likes": 5432,
       "error": null,
@@ -556,10 +556,10 @@
       "platform": "tiktok",
       "stored_views": 401900,
       "stored_likes": 9273,
-      "live_views": 401900,
-      "live_likes": 9273,
+      "live_views": 402000,
+      "live_likes": 9274,
       "error": null,
-      "views_diff_pct": 0.0
+      "views_diff_pct": 0.02488181139586962
     },
     {
       "url": "https://www.instagram.com/reel/DOI_704DS-U/?igsh=MmVybXo3cnFtdmt6",
@@ -676,10 +676,10 @@
       "platform": "tiktok",
       "stored_views": 44600,
       "stored_likes": 1177,
-      "live_views": 44600,
+      "live_views": 44700,
       "live_likes": 1177,
       "error": null,
-      "views_diff_pct": 0.0
+      "views_diff_pct": 0.2242152466367713
     },
     {
       "url": "https://www.youtube.com/shorts/liPJHGJQcr8",
@@ -777,9 +777,9 @@
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@michalmatzov",
       "stored_followers": 364400,
-      "live_followers": 364400,
+      "live_followers": 364500,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": 0.027442371020856202
     },
     {
       "talent_name": "מיכל מצוב",
@@ -831,9 +831,9 @@
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@roeefirewolf",
       "stored_followers": 64800,
-      "live_followers": 64800,
+      "live_followers": 64700,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": -0.15432098765432098
     },
     {
       "talent_name": "רועי (Roee Firewolf)",
@@ -956,19 +956,19 @@
       "talent_name": "עומר ירון",
       "platform": "youtube",
       "url": "https://youtube.com/@omer_yaron",
-      "stored_followers": 43900,
-      "live_followers": 44000,
+      "stored_followers": 44000,
+      "live_followers": 44200,
       "error": null,
-      "diff_pct": 0.22779043280182232
+      "diff_pct": 0.45454545454545453
     },
     {
       "talent_name": "עומר ירון",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@omeryaron_",
       "stored_followers": 54000,
-      "live_followers": 54000,
+      "live_followers": 54100,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": 0.1851851851851852
     },
     {
       "talent_name": "עומר ירון",
