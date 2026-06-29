@@ -146,7 +146,7 @@
     "category": "קמפיין שנתי",
     "kpis": {
       "views": 520539,
-      "engagement": 17590,
+      "engagement": 17588,
       "shares": 0,
       "reach": 520539,
       "impressions": 520539
@@ -178,7 +178,7 @@
         "description": "TikTok - גל כהן קמפיין סמסונג Q3",
         "platform": "tiktok",
         "views": 36000,
-        "likes": 2026,
+        "likes": 2024,
         "comments": 50,
         "saves": 97,
         "talent": "4"
@@ -219,7 +219,7 @@
     "category": "קמפיין גיימינג",
     "kpis": {
       "views": 142634,
-      "engagement": 3586,
+      "engagement": 3585,
       "shares": 38,
       "reach": 142634,
       "impressions": 142634
@@ -250,7 +250,7 @@
         "description": "TikTok - קידום סט אביזרי גיימינג Glorious Gaming",
         "platform": "tiktok",
         "views": 42700,
-        "likes": 1281,
+        "likes": 1280,
         "comments": 21,
         "saves": 36,
         "shares": 38,
@@ -617,7 +617,7 @@
     "category": "קמפיין קולנוע",
     "kpis": {
       "views": 3915120,
-      "engagement": 27664,
+      "engagement": 27663,
       "shares": 551,
       "reach": 3915120,
       "impressions": 3915120
@@ -686,7 +686,7 @@
         "description": "סרטון TikTok - עולם היורה בקולנוע",
         "platform": "tiktok",
         "views": 1700000,
-        "likes": 5083,
+        "likes": 5084,
         "comments": 203,
         "saves": 304,
         "talent": "2"
@@ -716,7 +716,7 @@
         "type": "short-form-video",
         "description": "TikTok - עולם היורה בקולנוע",
         "platform": "tiktok",
-        "views": 320600,
+        "views": 320700,
         "likes": 1859,
         "comments": 191,
         "saves": 109,
@@ -770,8 +770,8 @@
         "type": "short-form-video",
         "description": "TikTok - עולם היורה בקולנוע",
         "platform": "tiktok",
-        "views": 816300,
-        "likes": 5517,
+        "views": 816200,
+        "likes": 5515,
         "comments": 984,
         "saves": 375,
         "shares": 253,
@@ -856,7 +856,7 @@
     "category": "קמפיין קולנוע",
     "kpis": {
       "views": 2656672,
-      "engagement": 23378,
+      "engagement": 23382,
       "shares": 119,
       "reach": 2656672,
       "impressions": 2656672
@@ -900,7 +900,7 @@
         "description": "TikTok - קידום סרט סופרמן בקולנוע",
         "platform": "tiktok",
         "views": 1200000,
-        "likes": 5429,
+        "likes": 5433,
         "comments": 238,
         "saves": 401,
         "shares": 0,
@@ -931,7 +931,7 @@
     "category": "קמפיין קידום מבצעים",
     "kpis": {
       "views": 181705,
-      "engagement": 7099,
+      "engagement": 7100,
       "shares": 0,
       "reach": 181705,
       "impressions": 181705
@@ -962,7 +962,7 @@
         "description": "TikTok - קמפיין סוף הקיץ מחסני חשמל",
         "platform": "tiktok",
         "views": 36600,
-        "likes": 1190,
+        "likes": 1191,
         "comments": 27,
         "saves": 44,
         "talent": "4"
@@ -1032,7 +1032,7 @@
     "category": "קמפיין השקה",
     "kpis": {
       "views": 147107,
-      "engagement": 4699,
+      "engagement": 4700,
       "shares": 0,
       "reach": 147107,
       "impressions": 147107
@@ -1063,7 +1063,7 @@
         "description": "TikTok - השקה משקה מוגו מוגו סוויטוויט",
         "platform": "tiktok",
         "views": 26500,
-        "likes": 770,
+        "likes": 771,
         "comments": 41,
         "talent": "4"
       }
@@ -1121,11 +1121,11 @@
     "description": "קמפיין בכורה מוצלח עבור סרט 'לזמן את הרוע 4' עם עומר ירון וגל כהן",
     "category": "קמפיין קולנוע",
     "kpis": {
-      "views": 718384,
-      "engagement": 21754,
+      "views": 718484,
+      "engagement": 21756,
       "shares": 0,
-      "reach": 718384,
-      "impressions": 718384
+      "reach": 718484,
+      "impressions": 718484
     },
     "talents": [
       "8",
@@ -1154,8 +1154,8 @@
         "type": "short-form-video",
         "description": "TikTok - עומר ירון לזמן את הרוע 4 בכורה",
         "platform": "tiktok",
-        "views": 402000,
-        "likes": 9275,
+        "views": 402100,
+        "likes": 9277,
         "comments": 253,
         "saves": 868,
         "talent": "8"
@@ -1206,7 +1206,7 @@
     "category": "קמפיין טכנולוגיה",
     "kpis": {
       "views": 219205,
-      "engagement": 7893,
+      "engagement": 7894,
       "shares": 171,
       "reach": 219205,
       "impressions": 219205
@@ -1249,7 +1249,7 @@
         "description": "TikTok - גל כהן בינה מלאכותית בסמסונג",
         "platform": "tiktok",
         "views": 21800,
-        "likes": 692,
+        "likes": 693,
         "comments": 12,
         "saves": 39,
         "talent": "4"
