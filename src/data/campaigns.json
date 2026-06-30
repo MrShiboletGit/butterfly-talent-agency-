@@ -146,7 +146,7 @@
     "category": "קמפיין שנתי",
     "kpis": {
       "views": 520539,
-      "engagement": 17588,
+      "engagement": 17590,
       "shares": 0,
       "reach": 520539,
       "impressions": 520539
@@ -178,7 +178,7 @@
         "description": "TikTok - גל כהן קמפיין סמסונג Q3",
         "platform": "tiktok",
         "views": 36000,
-        "likes": 2024,
+        "likes": 2026,
         "comments": 50,
         "saves": 97,
         "talent": "4"
@@ -219,7 +219,7 @@
     "category": "קמפיין גיימינג",
     "kpis": {
       "views": 142634,
-      "engagement": 3585,
+      "engagement": 3586,
       "shares": 38,
       "reach": 142634,
       "impressions": 142634
@@ -250,7 +250,7 @@
         "description": "TikTok - קידום סט אביזרי גיימינג Glorious Gaming",
         "platform": "tiktok",
         "views": 42700,
-        "likes": 1280,
+        "likes": 1281,
         "comments": 21,
         "saves": 36,
         "shares": 38,
@@ -486,11 +486,11 @@
     "description": "קמפיין קידום מכירות מוצלח עבור הספר של ביל בהוצאת ידיעות ספרים",
     "category": "קמפיין ספרים",
     "kpis": {
-      "views": 103700,
-      "engagement": 8216,
+      "views": 103800,
+      "engagement": 8227,
       "shares": 493,
-      "reach": 103700,
-      "impressions": 103700
+      "reach": 103800,
+      "impressions": 103800
     },
     "talents": [
       "6"
@@ -518,8 +518,8 @@
         "type": "short-form-video",
         "description": "סרטון TikTok קידום הספר של ביל - ידיעות ספרים",
         "platform": "tiktok",
-        "views": 88700,
-        "likes": 7237,
+        "views": 88800,
+        "likes": 7248,
         "comments": 379,
         "saves": 0,
         "shares": 493,
@@ -539,11 +539,11 @@
     "description": "קמפיין דיגיטלי מוצלח עבור אפליקציית Jooba - פלטפורמת מסחר לנוער",
     "category": "קמפיין דיגיטלי",
     "kpis": {
-      "views": 369200,
-      "engagement": 16729,
+      "views": 369400,
+      "engagement": 16731,
       "shares": 1416,
-      "reach": 369200,
-      "impressions": 369200
+      "reach": 369400,
+      "impressions": 369400
     },
     "talents": [
       "1",
@@ -583,8 +583,8 @@
         "type": "short-form-video",
         "description": "סרטון TikTok - Jooba אפליקציית מסחר לנוער",
         "platform": "tiktok",
-        "views": 117200,
-        "likes": 6601,
+        "views": 117300,
+        "likes": 6602,
         "comments": 355,
         "saves": 1605,
         "shares": 798,
@@ -595,8 +595,8 @@
         "type": "short-form-video",
         "description": "סרטון TikTok נוסף - Jooba אפליקציית מסחר לנוער",
         "platform": "tiktok",
-        "views": 117200,
-        "likes": 6601,
+        "views": 117300,
+        "likes": 6602,
         "comments": 48,
         "saves": 249,
         "shares": 84,
@@ -617,7 +617,7 @@
     "category": "קמפיין קולנוע",
     "kpis": {
       "views": 3915120,
-      "engagement": 27663,
+      "engagement": 27666,
       "shares": 551,
       "reach": 3915120,
       "impressions": 3915120
@@ -686,7 +686,7 @@
         "description": "סרטון TikTok - עולם היורה בקולנוע",
         "platform": "tiktok",
         "views": 1700000,
-        "likes": 5084,
+        "likes": 5087,
         "comments": 203,
         "saves": 304,
         "talent": "2"
@@ -1121,11 +1121,11 @@
     "description": "קמפיין בכורה מוצלח עבור סרט 'לזמן את הרוע 4' עם עומר ירון וגל כהן",
     "category": "קמפיין קולנוע",
     "kpis": {
-      "views": 718484,
-      "engagement": 21756,
+      "views": 718584,
+      "engagement": 21757,
       "shares": 0,
-      "reach": 718484,
-      "impressions": 718484
+      "reach": 718584,
+      "impressions": 718584
     },
     "talents": [
       "8",
@@ -1185,8 +1185,8 @@
         "type": "short-form-video",
         "description": "TikTok - גל כהן לזמן את הרוע 4 בכורה",
         "platform": "tiktok",
-        "views": 52600,
-        "likes": 1056,
+        "views": 52700,
+        "likes": 1057,
         "comments": 26,
         "saves": 50,
         "talent": "4"
