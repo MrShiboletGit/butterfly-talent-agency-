@@ -487,7 +487,7 @@
     "category": "קמפיין ספרים",
     "kpis": {
       "views": 103800,
-      "engagement": 8227,
+      "engagement": 8229,
       "shares": 493,
       "reach": 103800,
       "impressions": 103800
@@ -519,7 +519,7 @@
         "description": "סרטון TikTok קידום הספר של ביל - ידיעות ספרים",
         "platform": "tiktok",
         "views": 88800,
-        "likes": 7248,
+        "likes": 7250,
         "comments": 379,
         "saves": 0,
         "shares": 493,
@@ -540,7 +540,7 @@
     "category": "קמפיין דיגיטלי",
     "kpis": {
       "views": 369400,
-      "engagement": 16731,
+      "engagement": 16733,
       "shares": 1416,
       "reach": 369400,
       "impressions": 369400
@@ -584,7 +584,7 @@
         "description": "סרטון TikTok - Jooba אפליקציית מסחר לנוער",
         "platform": "tiktok",
         "views": 117300,
-        "likes": 6602,
+        "likes": 6603,
         "comments": 355,
         "saves": 1605,
         "shares": 798,
@@ -596,7 +596,7 @@
         "description": "סרטון TikTok נוסף - Jooba אפליקציית מסחר לנוער",
         "platform": "tiktok",
         "views": 117300,
-        "likes": 6602,
+        "likes": 6603,
         "comments": 48,
         "saves": 249,
         "shares": 84,
@@ -616,11 +616,11 @@
     "description": "קמפיין השקה מרשים עבור סרט 'עולם היורה' בקולנוע שהגיע ל-3.2 מיליון צפיות",
     "category": "קמפיין קולנוע",
     "kpis": {
-      "views": 3915120,
-      "engagement": 27666,
+      "views": 3915320,
+      "engagement": 27671,
       "shares": 551,
-      "reach": 3915120,
-      "impressions": 3915120
+      "reach": 3915320,
+      "impressions": 3915320
     },
     "talents": [
       "2",
@@ -686,7 +686,7 @@
         "description": "סרטון TikTok - עולם היורה בקולנוע",
         "platform": "tiktok",
         "views": 1700000,
-        "likes": 5087,
+        "likes": 5089,
         "comments": 203,
         "saves": 304,
         "talent": "2"
@@ -770,8 +770,8 @@
         "type": "short-form-video",
         "description": "TikTok - עולם היורה בקולנוע",
         "platform": "tiktok",
-        "views": 816200,
-        "likes": 5515,
+        "views": 816400,
+        "likes": 5518,
         "comments": 984,
         "saves": 375,
         "shares": 253,
@@ -1122,7 +1122,7 @@
     "category": "קמפיין קולנוע",
     "kpis": {
       "views": 718584,
-      "engagement": 21757,
+      "engagement": 21756,
       "shares": 0,
       "reach": 718584,
       "impressions": 718584
@@ -1155,7 +1155,7 @@
         "description": "TikTok - עומר ירון לזמן את הרוע 4 בכורה",
         "platform": "tiktok",
         "views": 402100,
-        "likes": 9277,
+        "likes": 9276,
         "comments": 253,
         "saves": 868,
         "talent": "8"
