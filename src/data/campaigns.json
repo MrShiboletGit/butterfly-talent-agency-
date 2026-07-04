@@ -486,11 +486,11 @@
     "description": "קמפיין קידום מכירות מוצלח עבור הספר של ביל בהוצאת ידיעות ספרים",
     "category": "קמפיין ספרים",
     "kpis": {
-      "views": 103800,
+      "views": 103900,
       "engagement": 8230,
       "shares": 493,
-      "reach": 103800,
-      "impressions": 103800
+      "reach": 103900,
+      "impressions": 103900
     },
     "talents": [
       "6"
@@ -518,7 +518,7 @@
         "type": "short-form-video",
         "description": "סרטון TikTok קידום הספר של ביל - ידיעות ספרים",
         "platform": "tiktok",
-        "views": 88800,
+        "views": 88900,
         "likes": 7251,
         "comments": 379,
         "saves": 0,
@@ -616,11 +616,11 @@
     "description": "קמפיין השקה מרשים עבור סרט 'עולם היורה' בקולנוע שהגיע ל-3.2 מיליון צפיות",
     "category": "קמפיין קולנוע",
     "kpis": {
-      "views": 3915320,
-      "engagement": 27676,
+      "views": 3915420,
+      "engagement": 27679,
       "shares": 551,
-      "reach": 3915320,
-      "impressions": 3915320
+      "reach": 3915420,
+      "impressions": 3915420
     },
     "talents": [
       "2",
@@ -686,7 +686,7 @@
         "description": "סרטון TikTok - עולם היורה בקולנוע",
         "platform": "tiktok",
         "views": 1700000,
-        "likes": 5093,
+        "likes": 5096,
         "comments": 203,
         "saves": 304,
         "talent": "2"
@@ -738,7 +738,7 @@
         "type": "short-form-video",
         "description": "TikTok - עולם היורה בקולנוע",
         "platform": "tiktok",
-        "views": 337000,
+        "views": 337100,
         "likes": 717,
         "comments": 19,
         "saves": 50,
@@ -1122,7 +1122,7 @@
     "category": "קמפיין קולנוע",
     "kpis": {
       "views": 718584,
-      "engagement": 21756,
+      "engagement": 21757,
       "shares": 0,
       "reach": 718584,
       "impressions": 718584
@@ -1186,7 +1186,7 @@
         "description": "TikTok - גל כהן לזמן את הרוע 4 בכורה",
         "platform": "tiktok",
         "views": 52700,
-        "likes": 1057,
+        "likes": 1058,
         "comments": 26,
         "saves": 50,
         "talent": "4"
@@ -1279,7 +1279,7 @@
     "category": "קמפיין ציבורי",
     "kpis": {
       "views": 168048,
-      "engagement": 8152,
+      "engagement": 8153,
       "shares": 591,
       "reach": 168048,
       "impressions": 168048
@@ -1300,7 +1300,7 @@
         "description": "TikTok - מיכל מצוב משרד התחבורה",
         "platform": "tiktok",
         "views": 73600,
-        "likes": 5785,
+        "likes": 5786,
         "comments": 296,
         "shares": 591,
         "talent": "1"
