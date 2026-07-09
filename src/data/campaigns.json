@@ -540,7 +540,7 @@
     "category": "קמפיין דיגיטלי",
     "kpis": {
       "views": 369600,
-      "engagement": 16737,
+      "engagement": 16739,
       "shares": 1416,
       "reach": 369600,
       "impressions": 369600
@@ -584,7 +584,7 @@
         "description": "סרטון TikTok - Jooba אפליקציית מסחר לנוער",
         "platform": "tiktok",
         "views": 117400,
-        "likes": 6605,
+        "likes": 6606,
         "comments": 355,
         "saves": 1605,
         "shares": 798,
@@ -596,7 +596,7 @@
         "description": "סרטון TikTok נוסף - Jooba אפליקציית מסחר לנוער",
         "platform": "tiktok",
         "views": 117400,
-        "likes": 6605,
+        "likes": 6606,
         "comments": 48,
         "saves": 249,
         "shares": 84,
@@ -616,11 +616,11 @@
     "description": "קמפיין השקה מרשים עבור סרט 'עולם היורה' בקולנוע שהגיע ל-3.2 מיליון צפיות",
     "category": "קמפיין קולנוע",
     "kpis": {
-      "views": 3915420,
-      "engagement": 27680,
+      "views": 3915520,
+      "engagement": 27681,
       "shares": 551,
-      "reach": 3915420,
-      "impressions": 3915420
+      "reach": 3915520,
+      "impressions": 3915520
     },
     "talents": [
       "2",
@@ -770,8 +770,8 @@
         "type": "short-form-video",
         "description": "TikTok - עולם היורה בקולנוע",
         "platform": "tiktok",
-        "views": 816400,
-        "likes": 5520,
+        "views": 816500,
+        "likes": 5521,
         "comments": 984,
         "saves": 375,
         "shares": 253,
@@ -1420,7 +1420,7 @@
     "category": "קמפיין מיתוג מעסיק",
     "kpis": {
       "views": 134523,
-      "engagement": 6486,
+      "engagement": 6487,
       "shares": 0,
       "reach": 134523,
       "impressions": 134523
@@ -1462,7 +1462,7 @@
         "description": "TikTok - מר שיבולת קמפיין גיוס עובדים התעשייה האווירית",
         "platform": "tiktok",
         "views": 66100,
-        "likes": 4513,
+        "likes": 4514,
         "comments": 0,
         "talent": "2"
       },
