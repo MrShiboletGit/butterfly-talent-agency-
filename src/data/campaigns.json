@@ -1278,11 +1278,11 @@
     "description": "קמפיין קידום מוצלח עבור משרד התחבורה עם מיכל מצוב",
     "category": "קמפיין ציבורי",
     "kpis": {
-      "views": 168048,
+      "views": 168148,
       "engagement": 8153,
       "shares": 591,
-      "reach": 168048,
-      "impressions": 168048
+      "reach": 168148,
+      "impressions": 168148
     },
     "talents": [
       "1"
@@ -1299,7 +1299,7 @@
         "type": "short-form-video",
         "description": "TikTok - מיכל מצוב משרד התחבורה",
         "platform": "tiktok",
-        "views": 73600,
+        "views": 73700,
         "likes": 5786,
         "comments": 296,
         "shares": 591,
