@@ -486,11 +486,11 @@
     "description": "קמפיין קידום מכירות מוצלח עבור הספר של ביל בהוצאת ידיעות ספרים",
     "category": "קמפיין ספרים",
     "kpis": {
-      "views": 104000,
+      "views": 104100,
       "engagement": 8241,
       "shares": 493,
-      "reach": 104000,
-      "impressions": 104000
+      "reach": 104100,
+      "impressions": 104100
     },
     "talents": [
       "6"
@@ -518,7 +518,7 @@
         "type": "short-form-video",
         "description": "סרטון TikTok קידום הספר של ביל - ידיעות ספרים",
         "platform": "tiktok",
-        "views": 89000,
+        "views": 89100,
         "likes": 7262,
         "comments": 379,
         "saves": 0,
@@ -539,11 +539,11 @@
     "description": "קמפיין דיגיטלי מוצלח עבור אפליקציית Jooba - פלטפורמת מסחר לנוער",
     "category": "קמפיין דיגיטלי",
     "kpis": {
-      "views": 369800,
-      "engagement": 16747,
+      "views": 370000,
+      "engagement": 16751,
       "shares": 1416,
-      "reach": 369800,
-      "impressions": 369800
+      "reach": 370000,
+      "impressions": 370000
     },
     "talents": [
       "1",
@@ -583,8 +583,8 @@
         "type": "short-form-video",
         "description": "סרטון TikTok - Jooba אפליקציית מסחר לנוער",
         "platform": "tiktok",
-        "views": 117500,
-        "likes": 6610,
+        "views": 117600,
+        "likes": 6612,
         "comments": 355,
         "saves": 1605,
         "shares": 798,
@@ -595,8 +595,8 @@
         "type": "short-form-video",
         "description": "סרטון TikTok נוסף - Jooba אפליקציית מסחר לנוער",
         "platform": "tiktok",
-        "views": 117500,
-        "likes": 6610,
+        "views": 117600,
+        "likes": 6612,
         "comments": 48,
         "saves": 249,
         "shares": 84,
@@ -856,7 +856,7 @@
     "category": "קמפיין קולנוע",
     "kpis": {
       "views": 2656672,
-      "engagement": 23383,
+      "engagement": 23382,
       "shares": 119,
       "reach": 2656672,
       "impressions": 2656672
@@ -888,7 +888,7 @@
         "description": "TikTok - קידום סרט סופרמן בקולנוע",
         "platform": "tiktok",
         "views": 802100,
-        "likes": 1302,
+        "likes": 1301,
         "comments": 114,
         "saves": 0,
         "shares": 119,
