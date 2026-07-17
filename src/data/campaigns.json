@@ -539,11 +539,11 @@
     "description": "קמפיין דיגיטלי מוצלח עבור אפליקציית Jooba - פלטפורמת מסחר לנוער",
     "category": "קמפיין דיגיטלי",
     "kpis": {
-      "views": 370000,
-      "engagement": 16753,
+      "views": 370200,
+      "engagement": 16757,
       "shares": 1416,
-      "reach": 370000,
-      "impressions": 370000
+      "reach": 370200,
+      "impressions": 370200
     },
     "talents": [
       "1",
@@ -583,8 +583,8 @@
         "type": "short-form-video",
         "description": "סרטון TikTok - Jooba אפליקציית מסחר לנוער",
         "platform": "tiktok",
-        "views": 117600,
-        "likes": 6613,
+        "views": 117700,
+        "likes": 6615,
         "comments": 355,
         "saves": 1605,
         "shares": 798,
@@ -595,8 +595,8 @@
         "type": "short-form-video",
         "description": "סרטון TikTok נוסף - Jooba אפליקציית מסחר לנוער",
         "platform": "tiktok",
-        "views": 117600,
-        "likes": 6613,
+        "views": 117700,
+        "likes": 6615,
         "comments": 48,
         "saves": 249,
         "shares": 84,
@@ -856,7 +856,7 @@
     "category": "קמפיין קולנוע",
     "kpis": {
       "views": 2656772,
-      "engagement": 23383,
+      "engagement": 23382,
       "shares": 119,
       "reach": 2656772,
       "impressions": 2656772
@@ -888,7 +888,7 @@
         "description": "TikTok - קידום סרט סופרמן בקולנוע",
         "platform": "tiktok",
         "views": 802200,
-        "likes": 1301,
+        "likes": 1300,
         "comments": 114,
         "saves": 0,
         "shares": 119,
@@ -1082,7 +1082,7 @@
     "category": "קמפיין אירוע",
     "kpis": {
       "views": 140100,
-      "engagement": 4582,
+      "engagement": 4581,
       "shares": 0,
       "reach": 140100,
       "impressions": 140100
@@ -1102,7 +1102,7 @@
         "description": "TikTok - רועי פיירזולף מסיבת סוף שנה CeraVe",
         "platform": "tiktok",
         "views": 140100,
-        "likes": 4361,
+        "likes": 4360,
         "comments": 43,
         "saves": 178,
         "talent": "3"
@@ -1122,7 +1122,7 @@
     "category": "קמפיין קולנוע",
     "kpis": {
       "views": 718784,
-      "engagement": 21758,
+      "engagement": 21759,
       "shares": 0,
       "reach": 718784,
       "impressions": 718784
@@ -1155,7 +1155,7 @@
         "description": "TikTok - עומר ירון לזמן את הרוע 4 בכורה",
         "platform": "tiktok",
         "views": 402300,
-        "likes": 9277,
+        "likes": 9278,
         "comments": 253,
         "saves": 868,
         "talent": "8"
