@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-19T06:04:15.602118",
+  "generated_at": "2026-07-20T06:29:25.571475",
   "video_results": [
     {
       "url": "https://www.tiktok.com/@galcohenyt/video/7540251397405560084",
@@ -157,7 +157,7 @@
       "stored_views": 12000,
       "stored_likes": 296,
       "live_views": null,
-      "live_likes": 296,
+      "live_likes": 295,
       "error": null,
       "views_diff_pct": null
     },
@@ -226,20 +226,20 @@
       "platform": "tiktok",
       "stored_views": 117700,
       "stored_likes": 6615,
-      "live_views": 117700,
-      "live_likes": 6615,
+      "live_views": 117800,
+      "live_likes": 6616,
       "error": null,
-      "views_diff_pct": 0.0
+      "views_diff_pct": 0.08496176720475786
     },
     {
       "url": "https://www.tiktok.com/@michalmatzov/video/7527310366653598984?_r=1&_t=ZS-8yYyPcptRRZ",
       "platform": "tiktok",
       "stored_views": 117700,
       "stored_likes": 6615,
-      "live_views": 117700,
-      "live_likes": 6615,
+      "live_views": 117800,
+      "live_likes": 6616,
       "error": null,
-      "views_diff_pct": 0.0
+      "views_diff_pct": 0.08496176720475786
     },
     {
       "url": "https://www.tiktok.com/@galcohenyt/video/7522490053461806343?_r=1&_t=ZS-8xh6Rcpzek5",
@@ -285,9 +285,9 @@
       "url": "https://www.tiktok.com/@mrshibolet/video/7522503929377082631",
       "platform": "tiktok",
       "stored_views": 1700000,
-      "stored_likes": 5095,
+      "stored_likes": 5096,
       "live_views": 1700000,
-      "live_likes": 5096,
+      "live_likes": 5097,
       "error": null,
       "views_diff_pct": 0.0
     },
@@ -365,7 +365,7 @@
       "url": "https://www.tiktok.com/@michalmatzov/video/7522499377584213266?_r=1&_t=ZS-8xh9edwxJx9",
       "platform": "tiktok",
       "stored_views": 816500,
-      "stored_likes": 5520,
+      "stored_likes": 5521,
       "live_views": 816500,
       "live_likes": 5521,
       "error": null,
@@ -485,7 +485,7 @@
       "url": "https://www.tiktok.com/@galcohenyt/video/7542498337069583636",
       "platform": "tiktok",
       "stored_views": 36600,
-      "stored_likes": 1190,
+      "stored_likes": 1189,
       "live_views": 36600,
       "live_likes": 1189,
       "error": null,
@@ -903,18 +903,18 @@
       "platform": "youtube",
       "url": "https://www.youtube.com/@israelgalitsky",
       "stored_followers": 6650,
-      "live_followers": 6650,
+      "live_followers": 6640,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": -0.15037593984962408
     },
     {
       "talent_name": "ישראל גליצקי",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@israel_galitsky",
       "stored_followers": 155100,
-      "live_followers": 155100,
+      "live_followers": 155300,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": 0.1289490651192779
     },
     {
       "talent_name": "ישראל גליצקי",
@@ -966,9 +966,9 @@
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@omeryaron_",
       "stored_followers": 54700,
-      "live_followers": 54700,
+      "live_followers": 54800,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": 0.18281535648994515
     },
     {
       "talent_name": "עומר ירון",
@@ -983,10 +983,10 @@
       "talent_name": "מינה (CinnaMinaa)",
       "platform": "youtube",
       "url": "https://youtube.com/@cinnaminaa",
-      "stored_followers": 31300,
+      "stored_followers": 31400,
       "live_followers": 31400,
       "error": null,
-      "diff_pct": 0.3194888178913738
+      "diff_pct": 0.0
     },
     {
       "talent_name": "מינה (CinnaMinaa)",
@@ -1001,10 +1001,10 @@
       "talent_name": "מינה (CinnaMinaa)",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@mina_avrehanian",
-      "stored_followers": 67400,
-      "live_followers": 67600,
+      "stored_followers": 67600,
+      "live_followers": 67800,
       "error": null,
-      "diff_pct": 0.2967359050445104
+      "diff_pct": 0.2958579881656805
     },
     {
       "talent_name": "סטינגר ישראל",
@@ -1029,9 +1029,9 @@
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@stingeril",
       "stored_followers": 20700,
-      "live_followers": 20700,
+      "live_followers": 20600,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": -0.4830917874396135
     }
   ]
 }

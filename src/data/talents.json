@@ -182,10 +182,10 @@
     "category": "קולנוע ובידור",
     "bio": "יוצר תוכן בתחום הקולנוע והבידור עם מעל 4 שנות ניסיון ביצירת ולוגים וסרטונים.",
     "imageUrl": "/talents/Israel Galitsky.png",
-    "totalFollowers": 178150,
+    "totalFollowers": 178340,
     "platformFollowers": {
-      "youtube": 6650,
-      "tiktok": 155100,
+      "youtube": 6640,
+      "tiktok": 155300,
       "instagram": 16400
     },
     "audience": {
@@ -252,10 +252,10 @@
     "category": "מדע וטכנולוגיה",
     "bio": "עומר בן 22, יוצר כריזמטי בתחום המדע והטכנולוגיה, רקע בצילום ובימוי, לשעבר ביחידת הסרטה בצה\"ל, יוצר תוכן ויראלי בעברית ואנגלית.",
     "imageUrl": "/talents/Omer Yaron.png",
-    "totalFollowers": 112100,
+    "totalFollowers": 112200,
     "platformFollowers": {
       "youtube": 44800,
-      "tiktok": 54700,
+      "tiktok": 54800,
       "instagram": 12600
     },
     "engagement": "5.2%",
@@ -289,11 +289,11 @@
     "category": "גיימינג",
     "bio": "בת 20, יוצרת תוכן גיימינג עם קהל מעורב, מתמקדת בקשר לקהילה וסטרימינג ייחודי.",
     "imageUrl": "/talents/Cinaminna.png",
-    "totalFollowers": 103000,
+    "totalFollowers": 103200,
     "platformFollowers": {
       "youtube": 31400,
       "instagram": 4000,
-      "tiktok": 67600
+      "tiktok": 67800
     },
     "engagement": "7.8%",
     "audience": {
@@ -320,7 +320,7 @@
   },
   {
     "id": "10",
-    "totalFollowers": 118300,
+    "totalFollowers": 118200,
     "name": "סטינגר ישראל",
     "category": "גיימינג",
     "bio": "סטינגר ישראל הוא יוצר תוכן וגיימר בולט בזירת הגיימינג הישראלית, המוכר בזכות אנרגיה גבוהה, קצב מהיר וחיבור אותנטי לקהילה הצעירה.\nהתוכן שלו משלב גיימפליי תחרותי, אתגרים, ריאקשנים ושיתופי פעולה – עם דגש על הומור חד ועריכה דינמית שמחזיקה את הצופה מהשנייה הראשונה.",
@@ -329,7 +329,7 @@
     "platformFollowers": {
       "youtube": 94800,
       "instagram": 2800,
-      "tiktok": 20700
+      "tiktok": 20600
     },
     "audience": {
       "age": "12-28",
