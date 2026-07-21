@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20T06:29:25.571475",
+  "generated_at": "2026-07-21T06:01:38.421821",
   "video_results": [
     {
       "url": "https://www.tiktok.com/@galcohenyt/video/7540251397405560084",
@@ -224,22 +224,22 @@
     {
       "url": "https://www.tiktok.com/@michalmatzov/video/7527310366653598984?_r=1&_t=ZS-8yYyPcptRRZ",
       "platform": "tiktok",
-      "stored_views": 117700,
-      "stored_likes": 6615,
+      "stored_views": 117800,
+      "stored_likes": 6616,
       "live_views": 117800,
       "live_likes": 6616,
       "error": null,
-      "views_diff_pct": 0.08496176720475786
+      "views_diff_pct": 0.0
     },
     {
       "url": "https://www.tiktok.com/@michalmatzov/video/7527310366653598984?_r=1&_t=ZS-8yYyPcptRRZ",
       "platform": "tiktok",
-      "stored_views": 117700,
-      "stored_likes": 6615,
+      "stored_views": 117800,
+      "stored_likes": 6616,
       "live_views": 117800,
       "live_likes": 6616,
       "error": null,
-      "views_diff_pct": 0.08496176720475786
+      "views_diff_pct": 0.0
     },
     {
       "url": "https://www.tiktok.com/@galcohenyt/video/7522490053461806343?_r=1&_t=ZS-8xh6Rcpzek5",
@@ -285,9 +285,9 @@
       "url": "https://www.tiktok.com/@mrshibolet/video/7522503929377082631",
       "platform": "tiktok",
       "stored_views": 1700000,
-      "stored_likes": 5096,
+      "stored_likes": 5097,
       "live_views": 1700000,
-      "live_likes": 5097,
+      "live_likes": 5098,
       "error": null,
       "views_diff_pct": 0.0
     },
@@ -297,8 +297,8 @@
       "stored_views": 18000,
       "stored_likes": 283,
       "live_views": null,
-      "live_likes": 284,
-      "error": null,
+      "live_likes": null,
+      "error": "No metrics found in embed",
       "views_diff_pct": null
     },
     {
@@ -902,19 +902,19 @@
       "talent_name": "ישראל גליצקי",
       "platform": "youtube",
       "url": "https://www.youtube.com/@israelgalitsky",
-      "stored_followers": 6650,
+      "stored_followers": 6640,
       "live_followers": 6640,
       "error": null,
-      "diff_pct": -0.15037593984962408
+      "diff_pct": 0.0
     },
     {
       "talent_name": "ישראל גליצקי",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@israel_galitsky",
-      "stored_followers": 155100,
+      "stored_followers": 155300,
       "live_followers": 155300,
       "error": null,
-      "diff_pct": 0.1289490651192779
+      "diff_pct": 0.0
     },
     {
       "talent_name": "ישראל גליצקי",
@@ -957,18 +957,18 @@
       "platform": "youtube",
       "url": "https://youtube.com/@omer_yaron",
       "stored_followers": 44800,
-      "live_followers": 44800,
+      "live_followers": 44900,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": 0.2232142857142857
     },
     {
       "talent_name": "עומר ירון",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@omeryaron_",
-      "stored_followers": 54700,
+      "stored_followers": 54800,
       "live_followers": 54800,
       "error": null,
-      "diff_pct": 0.18281535648994515
+      "diff_pct": 0.0
     },
     {
       "talent_name": "עומר ירון",
@@ -984,9 +984,9 @@
       "platform": "youtube",
       "url": "https://youtube.com/@cinnaminaa",
       "stored_followers": 31400,
-      "live_followers": 31400,
+      "live_followers": 31500,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": 0.3184713375796179
     },
     {
       "talent_name": "מינה (CinnaMinaa)",
@@ -1001,10 +1001,10 @@
       "talent_name": "מינה (CinnaMinaa)",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@mina_avrehanian",
-      "stored_followers": 67600,
+      "stored_followers": 67800,
       "live_followers": 67800,
       "error": null,
-      "diff_pct": 0.2958579881656805
+      "diff_pct": 0.0
     },
     {
       "talent_name": "סטינגר ישראל",
@@ -1028,10 +1028,10 @@
       "talent_name": "סטינגר ישראל",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@stingeril",
-      "stored_followers": 20700,
+      "stored_followers": 20600,
       "live_followers": 20600,
       "error": null,
-      "diff_pct": -0.4830917874396135
+      "diff_pct": 0.0
     }
   ]
 }
