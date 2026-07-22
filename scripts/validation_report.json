@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T06:01:38.421821",
+  "generated_at": "2026-07-22T06:01:33.282929",
   "video_results": [
     {
       "url": "https://www.tiktok.com/@galcohenyt/video/7540251397405560084",
@@ -187,8 +187,8 @@
       "stored_views": 15000,
       "stored_likes": 572,
       "live_views": null,
-      "live_likes": 571,
-      "error": null,
+      "live_likes": null,
+      "error": "No metrics found in embed",
       "views_diff_pct": null
     },
     {
@@ -196,10 +196,10 @@
       "platform": "tiktok",
       "stored_views": 89200,
       "stored_likes": 7267,
-      "live_views": 89200,
-      "live_likes": 7267,
+      "live_views": 89300,
+      "live_likes": 7268,
       "error": null,
-      "views_diff_pct": 0.0
+      "views_diff_pct": 0.11210762331838565
     },
     {
       "url": "https://www.instagram.com/reel/DMIYpdKIqNU/?igsh=Z3E4Y3pqOWY3b2oy",
@@ -285,9 +285,9 @@
       "url": "https://www.tiktok.com/@mrshibolet/video/7522503929377082631",
       "platform": "tiktok",
       "stored_views": 1700000,
-      "stored_likes": 5097,
+      "stored_likes": 5098,
       "live_views": 1700000,
-      "live_likes": 5098,
+      "live_likes": 5103,
       "error": null,
       "views_diff_pct": 0.0
     },
@@ -297,8 +297,8 @@
       "stored_views": 18000,
       "stored_likes": 283,
       "live_views": null,
-      "live_likes": null,
-      "error": "No metrics found in embed",
+      "live_likes": 284,
+      "error": null,
       "views_diff_pct": null
     },
     {
@@ -367,7 +367,7 @@
       "stored_views": 816500,
       "stored_likes": 5521,
       "live_views": 816500,
-      "live_likes": 5521,
+      "live_likes": 5522,
       "error": null,
       "views_diff_pct": 0.0
     },
@@ -396,10 +396,10 @@
       "platform": "tiktok",
       "stored_views": 250200,
       "stored_likes": 377,
-      "live_views": 250200,
-      "live_likes": 377,
-      "error": null,
-      "views_diff_pct": 0.0
+      "live_views": null,
+      "live_likes": null,
+      "error": "ERROR: [TikTok] 7522766946291567890: You do not have permission to view this post. Log into an account that has access. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies",
+      "views_diff_pct": null
     },
     {
       "url": "https://www.youtube.com/shorts/dUvnNVdvg7w",
@@ -567,7 +567,7 @@
       "stored_views": 24500,
       "stored_likes": 903,
       "live_views": null,
-      "live_likes": 905,
+      "live_likes": 906,
       "error": null,
       "views_diff_pct": null
     },
@@ -777,9 +777,9 @@
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@michalmatzov",
       "stored_followers": 365600,
-      "live_followers": 365600,
+      "live_followers": 365700,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": 0.02735229759299781
     },
     {
       "talent_name": "מיכל מצוב",
@@ -858,9 +858,9 @@
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@galcohenyt",
       "stored_followers": 87800,
-      "live_followers": 87800,
+      "live_followers": 87700,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": -0.11389521640091116
     },
     {
       "talent_name": "גל כהן",
@@ -956,10 +956,10 @@
       "talent_name": "עומר ירון",
       "platform": "youtube",
       "url": "https://youtube.com/@omer_yaron",
-      "stored_followers": 44800,
-      "live_followers": 44900,
+      "stored_followers": 44900,
+      "live_followers": 44800,
       "error": null,
-      "diff_pct": 0.2232142857142857
+      "diff_pct": -0.22271714922048996
     },
     {
       "talent_name": "עומר ירון",
@@ -983,10 +983,10 @@
       "talent_name": "מינה (CinnaMinaa)",
       "platform": "youtube",
       "url": "https://youtube.com/@cinnaminaa",
-      "stored_followers": 31400,
-      "live_followers": 31500,
+      "stored_followers": 31500,
+      "live_followers": 31600,
       "error": null,
-      "diff_pct": 0.3184713375796179
+      "diff_pct": 0.31746031746031744
     },
     {
       "talent_name": "מינה (CinnaMinaa)",
@@ -1002,9 +1002,9 @@
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@mina_avrehanian",
       "stored_followers": 67800,
-      "live_followers": 67800,
+      "live_followers": 67900,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": 0.14749262536873156
     },
     {
       "talent_name": "סטינגר ישראל",
