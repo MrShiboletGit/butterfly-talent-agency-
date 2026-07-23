@@ -539,11 +539,11 @@
     "description": "קמפיין דיגיטלי מוצלח עבור אפליקציית Jooba - פלטפורמת מסחר לנוער",
     "category": "קמפיין דיגיטלי",
     "kpis": {
-      "views": 370400,
+      "views": 370600,
       "engagement": 16759,
       "shares": 1416,
-      "reach": 370400,
-      "impressions": 370400
+      "reach": 370600,
+      "impressions": 370600
     },
     "talents": [
       "1",
@@ -583,7 +583,7 @@
         "type": "short-form-video",
         "description": "סרטון TikTok - Jooba אפליקציית מסחר לנוער",
         "platform": "tiktok",
-        "views": 117800,
+        "views": 117900,
         "likes": 6616,
         "comments": 355,
         "saves": 1605,
@@ -595,7 +595,7 @@
         "type": "short-form-video",
         "description": "סרטון TikTok נוסף - Jooba אפליקציית מסחר לנוער",
         "platform": "tiktok",
-        "views": 117800,
+        "views": 117900,
         "likes": 6616,
         "comments": 48,
         "saves": 249,
@@ -617,7 +617,7 @@
     "category": "קמפיין קולנוע",
     "kpis": {
       "views": 3915520,
-      "engagement": 27689,
+      "engagement": 27690,
       "shares": 551,
       "reach": 3915520,
       "impressions": 3915520
@@ -686,7 +686,7 @@
         "description": "סרטון TikTok - עולם היורה בקולנוע",
         "platform": "tiktok",
         "views": 1700000,
-        "likes": 5103,
+        "likes": 5104,
         "comments": 203,
         "saves": 304,
         "talent": "2"
@@ -1279,7 +1279,7 @@
     "category": "קמפיין ציבורי",
     "kpis": {
       "views": 168148,
-      "engagement": 8154,
+      "engagement": 8155,
       "shares": 591,
       "reach": 168148,
       "impressions": 168148
@@ -1300,7 +1300,7 @@
         "description": "TikTok - מיכל מצוב משרד התחבורה",
         "platform": "tiktok",
         "views": 73700,
-        "likes": 5787,
+        "likes": 5788,
         "comments": 296,
         "shares": 591,
         "talent": "1"
