@@ -487,7 +487,7 @@
     "category": "קמפיין ספרים",
     "kpis": {
       "views": 104300,
-      "engagement": 8247,
+      "engagement": 8248,
       "shares": 493,
       "reach": 104300,
       "impressions": 104300
@@ -519,7 +519,7 @@
         "description": "סרטון TikTok קידום הספר של ביל - ידיעות ספרים",
         "platform": "tiktok",
         "views": 89300,
-        "likes": 7268,
+        "likes": 7269,
         "comments": 379,
         "saves": 0,
         "shares": 493,
@@ -617,7 +617,7 @@
     "category": "קמפיין קולנוע",
     "kpis": {
       "views": 3915520,
-      "engagement": 27690,
+      "engagement": 27691,
       "shares": 551,
       "reach": 3915520,
       "impressions": 3915520
@@ -686,7 +686,7 @@
         "description": "סרטון TikTok - עולם היורה בקולנוע",
         "platform": "tiktok",
         "views": 1700000,
-        "likes": 5104,
+        "likes": 5105,
         "comments": 203,
         "saves": 304,
         "talent": "2"
@@ -1121,11 +1121,11 @@
     "description": "קמפיין בכורה מוצלח עבור סרט 'לזמן את הרוע 4' עם עומר ירון וגל כהן",
     "category": "קמפיין קולנוע",
     "kpis": {
-      "views": 718784,
-      "engagement": 21760,
+      "views": 718884,
+      "engagement": 21761,
       "shares": 0,
-      "reach": 718784,
-      "impressions": 718784
+      "reach": 718884,
+      "impressions": 718884
     },
     "talents": [
       "8",
@@ -1154,8 +1154,8 @@
         "type": "short-form-video",
         "description": "TikTok - עומר ירון לזמן את הרוע 4 בכורה",
         "platform": "tiktok",
-        "views": 402300,
-        "likes": 9279,
+        "views": 402400,
+        "likes": 9280,
         "comments": 253,
         "saves": 868,
         "talent": "8"
