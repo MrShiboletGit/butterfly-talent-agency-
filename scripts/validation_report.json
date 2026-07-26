@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-25T05:53:45.195624",
+  "generated_at": "2026-07-26T06:16:23.643390",
   "video_results": [
     {
       "url": "https://www.tiktok.com/@galcohenyt/video/7540251397405560084",
@@ -227,7 +227,7 @@
       "stored_views": 117900,
       "stored_likes": 6616,
       "live_views": 117900,
-      "live_likes": 6616,
+      "live_likes": 6617,
       "error": null,
       "views_diff_pct": 0.0
     },
@@ -237,7 +237,7 @@
       "stored_views": 117900,
       "stored_likes": 6616,
       "live_views": 117900,
-      "live_likes": 6616,
+      "live_likes": 6617,
       "error": null,
       "views_diff_pct": 0.0
     },
@@ -285,7 +285,7 @@
       "url": "https://www.tiktok.com/@mrshibolet/video/7522503929377082631",
       "platform": "tiktok",
       "stored_views": 1700000,
-      "stored_likes": 5105,
+      "stored_likes": 5106,
       "live_views": 1700000,
       "live_likes": 5106,
       "error": null,
@@ -366,10 +366,10 @@
       "platform": "tiktok",
       "stored_views": 816500,
       "stored_likes": 5522,
-      "live_views": 816500,
-      "live_likes": 5522,
+      "live_views": 816600,
+      "live_likes": 5523,
       "error": null,
-      "views_diff_pct": 0.0
+      "views_diff_pct": 0.01224739742804654
     },
     {
       "url": "https://www.instagram.com/reel/DLnEq4MNt2n/?igsh=cjM4ZmNnOWxyOTJy",
@@ -537,7 +537,7 @@
       "stored_views": 140100,
       "stored_likes": 4360,
       "live_views": 140100,
-      "live_likes": 4360,
+      "live_likes": 4361,
       "error": null,
       "views_diff_pct": 0.0
     },
@@ -637,7 +637,7 @@
       "stored_views": 73700,
       "stored_likes": 5788,
       "live_views": 73700,
-      "live_likes": 5788,
+      "live_likes": 5789,
       "error": null,
       "views_diff_pct": 0.0
     },
@@ -830,10 +830,10 @@
       "talent_name": "רועי (Roee Firewolf)",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@roeefirewolf",
-      "stored_followers": 64500,
+      "stored_followers": 64400,
       "live_followers": 64400,
       "error": null,
-      "diff_pct": -0.15503875968992248
+      "diff_pct": 0.0
     },
     {
       "talent_name": "רועי (Roee Firewolf)",
@@ -912,9 +912,9 @@
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@israel_galitsky",
       "stored_followers": 155500,
-      "live_followers": 155500,
+      "live_followers": 155600,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": 0.06430868167202572
     },
     {
       "talent_name": "ישראל גליצקי",
