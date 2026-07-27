@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-26T06:16:23.643390",
+  "generated_at": "2026-07-27T06:41:46.649467",
   "video_results": [
     {
       "url": "https://www.tiktok.com/@galcohenyt/video/7540251397405560084",
@@ -196,10 +196,10 @@
       "platform": "tiktok",
       "stored_views": 89300,
       "stored_likes": 7269,
-      "live_views": 89300,
-      "live_likes": 7269,
+      "live_views": 89400,
+      "live_likes": 7270,
       "error": null,
-      "views_diff_pct": 0.0
+      "views_diff_pct": 0.11198208286674133
     },
     {
       "url": "https://www.instagram.com/reel/DMIYpdKIqNU/?igsh=Z3E4Y3pqOWY3b2oy",
@@ -225,7 +225,7 @@
       "url": "https://www.tiktok.com/@michalmatzov/video/7527310366653598984?_r=1&_t=ZS-8yYyPcptRRZ",
       "platform": "tiktok",
       "stored_views": 117900,
-      "stored_likes": 6616,
+      "stored_likes": 6617,
       "live_views": 117900,
       "live_likes": 6617,
       "error": null,
@@ -235,7 +235,7 @@
       "url": "https://www.tiktok.com/@michalmatzov/video/7527310366653598984?_r=1&_t=ZS-8yYyPcptRRZ",
       "platform": "tiktok",
       "stored_views": 117900,
-      "stored_likes": 6616,
+      "stored_likes": 6617,
       "live_views": 117900,
       "live_likes": 6617,
       "error": null,
@@ -364,12 +364,12 @@
     {
       "url": "https://www.tiktok.com/@michalmatzov/video/7522499377584213266?_r=1&_t=ZS-8xh9edwxJx9",
       "platform": "tiktok",
-      "stored_views": 816500,
-      "stored_likes": 5522,
+      "stored_views": 816600,
+      "stored_likes": 5523,
       "live_views": 816600,
       "live_likes": 5523,
       "error": null,
-      "views_diff_pct": 0.01224739742804654
+      "views_diff_pct": 0.0
     },
     {
       "url": "https://www.instagram.com/reel/DLnEq4MNt2n/?igsh=cjM4ZmNnOWxyOTJy",
@@ -535,7 +535,7 @@
       "url": "https://www.tiktok.com/@roeefirewolf/video/7545880178501618962",
       "platform": "tiktok",
       "stored_views": 140100,
-      "stored_likes": 4360,
+      "stored_likes": 4361,
       "live_views": 140100,
       "live_likes": 4361,
       "error": null,
@@ -557,7 +557,7 @@
       "stored_views": 402400,
       "stored_likes": 9280,
       "live_views": 402400,
-      "live_likes": 9280,
+      "live_likes": 9281,
       "error": null,
       "views_diff_pct": 0.0
     },
@@ -635,7 +635,7 @@
       "url": "https://www.tiktok.com/@michalmatzov/video/7559195096663772434?_r=1&_t=ZS-90PDjWjaGox",
       "platform": "tiktok",
       "stored_views": 73700,
-      "stored_likes": 5788,
+      "stored_likes": 5789,
       "live_views": 73700,
       "live_likes": 5789,
       "error": null,
@@ -876,9 +876,9 @@
       "platform": "youtube",
       "url": "https://www.youtube.com/rainbowqueen",
       "stored_followers": 211000,
-      "live_followers": 211000,
+      "live_followers": 210000,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": -0.47393364928909953
     },
     {
       "talent_name": "מיטל ריינבו קווין",
@@ -911,10 +911,10 @@
       "talent_name": "ישראל גליצקי",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@israel_galitsky",
-      "stored_followers": 155500,
-      "live_followers": 155600,
+      "stored_followers": 155600,
+      "live_followers": 155700,
       "error": null,
-      "diff_pct": 0.06430868167202572
+      "diff_pct": 0.06426735218508997
     },
     {
       "talent_name": "ישראל גליצקי",
@@ -1002,18 +1002,18 @@
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@mina_avrehanian",
       "stored_followers": 68000,
-      "live_followers": 68000,
+      "live_followers": 68200,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": 0.29411764705882354
     },
     {
       "talent_name": "סטינגר ישראל",
       "platform": "youtube",
       "url": "https://www.youtube.com/stingerisrael",
       "stored_followers": 94800,
-      "live_followers": 94800,
+      "live_followers": 94700,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": -0.10548523206751054
     },
     {
       "talent_name": "סטינגר ישראל",

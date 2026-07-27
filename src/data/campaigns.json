@@ -486,11 +486,11 @@
     "description": "קמפיין קידום מכירות מוצלח עבור הספר של ביל בהוצאת ידיעות ספרים",
     "category": "קמפיין ספרים",
     "kpis": {
-      "views": 104300,
-      "engagement": 8248,
+      "views": 104400,
+      "engagement": 8249,
       "shares": 493,
-      "reach": 104300,
-      "impressions": 104300
+      "reach": 104400,
+      "impressions": 104400
     },
     "talents": [
       "6"
@@ -518,8 +518,8 @@
         "type": "short-form-video",
         "description": "סרטון TikTok קידום הספר של ביל - ידיעות ספרים",
         "platform": "tiktok",
-        "views": 89300,
-        "likes": 7269,
+        "views": 89400,
+        "likes": 7270,
         "comments": 379,
         "saves": 0,
         "shares": 493,
@@ -1122,7 +1122,7 @@
     "category": "קמפיין קולנוע",
     "kpis": {
       "views": 718884,
-      "engagement": 21761,
+      "engagement": 21762,
       "shares": 0,
       "reach": 718884,
       "impressions": 718884
@@ -1155,7 +1155,7 @@
         "description": "TikTok - עומר ירון לזמן את הרוע 4 בכורה",
         "platform": "tiktok",
         "views": 402400,
-        "likes": 9280,
+        "likes": 9281,
         "comments": 253,
         "saves": 868,
         "talent": "8"
