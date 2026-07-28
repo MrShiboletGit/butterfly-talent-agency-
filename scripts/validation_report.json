@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-27T06:41:46.649467",
+  "generated_at": "2026-07-28T05:57:23.746456",
   "video_results": [
     {
       "url": "https://www.tiktok.com/@galcohenyt/video/7540251397405560084",
@@ -194,12 +194,12 @@
     {
       "url": "https://www.tiktok.com/@israel_galitsky/video/7535054778527698184",
       "platform": "tiktok",
-      "stored_views": 89300,
-      "stored_likes": 7269,
+      "stored_views": 89400,
+      "stored_likes": 7270,
       "live_views": 89400,
-      "live_likes": 7270,
+      "live_likes": 7271,
       "error": null,
-      "views_diff_pct": 0.11198208286674133
+      "views_diff_pct": 0.0
     },
     {
       "url": "https://www.instagram.com/reel/DMIYpdKIqNU/?igsh=Z3E4Y3pqOWY3b2oy",
@@ -226,20 +226,20 @@
       "platform": "tiktok",
       "stored_views": 117900,
       "stored_likes": 6617,
-      "live_views": 117900,
+      "live_views": 118000,
       "live_likes": 6617,
       "error": null,
-      "views_diff_pct": 0.0
+      "views_diff_pct": 0.08481764206955046
     },
     {
       "url": "https://www.tiktok.com/@michalmatzov/video/7527310366653598984?_r=1&_t=ZS-8yYyPcptRRZ",
       "platform": "tiktok",
       "stored_views": 117900,
       "stored_likes": 6617,
-      "live_views": 117900,
+      "live_views": 118000,
       "live_likes": 6617,
       "error": null,
-      "views_diff_pct": 0.0
+      "views_diff_pct": 0.08481764206955046
     },
     {
       "url": "https://www.tiktok.com/@galcohenyt/video/7522490053461806343?_r=1&_t=ZS-8xh6Rcpzek5",
@@ -555,7 +555,7 @@
       "url": "https://www.tiktok.com/@omeryaron_/video/7546155126982069522",
       "platform": "tiktok",
       "stored_views": 402400,
-      "stored_likes": 9280,
+      "stored_likes": 9281,
       "live_views": 402400,
       "live_likes": 9281,
       "error": null,
@@ -777,9 +777,9 @@
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@michalmatzov",
       "stored_followers": 365700,
-      "live_followers": 365700,
+      "live_followers": 365800,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": 0.027344818156959255
     },
     {
       "talent_name": "מיכל מצוב",
@@ -804,9 +804,9 @@
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@mrshibolet",
       "stored_followers": 115600,
-      "live_followers": 115600,
+      "live_followers": 115700,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": 0.08650519031141869
     },
     {
       "talent_name": "מר שיבולת (שי בן בסט)",
@@ -875,10 +875,10 @@
       "talent_name": "מיטל ריינבו קווין",
       "platform": "youtube",
       "url": "https://www.youtube.com/rainbowqueen",
-      "stored_followers": 211000,
+      "stored_followers": 210000,
       "live_followers": 210000,
       "error": null,
-      "diff_pct": -0.47393364928909953
+      "diff_pct": 0.0
     },
     {
       "talent_name": "מיטל ריינבו קווין",
@@ -911,10 +911,10 @@
       "talent_name": "ישראל גליצקי",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@israel_galitsky",
-      "stored_followers": 155600,
-      "live_followers": 155700,
+      "stored_followers": 155700,
+      "live_followers": 155800,
       "error": null,
-      "diff_pct": 0.06426735218508997
+      "diff_pct": 0.06422607578676942
     },
     {
       "talent_name": "ישראל גליצקי",
@@ -1001,19 +1001,19 @@
       "talent_name": "מינה (CinnaMinaa)",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@mina_avrehanian",
-      "stored_followers": 68000,
-      "live_followers": 68200,
+      "stored_followers": 68200,
+      "live_followers": 68300,
       "error": null,
-      "diff_pct": 0.29411764705882354
+      "diff_pct": 0.1466275659824047
     },
     {
       "talent_name": "סטינגר ישראל",
       "platform": "youtube",
       "url": "https://www.youtube.com/stingerisrael",
-      "stored_followers": 94800,
+      "stored_followers": 94700,
       "live_followers": 94700,
       "error": null,
-      "diff_pct": -0.10548523206751054
+      "diff_pct": 0.0
     },
     {
       "talent_name": "סטינגר ישראל",
