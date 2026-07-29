@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T05:57:23.746456",
+  "generated_at": "2026-07-29T06:03:01.434341",
   "video_results": [
     {
       "url": "https://www.tiktok.com/@galcohenyt/video/7540251397405560084",
@@ -107,7 +107,7 @@
       "stored_views": 42800,
       "stored_likes": 1281,
       "live_views": 42800,
-      "live_likes": 1281,
+      "live_likes": 1282,
       "error": null,
       "views_diff_pct": 0.0
     },
@@ -195,7 +195,7 @@
       "url": "https://www.tiktok.com/@israel_galitsky/video/7535054778527698184",
       "platform": "tiktok",
       "stored_views": 89400,
-      "stored_likes": 7270,
+      "stored_likes": 7271,
       "live_views": 89400,
       "live_likes": 7271,
       "error": null,
@@ -224,22 +224,22 @@
     {
       "url": "https://www.tiktok.com/@michalmatzov/video/7527310366653598984?_r=1&_t=ZS-8yYyPcptRRZ",
       "platform": "tiktok",
-      "stored_views": 117900,
+      "stored_views": 118000,
       "stored_likes": 6617,
       "live_views": 118000,
-      "live_likes": 6617,
+      "live_likes": 6618,
       "error": null,
-      "views_diff_pct": 0.08481764206955046
+      "views_diff_pct": 0.0
     },
     {
       "url": "https://www.tiktok.com/@michalmatzov/video/7527310366653598984?_r=1&_t=ZS-8yYyPcptRRZ",
       "platform": "tiktok",
-      "stored_views": 117900,
+      "stored_views": 118000,
       "stored_likes": 6617,
       "live_views": 118000,
-      "live_likes": 6617,
+      "live_likes": 6618,
       "error": null,
-      "views_diff_pct": 0.08481764206955046
+      "views_diff_pct": 0.0
     },
     {
       "url": "https://www.tiktok.com/@galcohenyt/video/7522490053461806343?_r=1&_t=ZS-8xh6Rcpzek5",
@@ -396,10 +396,10 @@
       "platform": "tiktok",
       "stored_views": 250200,
       "stored_likes": 377,
-      "live_views": 250200,
+      "live_views": 250300,
       "live_likes": 377,
       "error": null,
-      "views_diff_pct": 0.0
+      "views_diff_pct": 0.03996802557953637
     },
     {
       "url": "https://www.youtube.com/shorts/dUvnNVdvg7w",
@@ -537,7 +537,7 @@
       "stored_views": 140100,
       "stored_likes": 4361,
       "live_views": 140100,
-      "live_likes": 4361,
+      "live_likes": 4362,
       "error": null,
       "views_diff_pct": 0.0
     },
@@ -776,10 +776,10 @@
       "talent_name": "מיכל מצוב",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@michalmatzov",
-      "stored_followers": 365700,
+      "stored_followers": 365800,
       "live_followers": 365800,
       "error": null,
-      "diff_pct": 0.027344818156959255
+      "diff_pct": 0.0
     },
     {
       "talent_name": "מיכל מצוב",
@@ -803,10 +803,10 @@
       "talent_name": "מר שיבולת (שי בן בסט)",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@mrshibolet",
-      "stored_followers": 115600,
+      "stored_followers": 115700,
       "live_followers": 115700,
       "error": null,
-      "diff_pct": 0.08650519031141869
+      "diff_pct": 0.0
     },
     {
       "talent_name": "מר שיבולת (שי בן בסט)",
@@ -903,18 +903,18 @@
       "platform": "youtube",
       "url": "https://www.youtube.com/@israelgalitsky",
       "stored_followers": 6640,
-      "live_followers": 6640,
+      "live_followers": 6630,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": -0.15060240963855423
     },
     {
       "talent_name": "ישראל גליצקי",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@israel_galitsky",
-      "stored_followers": 155700,
+      "stored_followers": 155800,
       "live_followers": 155800,
       "error": null,
-      "diff_pct": 0.06422607578676942
+      "diff_pct": 0.0
     },
     {
       "talent_name": "ישראל גליצקי",
@@ -957,9 +957,9 @@
       "platform": "youtube",
       "url": "https://youtube.com/@omer_yaron",
       "stored_followers": 44900,
-      "live_followers": 44900,
+      "live_followers": 44800,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": -0.22271714922048996
     },
     {
       "talent_name": "עומר ירון",
@@ -1001,10 +1001,10 @@
       "talent_name": "מינה (CinnaMinaa)",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@mina_avrehanian",
-      "stored_followers": 68200,
-      "live_followers": 68300,
+      "stored_followers": 68300,
+      "live_followers": 68500,
       "error": null,
-      "diff_pct": 0.1466275659824047
+      "diff_pct": 0.29282576866764276
     },
     {
       "talent_name": "סטינגר ישראל",

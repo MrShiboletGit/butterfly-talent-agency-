@@ -219,7 +219,7 @@
     "category": "קמפיין גיימינג",
     "kpis": {
       "views": 142734,
-      "engagement": 3586,
+      "engagement": 3587,
       "shares": 38,
       "reach": 142734,
       "impressions": 142734
@@ -250,7 +250,7 @@
         "description": "TikTok - קידום סט אביזרי גיימינג Glorious Gaming",
         "platform": "tiktok",
         "views": 42800,
-        "likes": 1281,
+        "likes": 1282,
         "comments": 21,
         "saves": 36,
         "shares": 38,
@@ -540,7 +540,7 @@
     "category": "קמפיין דיגיטלי",
     "kpis": {
       "views": 370800,
-      "engagement": 16761,
+      "engagement": 16763,
       "shares": 1416,
       "reach": 370800,
       "impressions": 370800
@@ -584,7 +584,7 @@
         "description": "סרטון TikTok - Jooba אפליקציית מסחר לנוער",
         "platform": "tiktok",
         "views": 118000,
-        "likes": 6617,
+        "likes": 6618,
         "comments": 355,
         "saves": 1605,
         "shares": 798,
@@ -596,7 +596,7 @@
         "description": "סרטון TikTok נוסף - Jooba אפליקציית מסחר לנוער",
         "platform": "tiktok",
         "views": 118000,
-        "likes": 6617,
+        "likes": 6618,
         "comments": 48,
         "saves": 249,
         "shares": 84,
@@ -616,11 +616,11 @@
     "description": "קמפיין השקה מרשים עבור סרט 'עולם היורה' בקולנוע שהגיע ל-3.2 מיליון צפיות",
     "category": "קמפיין קולנוע",
     "kpis": {
-      "views": 3915620,
+      "views": 3915720,
       "engagement": 27693,
       "shares": 551,
-      "reach": 3915620,
-      "impressions": 3915620
+      "reach": 3915720,
+      "impressions": 3915720
     },
     "talents": [
       "2",
@@ -802,7 +802,7 @@
         "type": "short-form-video",
         "description": "TikTok - עולם היורה בקולנוע",
         "platform": "tiktok",
-        "views": 250200,
+        "views": 250300,
         "likes": 377,
         "comments": 119,
         "saves": 34,
@@ -1082,7 +1082,7 @@
     "category": "קמפיין אירוע",
     "kpis": {
       "views": 140100,
-      "engagement": 4582,
+      "engagement": 4583,
       "shares": 0,
       "reach": 140100,
       "impressions": 140100
@@ -1102,7 +1102,7 @@
         "description": "TikTok - רועי פיירזולף מסיבת סוף שנה CeraVe",
         "platform": "tiktok",
         "views": 140100,
-        "likes": 4361,
+        "likes": 4362,
         "comments": 43,
         "saves": 178,
         "talent": "3"
