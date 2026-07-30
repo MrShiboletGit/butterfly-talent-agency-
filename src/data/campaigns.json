@@ -1081,11 +1081,11 @@
     "description": "קמפיין מוצלח עבור CeraVe עם רועי פיירזולף במסיבת סוף השנה",
     "category": "קמפיין אירוע",
     "kpis": {
-      "views": 140100,
-      "engagement": 4583,
+      "views": 140200,
+      "engagement": 4584,
       "shares": 0,
-      "reach": 140100,
-      "impressions": 140100
+      "reach": 140200,
+      "impressions": 140200
     },
     "talents": [
       "3"
@@ -1101,8 +1101,8 @@
         "type": "short-form-video",
         "description": "TikTok - רועי פיירזולף מסיבת סוף שנה CeraVe",
         "platform": "tiktok",
-        "views": 140100,
-        "likes": 4362,
+        "views": 140200,
+        "likes": 4363,
         "comments": 43,
         "saves": 178,
         "talent": "3"
@@ -1278,11 +1278,11 @@
     "description": "קמפיין קידום מוצלח עבור משרד התחבורה עם מיכל מצוב",
     "category": "קמפיין ציבורי",
     "kpis": {
-      "views": 168148,
+      "views": 168248,
       "engagement": 8156,
       "shares": 591,
-      "reach": 168148,
-      "impressions": 168148
+      "reach": 168248,
+      "impressions": 168248
     },
     "talents": [
       "1"
@@ -1299,7 +1299,7 @@
         "type": "short-form-video",
         "description": "TikTok - מיכל מצוב משרד התחבורה",
         "platform": "tiktok",
-        "views": 73700,
+        "views": 73800,
         "likes": 5789,
         "comments": 296,
         "shares": 591,
