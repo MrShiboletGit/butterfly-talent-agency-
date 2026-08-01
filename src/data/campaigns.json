@@ -486,11 +486,11 @@
     "description": "קמפיין קידום מכירות מוצלח עבור הספר של ביל בהוצאת ידיעות ספרים",
     "category": "קמפיין ספרים",
     "kpis": {
-      "views": 104400,
+      "views": 104500,
       "engagement": 8250,
       "shares": 493,
-      "reach": 104400,
-      "impressions": 104400
+      "reach": 104500,
+      "impressions": 104500
     },
     "talents": [
       "6"
@@ -518,7 +518,7 @@
         "type": "short-form-video",
         "description": "סרטון TikTok קידום הספר של ביל - ידיעות ספרים",
         "platform": "tiktok",
-        "views": 89400,
+        "views": 89500,
         "likes": 7271,
         "comments": 379,
         "saves": 0,
@@ -539,11 +539,11 @@
     "description": "קמפיין דיגיטלי מוצלח עבור אפליקציית Jooba - פלטפורמת מסחר לנוער",
     "category": "קמפיין דיגיטלי",
     "kpis": {
-      "views": 370800,
+      "views": 371000,
       "engagement": 16765,
       "shares": 1416,
-      "reach": 370800,
-      "impressions": 370800
+      "reach": 371000,
+      "impressions": 371000
     },
     "talents": [
       "1",
@@ -583,7 +583,7 @@
         "type": "short-form-video",
         "description": "סרטון TikTok - Jooba אפליקציית מסחר לנוער",
         "platform": "tiktok",
-        "views": 118000,
+        "views": 118100,
         "likes": 6619,
         "comments": 355,
         "saves": 1605,
@@ -595,7 +595,7 @@
         "type": "short-form-video",
         "description": "סרטון TikTok נוסף - Jooba אפליקציית מסחר לנוער",
         "platform": "tiktok",
-        "views": 118000,
+        "views": 118100,
         "likes": 6619,
         "comments": 48,
         "saves": 249,
@@ -617,7 +617,7 @@
     "category": "קמפיין קולנוע",
     "kpis": {
       "views": 3915820,
-      "engagement": 27694,
+      "engagement": 27695,
       "shares": 551,
       "reach": 3915820,
       "impressions": 3915820
@@ -686,7 +686,7 @@
         "description": "סרטון TikTok - עולם היורה בקולנוע",
         "platform": "tiktok",
         "views": 1700000,
-        "likes": 5107,
+        "likes": 5108,
         "comments": 203,
         "saves": 304,
         "talent": "2"
