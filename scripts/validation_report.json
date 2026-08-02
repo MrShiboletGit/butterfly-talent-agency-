@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T06:06:03.094089",
+  "generated_at": "2026-08-02T06:09:08.913613",
   "video_results": [
     {
       "url": "https://www.tiktok.com/@galcohenyt/video/7540251397405560084",
@@ -194,12 +194,12 @@
     {
       "url": "https://www.tiktok.com/@israel_galitsky/video/7535054778527698184",
       "platform": "tiktok",
-      "stored_views": 89400,
+      "stored_views": 89500,
       "stored_likes": 7271,
       "live_views": 89500,
-      "live_likes": 7271,
+      "live_likes": 7272,
       "error": null,
-      "views_diff_pct": 0.11185682326621924
+      "views_diff_pct": 0.0
     },
     {
       "url": "https://www.instagram.com/reel/DMIYpdKIqNU/?igsh=Z3E4Y3pqOWY3b2oy",
@@ -224,22 +224,22 @@
     {
       "url": "https://www.tiktok.com/@michalmatzov/video/7527310366653598984?_r=1&_t=ZS-8yYyPcptRRZ",
       "platform": "tiktok",
-      "stored_views": 118000,
+      "stored_views": 118100,
       "stored_likes": 6619,
       "live_views": 118100,
       "live_likes": 6619,
       "error": null,
-      "views_diff_pct": 0.0847457627118644
+      "views_diff_pct": 0.0
     },
     {
       "url": "https://www.tiktok.com/@michalmatzov/video/7527310366653598984?_r=1&_t=ZS-8yYyPcptRRZ",
       "platform": "tiktok",
-      "stored_views": 118000,
+      "stored_views": 118100,
       "stored_likes": 6619,
       "live_views": 118100,
       "live_likes": 6619,
       "error": null,
-      "views_diff_pct": 0.0847457627118644
+      "views_diff_pct": 0.0
     },
     {
       "url": "https://www.tiktok.com/@galcohenyt/video/7522490053461806343?_r=1&_t=ZS-8xh6Rcpzek5",
@@ -285,9 +285,9 @@
       "url": "https://www.tiktok.com/@mrshibolet/video/7522503929377082631",
       "platform": "tiktok",
       "stored_views": 1700000,
-      "stored_likes": 5107,
+      "stored_likes": 5108,
       "live_views": 1700000,
-      "live_likes": 5108,
+      "live_likes": 5110,
       "error": null,
       "views_diff_pct": 0.0
     },
@@ -487,7 +487,7 @@
       "stored_views": 36600,
       "stored_likes": 1189,
       "live_views": 36600,
-      "live_likes": 1189,
+      "live_likes": 1188,
       "error": null,
       "views_diff_pct": 0.0
     },
@@ -536,10 +536,10 @@
       "platform": "tiktok",
       "stored_views": 140200,
       "stored_likes": 4363,
-      "live_views": 140200,
-      "live_likes": 4363,
+      "live_views": 0,
+      "live_likes": 0,
       "error": null,
-      "views_diff_pct": 0.0
+      "views_diff_pct": null
     },
     {
       "url": "https://www.youtube.com/shorts/62GdFl6wzL4?si=TTbDuO9y5ey3pKIe",
@@ -567,7 +567,7 @@
       "stored_views": 24500,
       "stored_likes": 903,
       "live_views": null,
-      "live_likes": 904,
+      "live_likes": 905,
       "error": null,
       "views_diff_pct": null
     },
@@ -586,10 +586,10 @@
       "platform": "tiktok",
       "stored_views": 52700,
       "stored_likes": 1058,
-      "live_views": 52700,
-      "live_likes": 1058,
-      "error": null,
-      "views_diff_pct": 0.0
+      "live_views": null,
+      "live_likes": null,
+      "error": "ERROR: [TikTok] 7548051354850168085: Unexpected response from webpage request; please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U",
+      "views_diff_pct": null
     },
     {
       "url": "https://www.tiktok.com/@mrshibolet/video/7553987551594417426",
@@ -776,10 +776,10 @@
       "talent_name": "מיכל מצוב",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@michalmatzov",
-      "stored_followers": 365800,
+      "stored_followers": 365900,
       "live_followers": 365900,
       "error": null,
-      "diff_pct": 0.027337342810278838
+      "diff_pct": 0.0
     },
     {
       "talent_name": "מיכל מצוב",
@@ -903,18 +903,18 @@
       "platform": "youtube",
       "url": "https://www.youtube.com/@israelgalitsky",
       "stored_followers": 6630,
-      "live_followers": 6630,
+      "live_followers": 6640,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": 0.1508295625942685
     },
     {
       "talent_name": "ישראל גליצקי",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@israel_galitsky",
-      "stored_followers": 155900,
+      "stored_followers": 156000,
       "live_followers": 156000,
       "error": null,
-      "diff_pct": 0.06414368184733803
+      "diff_pct": 0.0
     },
     {
       "talent_name": "ישראל גליצקי",
