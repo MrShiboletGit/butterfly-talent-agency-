@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T06:09:08.913613",
+  "generated_at": "2026-08-03T06:34:28.581479",
   "video_results": [
     {
       "url": "https://www.tiktok.com/@galcohenyt/video/7540251397405560084",
@@ -195,7 +195,7 @@
       "url": "https://www.tiktok.com/@israel_galitsky/video/7535054778527698184",
       "platform": "tiktok",
       "stored_views": 89500,
-      "stored_likes": 7271,
+      "stored_likes": 7272,
       "live_views": 89500,
       "live_likes": 7272,
       "error": null,
@@ -285,9 +285,9 @@
       "url": "https://www.tiktok.com/@mrshibolet/video/7522503929377082631",
       "platform": "tiktok",
       "stored_views": 1700000,
-      "stored_likes": 5108,
+      "stored_likes": 5110,
       "live_views": 1700000,
-      "live_likes": 5110,
+      "live_likes": 5111,
       "error": null,
       "views_diff_pct": 0.0
     },
@@ -485,7 +485,7 @@
       "url": "https://www.tiktok.com/@galcohenyt/video/7542498337069583636",
       "platform": "tiktok",
       "stored_views": 36600,
-      "stored_likes": 1189,
+      "stored_likes": 1188,
       "live_views": 36600,
       "live_likes": 1188,
       "error": null,
@@ -536,10 +536,10 @@
       "platform": "tiktok",
       "stored_views": 140200,
       "stored_likes": 4363,
-      "live_views": 0,
-      "live_likes": 0,
+      "live_views": 140200,
+      "live_likes": 4364,
       "error": null,
-      "views_diff_pct": null
+      "views_diff_pct": 0.0
     },
     {
       "url": "https://www.youtube.com/shorts/62GdFl6wzL4?si=TTbDuO9y5ey3pKIe",
@@ -586,10 +586,10 @@
       "platform": "tiktok",
       "stored_views": 52700,
       "stored_likes": 1058,
-      "live_views": null,
-      "live_likes": null,
-      "error": "ERROR: [TikTok] 7548051354850168085: Unexpected response from webpage request; please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U",
-      "views_diff_pct": null
+      "live_views": 52700,
+      "live_likes": 1058,
+      "error": null,
+      "views_diff_pct": 0.0
     },
     {
       "url": "https://www.tiktok.com/@mrshibolet/video/7553987551594417426",
@@ -902,10 +902,10 @@
       "talent_name": "ישראל גליצקי",
       "platform": "youtube",
       "url": "https://www.youtube.com/@israelgalitsky",
-      "stored_followers": 6630,
-      "live_followers": 6640,
+      "stored_followers": 6640,
+      "live_followers": 6630,
       "error": null,
-      "diff_pct": 0.1508295625942685
+      "diff_pct": -0.15060240963855423
     },
     {
       "talent_name": "ישראל גליצקי",
@@ -984,9 +984,9 @@
       "platform": "youtube",
       "url": "https://youtube.com/@cinnaminaa",
       "stored_followers": 31600,
-      "live_followers": 31600,
+      "live_followers": 31700,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": 0.31645569620253167
     },
     {
       "talent_name": "מינה (CinnaMinaa)",
@@ -1002,9 +1002,9 @@
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@mina_avrehanian",
       "stored_followers": 68800,
-      "live_followers": 68800,
+      "live_followers": 69000,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": 0.29069767441860467
     },
     {
       "talent_name": "סטינגר ישראל",
