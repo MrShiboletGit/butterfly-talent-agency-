@@ -486,11 +486,11 @@
     "description": "קמפיין קידום מכירות מוצלח עבור הספר של ביל בהוצאת ידיעות ספרים",
     "category": "קמפיין ספרים",
     "kpis": {
-      "views": 104500,
+      "views": 104600,
       "engagement": 8252,
       "shares": 493,
-      "reach": 104500,
-      "impressions": 104500
+      "reach": 104600,
+      "impressions": 104600
     },
     "talents": [
       "6"
@@ -518,7 +518,7 @@
         "type": "short-form-video",
         "description": "סרטון TikTok קידום הספר של ביל - ידיעות ספרים",
         "platform": "tiktok",
-        "views": 89500,
+        "views": 89600,
         "likes": 7273,
         "comments": 379,
         "saves": 0,
@@ -1082,7 +1082,7 @@
     "category": "קמפיין אירוע",
     "kpis": {
       "views": 140200,
-      "engagement": 4585,
+      "engagement": 4586,
       "shares": 0,
       "reach": 140200,
       "impressions": 140200
@@ -1102,7 +1102,7 @@
         "description": "TikTok - רועי פיירזולף מסיבת סוף שנה CeraVe",
         "platform": "tiktok",
         "views": 140200,
-        "likes": 4364,
+        "likes": 4365,
         "comments": 43,
         "saves": 178,
         "talent": "3"
@@ -1121,11 +1121,11 @@
     "description": "קמפיין בכורה מוצלח עבור סרט 'לזמן את הרוע 4' עם עומר ירון וגל כהן",
     "category": "קמפיין קולנוע",
     "kpis": {
-      "views": 718884,
+      "views": 718984,
       "engagement": 21762,
       "shares": 0,
-      "reach": 718884,
-      "impressions": 718884
+      "reach": 718984,
+      "impressions": 718984
     },
     "talents": [
       "8",
@@ -1154,7 +1154,7 @@
         "type": "short-form-video",
         "description": "TikTok - עומר ירון לזמן את הרוע 4 בכורה",
         "platform": "tiktok",
-        "views": 402400,
+        "views": 402500,
         "likes": 9281,
         "comments": 253,
         "saves": 868,
