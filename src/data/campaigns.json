@@ -146,7 +146,7 @@
     "category": "קמפיין שנתי",
     "kpis": {
       "views": 520539,
-      "engagement": 17590,
+      "engagement": 17589,
       "shares": 0,
       "reach": 520539,
       "impressions": 520539
@@ -178,7 +178,7 @@
         "description": "TikTok - גל כהן קמפיין סמסונג Q3",
         "platform": "tiktok",
         "views": 36000,
-        "likes": 2026,
+        "likes": 2025,
         "comments": 50,
         "saves": 97,
         "talent": "4"
@@ -539,11 +539,11 @@
     "description": "קמפיין דיגיטלי מוצלח עבור אפליקציית Jooba - פלטפורמת מסחר לנוער",
     "category": "קמפיין דיגיטלי",
     "kpis": {
-      "views": 371000,
-      "engagement": 16765,
+      "views": 371200,
+      "engagement": 16767,
       "shares": 1416,
-      "reach": 371000,
-      "impressions": 371000
+      "reach": 371200,
+      "impressions": 371200
     },
     "talents": [
       "1",
@@ -583,8 +583,8 @@
         "type": "short-form-video",
         "description": "סרטון TikTok - Jooba אפליקציית מסחר לנוער",
         "platform": "tiktok",
-        "views": 118100,
-        "likes": 6619,
+        "views": 118200,
+        "likes": 6620,
         "comments": 355,
         "saves": 1605,
         "shares": 798,
@@ -595,8 +595,8 @@
         "type": "short-form-video",
         "description": "סרטון TikTok נוסף - Jooba אפליקציית מסחר לנוער",
         "platform": "tiktok",
-        "views": 118100,
-        "likes": 6619,
+        "views": 118200,
+        "likes": 6620,
         "comments": 48,
         "saves": 249,
         "shares": 84,
@@ -617,7 +617,7 @@
     "category": "קמפיין קולנוע",
     "kpis": {
       "views": 3915820,
-      "engagement": 27700,
+      "engagement": 27701,
       "shares": 551,
       "reach": 3915820,
       "impressions": 3915820
@@ -686,7 +686,7 @@
         "description": "סרטון TikTok - עולם היורה בקולנוע",
         "platform": "tiktok",
         "views": 1700000,
-        "likes": 5111,
+        "likes": 5112,
         "comments": 203,
         "saves": 304,
         "talent": "2"
@@ -1081,11 +1081,11 @@
     "description": "קמפיין מוצלח עבור CeraVe עם רועי פיירזולף במסיבת סוף השנה",
     "category": "קמפיין אירוע",
     "kpis": {
-      "views": 140200,
+      "views": 140300,
       "engagement": 4586,
       "shares": 0,
-      "reach": 140200,
-      "impressions": 140200
+      "reach": 140300,
+      "impressions": 140300
     },
     "talents": [
       "3"
@@ -1101,7 +1101,7 @@
         "type": "short-form-video",
         "description": "TikTok - רועי פיירזולף מסיבת סוף שנה CeraVe",
         "platform": "tiktok",
-        "views": 140200,
+        "views": 140300,
         "likes": 4365,
         "comments": 43,
         "saves": 178,
