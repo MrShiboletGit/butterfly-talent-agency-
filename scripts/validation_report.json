@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T04:21:41.362025",
+  "generated_at": "2026-08-09T04:28:38.999389",
   "video_results": [
     {
       "url": "https://www.tiktok.com/@galcohenyt/video/7540251397405560084",
@@ -365,11 +365,11 @@
       "url": "https://www.tiktok.com/@michalmatzov/video/7522499377584213266?_r=1&_t=ZS-8xh9edwxJx9",
       "platform": "tiktok",
       "stored_views": 816600,
-      "stored_likes": 5524,
-      "live_views": 816600,
+      "stored_likes": 5525,
+      "live_views": 816700,
       "live_likes": 5525,
       "error": null,
-      "views_diff_pct": 0.0
+      "views_diff_pct": 0.01224589762429586
     },
     {
       "url": "https://www.instagram.com/reel/DLnEq4MNt2n/?igsh=cjM4ZmNnOWxyOTJy",
@@ -537,7 +537,7 @@
       "stored_views": 140300,
       "stored_likes": 4366,
       "live_views": 140300,
-      "live_likes": 4366,
+      "live_likes": 4367,
       "error": null,
       "views_diff_pct": 0.0
     },
@@ -557,7 +557,7 @@
       "stored_views": 402500,
       "stored_likes": 9281,
       "live_views": 402500,
-      "live_likes": 9281,
+      "live_likes": 9282,
       "error": null,
       "views_diff_pct": 0.0
     },
@@ -803,10 +803,10 @@
       "talent_name": "מר שיבולת (שי בן בסט)",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@mrshibolet",
-      "stored_followers": 115700,
+      "stored_followers": 115600,
       "live_followers": 115600,
       "error": null,
-      "diff_pct": -0.08643042350907519
+      "diff_pct": 0.0
     },
     {
       "talent_name": "מר שיבולת (שי בן בסט)",
@@ -849,9 +849,9 @@
       "platform": "youtube",
       "url": "https://www.youtube.com/@GalCohenOfficial",
       "stored_followers": 323000,
-      "live_followers": 323000,
+      "live_followers": 324000,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": 0.30959752321981426
     },
     {
       "talent_name": "גל כהן",
@@ -965,10 +965,10 @@
       "talent_name": "עומר ירון",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@omeryaron_",
-      "stored_followers": 54900,
+      "stored_followers": 55000,
       "live_followers": 55000,
       "error": null,
-      "diff_pct": 0.18214936247723132
+      "diff_pct": 0.0
     },
     {
       "talent_name": "עומר ירון",
@@ -983,10 +983,10 @@
       "talent_name": "מינה (CinnaMinaa)",
       "platform": "youtube",
       "url": "https://youtube.com/@cinnaminaa",
-      "stored_followers": 31700,
+      "stored_followers": 31600,
       "live_followers": 31600,
       "error": null,
-      "diff_pct": -0.31545741324921134
+      "diff_pct": 0.0
     },
     {
       "talent_name": "מינה (CinnaMinaa)",
@@ -1001,19 +1001,19 @@
       "talent_name": "מינה (CinnaMinaa)",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@mina_avrehanian",
-      "stored_followers": 69200,
+      "stored_followers": 69300,
       "live_followers": 69300,
       "error": null,
-      "diff_pct": 0.1445086705202312
+      "diff_pct": 0.0
     },
     {
       "talent_name": "סטינגר ישראל",
       "platform": "youtube",
       "url": "https://www.youtube.com/stingerisrael",
       "stored_followers": 94700,
-      "live_followers": null,
-      "error": "ERROR: UCgPa46ZL42Ssbt3eHEN9UaQ page 1: Unable to ",
-      "diff_pct": null
+      "live_followers": 94700,
+      "error": null,
+      "diff_pct": 0.0
     },
     {
       "talent_name": "סטינגר ישראל",

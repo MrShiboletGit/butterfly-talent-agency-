@@ -616,11 +616,11 @@
     "description": "קמפיין השקה מרשים עבור סרט 'עולם היורה' בקולנוע שהגיע ל-3.2 מיליון צפיות",
     "category": "קמפיין קולנוע",
     "kpis": {
-      "views": 3915820,
+      "views": 3915920,
       "engagement": 27702,
       "shares": 551,
-      "reach": 3915820,
-      "impressions": 3915820
+      "reach": 3915920,
+      "impressions": 3915920
     },
     "talents": [
       "2",
@@ -770,7 +770,7 @@
         "type": "short-form-video",
         "description": "TikTok - עולם היורה בקולנוע",
         "platform": "tiktok",
-        "views": 816600,
+        "views": 816700,
         "likes": 5525,
         "comments": 984,
         "saves": 375,
@@ -1082,7 +1082,7 @@
     "category": "קמפיין אירוע",
     "kpis": {
       "views": 140300,
-      "engagement": 4587,
+      "engagement": 4588,
       "shares": 0,
       "reach": 140300,
       "impressions": 140300
@@ -1102,7 +1102,7 @@
         "description": "TikTok - רועי פיירזולף מסיבת סוף שנה CeraVe",
         "platform": "tiktok",
         "views": 140300,
-        "likes": 4366,
+        "likes": 4367,
         "comments": 43,
         "saves": 178,
         "talent": "3"
@@ -1122,7 +1122,7 @@
     "category": "קמפיין קולנוע",
     "kpis": {
       "views": 718984,
-      "engagement": 21762,
+      "engagement": 21763,
       "shares": 0,
       "reach": 718984,
       "impressions": 718984
@@ -1155,7 +1155,7 @@
         "description": "TikTok - עומר ירון לזמן את הרוע 4 בכורה",
         "platform": "tiktok",
         "views": 402500,
-        "likes": 9281,
+        "likes": 9282,
         "comments": 253,
         "saves": 868,
         "talent": "8"
