@@ -486,11 +486,11 @@
     "description": "קמפיין קידום מכירות מוצלח עבור הספר של ביל בהוצאת ידיעות ספרים",
     "category": "קמפיין ספרים",
     "kpis": {
-      "views": 104600,
+      "views": 104700,
       "engagement": 8252,
       "shares": 493,
-      "reach": 104600,
-      "impressions": 104600
+      "reach": 104700,
+      "impressions": 104700
     },
     "talents": [
       "6"
@@ -518,7 +518,7 @@
         "type": "short-form-video",
         "description": "סרטון TikTok קידום הספר של ביל - ידיעות ספרים",
         "platform": "tiktok",
-        "views": 89600,
+        "views": 89700,
         "likes": 7273,
         "comments": 379,
         "saves": 0,
@@ -617,7 +617,7 @@
     "category": "קמפיין קולנוע",
     "kpis": {
       "views": 3915920,
-      "engagement": 27702,
+      "engagement": 27703,
       "shares": 551,
       "reach": 3915920,
       "impressions": 3915920
@@ -771,7 +771,7 @@
         "description": "TikTok - עולם היורה בקולנוע",
         "platform": "tiktok",
         "views": 816700,
-        "likes": 5525,
+        "likes": 5526,
         "comments": 984,
         "saves": 375,
         "shares": 253,
