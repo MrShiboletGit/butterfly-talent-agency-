@@ -616,11 +616,11 @@
     "description": "קמפיין השקה מרשים עבור סרט 'עולם היורה' בקולנוע שהגיע ל-3.2 מיליון צפיות",
     "category": "קמפיין קולנוע",
     "kpis": {
-      "views": 3915920,
+      "views": 3916020,
       "engagement": 27703,
       "shares": 551,
-      "reach": 3915920,
-      "impressions": 3915920
+      "reach": 3916020,
+      "impressions": 3916020
     },
     "talents": [
       "2",
@@ -834,7 +834,7 @@
         "type": "short-form-video",
         "description": "TikTok - עולם היורה בקולנוע",
         "platform": "tiktok",
-        "views": 20600,
+        "views": 20700,
         "likes": 574,
         "comments": 145,
         "saves": 36,
@@ -856,7 +856,7 @@
     "category": "קמפיין קולנוע",
     "kpis": {
       "views": 2656772,
-      "engagement": 23382,
+      "engagement": 23383,
       "shares": 119,
       "reach": 2656772,
       "impressions": 2656772
@@ -900,7 +900,7 @@
         "description": "TikTok - קידום סרט סופרמן בקולנוע",
         "platform": "tiktok",
         "views": 1200000,
-        "likes": 5435,
+        "likes": 5436,
         "comments": 238,
         "saves": 401,
         "shares": 0,
@@ -1082,7 +1082,7 @@
     "category": "קמפיין אירוע",
     "kpis": {
       "views": 140300,
-      "engagement": 4588,
+      "engagement": 4592,
       "shares": 0,
       "reach": 140300,
       "impressions": 140300
@@ -1102,7 +1102,7 @@
         "description": "TikTok - רועי פיירזולף מסיבת סוף שנה CeraVe",
         "platform": "tiktok",
         "views": 140300,
-        "likes": 4367,
+        "likes": 4371,
         "comments": 43,
         "saves": 178,
         "talent": "3"
@@ -1122,7 +1122,7 @@
     "category": "קמפיין קולנוע",
     "kpis": {
       "views": 718984,
-      "engagement": 21763,
+      "engagement": 21764,
       "shares": 0,
       "reach": 718984,
       "impressions": 718984
@@ -1155,7 +1155,7 @@
         "description": "TikTok - עומר ירון לזמן את הרוע 4 בכורה",
         "platform": "tiktok",
         "views": 402500,
-        "likes": 9282,
+        "likes": 9283,
         "comments": 253,
         "saves": 868,
         "talent": "8"

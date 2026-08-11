@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T04:48:19.960016",
+  "generated_at": "2026-08-11T04:30:21.639865",
   "video_results": [
     {
       "url": "https://www.tiktok.com/@galcohenyt/video/7540251397405560084",
@@ -194,12 +194,12 @@
     {
       "url": "https://www.tiktok.com/@israel_galitsky/video/7535054778527698184",
       "platform": "tiktok",
-      "stored_views": 89600,
+      "stored_views": 89700,
       "stored_likes": 7273,
       "live_views": 89700,
       "live_likes": 7273,
       "error": null,
-      "views_diff_pct": 0.11160714285714285
+      "views_diff_pct": 0.0
     },
     {
       "url": "https://www.instagram.com/reel/DMIYpdKIqNU/?igsh=Z3E4Y3pqOWY3b2oy",
@@ -365,7 +365,7 @@
       "url": "https://www.tiktok.com/@michalmatzov/video/7522499377584213266?_r=1&_t=ZS-8xh9edwxJx9",
       "platform": "tiktok",
       "stored_views": 816700,
-      "stored_likes": 5525,
+      "stored_likes": 5526,
       "live_views": 816700,
       "live_likes": 5526,
       "error": null,
@@ -426,10 +426,10 @@
       "platform": "tiktok",
       "stored_views": 20600,
       "stored_likes": 574,
-      "live_views": 20600,
+      "live_views": 20700,
       "live_likes": 574,
       "error": null,
-      "views_diff_pct": 0.0
+      "views_diff_pct": 0.48543689320388345
     },
     {
       "url": "https://www.youtube.com/shorts/Em0PnE3HG6c",
@@ -457,7 +457,7 @@
       "stored_views": 1200000,
       "stored_likes": 5435,
       "live_views": 1200000,
-      "live_likes": 5435,
+      "live_likes": 5436,
       "error": null,
       "views_diff_pct": 0.0
     },
@@ -537,7 +537,7 @@
       "stored_views": 140300,
       "stored_likes": 4367,
       "live_views": 140300,
-      "live_likes": 4367,
+      "live_likes": 4371,
       "error": null,
       "views_diff_pct": 0.0
     },
@@ -557,7 +557,7 @@
       "stored_views": 402500,
       "stored_likes": 9282,
       "live_views": 402500,
-      "live_likes": 9282,
+      "live_likes": 9283,
       "error": null,
       "views_diff_pct": 0.0
     },
@@ -776,10 +776,10 @@
       "talent_name": "מיכל מצוב",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@michalmatzov",
-      "stored_followers": 366000,
-      "live_followers": 366300,
+      "stored_followers": 366300,
+      "live_followers": 366400,
       "error": null,
-      "diff_pct": 0.08196721311475409
+      "diff_pct": 0.027300027300027303
     },
     {
       "talent_name": "מיכל מצוב",
@@ -911,10 +911,10 @@
       "talent_name": "ישראל גליצקי",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@israel_galitsky",
-      "stored_followers": 156400,
-      "live_followers": 156500,
+      "stored_followers": 156500,
+      "live_followers": 156600,
       "error": null,
-      "diff_pct": 0.0639386189258312
+      "diff_pct": 0.06389776357827476
     },
     {
       "talent_name": "ישראל גליצקי",
@@ -957,18 +957,18 @@
       "platform": "youtube",
       "url": "https://youtube.com/@omer_yaron",
       "stored_followers": 45000,
-      "live_followers": 45000,
+      "live_followers": 45100,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": 0.2222222222222222
     },
     {
       "talent_name": "עומר ירון",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@omeryaron_",
-      "stored_followers": 55000,
-      "live_followers": 55300,
+      "stored_followers": 55300,
+      "live_followers": 55400,
       "error": null,
-      "diff_pct": 0.5454545454545455
+      "diff_pct": 0.18083182640144665
     },
     {
       "talent_name": "עומר ירון",
@@ -984,9 +984,9 @@
       "platform": "youtube",
       "url": "https://youtube.com/@cinnaminaa",
       "stored_followers": 31600,
-      "live_followers": 31600,
+      "live_followers": 31700,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": 0.31645569620253167
     },
     {
       "talent_name": "מינה (CinnaMinaa)",
@@ -1002,9 +1002,9 @@
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@mina_avrehanian",
       "stored_followers": 69300,
-      "live_followers": 69300,
+      "live_followers": 69400,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": 0.1443001443001443
     },
     {
       "talent_name": "סטינגר ישראל",
