@@ -486,11 +486,11 @@
     "description": "קמפיין קידום מכירות מוצלח עבור הספר של ביל בהוצאת ידיעות ספרים",
     "category": "קמפיין ספרים",
     "kpis": {
-      "views": 104700,
+      "views": 104800,
       "engagement": 8255,
       "shares": 493,
-      "reach": 104700,
-      "impressions": 104700
+      "reach": 104800,
+      "impressions": 104800
     },
     "talents": [
       "6"
@@ -518,7 +518,7 @@
         "type": "short-form-video",
         "description": "סרטון TikTok קידום הספר של ביל - ידיעות ספרים",
         "platform": "tiktok",
-        "views": 89700,
+        "views": 89800,
         "likes": 7276,
         "comments": 379,
         "saves": 0,
@@ -540,7 +540,7 @@
     "category": "קמפיין דיגיטלי",
     "kpis": {
       "views": 371400,
-      "engagement": 16769,
+      "engagement": 16771,
       "shares": 1416,
       "reach": 371400,
       "impressions": 371400
@@ -584,7 +584,7 @@
         "description": "סרטון TikTok - Jooba אפליקציית מסחר לנוער",
         "platform": "tiktok",
         "views": 118300,
-        "likes": 6621,
+        "likes": 6622,
         "comments": 355,
         "saves": 1605,
         "shares": 798,
@@ -596,7 +596,7 @@
         "description": "סרטון TikTok נוסף - Jooba אפליקציית מסחר לנוער",
         "platform": "tiktok",
         "views": 118300,
-        "likes": 6621,
+        "likes": 6622,
         "comments": 48,
         "saves": 249,
         "shares": 84,
@@ -1081,11 +1081,11 @@
     "description": "קמפיין מוצלח עבור CeraVe עם רועי פיירזולף במסיבת סוף השנה",
     "category": "קמפיין אירוע",
     "kpis": {
-      "views": 140300,
+      "views": 140400,
       "engagement": 4593,
       "shares": 0,
-      "reach": 140300,
-      "impressions": 140300
+      "reach": 140400,
+      "impressions": 140400
     },
     "talents": [
       "3"
@@ -1101,7 +1101,7 @@
         "type": "short-form-video",
         "description": "TikTok - רועי פיירזולף מסיבת סוף שנה CeraVe",
         "platform": "tiktok",
-        "views": 140300,
+        "views": 140400,
         "likes": 4372,
         "comments": 43,
         "saves": 178,
@@ -1121,11 +1121,11 @@
     "description": "קמפיין בכורה מוצלח עבור סרט 'לזמן את הרוע 4' עם עומר ירון וגל כהן",
     "category": "קמפיין קולנוע",
     "kpis": {
-      "views": 718984,
+      "views": 719084,
       "engagement": 21764,
       "shares": 0,
-      "reach": 718984,
-      "impressions": 718984
+      "reach": 719084,
+      "impressions": 719084
     },
     "talents": [
       "8",
@@ -1154,7 +1154,7 @@
         "type": "short-form-video",
         "description": "TikTok - עומר ירון לזמן את הרוע 4 בכורה",
         "platform": "tiktok",
-        "views": 402500,
+        "views": 402600,
         "likes": 9283,
         "comments": 253,
         "saves": 868,
@@ -1279,7 +1279,7 @@
     "category": "קמפיין ציבורי",
     "kpis": {
       "views": 168248,
-      "engagement": 8156,
+      "engagement": 8157,
       "shares": 591,
       "reach": 168248,
       "impressions": 168248
@@ -1300,7 +1300,7 @@
         "description": "TikTok - מיכל מצוב משרד התחבורה",
         "platform": "tiktok",
         "views": 73800,
-        "likes": 5789,
+        "likes": 5790,
         "comments": 296,
         "shares": 591,
         "talent": "1"
