@@ -486,11 +486,11 @@
     "description": "קמפיין קידום מכירות מוצלח עבור הספר של ביל בהוצאת ידיעות ספרים",
     "category": "קמפיין ספרים",
     "kpis": {
-      "views": 104800,
-      "engagement": 8257,
+      "views": 104900,
+      "engagement": 8259,
       "shares": 493,
-      "reach": 104800,
-      "impressions": 104800
+      "reach": 104900,
+      "impressions": 104900
     },
     "talents": [
       "6"
@@ -518,8 +518,8 @@
         "type": "short-form-video",
         "description": "סרטון TikTok קידום הספר של ביל - ידיעות ספרים",
         "platform": "tiktok",
-        "views": 89800,
-        "likes": 7278,
+        "views": 89900,
+        "likes": 7280,
         "comments": 379,
         "saves": 0,
         "shares": 493,
@@ -540,7 +540,7 @@
     "category": "קמפיין דיגיטלי",
     "kpis": {
       "views": 371600,
-      "engagement": 16779,
+      "engagement": 16781,
       "shares": 1416,
       "reach": 371600,
       "impressions": 371600
@@ -584,7 +584,7 @@
         "description": "סרטון TikTok - Jooba אפליקציית מסחר לנוער",
         "platform": "tiktok",
         "views": 118400,
-        "likes": 6626,
+        "likes": 6627,
         "comments": 355,
         "saves": 1605,
         "shares": 798,
@@ -596,7 +596,7 @@
         "description": "סרטון TikTok נוסף - Jooba אפליקציית מסחר לנוער",
         "platform": "tiktok",
         "views": 118400,
-        "likes": 6626,
+        "likes": 6627,
         "comments": 48,
         "saves": 249,
         "shares": 84,
@@ -617,7 +617,7 @@
     "category": "קמפיין קולנוע",
     "kpis": {
       "views": 3916020,
-      "engagement": 27704,
+      "engagement": 27703,
       "shares": 551,
       "reach": 3916020,
       "impressions": 3916020
@@ -771,7 +771,7 @@
         "description": "TikTok - עולם היורה בקולנוע",
         "platform": "tiktok",
         "views": 816700,
-        "likes": 5527,
+        "likes": 5526,
         "comments": 984,
         "saves": 375,
         "shares": 253,
@@ -1122,7 +1122,7 @@
     "category": "קמפיין קולנוע",
     "kpis": {
       "views": 719084,
-      "engagement": 21765,
+      "engagement": 21766,
       "shares": 0,
       "reach": 719084,
       "impressions": 719084
@@ -1155,7 +1155,7 @@
         "description": "TikTok - עומר ירון לזמן את הרוע 4 בכורה",
         "platform": "tiktok",
         "views": 402600,
-        "likes": 9284,
+        "likes": 9285,
         "comments": 253,
         "saves": 868,
         "talent": "8"
@@ -1279,7 +1279,7 @@
     "category": "קמפיין ציבורי",
     "kpis": {
       "views": 168348,
-      "engagement": 8158,
+      "engagement": 8159,
       "shares": 591,
       "reach": 168348,
       "impressions": 168348
@@ -1300,7 +1300,7 @@
         "description": "TikTok - מיכל מצוב משרד התחבורה",
         "platform": "tiktok",
         "views": 73900,
-        "likes": 5791,
+        "likes": 5792,
         "comments": 296,
         "shares": 591,
         "talent": "1"
