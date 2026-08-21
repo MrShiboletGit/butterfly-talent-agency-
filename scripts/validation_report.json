@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T03:57:08.621720",
+  "generated_at": "2026-08-21T04:00:39.751537",
   "video_results": [
     {
       "url": "https://www.tiktok.com/@galcohenyt/video/7540251397405560084",
@@ -107,7 +107,7 @@
       "stored_views": 42800,
       "stored_likes": 1282,
       "live_views": 42800,
-      "live_likes": 1282,
+      "live_likes": 1283,
       "error": null,
       "views_diff_pct": 0.0
     },
@@ -195,9 +195,9 @@
       "url": "https://www.tiktok.com/@israel_galitsky/video/7535054778527698184",
       "platform": "tiktok",
       "stored_views": 89900,
-      "stored_likes": 7280,
+      "stored_likes": 7281,
       "live_views": 89900,
-      "live_likes": 7281,
+      "live_likes": 7283,
       "error": null,
       "views_diff_pct": 0.0
     },
@@ -225,7 +225,7 @@
       "url": "https://www.tiktok.com/@michalmatzov/video/7527310366653598984?_r=1&_t=ZS-8yYyPcptRRZ",
       "platform": "tiktok",
       "stored_views": 118400,
-      "stored_likes": 6627,
+      "stored_likes": 6629,
       "live_views": 118400,
       "live_likes": 6629,
       "error": null,
@@ -235,7 +235,7 @@
       "url": "https://www.tiktok.com/@michalmatzov/video/7527310366653598984?_r=1&_t=ZS-8yYyPcptRRZ",
       "platform": "tiktok",
       "stored_views": 118400,
-      "stored_likes": 6627,
+      "stored_likes": 6629,
       "live_views": 118400,
       "live_likes": 6629,
       "error": null,
@@ -287,7 +287,7 @@
       "stored_views": 1700000,
       "stored_likes": 5111,
       "live_views": 1700000,
-      "live_likes": 5111,
+      "live_likes": 5112,
       "error": null,
       "views_diff_pct": 0.0
     },
@@ -364,12 +364,12 @@
     {
       "url": "https://www.tiktok.com/@michalmatzov/video/7522499377584213266?_r=1&_t=ZS-8xh9edwxJx9",
       "platform": "tiktok",
-      "stored_views": 816700,
+      "stored_views": 816800,
       "stored_likes": 5526,
       "live_views": 816800,
       "live_likes": 5526,
       "error": null,
-      "views_diff_pct": 0.012244398187829068
+      "views_diff_pct": 0.0
     },
     {
       "url": "https://www.instagram.com/reel/DLnEq4MNt2n/?igsh=cjM4ZmNnOWxyOTJy",
@@ -637,7 +637,7 @@
       "stored_views": 73900,
       "stored_likes": 5792,
       "live_views": 73900,
-      "live_likes": 5792,
+      "live_likes": 5793,
       "error": null,
       "views_diff_pct": 0.0
     },
@@ -747,7 +747,7 @@
       "stored_views": 40400,
       "stored_likes": 1130,
       "live_views": null,
-      "live_likes": 1132,
+      "live_likes": 1133,
       "error": null,
       "views_diff_pct": null
     },
@@ -757,7 +757,7 @@
       "stored_views": 8100,
       "stored_likes": 162,
       "live_views": null,
-      "live_likes": 161,
+      "live_likes": 162,
       "error": null,
       "views_diff_pct": null
     }
@@ -768,9 +768,9 @@
       "platform": "youtube",
       "url": "https://youtube.com/@michalmatzov",
       "stored_followers": 458000,
-      "live_followers": null,
-      "error": "ERROR: UCqRc4WWSkn6ChbMrJgYU5vg page 9: Unable to ",
-      "diff_pct": null
+      "live_followers": 458000,
+      "error": null,
+      "diff_pct": 0.0
     },
     {
       "talent_name": "מיכל מצוב",
@@ -795,9 +795,9 @@
       "platform": "youtube",
       "url": "https://www.youtube.com/@SHIB",
       "stored_followers": 279000,
-      "live_followers": null,
-      "error": "ERROR: UCojsJ_jkaD5tBK-W47EH6DQ page 7: Unable to ",
-      "diff_pct": null
+      "live_followers": 279000,
+      "error": null,
+      "diff_pct": 0.0
     },
     {
       "talent_name": "מר שיבולת (שי בן בסט)",
@@ -849,18 +849,18 @@
       "platform": "youtube",
       "url": "https://www.youtube.com/@GalCohenOfficial",
       "stored_followers": 324000,
-      "live_followers": null,
-      "error": "ERROR: UCf9BTfc8WP5hnxJc7u4mFUQ page 14: Unable to",
-      "diff_pct": null
+      "live_followers": 324000,
+      "error": null,
+      "diff_pct": 0.0
     },
     {
       "talent_name": "גל כהן",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@galcohenyt",
-      "stored_followers": 88000,
-      "live_followers": 88200,
+      "stored_followers": 88200,
+      "live_followers": 88300,
       "error": null,
-      "diff_pct": 0.22727272727272727
+      "diff_pct": 0.11337868480725624
     },
     {
       "talent_name": "גל כהן",
@@ -876,9 +876,9 @@
       "platform": "youtube",
       "url": "https://www.youtube.com/rainbowqueen",
       "stored_followers": 210000,
-      "live_followers": null,
-      "error": "ERROR: UCsQcHhLqysgHCH5eix_csQg page 1: Unable to ",
-      "diff_pct": null
+      "live_followers": 210000,
+      "error": null,
+      "diff_pct": 0.0
     },
     {
       "talent_name": "מיטל ריינבו קווין",
@@ -911,10 +911,10 @@
       "talent_name": "ישראל גליצקי",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@israel_galitsky",
-      "stored_followers": 157800,
+      "stored_followers": 157900,
       "live_followers": 157900,
       "error": null,
-      "diff_pct": 0.06337135614702154
+      "diff_pct": 0.0
     },
     {
       "talent_name": "ישראל גליצקי",
@@ -930,9 +930,9 @@
       "platform": "youtube",
       "url": "https://www.youtube.com/@2BOF",
       "stored_followers": 179000,
-      "live_followers": null,
-      "error": "ERROR: UC8cEbBDnVF4MhAjKyDrrJ7Q page 5: Unable to ",
-      "diff_pct": null
+      "live_followers": 179000,
+      "error": null,
+      "diff_pct": 0.0
     },
     {
       "talent_name": "דוד ששון (2BOF)",
@@ -984,9 +984,9 @@
       "platform": "youtube",
       "url": "https://youtube.com/@cinnaminaa",
       "stored_followers": 31800,
-      "live_followers": null,
-      "error": "ERROR: UCPvVVcrTBxZHg68dLKVwaWA page 1: Unable to ",
-      "diff_pct": null
+      "live_followers": 31900,
+      "error": null,
+      "diff_pct": 0.3144654088050315
     },
     {
       "talent_name": "מינה (CinnaMinaa)",
@@ -1001,10 +1001,10 @@
       "talent_name": "מינה (CinnaMinaa)",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@mina_avrehanian",
-      "stored_followers": 69900,
+      "stored_followers": 70000,
       "live_followers": 70000,
       "error": null,
-      "diff_pct": 0.14306151645207438
+      "diff_pct": 0.0
     },
     {
       "talent_name": "סטינגר ישראל",
