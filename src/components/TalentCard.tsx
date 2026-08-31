@@ -66,7 +66,7 @@ const TalentCard = ({
           <img
             src={getImageUrl(talent.imageUrl)}
             alt={talent.name}
-            className={`w-full h-full object-cover object-center transition-all duration-500 group-hover:scale-105 ${
+            className={`w-full h-full object-cover object-top transition-all duration-500 group-hover:scale-105 ${
               isLoaded ? 'opacity-100' : 'opacity-0'
             }`}
             loading={priority ? 'eager' : 'lazy'}

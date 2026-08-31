@@ -178,7 +178,7 @@ const TalentPage = () => {
                   <img 
                     src={talent.imageUrl} 
                     alt={talent.name} 
-                    className="w-full aspect-square object-contain bg-gray-50 rounded-2xl cursor-pointer hover:opacity-95 transition-all duration-300"
+                    className="w-full aspect-[3/4] object-contain bg-gray-50 rounded-2xl cursor-pointer hover:opacity-95 transition-all duration-300"
                     loading="eager"
                     onClick={(e) => openImageModal(e)}
                   />
