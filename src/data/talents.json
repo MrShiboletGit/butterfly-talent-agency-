@@ -163,6 +163,36 @@
     "main": true
   },
   {
+    "id": "15",
+    "name": "עומר גולדן שואו (Golden Show)",
+    "category": "תוכן כללי ופופ קולטור",
+    "bio": "עומר יוצר תוכן כללי ומגוון, עם התמחות בעבר בגיימינג שגדלה לתחומי אקטואליה ופופ קולטור.",
+    "imageUrl": "/talents/yt/goldenshow.jpg",
+    "totalFollowers": 124827,
+    "platformFollowers": {
+      "youtube": 89100,
+      "tiktok": 27000,
+      "instagram": 8727
+    },
+    "audience": {
+      "age": "16-34",
+      "gender": "65% גברים, 35% נשים"
+    },
+    "socialMedia": {
+      "youtube": "https://www.youtube.com/@RealGoldenShow",
+      "tiktok": "https://www.tiktok.com/@realgoldengames",
+      "instagram": "https://www.instagram.com/realgoldenshow"
+    },
+    "previousCollaborations": [],
+    "strengths": [
+      "#GAMING",
+      "#POPCULTURE",
+      "#CURRENTAFFAIRS",
+      "#ENTERTAINMENT"
+    ],
+    "main": true
+  },
+  {
     "id": "10",
     "totalFollowers": 118000,
     "name": "סטינגר ישראל",
@@ -285,6 +315,34 @@
       "#GAMING",
       "#STREAMING",
       "#COMMUNITY"
+    ],
+    "main": true
+  },
+  {
+    "id": "16",
+    "name": "דניאל טימבלאסט (TeamBlast)",
+    "category": "גיימינג ומיינקראפט",
+    "bio": "יוצר תוכן גיימינג ומיינקראפט, מהוותיקים בישראל.",
+    "imageUrl": "/talents/yt/teamblast.jpg",
+    "totalFollowers": 104716,
+    "platformFollowers": {
+      "youtube": 102000,
+      "instagram": 2716
+    },
+    "audience": {
+      "age": "10-28",
+      "gender": "75% גברים, 25% נשים"
+    },
+    "socialMedia": {
+      "youtube": "https://www.youtube.com/@TeamBlast",
+      "tiktok": "https://www.tiktok.com/@teamblast",
+      "instagram": "https://www.instagram.com/daniel.teamblast"
+    },
+    "previousCollaborations": [],
+    "strengths": [
+      "#MINECRAFT",
+      "#GAMING",
+      "#LETSPLAY"
     ],
     "main": true
   },
