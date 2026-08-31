@@ -111,7 +111,7 @@ const AccessibilityWidget = () => {
       {/* Accessibility Toggle Button */}
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="fixed bottom-4 left-4 md:top-4 md:left-4 md:bottom-auto z-[9999] bg-blue-400 text-white p-4 rounded-full shadow-xl hover:bg-blue-500 transition-all duration-300 focus:outline-none focus:ring-4 focus:ring-blue-200 border-2 border-white"
+        className="fixed bottom-4 left-4 z-[9999] bg-blue-400 text-white p-4 rounded-full shadow-xl hover:bg-blue-500 transition-all duration-300 focus:outline-none focus:ring-4 focus:ring-blue-200 border-2 border-white"
         aria-label="פתח תפריט נגישות"
         aria-expanded={isOpen}
       >

@@ -56,7 +56,7 @@ const TalentPage = () => {
   const handleInterestClick = () => {
     navigate('/contact', {
       state: {
-        talent: talent.name,
+        talentName: talent.name,
         message: `אני מעוניין בשיתוף פעולה עם ${talent.name}`
       }
     });

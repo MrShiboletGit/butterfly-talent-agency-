@@ -1,5 +1,5 @@
 import { useParams, Link } from 'react-router-dom';
-import { ArrowLeft, Eye, Users, TrendingUp, Share2, Play, ExternalLink, Heart, MessageCircle, Clock } from 'lucide-react';
+import { ArrowRight, Eye, Users, TrendingUp, Share2, Play, ExternalLink, Heart, MessageCircle, Clock } from 'lucide-react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import ContentCarousel from '../components/ContentCarousel';
@@ -123,7 +123,7 @@ const CampaignPage = () => {
             to="/" 
             className="inline-flex items-center text-primary hover:text-primary/80 transition-colors"
           >
-            <ArrowLeft className="w-4 h-4 ml-2" />
+            <ArrowRight className="w-4 h-4 ml-2" />
             חזרה לדף הבית
           </Link>
         </div>

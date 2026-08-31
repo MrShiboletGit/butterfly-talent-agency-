@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
 
@@ -9,6 +9,22 @@ const Header = () => {
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
+
+  // Close on route change, so a back/forward navigation can't leave the menu open
+  // over the new page.
+  useEffect(() => {
+    setIsMenuOpen(false);
+  }, [location.pathname]);
+
+  // Escape closes the menu, the usual way out of an overlay.
+  useEffect(() => {
+    if (!isMenuOpen) return;
+    const onKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') setIsMenuOpen(false);
+    };
+    window.addEventListener('keydown', onKeyDown);
+    return () => window.removeEventListener('keydown', onKeyDown);
+  }, [isMenuOpen]);
 
   const isActive = (path: string) => {
     return location.pathname === path || location.pathname.startsWith(`${path}/`);
@@ -56,10 +72,12 @@ const Header = () => {
         </nav>
 
         {/* Mobile Menu Button */}
-        <button 
-          className="md:hidden text-foreground"
+        <button
+          className="md:hidden text-foreground p-2 -mr-2"
           onClick={toggleMenu}
           aria-label={isMenuOpen ? "סגור תפריט" : "פתח תפריט"}
+          aria-expanded={isMenuOpen}
+          aria-controls="mobile-nav"
         >
           {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
         </button>
@@ -67,7 +85,7 @@ const Header = () => {
 
       {/* Mobile Navigation */}
       {isMenuOpen && (
-        <div className="md:hidden absolute top-full right-0 left-0 bg-white shadow-md py-4 px-6 z-50">
+        <div id="mobile-nav" className="md:hidden absolute top-full right-0 left-0 bg-white shadow-md py-4 px-6 z-50">
           <nav className="flex flex-col gap-4">
             <Link 
               to="/" 

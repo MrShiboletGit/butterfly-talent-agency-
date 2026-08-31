@@ -37,6 +37,7 @@ const App = () => (
             דלג לתוכן הראשי
           </a>
           <AccessibilityWidget />
+          <div id="main-content" tabIndex={-1}>
           <Routes>
             <Route path="/" element={<Index />} />
             <Route path="/talents" element={<TalentsPage />} />
@@ -57,6 +58,7 @@ const App = () => (
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>
+          </div>
         </BrowserRouter>
       </TooltipProvider>
     </AuthProvider>

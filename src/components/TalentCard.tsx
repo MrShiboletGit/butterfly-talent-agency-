@@ -21,6 +21,8 @@ interface TalentCardProps {
   isHovered?: boolean;
   isImageLoaded?: boolean;
   onImageLoad?: () => void;
+  /** Cards visible on first paint load eagerly; the rest stay lazy. */
+  priority?: boolean;
 }
 
 const TalentCard = ({ 
@@ -29,7 +31,8 @@ const TalentCard = ({
   onMouseLeave, 
   isHovered = false,
   isImageLoaded = false,
-  onImageLoad
+  onImageLoad,
+  priority = false
 }: TalentCardProps) => {
   const [isLoaded, setIsLoaded] = useState(isImageLoaded);
 
@@ -66,7 +69,8 @@ const TalentCard = ({
             className={`w-full h-full object-cover object-center transition-all duration-500 group-hover:scale-105 ${
               isLoaded ? 'opacity-100' : 'opacity-0'
             }`}
-            loading="lazy"
+            loading={priority ? 'eager' : 'lazy'}
+            fetchPriority={priority ? 'high' : 'auto'}
             decoding="async"
             onLoad={handleImageLoad}
           />

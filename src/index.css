@@ -110,7 +110,8 @@
   .skip-link {
     position: absolute;
     top: -40px;
-    left: 6px;
+    /* Logical property so the link appears at the start edge, which is the right on this RTL site. */
+    inset-inline-start: 6px;
     background: #0066cc;
     color: white;
     padding: 8px;

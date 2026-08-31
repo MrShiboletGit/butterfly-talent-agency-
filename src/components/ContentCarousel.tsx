@@ -1,6 +1,12 @@
-import { useState, useEffect, useRef, useCallback } from 'react';
+import { useState, useEffect, useRef, useCallback, useMemo } from 'react';
 import { ChevronLeft, ChevronRight, Play, ExternalLink, Eye, Heart, MessageCircle, Share2, Bookmark } from 'lucide-react';
 import talentsData from '../data/talents.json';
+import {
+  usePrefersReducedMotion,
+  useDocumentHidden,
+  cardsPerView,
+  PER_VIEW_WIDTH,
+} from '../hooks/useCarouselMotion';
 
 interface ContentItem {
   url: string;
@@ -22,42 +28,65 @@ interface ContentCarouselProps {
 
 const ContentCarousel = ({ content }: ContentCarouselProps) => {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [isMobile, setIsMobile] = useState(false);
-  
+  const [isAutoPlaying, setIsAutoPlaying] = useState(true);
+  const [isPaused, setIsPaused] = useState(false);
+  // Seeded from the real width so mobile doesn't paint the desktop layout first.
+  const [viewportWidth, setViewportWidth] = useState(
+    () => (typeof window !== 'undefined' ? window.innerWidth : 1280),
+  );
+
+  const prefersReducedMotion = usePrefersReducedMotion();
+  const documentHidden = useDocumentHidden();
+
   // Drag state
   const [isDragging, setIsDragging] = useState(false);
   const [dragOffset, setDragOffset] = useState(0);
   const dragStartX = useRef(0);
+  const dragStartY = useRef(0);
+  const dragAxis = useRef<'undecided' | 'horizontal' | 'vertical'>('undecided');
+  const didDrag = useRef(false);
   const containerRef = useRef<HTMLDivElement>(null);
 
-  // Sort content by views in descending order
-  const sortedContent = [...content].sort((a, b) => (b.views || 0) - (a.views || 0));
+  const sortedContent = useMemo(
+    () => [...content].sort((a, b) => (b.views || 0) - (a.views || 0)),
+    [content],
+  );
 
-  // Check if mobile on mount and resize
   useEffect(() => {
-    const checkMobile = () => {
-      setIsMobile(window.innerWidth < 768);
+    let frame = 0;
+    const onResize = () => {
+      cancelAnimationFrame(frame);
+      frame = requestAnimationFrame(() => setViewportWidth(window.innerWidth));
     };
-    checkMobile();
-    window.addEventListener('resize', checkMobile);
-    return () => window.removeEventListener('resize', checkMobile);
+    window.addEventListener('resize', onResize);
+    return () => {
+      cancelAnimationFrame(frame);
+      window.removeEventListener('resize', onResize);
+    };
   }, []);
 
-  // Items per view based on screen size
-  const itemsPerView = isMobile ? 1 : 3;
+  const itemsPerView = cardsPerView(viewportWidth, 3);
+  const maxIndex = Math.max(0, sortedContent.length - itemsPerView);
 
-  // Auto-rotate every 20 seconds
+  // Keep the index in range when the card count changes.
   useEffect(() => {
-    if (isDragging) return;
-    
+    setCurrentIndex(prev => Math.min(prev, maxIndex));
+  }, [maxIndex]);
+
+  // These cards hold video embeds, so stop rotating once someone interacts, points
+  // at the strip, asks for reduced motion, or leaves the tab.
+  const autoPlayActive =
+    isAutoPlaying && !isDragging && !isPaused && !prefersReducedMotion && !documentHidden;
+
+  useEffect(() => {
+    if (!autoPlayActive || maxIndex === 0) return;
+
     const interval = setInterval(() => {
-      setCurrentIndex((prevIndex) => 
-        prevIndex + 1 >= sortedContent.length ? 0 : prevIndex + 1
-      );
+      setCurrentIndex(prevIndex => (prevIndex >= maxIndex ? 0 : prevIndex + 1));
     }, 20000);
 
     return () => clearInterval(interval);
-  }, [sortedContent.length, isDragging]);
+  }, [autoPlayActive, maxIndex]);
 
   const formatNumber = (num: number) => {
     if (num >= 1000000) {
@@ -165,75 +194,101 @@ const ContentCarousel = ({ content }: ContentCarouselProps) => {
     return null;
   };
 
+  // Bounded by maxIndex, not the item count: going past it scrolled the strip into
+  // empty space where the last cards had already run out.
   const nextSlide = useCallback(() => {
-    if (sortedContent.length <= itemsPerView) return;
-    setCurrentIndex((prevIndex) => 
-      prevIndex + 1 >= sortedContent.length ? 0 : prevIndex + 1
-    );
-  }, [sortedContent.length, itemsPerView]);
+    setIsAutoPlaying(false);
+    setCurrentIndex(prevIndex => (prevIndex >= maxIndex ? 0 : prevIndex + 1));
+  }, [maxIndex]);
 
   const prevSlide = useCallback(() => {
-    if (sortedContent.length <= itemsPerView) return;
-    setCurrentIndex((prevIndex) => 
-      prevIndex - 1 < 0 ? sortedContent.length - 1 : prevIndex - 1
-    );
-  }, [sortedContent.length, itemsPerView]);
+    setIsAutoPlaying(false);
+    setCurrentIndex(prevIndex => (prevIndex <= 0 ? maxIndex : prevIndex - 1));
+  }, [maxIndex]);
 
   // Drag handlers
-  const handleDragStart = useCallback((clientX: number) => {
+  const handleDragStart = useCallback((clientX: number, clientY: number) => {
     setIsDragging(true);
+    setIsAutoPlaying(false);
     dragStartX.current = clientX;
+    dragStartY.current = clientY;
+    dragAxis.current = 'undecided';
+    didDrag.current = false;
     setDragOffset(0);
   }, []);
 
-  const handleDragMove = useCallback((clientX: number) => {
-    if (!isDragging || !containerRef.current) return;
-    const diff = clientX - dragStartX.current;
-    setDragOffset(diff);
+  const handleDragMove = useCallback((clientX: number, clientY: number) => {
+    if (!isDragging) return;
+
+    const deltaX = clientX - dragStartX.current;
+    const deltaY = clientY - dragStartY.current;
+
+    // Decide the gesture's axis before moving anything, so a vertical page scroll
+    // that drifts sideways can't drag the carousel with it.
+    if (dragAxis.current === 'undecided') {
+      if (Math.abs(deltaX) < 8 && Math.abs(deltaY) < 8) return;
+      dragAxis.current = Math.abs(deltaX) > Math.abs(deltaY) ? 'horizontal' : 'vertical';
+    }
+
+    if (dragAxis.current === 'vertical') return;
+
+    didDrag.current = true;
+    setDragOffset(deltaX);
   }, [isDragging]);
 
   const handleDragEnd = useCallback(() => {
-    if (!isDragging || !containerRef.current) return;
-    
-    const containerWidth = containerRef.current.offsetWidth;
+    if (!isDragging) return;
+
+    const containerWidth = containerRef.current?.offsetWidth ?? 0;
     const threshold = containerWidth * 0.15;
-    
-    // RTL: swipe left = next, swipe right = prev
-    if (dragOffset > threshold) {
-      nextSlide();
-    } else if (dragOffset < -threshold) {
-      prevSlide();
+
+    // RTL: the strip follows the finger, so dragging right reveals later items.
+    if (dragAxis.current === 'horizontal') {
+      if (dragOffset > threshold) {
+        nextSlide();
+      } else if (dragOffset < -threshold) {
+        prevSlide();
+      }
     }
-    
+
     setIsDragging(false);
     setDragOffset(0);
   }, [isDragging, dragOffset, nextSlide, prevSlide]);
 
+  // Swallow the click that follows a drag so the card link doesn't fire.
+  const handleCardClickCapture = (e: React.MouseEvent) => {
+    if (didDrag.current) {
+      e.preventDefault();
+      e.stopPropagation();
+      didDrag.current = false;
+    }
+  };
+
+  // In RTL, ArrowLeft moves forward through the list.
+  const handleKeyDown = (e: React.KeyboardEvent) => {
+    if (e.key === 'ArrowLeft') {
+      e.preventDefault();
+      nextSlide();
+    } else if (e.key === 'ArrowRight') {
+      e.preventDefault();
+      prevSlide();
+    }
+  };
+
   // Mouse events
-  const handleMouseDown = (e: React.MouseEvent) => {
-    handleDragStart(e.clientX);
-  };
-
-  const handleMouseMove = (e: React.MouseEvent) => {
-    handleDragMove(e.clientX);
-  };
-
-  const handleMouseUp = () => {
-    handleDragEnd();
-  };
-
+  const handleMouseDown = (e: React.MouseEvent) => handleDragStart(e.clientX, e.clientY);
+  const handleMouseMove = (e: React.MouseEvent) => handleDragMove(e.clientX, e.clientY);
+  const handleMouseUp = () => handleDragEnd();
   const handleMouseLeave = () => {
+    setIsPaused(false);
     if (isDragging) handleDragEnd();
   };
 
   // Touch events
-  const handleTouchStart = (e: React.TouchEvent) => {
-    handleDragStart(e.touches[0].clientX);
-  };
-
-  const handleTouchMove = (e: React.TouchEvent) => {
-    handleDragMove(e.touches[0].clientX);
-  };
+  const handleTouchStart = (e: React.TouchEvent) =>
+    handleDragStart(e.touches[0].clientX, e.touches[0].clientY);
+  const handleTouchMove = (e: React.TouchEvent) =>
+    handleDragMove(e.touches[0].clientX, e.touches[0].clientY);
 
   const handleTouchEnd = () => {
     handleDragEnd();
@@ -249,22 +304,31 @@ const ContentCarousel = ({ content }: ContentCarouselProps) => {
   };
 
   return (
-    <div className="relative">
-      {/* Navigation Buttons - only show if more than itemsPerView items */}
-      {sortedContent.length > itemsPerView && (
+    <div
+      className="relative"
+      role="group"
+      aria-roledescription="קרוסלה"
+      aria-label="תוכן הקמפיין"
+      onKeyDown={handleKeyDown}
+      onMouseEnter={() => setIsPaused(true)}
+      onFocus={() => setIsPaused(true)}
+      onBlur={() => setIsPaused(false)}
+    >
+      {maxIndex > 0 && (
         <>
+          {/* RTL: forward is leftward, so "next" sits on the left. */}
           <button
-            onClick={prevSlide}
-            className="absolute left-4 top-1/2 transform -translate-y-1/2 z-10 bg-white/80 hover:bg-white text-gray-800 rounded-full p-2 shadow-lg transition-all duration-200"
-            aria-label="Previous content"
+            onClick={nextSlide}
+            className="absolute left-4 top-1/2 transform -translate-y-1/2 z-10 bg-white/80 hover:bg-white text-gray-800 rounded-full p-3 shadow-lg transition-all duration-200"
+            aria-label="הפריט הבא"
           >
             <ChevronLeft className="w-6 h-6" />
           </button>
-          
+
           <button
-            onClick={nextSlide}
-            className="absolute right-4 top-1/2 transform -translate-y-1/2 z-10 bg-white/80 hover:bg-white text-gray-800 rounded-full p-2 shadow-lg transition-all duration-200"
-            aria-label="Next content"
+            onClick={prevSlide}
+            className="absolute right-4 top-1/2 transform -translate-y-1/2 z-10 bg-white/80 hover:bg-white text-gray-800 rounded-full p-3 shadow-lg transition-all duration-200"
+            aria-label="הפריט הקודם"
           >
             <ChevronRight className="w-6 h-6" />
           </button>
@@ -275,6 +339,8 @@ const ContentCarousel = ({ content }: ContentCarouselProps) => {
       <div 
         ref={containerRef}
         className="overflow-hidden cursor-grab active:cursor-grabbing"
+        style={{ touchAction: 'pan-y' }}
+        onClickCapture={handleCardClickCapture}
         onMouseDown={handleMouseDown}
         onMouseMove={handleMouseMove}
         onMouseUp={handleMouseUp}
@@ -282,6 +348,7 @@ const ContentCarousel = ({ content }: ContentCarouselProps) => {
         onTouchStart={handleTouchStart}
         onTouchMove={handleTouchMove}
         onTouchEnd={handleTouchEnd}
+        onTouchCancel={handleTouchEnd}
       >
         <div 
           className={`flex ${isDragging ? '' : 'transition-transform duration-500 ease-out'}`}
@@ -292,8 +359,8 @@ const ContentCarousel = ({ content }: ContentCarouselProps) => {
         >
         {sortedContent.map((item, index) => (
           <div 
-            key={`${currentIndex}-${index}`} 
-            className={`${isMobile ? 'w-full' : 'w-1/3'} flex-shrink-0 px-3`}
+            key={item.url || index} 
+            className={`${PER_VIEW_WIDTH[itemsPerView]} flex-shrink-0 px-3`}
           >
           <div className="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-100">
             {/* Content Header */}
@@ -318,7 +385,7 @@ const ContentCarousel = ({ content }: ContentCarouselProps) => {
             </div>
 
                          {/* Content Preview */}
-             <div className="relative h-130">
+             <div className="relative h-[420px] sm:h-[520px]">
                {item.platform === 'youtube' ? (
                  <div className="relative w-full h-full">
                    <iframe
@@ -492,20 +559,26 @@ const ContentCarousel = ({ content }: ContentCarouselProps) => {
         </div>
       </div>
 
-      {/* Dots Indicator - only show if more than itemsPerView items */}
-      {sortedContent.length > itemsPerView && (
-        <div className="flex justify-center mt-8 space-x-2 space-x-reverse">
-          {sortedContent.map((_, index) => (
+      {/* One dot per reachable position, with a 24px hit area around a 12px dot. */}
+      {maxIndex > 0 && (
+        <div className="flex flex-wrap justify-center gap-y-1 mt-6">
+          {Array.from({ length: maxIndex + 1 }).map((_, index) => (
             <button
               key={index}
-              onClick={() => setCurrentIndex(index)}
-              className={`w-3 h-3 rounded-full transition-all duration-200 ${
-                currentIndex === index
-                  ? 'bg-primary' 
-                  : 'bg-gray-300 hover:bg-gray-400'
-              }`}
-              aria-label={`Go to content ${index + 1}`}
-            />
+              onClick={() => {
+                setIsAutoPlaying(false);
+                setCurrentIndex(index);
+              }}
+              className="w-6 h-6 flex items-center justify-center"
+              aria-label={`הצג תוכן מפריט ${index + 1}`}
+              aria-current={currentIndex === index}
+            >
+              <span
+                className={`block w-3 h-3 rounded-full transition-all duration-200 ${
+                  currentIndex === index ? 'bg-primary' : 'bg-gray-300 hover:bg-gray-400'
+                }`}
+              />
+            </button>
           ))}
         </div>
       )}

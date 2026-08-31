@@ -1,9 +1,10 @@
-import { useState, useEffect, useRef, useCallback } from 'react';
+import { useState, useEffect, useRef, useCallback, useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import { Eye, Users, TrendingUp, ChevronLeft, ChevronRight } from 'lucide-react';
 import campaignsData from '../data/campaigns.json';
 import clientsData from '../data/clients.json';
 import talentsData from '../data/talents.json';
+import { cardsPerView, PER_VIEW_WIDTH } from '../hooks/useCarouselMotion';
 
 interface Campaign {
   id: string;
@@ -38,46 +39,57 @@ interface Campaign {
 
 const CampaignsCarousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [isMobile, setIsMobile] = useState(false);
-  
+  // Seeded from the real width so mobile doesn't paint the desktop layout first.
+  const [viewportWidth, setViewportWidth] = useState(
+    () => (typeof window !== 'undefined' ? window.innerWidth : 1280),
+  );
+
   // Drag state
   const [isDragging, setIsDragging] = useState(false);
   const [dragOffset, setDragOffset] = useState(0);
   const dragStartX = useRef(0);
+  const dragStartY = useRef(0);
+  const dragAxis = useRef<'undecided' | 'horizontal' | 'vertical'>('undecided');
+  const didDrag = useRef(false);
   const containerRef = useRef<HTMLDivElement>(null);
 
-  // Check if mobile on mount and resize
   useEffect(() => {
-    const checkMobile = () => {
-      setIsMobile(window.innerWidth < 768);
+    let frame = 0;
+    const onResize = () => {
+      cancelAnimationFrame(frame);
+      frame = requestAnimationFrame(() => setViewportWidth(window.innerWidth));
     };
-    
-    checkMobile();
-    window.addEventListener('resize', checkMobile);
-    return () => window.removeEventListener('resize', checkMobile);
+    window.addEventListener('resize', onResize);
+    return () => {
+      cancelAnimationFrame(frame);
+      window.removeEventListener('resize', onResize);
+    };
   }, []);
 
-  // Process campaigns: sort by date and filter by most recent per client
-  const processedCampaigns = campaignsData
-    .sort((a, b) => new Date(b.startDate).getTime() - new Date(a.startDate).getTime())
-    .reduce((acc: Campaign[], campaign) => {
-      // Check if we already have a campaign from this client
-      const existingClientCampaign = acc.find(c => c.clientId === campaign.clientId);
-      if (!existingClientCampaign) {
-        acc.push(campaign);
-      }
-      return acc;
-    }, []);
+  // Most recent campaign per client. Copy before sorting: campaignsData is a shared
+  // module import, and sorting in place would reorder it for every other page.
+  const processedCampaigns = useMemo(
+    () =>
+      [...campaignsData]
+        .sort((a, b) => new Date(b.startDate).getTime() - new Date(a.startDate).getTime())
+        .reduce((acc: Campaign[], campaign) => {
+          const existingClientCampaign = acc.find(c => c.clientId === campaign.clientId);
+          if (!existingClientCampaign) {
+            acc.push(campaign);
+          }
+          return acc;
+        }, []),
+    [],
+  );
 
-  // Show 3 campaigns at a time on desktop, 1 on mobile
-  const campaignsPerView = isMobile ? 1 : 3;
+  const campaignsPerView = cardsPerView(viewportWidth, 3);
   const maxIndex = Math.max(0, processedCampaigns.length - campaignsPerView);
 
-  // Reset currentIndex when switching between mobile/desktop
+  // Keep the index in range when the card count changes.
   useEffect(() => {
-    setCurrentIndex(0);
-  }, [isMobile]);
-  
+    setCurrentIndex(prev => Math.min(prev, maxIndex));
+  }, [maxIndex]);
+
   const formatNumber = (num: number) => {
     if (num >= 1000000) {
       return (num / 1000000).toFixed(1) + 'M';
@@ -99,77 +111,99 @@ const CampaignsCarousel = () => {
     });
   };
 
+  // Bounded by maxIndex, not the campaign count: going past it scrolled the strip
+  // into empty space where the last cards had already run out.
   const nextSlide = useCallback(() => {
-    setCurrentIndex((prevIndex) => 
-      prevIndex + 1 >= processedCampaigns.length ? 0 : prevIndex + 1
-    );
-  }, [processedCampaigns.length]);
+    setCurrentIndex((prevIndex) => (prevIndex >= maxIndex ? 0 : prevIndex + 1));
+  }, [maxIndex]);
 
   const prevSlide = useCallback(() => {
-    setCurrentIndex((prevIndex) => 
-      prevIndex - 1 < 0 ? processedCampaigns.length - 1 : prevIndex - 1
-    );
-  }, [processedCampaigns.length]);
+    setCurrentIndex((prevIndex) => (prevIndex <= 0 ? maxIndex : prevIndex - 1));
+  }, [maxIndex]);
 
   // Drag handlers
-  const handleDragStart = useCallback((clientX: number) => {
+  const handleDragStart = useCallback((clientX: number, clientY: number) => {
     setIsDragging(true);
     dragStartX.current = clientX;
+    dragStartY.current = clientY;
+    dragAxis.current = 'undecided';
+    didDrag.current = false;
     setDragOffset(0);
   }, []);
 
-  const handleDragMove = useCallback((clientX: number) => {
-    if (!isDragging || !containerRef.current) return;
-    const diff = clientX - dragStartX.current;
-    setDragOffset(diff);
+  const handleDragMove = useCallback((clientX: number, clientY: number) => {
+    if (!isDragging) return;
+
+    const deltaX = clientX - dragStartX.current;
+    const deltaY = clientY - dragStartY.current;
+
+    // Decide the gesture's axis before moving anything, so a vertical page scroll
+    // that drifts sideways can't drag the carousel with it.
+    if (dragAxis.current === 'undecided') {
+      if (Math.abs(deltaX) < 8 && Math.abs(deltaY) < 8) return;
+      dragAxis.current = Math.abs(deltaX) > Math.abs(deltaY) ? 'horizontal' : 'vertical';
+    }
+
+    if (dragAxis.current === 'vertical') return;
+
+    didDrag.current = true;
+    setDragOffset(deltaX);
   }, [isDragging]);
 
   const handleDragEnd = useCallback(() => {
-    if (!isDragging || !containerRef.current) return;
-    
-    const containerWidth = containerRef.current.offsetWidth;
+    if (!isDragging) return;
+
+    const containerWidth = containerRef.current?.offsetWidth ?? 0;
     const threshold = containerWidth * 0.15;
-    
-    // RTL: swipe left = next, swipe right = prev
-    if (dragOffset > threshold) {
-      nextSlide();
-    } else if (dragOffset < -threshold) {
-      prevSlide();
+
+    // RTL: the strip follows the finger, so dragging right reveals later campaigns.
+    if (dragAxis.current === 'horizontal') {
+      if (dragOffset > threshold) {
+        nextSlide();
+      } else if (dragOffset < -threshold) {
+        prevSlide();
+      }
     }
-    
+
     setIsDragging(false);
     setDragOffset(0);
   }, [isDragging, dragOffset, nextSlide, prevSlide]);
 
+  // Swallow the click that follows a drag so the card link doesn't fire. Checking
+  // isDragging here would not work: mouseup clears it before the click arrives.
+  const handleCardClickCapture = (e: React.MouseEvent) => {
+    if (didDrag.current) {
+      e.preventDefault();
+      e.stopPropagation();
+      didDrag.current = false;
+    }
+  };
+
+  // In RTL, ArrowLeft moves forward through the list.
+  const handleKeyDown = (e: React.KeyboardEvent) => {
+    if (e.key === 'ArrowLeft') {
+      e.preventDefault();
+      nextSlide();
+    } else if (e.key === 'ArrowRight') {
+      e.preventDefault();
+      prevSlide();
+    }
+  };
+
   // Mouse events
-  const handleMouseDown = (e: React.MouseEvent) => {
-    handleDragStart(e.clientX);
-  };
-
-  const handleMouseMove = (e: React.MouseEvent) => {
-    handleDragMove(e.clientX);
-  };
-
-  const handleMouseUp = () => {
-    handleDragEnd();
-  };
-
+  const handleMouseDown = (e: React.MouseEvent) => handleDragStart(e.clientX, e.clientY);
+  const handleMouseMove = (e: React.MouseEvent) => handleDragMove(e.clientX, e.clientY);
+  const handleMouseUp = () => handleDragEnd();
   const handleMouseLeave = () => {
     if (isDragging) handleDragEnd();
   };
 
   // Touch events
-  const handleTouchStart = (e: React.TouchEvent) => {
-    handleDragStart(e.touches[0].clientX);
-  };
-
-  const handleTouchMove = (e: React.TouchEvent) => {
-    handleDragMove(e.touches[0].clientX);
-  };
-
-  const handleTouchEnd = () => {
-    handleDragEnd();
-  };
+  const handleTouchStart = (e: React.TouchEvent) =>
+    handleDragStart(e.touches[0].clientX, e.touches[0].clientY);
+  const handleTouchMove = (e: React.TouchEvent) =>
+    handleDragMove(e.touches[0].clientX, e.touches[0].clientY);
+  const handleTouchEnd = () => handleDragEnd();
 
   // Calculate transform with drag offset (RTL inverted)
   const getTransform = () => {
@@ -181,20 +215,26 @@ const CampaignsCarousel = () => {
   };
 
   return (
-    <div className="relative">
-      {/* Navigation Buttons */}
+    <div
+      className="relative"
+      role="group"
+      aria-roledescription="קרוסלה"
+      aria-label="הקמפיינים שלנו"
+      onKeyDown={handleKeyDown}
+    >
+      {/* RTL: forward is leftward, so "next" sits on the left. */}
       <button
-        onClick={prevSlide}
-        className="absolute left-4 top-1/2 transform -translate-y-1/2 z-10 bg-white/80 hover:bg-white text-gray-800 rounded-full p-2 shadow-lg transition-all duration-200"
-        aria-label="Previous campaigns"
+        onClick={nextSlide}
+        className="absolute left-4 top-1/2 transform -translate-y-1/2 z-10 bg-white/80 hover:bg-white text-gray-800 rounded-full p-3 shadow-lg transition-all duration-200"
+        aria-label="הקמפיין הבא"
       >
         <ChevronLeft className="w-6 h-6" />
       </button>
-      
+
       <button
-        onClick={nextSlide}
-        className="absolute right-4 top-1/2 transform -translate-y-1/2 z-10 bg-white/80 hover:bg-white text-gray-800 rounded-full p-2 shadow-lg transition-all duration-200"
-        aria-label="Next campaigns"
+        onClick={prevSlide}
+        className="absolute right-4 top-1/2 transform -translate-y-1/2 z-10 bg-white/80 hover:bg-white text-gray-800 rounded-full p-3 shadow-lg transition-all duration-200"
+        aria-label="הקמפיין הקודם"
       >
         <ChevronRight className="w-6 h-6" />
       </button>
@@ -203,6 +243,8 @@ const CampaignsCarousel = () => {
       <div 
         ref={containerRef}
         className="overflow-hidden cursor-grab active:cursor-grabbing"
+        style={{ touchAction: 'pan-y' }}
+        onClickCapture={handleCardClickCapture}
         onMouseDown={handleMouseDown}
         onMouseMove={handleMouseMove}
         onMouseUp={handleMouseUp}
@@ -210,6 +252,7 @@ const CampaignsCarousel = () => {
         onTouchStart={handleTouchStart}
         onTouchMove={handleTouchMove}
         onTouchEnd={handleTouchEnd}
+        onTouchCancel={handleTouchEnd}
       >
         <div 
           className={`flex ${isDragging ? '' : 'transition-transform duration-500 ease-out'}`}
@@ -221,12 +264,11 @@ const CampaignsCarousel = () => {
         {processedCampaigns.map((campaign: Campaign) => (
           <div 
             key={campaign.id} 
-            className={`${isMobile ? 'w-full' : 'w-1/3'} flex-shrink-0 px-4`}
+            className={`${PER_VIEW_WIDTH[campaignsPerView]} flex-shrink-0 px-4`}
           >
             <Link 
               to={`/campaign/${campaign.id}`}
               className="group bg-white rounded-lg shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden block"
-              onClick={(e) => isDragging && e.preventDefault()}
             >
                                <div className="relative overflow-hidden bg-gray-50">
                      <div className="w-full h-48 flex items-center justify-center p-8">
@@ -298,19 +340,22 @@ const CampaignsCarousel = () => {
         </div>
       </div>
 
-      {/* Dots Indicator */}
-      <div className="flex justify-center mt-8 space-x-2 space-x-reverse">
-        {processedCampaigns.map((_, index) => (
+      {/* One dot per reachable position, with a 24px hit area around a 12px dot. */}
+      <div className="flex flex-wrap justify-center gap-y-1 mt-6">
+        {Array.from({ length: maxIndex + 1 }).map((_, index) => (
           <button
             key={index}
             onClick={() => setCurrentIndex(index)}
-            className={`w-3 h-3 rounded-full transition-all duration-200 ${
-              index === currentIndex 
-                ? 'bg-primary' 
-                : 'bg-gray-300 hover:bg-gray-400'
-            }`}
-            aria-label={`Go to slide ${index + 1}`}
-          />
+            className="w-6 h-6 flex items-center justify-center"
+            aria-label={`הצג קמפיינים מפריט ${index + 1}`}
+            aria-current={index === currentIndex}
+          >
+            <span
+              className={`block w-3 h-3 rounded-full transition-all duration-200 ${
+                index === currentIndex ? 'bg-primary' : 'bg-gray-300 hover:bg-gray-400'
+              }`}
+            />
+          </button>
         ))}
       </div>
     </div>

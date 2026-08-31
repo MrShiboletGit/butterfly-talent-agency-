@@ -1,5 +1,5 @@
 import { useParams, Link } from 'react-router-dom';
-import { ArrowLeft, Eye, TrendingUp, ExternalLink } from 'lucide-react';
+import { ArrowRight, Eye, TrendingUp, ExternalLink } from 'lucide-react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import clientsData from '../data/clients.json';
@@ -77,7 +77,7 @@ const ClientPage = () => {
             to="/" 
             className="inline-flex items-center text-primary hover:text-primary/80 transition-colors"
           >
-            <ArrowLeft className="w-4 h-4 ml-2" />
+            <ArrowRight className="w-4 h-4 ml-2" />
             חזרה לדף הבית
           </Link>
         </div>
