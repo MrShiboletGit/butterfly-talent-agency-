@@ -255,6 +255,35 @@
     "main": true
   },
   {
+    "id": "16",
+    "name": "דניאל טימבלאסט (TeamBlast)",
+    "category": "גיימינג ומיינקראפט",
+    "bio": "יוצר תוכן גיימינג ומיינקראפט, מהוותיקים בישראל.",
+    "imageUrl": "/talents/yt/teamblast.jpg",
+    "totalFollowers": 110416,
+    "platformFollowers": {
+      "youtube": 102000,
+      "tiktok": 5700,
+      "instagram": 2716
+    },
+    "audience": {
+      "age": "10-28",
+      "gender": "75% גברים, 25% נשים"
+    },
+    "socialMedia": {
+      "youtube": "https://www.youtube.com/@TeamBlast",
+      "tiktok": "https://www.tiktok.com/@teamblast",
+      "instagram": "https://www.instagram.com/daniel.teamblast"
+    },
+    "previousCollaborations": [],
+    "strengths": [
+      "#MINECRAFT",
+      "#GAMING",
+      "#LETSPLAY"
+    ],
+    "main": true
+  },
+  {
     "id": "13",
     "name": "בלאקבירד (מוטי וקנין)",
     "category": "תעלומות ופשע אמיתי",
@@ -315,34 +344,6 @@
       "#GAMING",
       "#STREAMING",
       "#COMMUNITY"
-    ],
-    "main": true
-  },
-  {
-    "id": "16",
-    "name": "דניאל טימבלאסט (TeamBlast)",
-    "category": "גיימינג ומיינקראפט",
-    "bio": "יוצר תוכן גיימינג ומיינקראפט, מהוותיקים בישראל.",
-    "imageUrl": "/talents/yt/teamblast.jpg",
-    "totalFollowers": 104716,
-    "platformFollowers": {
-      "youtube": 102000,
-      "instagram": 2716
-    },
-    "audience": {
-      "age": "10-28",
-      "gender": "75% גברים, 25% נשים"
-    },
-    "socialMedia": {
-      "youtube": "https://www.youtube.com/@TeamBlast",
-      "tiktok": "https://www.tiktok.com/@teamblast",
-      "instagram": "https://www.instagram.com/daniel.teamblast"
-    },
-    "previousCollaborations": [],
-    "strengths": [
-      "#MINECRAFT",
-      "#GAMING",
-      "#LETSPLAY"
     ],
     "main": true
   },
