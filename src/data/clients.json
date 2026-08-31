@@ -12,7 +12,7 @@
   {
     "id": "paramount",
     "name": "Paramount(Ananey)",
-    "logoUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1e/Paramount_Global.svg/640px-Paramount_Global.svg.png"
+    "logoUrl": "/clients/paramount-ananey.png"
   },
   {
     "id": "google",
@@ -32,7 +32,7 @@
   {
     "id": "education-ministry",
     "name": "משרד החינוך",
-    "logoUrl": "https://upload.wikimedia.org/wikipedia/he/thumb/1/15/Ministry_of_Education.svg/195px-Ministry_of_Education.svg.png"
+    "logoUrl": "/clients/education-ministry.jpg"
   },
   {
     "id": "israel-post",
