@@ -16,7 +16,7 @@ interface Campaign {
   title: string;
   clientId: string;
   description: string;
-  imageUrl: string;
+  imageUrl?: string;
   category: string;
   kpis: {
     views: number;

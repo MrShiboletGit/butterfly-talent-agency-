@@ -29,6 +29,10 @@ interface ContentCarouselProps {
 const ContentCarousel = ({ content }: ContentCarouselProps) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isAutoPlaying, setIsAutoPlaying] = useState(true);
+  // Cross-origin iframes consume touch events, so on a phone a swipe that starts on
+  // an embed never reaches the carousel. Until an embed is tapped, a transparent
+  // cover sits over it: swipes bubble to the track, a tap hands over to the embed.
+  const [activatedEmbeds, setActivatedEmbeds] = useState<Set<string>>(new Set());
   const [isPaused, setIsPaused] = useState(false);
   // Seeded from the real width so mobile doesn't paint the desktop layout first.
   const [viewportWidth, setViewportWidth] = useState(
@@ -386,6 +390,18 @@ const ContentCarousel = ({ content }: ContentCarouselProps) => {
 
                          {/* Content Preview */}
              <div className="relative h-[420px] sm:h-[520px]">
+               {!activatedEmbeds.has(item.url) && (
+                 <button
+                   type="button"
+                   onClick={() => setActivatedEmbeds(prev => new Set(prev).add(item.url))}
+                   className="absolute inset-0 z-20 flex items-end justify-center md:hidden"
+                   aria-label="הפעלת התוכן"
+                 >
+                   <span className="mb-4 rounded-full bg-black/70 px-4 py-2 text-sm text-white">
+                     הקישו להפעלה
+                   </span>
+                 </button>
+               )}
                {item.platform === 'youtube' ? (
                  <div className="relative w-full h-full">
                    <iframe

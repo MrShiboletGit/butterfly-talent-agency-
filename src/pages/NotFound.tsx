@@ -1,5 +1,7 @@
-import { useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { useEffect } from "react";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 const NotFound = () => {
   const location = useLocation();
@@ -12,15 +14,37 @@ const NotFound = () => {
   }, [location.pathname]);
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">404</h1>
-        <p className="text-xl text-gray-600 mb-4">Oops! Page not found</p>
-        <a href="/" className="text-blue-500 hover:text-blue-700 underline">
-          Return to Home
-        </a>
-      </div>
-    </div>
+    <>
+      <Header />
+      <main className="min-h-[60vh] flex items-center justify-center bg-gray-50 py-20">
+        <div className="container mx-auto px-6 text-center">
+          <p className="text-6xl font-bold text-primary mb-4">404</p>
+          <h1 className="text-3xl font-bold text-gray-900 mb-4">הדף לא נמצא</h1>
+          <p className="text-lg text-gray-600 mb-8 max-w-xl mx-auto">
+            הקישור שהגעתם אליו שבור או שהדף הוסר. אפשר לחזור לדף הבית או לעבור לטאלנטים ולקמפיינים שלנו.
+          </p>
+          {/* Links, not <a href>, so we navigate in-app instead of reloading everything. */}
+          <div className="flex flex-wrap gap-4 justify-center">
+            <Link to="/" className="butterfly-button">
+              חזרה לדף הבית
+            </Link>
+            <Link
+              to="/talents"
+              className="px-6 py-3 rounded-lg border border-primary text-primary hover:bg-primary/5 transition-colors font-medium"
+            >
+              הטאלנטים שלנו
+            </Link>
+            <Link
+              to="/campaigns"
+              className="px-6 py-3 rounded-lg border border-primary text-primary hover:bg-primary/5 transition-colors font-medium"
+            >
+              הקמפיינים שלנו
+            </Link>
+          </div>
+        </div>
+      </main>
+      <Footer />
+    </>
   );
 };
 

@@ -1,6 +1,6 @@
 import { useParams, Link, useNavigate } from 'react-router-dom';
-import { Instagram, Facebook, Twitter, Youtube, ArrowRight, X, Star, Sparkles, Eye } from 'lucide-react';
-import { useState } from 'react';
+import { Instagram, Youtube, ArrowRight, X, Star, Sparkles, Eye } from 'lucide-react';
+import { useState, useEffect } from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import talentsData from '../data/talents.json';
@@ -19,6 +19,22 @@ const TalentPage = () => {
   const navigate = useNavigate();
   const talent = talentsData.find(t => t.id === id);
   const [isImageModalOpen, setIsImageModalOpen] = useState(false);
+
+  // Escape closes the lightbox, and the page behind it stops scrolling while open.
+  useEffect(() => {
+    if (!isImageModalOpen) return;
+    const onKeyDown = (event: KeyboardEvent) => {
+      if (event.key === 'Escape') setIsImageModalOpen(false);
+    };
+    window.addEventListener('keydown', onKeyDown);
+    const previousOverflow = document.body.style.overflow;
+    document.body.style.overflow = 'hidden';
+    return () => {
+      window.removeEventListener('keydown', onKeyDown);
+      document.body.style.overflow = previousOverflow;
+    };
+  }, [isImageModalOpen]);
+
   
   // Get campaigns this talent participated in
   const talentCampaigns = campaignsData.filter(campaign => campaign.talents && Array.isArray(campaign.talents) && campaign.talents.includes(id!));
@@ -148,15 +164,6 @@ const TalentPage = () => {
                           <span className="text-sm font-bold">{new Intl.NumberFormat('he-IL').format(talent.platformFollowers.tiktok)}</span>
                         </div>
                       )}
-                      {talent.platformFollowers.facebook && (
-                        <div className="flex items-center justify-between p-3 bg-blue-50 rounded-lg">
-                          <div className="flex items-center gap-2">
-                            <Facebook size={18} className="text-blue-500" />
-                            <span className="text-sm font-medium">Facebook</span>
-                          </div>
-                          <span className="text-sm font-bold">{new Intl.NumberFormat('he-IL').format(talent.platformFollowers.facebook)}</span>
-                        </div>
-                      )}
                     </div>
                   </div>
                 </div>
@@ -171,7 +178,7 @@ const TalentPage = () => {
                   <img 
                     src={talent.imageUrl} 
                     alt={talent.name} 
-                    className="w-full h-[600px] md:h-[700px] lg:h-[800px] xl:h-[900px] object-cover rounded-2xl cursor-pointer hover:opacity-95 transition-all duration-300"
+                    className="w-full aspect-square object-contain bg-gray-50 rounded-2xl cursor-pointer hover:opacity-95 transition-all duration-300"
                     loading="eager"
                     onClick={(e) => openImageModal(e)}
                   />
@@ -201,12 +208,6 @@ const TalentPage = () => {
                   <a href={talent.socialMedia.tiktok} target="_blank" rel="noopener noreferrer" 
                      className="p-4 bg-white rounded-full shadow-lg hover:shadow-xl hover:scale-110 transition-all duration-200">
                     <TikTokIcon size={24} />
-                  </a>
-                )}
-                {talent.socialMedia?.facebook && (
-                  <a href={talent.socialMedia.facebook} target="_blank" rel="noopener noreferrer" 
-                     className="p-4 bg-white rounded-full shadow-lg hover:shadow-xl hover:scale-110 transition-all duration-200">
-                    <Facebook size={24} className="text-blue-500" />
                   </a>
                 )}
               </div>
@@ -347,8 +348,11 @@ const TalentPage = () => {
 
         {/* Image Modal - Full Screen */}
         {isImageModalOpen && (
-          <div 
+          <div
             className="fixed inset-0 bg-black/90 flex items-center justify-center z-50 p-4"
+            role="dialog"
+            aria-modal="true"
+            aria-label={talent.name}
             onClick={(e) => closeImageModal(e)}
           >
             <div className="relative max-w-7xl max-h-full">
@@ -357,7 +361,7 @@ const TalentPage = () => {
                   e.stopPropagation();
                   closeImageModal();
                 }}
-                className="absolute -top-16 right-0 text-white hover:text-gray-300 transition-colors z-10 bg-black/50 rounded-full p-2"
+                className="fixed top-4 left-4 text-white hover:text-gray-300 transition-colors z-[60] bg-black/60 hover:bg-black/80 rounded-full p-3"
                 aria-label="סגור"
               >
                 <X size={32} />

@@ -1,14 +1,12 @@
 import { useState, useEffect } from 'react';
-import { Accessibility, Eye, EyeOff, Volume2, VolumeX, Type, Palette, RotateCcw, MousePointer, Keyboard } from 'lucide-react';
+import { Accessibility, Eye, EyeOff, Type, Palette, RotateCcw, MousePointer } from 'lucide-react';
 
 interface AccessibilitySettings {
   highContrast: boolean;
   largeText: boolean;
-  screenReader: boolean;
   reducedMotion: boolean;
   grayscale: boolean;
   focusIndicator: boolean;
-  keyboardNavigation: boolean;
   colorBlind: boolean;
 }
 
@@ -17,16 +15,11 @@ const AccessibilityWidget = () => {
   const [settings, setSettings] = useState<AccessibilitySettings>({
     highContrast: false,
     largeText: false,
-    screenReader: false,
     reducedMotion: false,
     grayscale: false,
     focusIndicator: true,
-    keyboardNavigation: true,
     colorBlind: false,
   });
-
-  // Debug log
-  console.log('AccessibilityWidget rendered');
 
   // Apply accessibility settings to the document
   useEffect(() => {
@@ -87,12 +80,10 @@ const AccessibilityWidget = () => {
     setSettings({
       highContrast: false,
       largeText: false,
-      screenReader: false,
-      reducedMotion: false,
+        reducedMotion: false,
       grayscale: false,
       focusIndicator: true,
-      keyboardNavigation: true,
-      colorBlind: false,
+        colorBlind: false,
     });
   };
 
@@ -183,46 +174,6 @@ const AccessibilityWidget = () => {
                   מחוון מיקוד
                 </span>
                 <span className="text-sm">{settings.focusIndicator ? 'פועל' : 'כבוי'}</span>
-              </button>
-
-              {/* Keyboard Navigation */}
-              <button
-                onClick={() => {
-                  toggleSetting('keyboardNavigation');
-                  announceToScreenReader(settings.keyboardNavigation ? 'ניווט מקלדת כובה' : 'ניווט מקלדת הופעל');
-                }}
-                className={`w-full flex items-center justify-between p-3 rounded-lg border transition-all ${
-                  settings.keyboardNavigation 
-                    ? 'bg-primary text-white border-primary' 
-                    : 'bg-gray-50 text-gray-700 border-gray-200 hover:bg-gray-100'
-                }`}
-                aria-pressed={settings.keyboardNavigation}
-              >
-                <span className="flex items-center gap-2">
-                  <Keyboard size={20} />
-                  ניווט מקלדת
-                </span>
-                <span className="text-sm">{settings.keyboardNavigation ? 'פועל' : 'כבוי'}</span>
-              </button>
-
-              {/* Screen Reader Announcements */}
-              <button
-                onClick={() => {
-                  toggleSetting('screenReader');
-                  announceToScreenReader(settings.screenReader ? 'הודעות קורא מסך כובות' : 'הודעות קורא מסך הופעלו');
-                }}
-                className={`w-full flex items-center justify-between p-3 rounded-lg border transition-all ${
-                  settings.screenReader 
-                    ? 'bg-primary text-white border-primary' 
-                    : 'bg-gray-50 text-gray-700 border-gray-200 hover:bg-gray-100'
-                }`}
-                aria-pressed={settings.screenReader}
-              >
-                <span className="flex items-center gap-2">
-                  {settings.screenReader ? <Volume2 size={20} /> : <VolumeX size={20} />}
-                  הודעות קורא מסך
-                </span>
-                <span className="text-sm">{settings.screenReader ? 'פועל' : 'כבוי'}</span>
               </button>
 
               {/* Reduced Motion */}

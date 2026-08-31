@@ -28,11 +28,11 @@ interface Campaign {
     type: string;
     description: string;
     platform: string;
-    views: number;
-    likes: number;
-    comments: number;
-    shares: number;
-    talent: string;
+    views?: number;
+    likes?: number;
+    comments?: number;
+    shares?: number;
+    talent?: string;
     saves?: number;
   }>;
 }
