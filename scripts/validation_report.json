@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T09:08:03.691175",
+  "generated_at": "2026-08-31T09:35:47.959220",
   "video_results": [
     {
       "url": "https://www.tiktok.com/@galcohenyt/video/7540251397405560084",
@@ -764,28 +764,28 @@
   ],
   "channel_results": [
     {
-      "talent_name": "מיכל מצוב",
+      "talent_name": "בן קיסר (Ben Keysar)",
       "platform": "youtube",
-      "url": "https://youtube.com/@michalmatzov",
-      "stored_followers": 458000,
-      "live_followers": 458000,
+      "url": "https://www.youtube.com/@BenKeysar",
+      "stored_followers": 480000,
+      "live_followers": 480000,
       "error": null,
       "diff_pct": 0.0
     },
     {
-      "talent_name": "מיכל מצוב",
+      "talent_name": "בן קיסר (Ben Keysar)",
       "platform": "tiktok",
-      "url": "https://www.tiktok.com/@michalmatzov",
-      "stored_followers": 366600,
-      "live_followers": 366600,
+      "url": "https://www.tiktok.com/@benkeysar",
+      "stored_followers": 200000,
+      "live_followers": 209200,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": 4.6
     },
     {
-      "talent_name": "מיכל מצוב",
+      "talent_name": "בן קיסר (Ben Keysar)",
       "platform": "instagram",
-      "url": "https://www.instagram.com/michal_matzov",
-      "stored_followers": 104000,
+      "url": "https://www.instagram.com/benkeysar",
+      "stored_followers": 171000,
       "live_followers": null,
       "error": "Profile followers require login",
       "diff_pct": null
@@ -818,60 +818,6 @@
       "diff_pct": null
     },
     {
-      "talent_name": "רועי (Roee Firewolf)",
-      "platform": "youtube",
-      "url": "https://youtube.com/@firewolff",
-      "stored_followers": 319000,
-      "live_followers": 319000,
-      "error": null,
-      "diff_pct": 0.0
-    },
-    {
-      "talent_name": "רועי (Roee Firewolf)",
-      "platform": "tiktok",
-      "url": "https://www.tiktok.com/@roeefirewolf",
-      "stored_followers": 64100,
-      "live_followers": 64100,
-      "error": null,
-      "diff_pct": 0.0
-    },
-    {
-      "talent_name": "רועי (Roee Firewolf)",
-      "platform": "instagram",
-      "url": "https://www.instagram.com/roeefirewolf",
-      "stored_followers": 25300,
-      "live_followers": null,
-      "error": "Profile followers require login",
-      "diff_pct": null
-    },
-    {
-      "talent_name": "גל כהן",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/@GalCohenOfficial",
-      "stored_followers": 325000,
-      "live_followers": 325000,
-      "error": null,
-      "diff_pct": 0.0
-    },
-    {
-      "talent_name": "גל כהן",
-      "platform": "tiktok",
-      "url": "https://www.tiktok.com/@galcohenyt",
-      "stored_followers": 88800,
-      "live_followers": 88800,
-      "error": null,
-      "diff_pct": 0.0
-    },
-    {
-      "talent_name": "גל כהן",
-      "platform": "instagram",
-      "url": "https://www.instagram.com/galcohenofficial",
-      "stored_followers": 20600,
-      "live_followers": null,
-      "error": "Profile followers require login",
-      "diff_pct": null
-    },
-    {
       "talent_name": "מיטל ריינבו קווין",
       "platform": "youtube",
       "url": "https://www.youtube.com/rainbowqueen",
@@ -894,33 +840,6 @@
       "platform": "instagram",
       "url": "https://www.instagram.com/rainbqueen/",
       "stored_followers": 16500,
-      "live_followers": null,
-      "error": "Profile followers require login",
-      "diff_pct": null
-    },
-    {
-      "talent_name": "ישראל גליצקי",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/@israelgalitsky",
-      "stored_followers": 6620,
-      "live_followers": 6620,
-      "error": null,
-      "diff_pct": 0.0
-    },
-    {
-      "talent_name": "ישראל גליצקי",
-      "platform": "tiktok",
-      "url": "https://www.tiktok.com/@israel_galitsky",
-      "stored_followers": 158600,
-      "live_followers": 158700,
-      "error": null,
-      "diff_pct": 0.06305170239596469
-    },
-    {
-      "talent_name": "ישראל גליצקי",
-      "platform": "instagram",
-      "url": "https://www.instagram.com/israel_galitsky",
-      "stored_followers": 16400,
       "live_followers": null,
       "error": "Profile followers require login",
       "diff_pct": null
@@ -953,58 +872,85 @@
       "diff_pct": null
     },
     {
-      "talent_name": "עומר ירון",
+      "talent_name": "בלאקבירד (מוטי וקנין)",
       "platform": "youtube",
-      "url": "https://youtube.com/@omer_yaron",
-      "stored_followers": 45300,
-      "live_followers": 45300,
+      "url": "https://www.youtube.com/@blackbeardplus",
+      "stored_followers": 88000,
+      "live_followers": 88000,
       "error": null,
       "diff_pct": 0.0
     },
     {
-      "talent_name": "עומר ירון",
+      "talent_name": "בלאקבירד (מוטי וקנין)",
       "platform": "tiktok",
-      "url": "https://www.tiktok.com/@omeryaron_",
-      "stored_followers": 55800,
-      "live_followers": 55800,
+      "url": "https://www.tiktok.com/@motiblackbeard",
+      "stored_followers": 87400,
+      "live_followers": 87300,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": -0.11441647597254005
     },
     {
-      "talent_name": "עומר ירון",
+      "talent_name": "בלאקבירד (מוטי וקנין)",
       "platform": "instagram",
-      "url": "https://www.instagram.com/omer.yaron",
-      "stored_followers": 12600,
+      "url": "https://www.instagram.com/motiblackbeard",
+      "stored_followers": 18871,
       "live_followers": null,
       "error": "Profile followers require login",
       "diff_pct": null
     },
     {
-      "talent_name": "מינה (CinnaMinaa)",
+      "talent_name": "בר אסטרי (Bar Astri)",
       "platform": "youtube",
-      "url": "https://youtube.com/@cinnaminaa",
-      "stored_followers": 32200,
-      "live_followers": 32300,
+      "url": "https://www.youtube.com/@BarAstri",
+      "stored_followers": 136000,
+      "live_followers": 136000,
       "error": null,
-      "diff_pct": 0.3105590062111801
+      "diff_pct": 0.0
     },
     {
-      "talent_name": "מינה (CinnaMinaa)",
+      "talent_name": "בר אסטרי (Bar Astri)",
+      "platform": "tiktok",
+      "url": "https://www.tiktok.com/@barastri",
+      "stored_followers": 40000,
+      "live_followers": 36200,
+      "error": null,
+      "diff_pct": -9.5
+    },
+    {
+      "talent_name": "בר אסטרי (Bar Astri)",
       "platform": "instagram",
-      "url": "https://www.instagram.com/cinnaminaa_",
-      "stored_followers": 4000,
+      "url": "https://www.instagram.com/barastri_",
+      "stored_followers": 5796,
       "live_followers": null,
       "error": "Profile followers require login",
       "diff_pct": null
     },
     {
-      "talent_name": "מינה (CinnaMinaa)",
-      "platform": "tiktok",
-      "url": "https://www.tiktok.com/@mina_avrehanian",
-      "stored_followers": 70200,
-      "live_followers": 70100,
+      "talent_name": "עומר גולדן שואו (Golden Show)",
+      "platform": "youtube",
+      "url": "https://www.youtube.com/@RealGoldenShow",
+      "stored_followers": 89100,
+      "live_followers": 89100,
       "error": null,
-      "diff_pct": -0.14245014245014245
+      "diff_pct": 0.0
+    },
+    {
+      "talent_name": "עומר גולדן שואו (Golden Show)",
+      "platform": "tiktok",
+      "url": "https://www.tiktok.com/@realgoldengames",
+      "stored_followers": 27000,
+      "live_followers": 29300,
+      "error": null,
+      "diff_pct": 8.518518518518519
+    },
+    {
+      "talent_name": "עומר גולדן שואו (Golden Show)",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/realgoldenshow",
+      "stored_followers": 8727,
+      "live_followers": null,
+      "error": "Profile followers require login",
+      "diff_pct": null
     },
     {
       "talent_name": "סטינגר ישראל",
@@ -1032,6 +978,195 @@
       "live_followers": 20600,
       "error": null,
       "diff_pct": 0.0
+    },
+    {
+      "talent_name": "עומר ירון",
+      "platform": "youtube",
+      "url": "https://youtube.com/@omer_yaron",
+      "stored_followers": 45300,
+      "live_followers": 45300,
+      "error": null,
+      "diff_pct": 0.0
+    },
+    {
+      "talent_name": "עומר ירון",
+      "platform": "tiktok",
+      "url": "https://www.tiktok.com/@omeryaron_",
+      "stored_followers": 55800,
+      "live_followers": 55800,
+      "error": null,
+      "diff_pct": 0.0
+    },
+    {
+      "talent_name": "עומר ירון",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/omer.yaron",
+      "stored_followers": 12600,
+      "live_followers": null,
+      "error": "Profile followers require login",
+      "diff_pct": null
+    },
+    {
+      "talent_name": "דניאל טימבלאסט (TeamBlast)",
+      "platform": "youtube",
+      "url": "https://www.youtube.com/@TeamBlast",
+      "stored_followers": 102000,
+      "live_followers": 102000,
+      "error": null,
+      "diff_pct": 0.0
+    },
+    {
+      "talent_name": "דניאל טימבלאסט (TeamBlast)",
+      "platform": "tiktok",
+      "url": "https://www.tiktok.com/@teamblast",
+      "stored_followers": 5700,
+      "live_followers": 5710,
+      "error": null,
+      "diff_pct": 0.17543859649122806
+    },
+    {
+      "talent_name": "דניאל טימבלאסט (TeamBlast)",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/daniel.teamblast",
+      "stored_followers": 2716,
+      "live_followers": null,
+      "error": "Profile followers require login",
+      "diff_pct": null
+    },
+    {
+      "talent_name": "מינה (CinnaMinaa)",
+      "platform": "youtube",
+      "url": "https://youtube.com/@cinnaminaa",
+      "stored_followers": 32300,
+      "live_followers": 32300,
+      "error": null,
+      "diff_pct": 0.0
+    },
+    {
+      "talent_name": "מינה (CinnaMinaa)",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/cinnaminaa_",
+      "stored_followers": 4000,
+      "live_followers": null,
+      "error": "Profile followers require login",
+      "diff_pct": null
+    },
+    {
+      "talent_name": "מינה (CinnaMinaa)",
+      "platform": "tiktok",
+      "url": "https://www.tiktok.com/@mina_avrehanian",
+      "stored_followers": 70100,
+      "live_followers": 70100,
+      "error": null,
+      "diff_pct": 0.0
+    },
+    {
+      "talent_name": "מיכל מצוב",
+      "platform": "youtube",
+      "url": "https://youtube.com/@michalmatzov",
+      "stored_followers": 458000,
+      "live_followers": 458000,
+      "error": null,
+      "diff_pct": 0.0
+    },
+    {
+      "talent_name": "מיכל מצוב",
+      "platform": "tiktok",
+      "url": "https://www.tiktok.com/@michalmatzov",
+      "stored_followers": 366600,
+      "live_followers": 366600,
+      "error": null,
+      "diff_pct": 0.0
+    },
+    {
+      "talent_name": "מיכל מצוב",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/michal_matzov",
+      "stored_followers": 104000,
+      "live_followers": null,
+      "error": "Profile followers require login",
+      "diff_pct": null
+    },
+    {
+      "talent_name": "גל כהן",
+      "platform": "youtube",
+      "url": "https://www.youtube.com/@GalCohenOfficial",
+      "stored_followers": 325000,
+      "live_followers": 325000,
+      "error": null,
+      "diff_pct": 0.0
+    },
+    {
+      "talent_name": "גל כהן",
+      "platform": "tiktok",
+      "url": "https://www.tiktok.com/@galcohenyt",
+      "stored_followers": 88800,
+      "live_followers": 88900,
+      "error": null,
+      "diff_pct": 0.11261261261261261
+    },
+    {
+      "talent_name": "גל כהן",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/galcohenofficial",
+      "stored_followers": 20600,
+      "live_followers": null,
+      "error": "Profile followers require login",
+      "diff_pct": null
+    },
+    {
+      "talent_name": "רועי (Roee Firewolf)",
+      "platform": "youtube",
+      "url": "https://youtube.com/@firewolff",
+      "stored_followers": 319000,
+      "live_followers": 319000,
+      "error": null,
+      "diff_pct": 0.0
+    },
+    {
+      "talent_name": "רועי (Roee Firewolf)",
+      "platform": "tiktok",
+      "url": "https://www.tiktok.com/@roeefirewolf",
+      "stored_followers": 64100,
+      "live_followers": 64100,
+      "error": null,
+      "diff_pct": 0.0
+    },
+    {
+      "talent_name": "רועי (Roee Firewolf)",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/roeefirewolf",
+      "stored_followers": 25300,
+      "live_followers": null,
+      "error": "Profile followers require login",
+      "diff_pct": null
+    },
+    {
+      "talent_name": "ישראל גליצקי",
+      "platform": "youtube",
+      "url": "https://www.youtube.com/@israelgalitsky",
+      "stored_followers": 6620,
+      "live_followers": 6620,
+      "error": null,
+      "diff_pct": 0.0
+    },
+    {
+      "talent_name": "ישראל גליצקי",
+      "platform": "tiktok",
+      "url": "https://www.tiktok.com/@israel_galitsky",
+      "stored_followers": 158700,
+      "live_followers": 158700,
+      "error": null,
+      "diff_pct": 0.0
+    },
+    {
+      "talent_name": "ישראל גליצקי",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/israel_galitsky",
+      "stored_followers": 16400,
+      "live_followers": null,
+      "error": "Profile followers require login",
+      "diff_pct": null
     }
   ]
 }
