@@ -2,28 +2,9 @@ import { Link } from 'react-router-dom';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import clientsData from '../data/clients.json';
-import campaignsData from '../data/campaigns.json';
 import { getImageUrl } from '../utils/imageUtils';
 
 const ClientsPage = () => {
-  const getClientCampaigns = (clientId: string) => {
-    return campaignsData.filter(campaign => campaign.clientId === clientId);
-  };
-
-  const getTotalViews = (clientId: string) => {
-    const clientCampaigns = getClientCampaigns(clientId);
-    return clientCampaigns.reduce((total, campaign) => total + campaign.kpis.views, 0);
-  };
-
-  const formatNumber = (num: number) => {
-    if (num >= 1000000) {
-      return (num / 1000000).toFixed(1) + 'M';
-    } else if (num >= 1000) {
-      return (num / 1000).toFixed(1) + 'K';
-    }
-    return num.toString();
-  };
-
   return (
     <>
       <Header />
@@ -47,11 +28,8 @@ const ClientsPage = () => {
           <div className="container mx-auto px-6">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {clientsData.map((client) => {
-                const clientCampaigns = getClientCampaigns(client.id);
-                const totalViews = getTotalViews(client.id);
-                
                 return (
-                  <Link 
+                  <Link
                     key={client.id} 
                     to={`/client/${client.id}`}
                     className="group bg-white rounded-lg shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden border border-gray-100"
@@ -68,13 +46,6 @@ const ClientsPage = () => {
                       <h3 className="text-xl font-bold text-gray-900 group-hover:text-primary transition-colors mb-4 text-center">
                         {client.name}
                       </h3>
-                      
-                      <div className="space-y-3">
-                        <div className="flex items-center justify-between text-sm text-gray-500">
-                          <span className="font-medium text-gray-700">סה"כ צפיות:</span>
-                          <span>{formatNumber(totalViews)}</span>
-                        </div>
-                      </div>
                       
                       <div className="mt-4 pt-4 border-t border-gray-100">
                         <div className="text-center">

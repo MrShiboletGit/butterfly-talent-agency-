@@ -1,10 +1,9 @@
 import { useParams, Link } from 'react-router-dom';
-import { ArrowLeft, Eye, Users, TrendingUp, ExternalLink } from 'lucide-react';
+import { ArrowLeft, Eye, TrendingUp, ExternalLink } from 'lucide-react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import clientsData from '../data/clients.json';
 import campaignsData from '../data/campaigns.json';
-import talentsData from '../data/talents.json';
 
 interface Client {
   id: string;
@@ -38,8 +37,6 @@ const ClientPage = () => {
   
   const client = clientsData.find(c => c.id === id) as Client;
   const clientCampaigns = campaignsData.filter(c => c.clientId === id);
-  const clientTalentIds = [...new Set(clientCampaigns.flatMap(c => c.talents))];
-  const clientTalents = talentsData.filter(t => clientTalentIds.includes(t.id));
 
   const formatNumber = (num: number) => {
     if (num >= 1000000) {
@@ -48,15 +45,6 @@ const ClientPage = () => {
       return (num / 1000).toFixed(1) + 'K';
     }
     return num.toString();
-  };
-
-  const getTotalViews = () => {
-    return clientCampaigns.reduce((total, campaign) => total + campaign.kpis.views, 0);
-  };
-
-  const getTotalTalents = () => {
-    const clientTalentIds = [...new Set(clientCampaigns.flatMap(c => c.talents))];
-    return clientTalentIds.length;
   };
 
   const getClientName = (clientId: string) => {
@@ -111,44 +99,6 @@ const ClientPage = () => {
               <p className="text-xl text-gray-600 max-w-2xl mx-auto">
                 לקוח מוביל שעובד איתנו על קמפיינים דיגיטליים מוצלחים
               </p>
-            </div>
-          </div>
-        </section>
-
-        {/* Stats Section */}
-        <section className="py-12 bg-white">
-          <div className="container mx-auto px-6">
-            <h2 className="text-3xl font-bold text-center mb-12">סטטיסטיקות כלליות</h2>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              <div className="text-center">
-                <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Eye className="w-8 h-8 text-primary" />
-                </div>
-                <div className="text-3xl font-bold text-gray-900 mb-2">
-                  {formatNumber(getTotalViews())}
-                </div>
-                <div className="text-gray-600">סה"כ צפיות</div>
-              </div>
-              
-                             <div className="text-center">
-                 <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                   <Users className="w-8 h-8 text-primary" />
-                 </div>
-                 <div className="text-3xl font-bold text-gray-900 mb-2">
-                   {getTotalTalents()}
-                 </div>
-                 <div className="text-gray-600">טאלנטים</div>
-               </div>
-              
-              <div className="text-center">
-                <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <TrendingUp className="w-8 h-8 text-primary" />
-                </div>
-                <div className="text-3xl font-bold text-gray-900 mb-2">
-                  {clientCampaigns.length}
-                </div>
-                <div className="text-gray-600">קמפיינים</div>
-              </div>
             </div>
           </div>
         </section>
@@ -213,60 +163,6 @@ const ClientPage = () => {
                           )}
                         </div>
                         <TrendingUp className="w-5 h-5 text-primary" />
-                      </div>
-                    </div>
-                  </div>
-                </Link>
-              ))}
-            </div>
-          </div>
-        </section>
-
-        {/* Talents Section */}
-        <section className="py-12 bg-white">
-          <div className="container mx-auto px-6">
-            <h2 className="text-3xl font-bold text-center mb-12">הטאלנטים שעבדו עם {client.name}</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {clientTalents.map((talent) => (
-                <Link 
-                  key={talent.id}
-                  to={`/talent/${talent.id}`}
-                  className="bg-gray-50 rounded-lg shadow-md hover:shadow-xl transition-shadow p-6 group"
-                >
-                  <div className="flex items-center mb-4">
-                    <img 
-                      src={talent.imageUrl} 
-                      alt={talent.name}
-                      className="w-16 h-16 rounded-full object-cover ml-4"
-                    />
-                    <div>
-                      <h3 className="text-xl font-bold text-gray-900 group-hover:text-primary transition-colors">
-                        {talent.name}
-                      </h3>
-                      <p className="text-gray-600">{talent.category}</p>
-                    </div>
-                  </div>
-                                     <div className="flex items-center justify-between text-sm text-gray-500">
-                     <span>{formatNumber(talent.totalFollowers)} עוקבים</span>
-                     <span>{talent.category}</span>
-                   </div>
-                  
-                  {/* Show campaigns this talent worked on with this client */}
-                  <div className="mt-4 pt-4 border-t border-gray-200">
-                    <div className="text-sm text-gray-600">
-                      <span className="font-medium">קמפיינים:</span>
-                      <div className="mt-2 space-y-1">
-                        {clientCampaigns
-                          .filter(campaign => campaign.talents.includes(talent.id))
-                          .map(campaign => (
-                            <Link 
-                              key={campaign.id}
-                              to={`/campaign/${campaign.id}`}
-                              className="block text-primary hover:underline text-xs"
-                            >
-                              {campaign.title}
-                            </Link>
-                          ))}
                       </div>
                     </div>
                   </div>
