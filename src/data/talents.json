@@ -134,6 +134,36 @@
     "main": true
   },
   {
+    "id": "13",
+    "name": "בלאקבירד (מוטי וקנין)",
+    "category": "תעלומות ופשע אמיתי",
+    "bio": "משפיען אפל של מסתורין. סיפורי פשע אמיתי, תעלומות בלתי פתורות, רוצחים סדרתיים, קונספירציות אפלות, ודברים מוזרים מהעולם שאנחנו חיים בו. בערוץ תמצאו תיעודים אמיתיים, מקרים מצמררים, סיפורים שאולי רצו שאנשים ישכחו...",
+    "imageUrl": "/talents/yt/blackbeard.jpg",
+    "totalFollowers": 194271,
+    "platformFollowers": {
+      "youtube": 88000,
+      "tiktok": 87400,
+      "instagram": 18871
+    },
+    "audience": {
+      "age": "18-45",
+      "gender": "55% נשים, 45% גברים"
+    },
+    "socialMedia": {
+      "youtube": "https://www.youtube.com/@blackbeardplus",
+      "tiktok": "https://www.tiktok.com/@motiblackbeard",
+      "instagram": "https://www.instagram.com/motiblackbeard"
+    },
+    "previousCollaborations": [],
+    "strengths": [
+      "#TRUECRIME",
+      "#MYSTERY",
+      "#DOCUMENTARY",
+      "#CONSPIRACY"
+    ],
+    "main": true
+  },
+  {
     "id": "14",
     "name": "בר אסטרי (Bar Astri)",
     "category": "גיימינג ותוכן כללי",
@@ -280,35 +310,6 @@
       "#MINECRAFT",
       "#GAMING",
       "#LETSPLAY"
-    ],
-    "main": true
-  },
-  {
-    "id": "13",
-    "name": "בלאקבירד (מוטי וקנין)",
-    "category": "תעלומות ופשע אמיתי",
-    "bio": "משפיען אפל של מסתורין. סיפורי פשע אמיתי, תעלומות בלתי פתורות, רוצחים סדרתיים, קונספירציות אפלות, ודברים מוזרים מהעולם שאנחנו חיים בו. בערוץ תמצאו תיעודים אמיתיים, מקרים מצמררים, סיפורים שאולי רצו שאנשים ישכחו...",
-    "imageUrl": "/talents/yt/blackbeard.jpg",
-    "totalFollowers": 106871,
-    "platformFollowers": {
-      "youtube": 88000,
-      "instagram": 18871
-    },
-    "audience": {
-      "age": "18-45",
-      "gender": "55% נשים, 45% גברים"
-    },
-    "socialMedia": {
-      "youtube": "https://www.youtube.com/@blackbeardplus",
-      "tiktok": "https://www.tiktok.com/@motiblackbeard",
-      "instagram": "https://www.instagram.com/motiblackbeard"
-    },
-    "previousCollaborations": [],
-    "strengths": [
-      "#TRUECRIME",
-      "#MYSTERY",
-      "#DOCUMENTARY",
-      "#CONSPIRACY"
     ],
     "main": true
   },
