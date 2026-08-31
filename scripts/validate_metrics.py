@@ -109,11 +109,36 @@ class YouTubeScraper:
         except Exception as e:
             return {'error': str(e)[:50]}
     
+    @staticmethod
+    def _expected_identity(url: str) -> tuple:
+        """Identify which channel a URL is *supposed* to resolve to.
+
+        Returns ('handle', 'benkeysar') / ('channel_id', 'UC...') / (None, None).
+        Bare vanity URLs (youtube.com/rainbowqueen) carry no verifiable
+        identity, so they return (None, None) and skip the check.
+        """
+        match = re.search(r'youtube\.com/@([A-Za-z0-9._-]+)', url)
+        if match:
+            return ('handle', match.group(1).lower())
+
+        match = re.search(r'youtube\.com/channel/(UC[\w-]+)', url)
+        if match:
+            return ('channel_id', match.group(1))
+
+        return (None, None)
+
     def get_channel_subscribers(self, url: str) -> dict:
-        """Get channel subscriber count using yt-dlp"""
+        """Get channel subscriber count using yt-dlp.
+
+        Creators often run several channels (e.g. @BenKeysar vs @TechKeysar).
+        We verify the channel yt-dlp resolved is the one the URL asked for, so a
+        redirect or edited URL can never silently write another channel's count
+        over a correct one. On mismatch we return an error, which makes
+        update_metrics.py skip the talent and keep the stored value.
+        """
         if yt_dlp is None:
             return {'error': 'yt-dlp not installed'}
-        
+
         try:
             ydl_opts = {
                 'quiet': True,
@@ -121,19 +146,29 @@ class YouTubeScraper:
                 'extract_flat': True,  # Don't download videos, just get channel info
                 'skip_download': True,
             }
-            
+
             with yt_dlp.YoutubeDL(ydl_opts) as ydl:
                 info = ydl.extract_info(url, download=False)
-                
+
+                kind, expected = self._expected_identity(url)
+                if kind == 'handle':
+                    actual = (info.get('uploader_id') or '').lstrip('@').lower()
+                    if actual and actual != expected:
+                        return {'error': f'channel mismatch: want @{expected}, got @{actual}'}
+                elif kind == 'channel_id':
+                    actual = info.get('channel_id') or ''
+                    if actual and actual != expected:
+                        return {'error': f'channel mismatch: want {expected}, got {actual}'}
+
                 subscriber_count = info.get('channel_follower_count')
                 if subscriber_count:
                     return {
                         'subscribers': subscriber_count,
                         'channel_name': info.get('channel') or info.get('uploader'),
                     }
-                
+
                 return {'error': 'No subscriber count found'}
-                
+
         except Exception as e:
             return {'error': str(e)[:50]}
 

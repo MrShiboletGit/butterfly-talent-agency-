@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Eye, Users, Calendar, TrendingUp } from 'lucide-react';
+import { Eye, Users, TrendingUp } from 'lucide-react';
 import campaignsData from '../data/campaigns.json';
 import clientsData from '../data/clients.json';
 import talentsData from '../data/talents.json';
@@ -99,18 +99,6 @@ const CampaignsSection = () => {
                 <Eye className="w-4 h-4 ml-2" />
                 <span className="font-medium text-gray-700">צפיות:</span>
                 <span className="mr-2">{formatNumber(campaign.kpis.views)}</span>
-              </div>
-              
-              {/* Date */}
-              <div className="flex items-center text-sm text-gray-500">
-                <Calendar className="w-4 h-4 ml-2" />
-                <span className="font-medium text-gray-700">תאריך:</span>
-                <span className="mr-2">
-                  {new Date(campaign.startDate).toLocaleDateString('he-IL', { 
-                    year: 'numeric', 
-                    month: 'short' 
-                  })}
-                </span>
               </div>
             </div>
             

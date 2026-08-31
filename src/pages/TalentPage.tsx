@@ -1,5 +1,5 @@
 import { useParams, Link, useNavigate } from 'react-router-dom';
-import { Instagram, Facebook, Twitter, Youtube, ArrowRight, X, Star, Sparkles, Eye, Calendar } from 'lucide-react';
+import { Instagram, Facebook, Twitter, Youtube, ArrowRight, X, Star, Sparkles, Eye } from 'lucide-react';
 import { useState } from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
@@ -335,18 +335,6 @@ const TalentPage = () => {
                           <Eye className="w-4 h-4 ml-2" />
                           <span className="font-medium text-gray-700">צפיות:</span>
                           <span className="mr-2">{formatNumber(campaign.kpis.views)}</span>
-                        </div>
-                        
-                        {/* Date */}
-                        <div className="flex items-center text-sm text-gray-500">
-                          <Calendar className="w-4 h-4 ml-2" />
-                          <span className="font-medium text-gray-700">תאריך:</span>
-                          <span className="mr-2">
-                            {new Date(campaign.startDate).toLocaleDateString('he-IL', { 
-                              year: 'numeric', 
-                              month: 'short' 
-                            })}
-                          </span>
                         </div>
                       </div>
                     </div>

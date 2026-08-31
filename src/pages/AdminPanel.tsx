@@ -605,8 +605,14 @@ function CampaignForm({ token, clients, talents, onSuccess }: {
     setIsSubmitting(true);
 
     const hasDetails = formData.details?.objective?.trim() || formData.details?.strategy?.trim() || formData.details?.results?.trim();
+    // Dates are never displayed on the site — they only order campaigns.
+    // Default to today so nobody has to maintain them.
+    const today = new Date().toISOString().slice(0, 10);
+    const orderDate = formData.startDate || today;
     const campaignData: NewCampaign = {
       ...formData,
+      startDate: orderDate,
+      endDate: formData.endDate || orderDate,
       talents: selectedTalents,
       platforms: selectedPlatforms,
       content: contentItems,
@@ -707,25 +713,29 @@ function CampaignForm({ token, clients, talents, onSuccess }: {
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <div className="space-y-2">
-          <Label htmlFor="startDate">Start Date *</Label>
+          <Label htmlFor="startDate">Sort Date</Label>
           <Input
             id="startDate"
             type="date"
             value={formData.startDate}
             onChange={(e) => setFormData({ ...formData, startDate: e.target.value })}
-            required
           />
+          <p className="text-xs text-muted-foreground">
+            Optional. Not shown on the site — only controls campaign ordering. Defaults to today.
+          </p>
         </div>
-        
+
         <div className="space-y-2">
-          <Label htmlFor="endDate">End Date *</Label>
+          <Label htmlFor="endDate">End Date</Label>
           <Input
             id="endDate"
             type="date"
             value={formData.endDate}
             onChange={(e) => setFormData({ ...formData, endDate: e.target.value })}
-            required
           />
+          <p className="text-xs text-muted-foreground">
+            Optional. Not shown on the site.
+          </p>
         </div>
       </div>
 

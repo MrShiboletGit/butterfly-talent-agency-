@@ -27,7 +27,9 @@ const TalentCarousel = () => {
     return () => window.removeEventListener('resize', checkMobile);
   }, []);
 
-  const mainTalents = talentsData.filter(talent => talent.main);
+  const mainTalents = talentsData
+    .filter(talent => talent.main)
+    .sort((a, b) => b.totalFollowers - a.totalFollowers);
 
   const talentsPerView = isMobile ? 1 : 4;
   const maxIndex = Math.max(0, mainTalents.length - talentsPerView);

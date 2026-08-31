@@ -60,10 +60,10 @@ const TalentCard = ({
               <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-primary"></div>
             </div>
           )}
-          <img 
-            src={getImageUrl(talent.imageUrl)} 
-            alt={talent.name} 
-            className={`w-full h-full object-cover transition-all duration-500 group-hover:scale-105 ${
+          <img
+            src={getImageUrl(talent.imageUrl)}
+            alt={talent.name}
+            className={`w-full h-full object-cover object-center transition-all duration-500 group-hover:scale-105 ${
               isLoaded ? 'opacity-100' : 'opacity-0'
             }`}
             loading="lazy"

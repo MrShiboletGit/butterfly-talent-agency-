@@ -9,7 +9,9 @@ const TalentsPage = () => {
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
 
-  const mainTalents = talentsData.filter(talent => talent.main);
+  const mainTalents = talentsData
+    .filter(talent => talent.main)
+    .sort((a, b) => b.totalFollowers - a.totalFollowers);
 
   const categories = Array.from(new Set(mainTalents.map(talent => talent.category)));
 
@@ -64,10 +66,12 @@ const TalentsPage = () => {
               >
                 <div className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-all duration-300">
                   <div className="aspect-[3/4] overflow-hidden relative">
-                    <img 
-                      src={talent.imageUrl} 
-                      alt={talent.name} 
-                      className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                    <img
+                      src={talent.imageUrl}
+                      alt={talent.name}
+                      className="w-full h-full object-cover object-center transition-transform duration-500 group-hover:scale-105"
+                      loading="lazy"
+                      decoding="async"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
                       <span className="text-white font-medium">צפה בפרופיל</span>

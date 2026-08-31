@@ -72,22 +72,20 @@ function validateCampaign(campaign: unknown): { valid: boolean; error?: string; 
     return { valid: false, error: 'Category is required' };
   }
   
-  // Validate dates
-  if (!c.startDate || typeof c.startDate !== 'string') {
-    return { valid: false, error: 'Start date is required' };
-  }
-  if (!c.endDate || typeof c.endDate !== 'string') {
-    return { valid: false, error: 'End date is required' };
-  }
-  
-  // Validate date format (YYYY-MM-DD)
+  // Dates are optional: they are never displayed on the site and only serve
+  // as the ordering index. Default to today when omitted.
   const dateRegex = /^\d{4}-\d{2}-\d{2}$/;
-  if (!dateRegex.test(c.startDate as string)) {
+  const today = new Date().toISOString().slice(0, 10);
+
+  if (c.startDate !== undefined && c.startDate !== '' && (typeof c.startDate !== 'string' || !dateRegex.test(c.startDate))) {
     return { valid: false, error: 'Start date must be in YYYY-MM-DD format' };
   }
-  if (!dateRegex.test(c.endDate as string)) {
+  if (c.endDate !== undefined && c.endDate !== '' && (typeof c.endDate !== 'string' || !dateRegex.test(c.endDate))) {
     return { valid: false, error: 'End date must be in YYYY-MM-DD format' };
   }
+
+  const startDate = (c.startDate as string) || today;
+  const endDate = (c.endDate as string) || startDate;
   
   // Validate talents array
   if (!c.talents || !Array.isArray(c.talents) || c.talents.length === 0) {
@@ -177,8 +175,8 @@ function validateCampaign(campaign: unknown): { valid: boolean; error?: string; 
       category: c.category as string,
       talents,
       platforms,
-      startDate: c.startDate as string,
-      endDate: c.endDate as string,
+      startDate,
+      endDate,
       content: validatedContent,
       ...(parsedDetails ? { details: parsedDetails } : {})
     }

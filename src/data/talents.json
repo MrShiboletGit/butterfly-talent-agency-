@@ -1,5 +1,293 @@
 [
   {
+    "id": "12",
+    "name": "בן קיסר (Ben Keysar)",
+    "category": "טכנולוגיה וגאדג'טים",
+    "bio": "יוצר תוכן טכנולוגיה מוביל, מוכר גם בכינוי \"טק קיסר\", עם מעל 480 אלף עוקבים ביוטיוב. מתמחה בסקירות גאדג'טים, טכנולוגיה, בינה מלאכותית וטיפים לצרכנים.",
+    "imageUrl": "/talents/yt/benkeysar.jpg",
+    "totalFollowers": 851000,
+    "platformFollowers": {
+      "youtube": 480000,
+      "tiktok": 200000,
+      "instagram": 171000
+    },
+    "audience": {
+      "age": "14-34",
+      "gender": "70% גברים, 30% נשים"
+    },
+    "socialMedia": {
+      "youtube": "https://www.youtube.com/@BenKeysar",
+      "tiktok": "https://www.tiktok.com/@benkeysar",
+      "instagram": "https://www.instagram.com/benkeysar"
+    },
+    "previousCollaborations": [],
+    "strengths": [
+      "#TECHNOLOGY",
+      "#GADGETS",
+      "#AI",
+      "#REVIEWS"
+    ],
+    "main": true
+  },
+  {
+    "id": "2",
+    "name": "מר שיבולת (שי בן בסט)",
+    "category": "גיימינג וטכנולוגיה",
+    "bio": "גיימר וכוכב יוטיוב מוביל, AI-מומחה ומרצה בתחום ההייטק עם תשוקה למשחקי מחשב, הומור, טכנולוגיה וחדשנות.",
+    "imageUrl": "/talents/yt/shibolet.jpg",
+    "totalFollowers": 441900,
+    "platformFollowers": {
+      "youtube": 279000,
+      "tiktok": 115900,
+      "instagram": 47000
+    },
+    "audience": {
+      "age": "12-28",
+      "gender": "70% גברים, 30% נשים"
+    },
+    "socialMedia": {
+      "youtube": "https://www.youtube.com/@SHIB",
+      "tiktok": "https://www.tiktok.com/@mrshibolet",
+      "instagram": "https://www.instagram.com/mrshibolet/"
+    },
+    "previousCollaborations": [
+      "נינטנדו",
+      "פלייסטיישן",
+      "רייזר",
+      "לוגיטק"
+    ],
+    "strengths": [
+      "#GAMING",
+      "#LECTURES",
+      "#TECHNOLOGY",
+      "#GAME STREAMING",
+      "#INNOVATION"
+    ],
+    "main": true
+  },
+  {
+    "id": "5",
+    "name": "מיטל ריינבו קווין",
+    "category": "גיימינג ולייפסטייל",
+    "bio": "הגיימרית המובילה בישראל עם מעל 200K עוקבים ביוטיוב, יוצרת תוכן אישי, גיימינג וחינוכי.",
+    "imageUrl": "/talents/yt/rainbowqueen.jpg",
+    "totalFollowers": 269500,
+    "platformFollowers": {
+      "youtube": 210000,
+      "instagram": 16500,
+      "tiktok": 43000
+    },
+    "audience": {
+      "age": "12-28",
+      "gender": "60% נשים, 40% גברים"
+    },
+    "socialMedia": {
+      "youtube": "https://www.youtube.com/rainbowqueen",
+      "tiktok": "https://www.tiktok.com/@rainbqueen",
+      "instagram": "https://www.instagram.com/rainbqueen/"
+    },
+    "previousCollaborations": [
+      "נינטנדו",
+      "פלייסטיישן",
+      "רייזר",
+      "לוגיטק"
+    ],
+    "strengths": [
+      "#GAMING"
+    ],
+    "main": true
+  },
+  {
+    "id": "7",
+    "name": "דוד ששון (2BOF)",
+    "category": "גיימינג ומיינקראפט",
+    "bio": "יוצר תוכן גיימינג ותיק, מוכר בעיקר מתוכן מיינקראפט, פעיל מעל 13 שנה.",
+    "imageUrl": "/talents/yt/2bof.jpg",
+    "totalFollowers": 205000,
+    "platformFollowers": {
+      "youtube": 179000,
+      "tiktok": 20300,
+      "instagram": 5700
+    },
+    "audience": {
+      "age": "12-32",
+      "gender": "70% גברים, 30% נשים"
+    },
+    "socialMedia": {
+      "youtube": "https://www.youtube.com/@2BOF",
+      "tiktok": "https://tiktok.com/@david_2bof",
+      "instagram": "https://www.instagram.com/david_2bof/"
+    },
+    "previousCollaborations": [
+      "Minecraft",
+      "Mojang",
+      "Microsoft Gaming",
+      "Roblox"
+    ],
+    "strengths": [
+      "#MINECRAFT",
+      "#GAMING",
+      "#TUTORIALS",
+      "#BUILDING"
+    ],
+    "main": true
+  },
+  {
+    "id": "14",
+    "name": "בר אסטרי (Bar Astri)",
+    "category": "גיימינג ותוכן כללי",
+    "bio": "יוצר תוכן גיימינג וכללי, מתמחה בסרטונים קצרים.",
+    "imageUrl": "/talents/ig/barastri.jpg",
+    "totalFollowers": 181796,
+    "platformFollowers": {
+      "youtube": 136000,
+      "tiktok": 40000,
+      "instagram": 5796
+    },
+    "audience": {
+      "age": "13-28",
+      "gender": "70% גברים, 30% נשים"
+    },
+    "socialMedia": {
+      "youtube": "https://www.youtube.com/@BarAstri",
+      "tiktok": "https://www.tiktok.com/@barastri",
+      "instagram": "https://www.instagram.com/barastri_"
+    },
+    "previousCollaborations": [],
+    "strengths": [
+      "#GAMING",
+      "#SHORTS",
+      "#ENTERTAINMENT"
+    ],
+    "main": true
+  },
+  {
+    "id": "10",
+    "totalFollowers": 118000,
+    "name": "סטינגר ישראל",
+    "category": "גיימינג",
+    "bio": "סטינגר ישראל הוא יוצר תוכן וגיימר בולט בזירת הגיימינג הישראלית, המוכר בזכות אנרגיה גבוהה, קצב מהיר וחיבור אותנטי לקהילה הצעירה.\nהתוכן שלו משלב גיימפליי תחרותי, אתגרים, ריאקשנים ושיתופי פעולה – עם דגש על הומור חד ועריכה דינמית שמחזיקה את הצופה מהשנייה הראשונה.",
+    "imageUrl": "/talents/yt/stinger.jpg",
+    "main": true,
+    "platformFollowers": {
+      "youtube": 94600,
+      "instagram": 2800,
+      "tiktok": 20600
+    },
+    "audience": {
+      "age": "12-28",
+      "gender": "20% נשים 80% גברים"
+    },
+    "socialMedia": {
+      "youtube": "https://www.youtube.com/stingerisrael",
+      "instagram": "https://www.instagram.com/stingerisrael",
+      "tiktok": "https://www.tiktok.com/@stingeril"
+    },
+    "previousCollaborations": [],
+    "strengths": []
+  },
+  {
+    "id": "8",
+    "name": "עומר ירון",
+    "category": "מדע וטכנולוגיה",
+    "bio": "עומר בן 22, יוצר כריזמטי בתחום המדע והטכנולוגיה, רקע בצילום ובימוי, לשעבר ביחידת הסרטה בצה\"ל, יוצר תוכן ויראלי בעברית ואנגלית.",
+    "imageUrl": "/talents/yt/omeryaron.jpg",
+    "totalFollowers": 113700,
+    "platformFollowers": {
+      "youtube": 45300,
+      "tiktok": 55800,
+      "instagram": 12600
+    },
+    "engagement": "5.2%",
+    "audience": {
+      "age": "18-34",
+      "gender": "65% גברים, 35% נשים"
+    },
+    "socialMedia": {
+      "youtube": "https://youtube.com/@omer_yaron",
+      "tiktok": "https://www.tiktok.com/@omeryaron_",
+      "instagram": "https://www.instagram.com/omer.yaron"
+    },
+    "previousCollaborations": [
+      "מיקרוסופט",
+      "סמסונג",
+      "אינטל",
+      "משרד המדע"
+    ],
+    "strengths": [
+      "#SCIENCE",
+      "#TECHNOLOGY",
+      "#EDUCATION",
+      "#INNOVATION",
+      "#HEALTH"
+    ],
+    "main": true
+  },
+  {
+    "id": "13",
+    "name": "בלאקבירד (מוטי וקנין)",
+    "category": "תעלומות ופשע אמיתי",
+    "bio": "משפיען אפל של מסתורין. סיפורי פשע אמיתי, תעלומות בלתי פתורות, רוצחים סדרתיים, קונספירציות אפלות, ודברים מוזרים מהעולם שאנחנו חיים בו. בערוץ תמצאו תיעודים אמיתיים, מקרים מצמררים, סיפורים שאולי רצו שאנשים ישכחו...",
+    "imageUrl": "/talents/yt/blackbeard.jpg",
+    "totalFollowers": 106871,
+    "platformFollowers": {
+      "youtube": 88000,
+      "instagram": 18871
+    },
+    "audience": {
+      "age": "18-45",
+      "gender": "55% נשים, 45% גברים"
+    },
+    "socialMedia": {
+      "youtube": "https://www.youtube.com/@blackbeardplus",
+      "tiktok": "https://www.tiktok.com/@motiblackbeard",
+      "instagram": "https://www.instagram.com/motiblackbeard"
+    },
+    "previousCollaborations": [],
+    "strengths": [
+      "#TRUECRIME",
+      "#MYSTERY",
+      "#DOCUMENTARY",
+      "#CONSPIRACY"
+    ],
+    "main": true
+  },
+  {
+    "id": "9",
+    "name": "מינה (CinnaMinaa)",
+    "category": "גיימינג",
+    "bio": "בת 20, יוצרת תוכן גיימינג עם קהל מעורב, מתמקדת בקשר לקהילה וסטרימינג ייחודי.",
+    "imageUrl": "/talents/yt/cinnaminaa.jpg",
+    "totalFollowers": 106400,
+    "platformFollowers": {
+      "youtube": 32300,
+      "instagram": 4000,
+      "tiktok": 70100
+    },
+    "engagement": "7.8%",
+    "audience": {
+      "age": "12-25",
+      "gender": "50% נשים, 50% גברים"
+    },
+    "socialMedia": {
+      "youtube": "https://youtube.com/@cinnaminaa",
+      "instagram": "https://www.instagram.com/cinnaminaa_",
+      "tiktok": "https://www.tiktok.com/@mina_avrehanian"
+    },
+    "previousCollaborations": [
+      "Twitch",
+      "Discord",
+      "Steam",
+      "Epic Games"
+    ],
+    "strengths": [
+      "#GAMING",
+      "#STREAMING",
+      "#COMMUNITY"
+    ],
+    "main": true
+  },
+  {
     "id": "1",
     "name": "מיכל מצוב",
     "category": "חינוך ולייף סטייל ",
@@ -34,43 +322,42 @@
       "#FOOD",
       "#LIFESTYLE"
     ],
-    "main": true
+    "main": false
   },
   {
-    "id": "2",
-    "name": "מר שיבולת (שי בן בסט)",
-    "category": "גיימינג וטכנולוגיה",
-    "bio": "גיימר וכוכב יוטיוב מוביל, AI-מומחה ומרצה בתחום ההייטק עם תשוקה למשחקי מחשב, הומור, טכנולוגיה וחדשנות.",
-    "imageUrl": "/talents/shibolet.png",
-    "totalFollowers": 441900,
+    "id": "4",
+    "name": "גל כהן",
+    "category": "גיימינג ושורטים",
+    "bio": "יוטיובר גיימר בן 22, מתמחה בגיימינג וקרוס-פלטפורם סטרימינג. מוביל בבראול סטארס.",
+    "imageUrl": "/talents/GalCohen.png",
+    "totalFollowers": 434400,
     "platformFollowers": {
-      "youtube": 279000,
-      "tiktok": 115900,
-      "instagram": 47000
+      "youtube": 325000,
+      "instagram": 20600,
+      "tiktok": 88800
     },
+    "engagement": "5.8%",
     "audience": {
-      "age": "12-28",
-      "gender": "70% גברים, 30% נשים"
+      "age": "16-25",
+      "gender": "80% גברים, 20% נשים"
     },
     "socialMedia": {
-      "youtube": "https://www.youtube.com/@SHIB",
-      "tiktok": "https://www.tiktok.com/@mrshibolet",
-      "instagram": "https://www.instagram.com/mrshibolet/"
+      "youtube": "https://www.youtube.com/@GalCohenOfficial",
+      "tiktok": "https://www.tiktok.com/@galcohenyt",
+      "instagram": "https://www.instagram.com/galcohenofficial"
     },
     "previousCollaborations": [
-      "נינטנדו",
-      "פלייסטיישן",
-      "רייזר",
-      "לוגיטק"
+      "Supercell",
+      "Clash Royale",
+      "Brawl Stars",
+      "Mobile Gaming"
     ],
     "strengths": [
       "#GAMING",
-      "#LECTURES",
-      "#TECHNOLOGY",
-      "#GAME STREAMING",
-      "#INNOVATION"
+      "#COOLSHORTS",
+      "#GAME STREAMING"
     ],
-    "main": true
+    "main": false
   },
   {
     "id": "3",
@@ -107,74 +394,7 @@
       "#VIDEO",
       "#TRAVEL"
     ],
-    "main": true
-  },
-  {
-    "id": "4",
-    "name": "גל כהן",
-    "category": "גיימינג ושורטים",
-    "bio": "יוטיובר גיימר בן 22, מתמחה בגיימינג וקרוס-פלטפורם סטרימינג. מוביל בבראול סטארס.",
-    "imageUrl": "/talents/GalCohen.png",
-    "totalFollowers": 434400,
-    "platformFollowers": {
-      "youtube": 325000,
-      "instagram": 20600,
-      "tiktok": 88800
-    },
-    "engagement": "5.8%",
-    "audience": {
-      "age": "16-25",
-      "gender": "80% גברים, 20% נשים"
-    },
-    "socialMedia": {
-      "youtube": "https://www.youtube.com/@GalCohenOfficial",
-      "tiktok": "https://www.tiktok.com/@galcohenyt",
-      "instagram": "https://www.instagram.com/galcohenofficial"
-    },
-    "previousCollaborations": [
-      "Supercell",
-      "Clash Royale",
-      "Brawl Stars",
-      "Mobile Gaming"
-    ],
-    "strengths": [
-      "#GAMING",
-      "#COOLSHORTS",
-      "#GAME STREAMING"
-    ],
-    "main": true
-  },
-  {
-    "id": "5",
-    "name": "מיטל ריינבו קווין",
-    "category": "גיימינג ולייפסטייל",
-    "bio": "הגיימרית המובילה בישראל עם מעל 200K עוקבים ביוטיוב, יוצרת תוכן אישי, גיימינג וחינוכי.",
-    "imageUrl": "/talents/rainbow_queen.jpeg",
-    "totalFollowers": 269500,
-    "platformFollowers": {
-      "youtube": 210000,
-      "instagram": 16500,
-      "tiktok": 43000
-    },
-    "audience": {
-      "age": "12-28",
-      "gender": "60% נשים, 40% גברים"
-    },
-    "socialMedia": {
-      "youtube": "https://www.youtube.com/rainbowqueen",
-      "tiktok": "https://www.tiktok.com/@rainbqueen",
-      "instagram": "https://www.instagram.com/rainbqueen/"
-    },
-    "previousCollaborations": [
-      "נינטנדו",
-      "פלייסטיישן",
-      "רייזר",
-      "לוגיטק"
-    ],
-    "strengths": [
-      "#GAMING"
-    ],
-    "main": true
+    "main": false
   },
   {
     "id": "6",
@@ -209,139 +429,7 @@
       "#VLOGS",
       "#REVIEWS"
     ],
-    "main": true
-  },
-  {
-    "id": "7",
-    "name": "דוד ששון (2BOF)",
-    "category": "גיימינג ומיינקראפט",
-    "bio": "יוצר תוכן גיימינג ותיק, מוכר בעיקר מתוכן מיינקראפט, פעיל מעל 13 שנה.",
-    "imageUrl": "/talents/2bof.png",
-    "totalFollowers": 205000,
-    "platformFollowers": {
-      "youtube": 179000,
-      "tiktok": 20300,
-      "instagram": 5700
-    },
-    "audience": {
-      "age": "12-32",
-      "gender": "70% גברים, 30% נשים"
-    },
-    "socialMedia": {
-      "youtube": "https://www.youtube.com/@2BOF",
-      "tiktok": "https://tiktok.com/@david_2bof",
-      "instagram": "https://www.instagram.com/david_2bof/"
-    },
-    "previousCollaborations": [
-      "Minecraft",
-      "Mojang",
-      "Microsoft Gaming",
-      "Roblox"
-    ],
-    "strengths": [
-      "#MINECRAFT",
-      "#GAMING",
-      "#TUTORIALS",
-      "#BUILDING"
-    ],
-    "main": true
-  },
-  {
-    "id": "8",
-    "name": "עומר ירון",
-    "category": "מדע וטכנולוגיה",
-    "bio": "עומר בן 22, יוצר כריזמטי בתחום המדע והטכנולוגיה, רקע בצילום ובימוי, לשעבר ביחידת הסרטה בצה\"ל, יוצר תוכן ויראלי בעברית ואנגלית.",
-    "imageUrl": "/talents/Omer Yaron.png",
-    "totalFollowers": 113700,
-    "platformFollowers": {
-      "youtube": 45300,
-      "tiktok": 55800,
-      "instagram": 12600
-    },
-    "engagement": "5.2%",
-    "audience": {
-      "age": "18-34",
-      "gender": "65% גברים, 35% נשים"
-    },
-    "socialMedia": {
-      "youtube": "https://youtube.com/@omer_yaron",
-      "tiktok": "https://www.tiktok.com/@omeryaron_",
-      "instagram": "https://www.instagram.com/omer.yaron"
-    },
-    "previousCollaborations": [
-      "מיקרוסופט",
-      "סמסונג",
-      "אינטל",
-      "משרד המדע"
-    ],
-    "strengths": [
-      "#SCIENCE",
-      "#TECHNOLOGY",
-      "#EDUCATION",
-      "#INNOVATION",
-      "#HEALTH"
-    ],
-    "main": true
-  },
-  {
-    "id": "9",
-    "name": "מינה (CinnaMinaa)",
-    "category": "גיימינג",
-    "bio": "בת 20, יוצרת תוכן גיימינג עם קהל מעורב, מתמקדת בקשר לקהילה וסטרימינג ייחודי.",
-    "imageUrl": "/talents/Cinaminna.png",
-    "totalFollowers": 106400,
-    "platformFollowers": {
-      "youtube": 32300,
-      "instagram": 4000,
-      "tiktok": 70100
-    },
-    "engagement": "7.8%",
-    "audience": {
-      "age": "12-25",
-      "gender": "50% נשים, 50% גברים"
-    },
-    "socialMedia": {
-      "youtube": "https://youtube.com/@cinnaminaa",
-      "instagram": "https://www.instagram.com/cinnaminaa_",
-      "tiktok": "https://www.tiktok.com/@mina_avrehanian"
-    },
-    "previousCollaborations": [
-      "Twitch",
-      "Discord",
-      "Steam",
-      "Epic Games"
-    ],
-    "strengths": [
-      "#GAMING",
-      "#STREAMING",
-      "#COMMUNITY"
-    ],
-    "main": true
-  },
-  {
-    "id": "10",
-    "totalFollowers": 118000,
-    "name": "סטינגר ישראל",
-    "category": "גיימינג",
-    "bio": "סטינגר ישראל הוא יוצר תוכן וגיימר בולט בזירת הגיימינג הישראלית, המוכר בזכות אנרגיה גבוהה, קצב מהיר וחיבור אותנטי לקהילה הצעירה.\nהתוכן שלו משלב גיימפליי תחרותי, אתגרים, ריאקשנים ושיתופי פעולה – עם דגש על הומור חד ועריכה דינמית שמחזיקה את הצופה מהשנייה הראשונה.",
-    "imageUrl": "https://yt3.googleusercontent.com/PrXV1gQTzCVp8uOFkGUPHipTZBwznuEfPm7y5tGD1_TD54rLGB-9bNKABTZRKO3MMlndbKldAg=s900-c-k-c0x00ffffff-no-rj",
-    "main": true,
-    "platformFollowers": {
-      "youtube": 94600,
-      "instagram": 2800,
-      "tiktok": 20600
-    },
-    "audience": {
-      "age": "12-28",
-      "gender": "20% נשים 80% גברים"
-    },
-    "socialMedia": {
-      "youtube": "https://www.youtube.com/stingerisrael",
-      "instagram": "https://www.instagram.com/stingerisrael",
-      "tiktok": "https://www.tiktok.com/@stingeril"
-    },
-    "previousCollaborations": [],
-    "strengths": []
+    "main": false
   },
   {
     "id": "11",
