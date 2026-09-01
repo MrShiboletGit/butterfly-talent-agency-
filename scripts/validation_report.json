@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T09:35:47.959220",
+  "generated_at": "2026-09-01T08:33:07.426611",
   "video_results": [
     {
       "url": "https://www.tiktok.com/@galcohenyt/video/7540251397405560084",
@@ -776,10 +776,10 @@
       "talent_name": "בן קיסר (Ben Keysar)",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@benkeysar",
-      "stored_followers": 200000,
+      "stored_followers": 209200,
       "live_followers": 209200,
       "error": null,
-      "diff_pct": 4.6
+      "diff_pct": 0.0
     },
     {
       "talent_name": "בן קיסר (Ben Keysar)",
@@ -876,18 +876,18 @@
       "platform": "youtube",
       "url": "https://www.youtube.com/@blackbeardplus",
       "stored_followers": 88000,
-      "live_followers": 88000,
+      "live_followers": 88100,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": 0.11363636363636363
     },
     {
       "talent_name": "בלאקבירד (מוטי וקנין)",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@motiblackbeard",
-      "stored_followers": 87400,
+      "stored_followers": 87300,
       "live_followers": 87300,
       "error": null,
-      "diff_pct": -0.11441647597254005
+      "diff_pct": 0.0
     },
     {
       "talent_name": "בלאקבירד (מוטי וקנין)",
@@ -911,10 +911,10 @@
       "talent_name": "בר אסטרי (Bar Astri)",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@barastri",
-      "stored_followers": 40000,
-      "live_followers": 36200,
+      "stored_followers": 36200,
+      "live_followers": 36400,
       "error": null,
-      "diff_pct": -9.5
+      "diff_pct": 0.5524861878453038
     },
     {
       "talent_name": "בר אסטרי (Bar Astri)",
@@ -938,10 +938,10 @@
       "talent_name": "עומר גולדן שואו (Golden Show)",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@realgoldengames",
-      "stored_followers": 27000,
+      "stored_followers": 29300,
       "live_followers": 29300,
       "error": null,
-      "diff_pct": 8.518518518518519
+      "diff_pct": 0.0
     },
     {
       "talent_name": "עומר גולדן שואו (Golden Show)",
@@ -1019,10 +1019,10 @@
       "talent_name": "דניאל טימבלאסט (TeamBlast)",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@teamblast",
-      "stored_followers": 5700,
-      "live_followers": 5710,
+      "stored_followers": 5710,
+      "live_followers": 5720,
       "error": null,
-      "diff_pct": 0.17543859649122806
+      "diff_pct": 0.17513134851138354
     },
     {
       "talent_name": "דניאל טימבלאסט (TeamBlast)",
@@ -1100,10 +1100,10 @@
       "talent_name": "גל כהן",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@galcohenyt",
-      "stored_followers": 88800,
-      "live_followers": 88900,
+      "stored_followers": 88900,
+      "live_followers": 88800,
       "error": null,
-      "diff_pct": 0.11261261261261261
+      "diff_pct": -0.11248593925759282
     },
     {
       "talent_name": "גל כהן",
