@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T08:33:07.426611",
+  "generated_at": "2026-09-02T07:52:30.112683",
   "video_results": [
     {
       "url": "https://www.tiktok.com/@galcohenyt/video/7540251397405560084",
@@ -875,10 +875,10 @@
       "talent_name": "בלאקבירד (מוטי וקנין)",
       "platform": "youtube",
       "url": "https://www.youtube.com/@blackbeardplus",
-      "stored_followers": 88000,
-      "live_followers": 88100,
+      "stored_followers": 88100,
+      "live_followers": 88200,
       "error": null,
-      "diff_pct": 0.11363636363636363
+      "diff_pct": 0.11350737797956867
     },
     {
       "talent_name": "בלאקבירד (מוטי וקנין)",
@@ -911,10 +911,10 @@
       "talent_name": "בר אסטרי (Bar Astri)",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@barastri",
-      "stored_followers": 36200,
+      "stored_followers": 36400,
       "live_followers": 36400,
       "error": null,
-      "diff_pct": 0.5524861878453038
+      "diff_pct": 0.0
     },
     {
       "talent_name": "בר אסטרי (Bar Astri)",
@@ -1019,10 +1019,10 @@
       "talent_name": "דניאל טימבלאסט (TeamBlast)",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@teamblast",
-      "stored_followers": 5710,
-      "live_followers": 5720,
+      "stored_followers": 5720,
+      "live_followers": 5742,
       "error": null,
-      "diff_pct": 0.17513134851138354
+      "diff_pct": 0.38461538461538464
     },
     {
       "talent_name": "דניאל טימבלאסט (TeamBlast)",
@@ -1100,10 +1100,10 @@
       "talent_name": "גל כהן",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@galcohenyt",
-      "stored_followers": 88900,
+      "stored_followers": 88800,
       "live_followers": 88800,
       "error": null,
-      "diff_pct": -0.11248593925759282
+      "diff_pct": 0.0
     },
     {
       "talent_name": "גל כהן",
@@ -1146,9 +1146,9 @@
       "platform": "youtube",
       "url": "https://www.youtube.com/@israelgalitsky",
       "stored_followers": 6620,
-      "live_followers": 6620,
+      "live_followers": 6630,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": 0.1510574018126888
     },
     {
       "talent_name": "ישראל גליצקי",
