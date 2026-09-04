@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T08:01:40.674110",
+  "generated_at": "2026-09-04T07:57:16.285447",
   "video_results": [
     {
       "url": "https://www.tiktok.com/@galcohenyt/video/7540251397405560084",
@@ -117,7 +117,7 @@
       "stored_views": 20300,
       "stored_likes": 1616,
       "live_views": null,
-      "live_likes": 1567,
+      "live_likes": 1566,
       "error": null,
       "views_diff_pct": null
     },
@@ -876,18 +876,18 @@
       "platform": "youtube",
       "url": "https://www.youtube.com/@blackbeardplus",
       "stored_followers": 88200,
-      "live_followers": 88200,
+      "live_followers": 88300,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": 0.11337868480725624
     },
     {
       "talent_name": "בלאקבירד (מוטי וקנין)",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@motiblackbeard",
       "stored_followers": 87300,
-      "live_followers": 87300,
+      "live_followers": 87800,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": 0.572737686139748
     },
     {
       "talent_name": "בלאקבירד (מוטי וקנין)",
@@ -911,10 +911,10 @@
       "talent_name": "בר אסטרי (Bar Astri)",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@barastri",
-      "stored_followers": 36400,
+      "stored_followers": 36500,
       "live_followers": 36500,
       "error": null,
-      "diff_pct": 0.27472527472527475
+      "diff_pct": 0.0
     },
     {
       "talent_name": "בר אסטרי (Bar Astri)",
@@ -1019,10 +1019,10 @@
       "talent_name": "דניאל טימבלאסט (TeamBlast)",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@teamblast",
-      "stored_followers": 5742,
-      "live_followers": 5743,
+      "stored_followers": 5743,
+      "live_followers": 5747,
       "error": null,
-      "diff_pct": 0.017415534656913968
+      "diff_pct": 0.0696500087062511
     },
     {
       "talent_name": "דניאל טימבלאסט (TeamBlast)",
@@ -1056,9 +1056,9 @@
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@mina_avrehanian",
       "stored_followers": 70100,
-      "live_followers": 70100,
+      "live_followers": 70200,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": 0.14265335235378032
     },
     {
       "talent_name": "מיכל מצוב",
@@ -1128,9 +1128,9 @@
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@roeefirewolf",
       "stored_followers": 64100,
-      "live_followers": 64100,
+      "live_followers": 64000,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": -0.15600624024961
     },
     {
       "talent_name": "רועי (Roee Firewolf)",
