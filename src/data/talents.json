@@ -67,6 +67,36 @@
     "main": true
   },
   {
+    "id": "17",
+    "name": "קורנליוס האיום (קורנליוס אביעד)",
+    "category": "קומדיה ובידור",
+    "bio": "אחד מיוצרי התוכן הבולטים והייחודיים ברשת. בזכות הומור חד, דמות בלתי נשכחת ושפה אותנטית ונטולת פילטרים, הוא בנה סביבו קהילה גדולה ונאמנה שמתחברת לתוכן שלו ומגיבה אליו בעוצמה רבה. קורנליוס מביא לכל שיתוף פעולה נוכחות, קריאייטיב ואופי שקשה לפספס, והופך מסרים מסחריים לתוכן מצחיק, טבעי ומעורר שיח ברשת.",
+    "imageUrl": "/talents/photos/cornelius.jpg",
+    "totalFollowers": 357833,
+    "platformFollowers": {
+      "youtube": 15900,
+      "tiktok": 251000,
+      "instagram": 90933
+    },
+    "audience": {
+      "age": "16-35",
+      "gender": "60% גברים, 40% נשים"
+    },
+    "socialMedia": {
+      "youtube": "https://www.youtube.com/channel/UCiW0DnQFoaKENY1XJMEBvBg",
+      "tiktok": "https://www.tiktok.com/@corntheterrible",
+      "instagram": "https://www.instagram.com/cornelius_aviad"
+    },
+    "previousCollaborations": [],
+    "strengths": [
+      "#COMEDY",
+      "#CHARACTER",
+      "#VIRAL",
+      "#ENTERTAINMENT"
+    ],
+    "main": true
+  },
+  {
     "id": "5",
     "name": "מיטל ריינבו קווין",
     "category": "גיימינג ולייפסטייל",
