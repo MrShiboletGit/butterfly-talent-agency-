@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T08:10:54.689793",
+  "generated_at": "2026-09-08T08:04:42.045874",
   "video_results": [
     {
       "url": "https://www.tiktok.com/@galcohenyt/video/7540251397405560084",
@@ -777,9 +777,9 @@
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@benkeysar",
       "stored_followers": 209200,
-      "live_followers": 209200,
+      "live_followers": 209100,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": -0.04780114722753346
     },
     {
       "talent_name": "בן קיסר (Ben Keysar)",
@@ -804,15 +804,42 @@
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@mrshibolet",
       "stored_followers": 115900,
-      "live_followers": 115900,
+      "live_followers": 116000,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": 0.08628127696289906
     },
     {
       "talent_name": "מר שיבולת (שי בן בסט)",
       "platform": "instagram",
       "url": "https://www.instagram.com/mrshibolet/",
       "stored_followers": 47000,
+      "live_followers": null,
+      "error": "Profile followers require login",
+      "diff_pct": null
+    },
+    {
+      "talent_name": "קורנליוס האיום (קורנליוס אביעד)",
+      "platform": "youtube",
+      "url": "https://www.youtube.com/channel/UCiW0DnQFoaKENY1XJMEBvBg",
+      "stored_followers": 15900,
+      "live_followers": 16000,
+      "error": null,
+      "diff_pct": 0.628930817610063
+    },
+    {
+      "talent_name": "קורנליוס האיום (קורנליוס אביעד)",
+      "platform": "tiktok",
+      "url": "https://www.tiktok.com/@corntheterrible",
+      "stored_followers": 251000,
+      "live_followers": 254300,
+      "error": null,
+      "diff_pct": 1.3147410358565739
+    },
+    {
+      "talent_name": "קורנליוס האיום (קורנליוס אביעד)",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/cornelius_aviad",
+      "stored_followers": 90933,
       "live_followers": null,
       "error": "Profile followers require login",
       "diff_pct": null
@@ -830,10 +857,10 @@
       "talent_name": "מיטל ריינבו קווין",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@rainbqueen",
-      "stored_followers": 43000,
-      "live_followers": 43100,
+      "stored_followers": 43100,
+      "live_followers": 43000,
       "error": null,
-      "diff_pct": 0.23255813953488372
+      "diff_pct": -0.23201856148491878
     },
     {
       "talent_name": "מיטל ריינבו קווין",
@@ -875,19 +902,19 @@
       "talent_name": "בלאקבירד (מוטי וקנין)",
       "platform": "youtube",
       "url": "https://www.youtube.com/@blackbeardplus",
-      "stored_followers": 88400,
+      "stored_followers": 88500,
       "live_followers": 88500,
       "error": null,
-      "diff_pct": 0.11312217194570137
+      "diff_pct": 0.0
     },
     {
       "talent_name": "בלאקבירד (מוטי וקנין)",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@motiblackbeard",
-      "stored_followers": 88300,
-      "live_followers": 88400,
+      "stored_followers": 88400,
+      "live_followers": 88500,
       "error": null,
-      "diff_pct": 0.11325028312570783
+      "diff_pct": 0.11312217194570137
     },
     {
       "talent_name": "בלאקבירד (מוטי וקנין)",
@@ -930,9 +957,9 @@
       "platform": "youtube",
       "url": "https://www.youtube.com/@RealGoldenShow",
       "stored_followers": 89200,
-      "live_followers": 89200,
+      "live_followers": 89300,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": 0.11210762331838565
     },
     {
       "talent_name": "עומר גולדן שואו (Golden Show)",
@@ -1019,10 +1046,10 @@
       "talent_name": "דניאל טימבלאסט (TeamBlast)",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@teamblast",
-      "stored_followers": 5759,
-      "live_followers": 5760,
+      "stored_followers": 5760,
+      "live_followers": 5821,
       "error": null,
-      "diff_pct": 0.017364125716270183
+      "diff_pct": 1.059027777777778
     },
     {
       "talent_name": "דניאל טימבלאסט (TeamBlast)",
@@ -1056,9 +1083,9 @@
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@mina_avrehanian",
       "stored_followers": 70200,
-      "live_followers": 70200,
+      "live_followers": 70100,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": -0.14245014245014245
     },
     {
       "talent_name": "מיכל מצוב",
@@ -1074,9 +1101,9 @@
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@michalmatzov",
       "stored_followers": 366600,
-      "live_followers": 366600,
+      "live_followers": 366700,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": 0.027277686852154936
     },
     {
       "talent_name": "מיכל מצוב",
@@ -1155,9 +1182,9 @@
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@israel_galitsky",
       "stored_followers": 158800,
-      "live_followers": 158800,
+      "live_followers": 158900,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": 0.06297229219143577
     },
     {
       "talent_name": "ישראל גליצקי",
