@@ -72,10 +72,10 @@
     "category": "קומדיה ובידור",
     "bio": "אחד מיוצרי התוכן הבולטים והייחודיים ברשת. בזכות הומור חד, דמות בלתי נשכחת ושפה אותנטית ונטולת פילטרים, הוא בנה סביבו קהילה גדולה ונאמנה שמתחברת לתוכן שלו ומגיבה אליו בעוצמה רבה. קורנליוס מביא לכל שיתוף פעולה נוכחות, קריאייטיב ואופי שקשה לפספס, והופך מסרים מסחריים לתוכן מצחיק, טבעי ומעורר שיח ברשת.",
     "imageUrl": "/talents/photos/cornelius.jpg",
-    "totalFollowers": 374533,
+    "totalFollowers": 378133,
     "platformFollowers": {
       "youtube": 16300,
-      "tiktok": 267300,
+      "tiktok": 270900,
       "instagram": 90933
     },
     "audience": {
@@ -169,10 +169,10 @@
     "category": "תעלומות ופשע אמיתי",
     "bio": "משפיען אפל של מסתורין. סיפורי פשע אמיתי, תעלומות בלתי פתורות, רוצחים סדרתיים, קונספירציות אפלות, ודברים מוזרים מהעולם שאנחנו חיים בו. בערוץ תמצאו תיעודים אמיתיים, מקרים מצמררים, סיפורים שאולי רצו שאנשים ישכחו...",
     "imageUrl": "/talents/photos/blackbeard.jpg",
-    "totalFollowers": 196671,
+    "totalFollowers": 196871,
     "platformFollowers": {
-      "youtube": 88900,
-      "tiktok": 88900,
+      "youtube": 89000,
+      "tiktok": 89000,
       "instagram": 18871
     },
     "audience": {
@@ -199,9 +199,9 @@
     "category": "גיימינג ותוכן כללי",
     "bio": "יוצר תוכן גיימינג וכללי, מתמחה בסרטונים קצרים.",
     "imageUrl": "/talents/photos/barastri.jpg",
-    "totalFollowers": 178496,
+    "totalFollowers": 179496,
     "platformFollowers": {
-      "youtube": 136000,
+      "youtube": 137000,
       "tiktok": 36700,
       "instagram": 5796
     },
@@ -228,9 +228,9 @@
     "category": "תוכן כללי ופופ קולטור",
     "bio": "עומר יוצר תוכן כללי ומגוון, עם התמחות בעבר בגיימינג שגדלה לתחומי אקטואליה ופופ קולטור.",
     "imageUrl": "/talents/yt/goldenshow.jpg",
-    "totalFollowers": 127427,
+    "totalFollowers": 127527,
     "platformFollowers": {
-      "youtube": 89300,
+      "youtube": 89400,
       "tiktok": 29400,
       "instagram": 8727
     },
@@ -254,7 +254,7 @@
   },
   {
     "id": "10",
-    "totalFollowers": 117900,
+    "totalFollowers": 118000,
     "name": "סטינגר ישראל",
     "category": "גיימינג",
     "bio": "סטינגר ישראל הוא יוצר תוכן וגיימר בולט בזירת הגיימינג הישראלית, המוכר בזכות אנרגיה גבוהה, קצב מהיר וחיבור אותנטי לקהילה הצעירה.\nהתוכן שלו משלב גיימפליי תחרותי, אתגרים, ריאקשנים ושיתופי פעולה – עם דגש על הומור חד ועריכה דינמית שמחזיקה את הצופה מהשנייה הראשונה.",
@@ -263,7 +263,7 @@
     "platformFollowers": {
       "youtube": 94600,
       "instagram": 2800,
-      "tiktok": 20500
+      "tiktok": 20600
     },
     "audience": {
       "age": "12-28",
@@ -283,10 +283,10 @@
     "category": "מדע וטכנולוגיה",
     "bio": "עומר בן 22, יוצר כריזמטי בתחום המדע והטכנולוגיה, רקע בצילום ובימוי, לשעבר ביחידת הסרטה בצה\"ל, יוצר תוכן ויראלי בעברית ואנגלית.",
     "imageUrl": "/talents/yt/omeryaron.jpg",
-    "totalFollowers": 113700,
+    "totalFollowers": 113600,
     "platformFollowers": {
       "youtube": 45300,
-      "tiktok": 55800,
+      "tiktok": 55700,
       "instagram": 12600
     },
     "engagement": "5.2%",
@@ -320,10 +320,10 @@
     "category": "גיימינג ומיינקראפט",
     "bio": "יוצר תוכן גיימינג ומיינקראפט, מהוותיקים בישראל.",
     "imageUrl": "/talents/photos/teamblast.jpg",
-    "totalFollowers": 110603,
+    "totalFollowers": 110601,
     "platformFollowers": {
       "youtube": 102000,
-      "tiktok": 5887,
+      "tiktok": 5885,
       "instagram": 2716
     },
     "audience": {
