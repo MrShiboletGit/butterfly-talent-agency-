@@ -72,9 +72,9 @@
     "category": "קומדיה ובידור",
     "bio": "אחד מיוצרי התוכן הבולטים והייחודיים ברשת. בזכות הומור חד, דמות בלתי נשכחת ושפה אותנטית ונטולת פילטרים, הוא בנה סביבו קהילה גדולה ונאמנה שמתחברת לתוכן שלו ומגיבה אליו בעוצמה רבה. קורנליוס מביא לכל שיתוף פעולה נוכחות, קריאייטיב ואופי שקשה לפספס, והופך מסרים מסחריים לתוכן מצחיק, טבעי ומעורר שיח ברשת.",
     "imageUrl": "/talents/photos/cornelius.jpg",
-    "totalFollowers": 378133,
+    "totalFollowers": 378233,
     "platformFollowers": {
-      "youtube": 16300,
+      "youtube": 16400,
       "tiktok": 270900,
       "instagram": 90933
     },
@@ -254,7 +254,7 @@
   },
   {
     "id": "10",
-    "totalFollowers": 118000,
+    "totalFollowers": 117900,
     "name": "סטינגר ישראל",
     "category": "גיימינג",
     "bio": "סטינגר ישראל הוא יוצר תוכן וגיימר בולט בזירת הגיימינג הישראלית, המוכר בזכות אנרגיה גבוהה, קצב מהיר וחיבור אותנטי לקהילה הצעירה.\nהתוכן שלו משלב גיימפליי תחרותי, אתגרים, ריאקשנים ושיתופי פעולה – עם דגש על הומור חד ועריכה דינמית שמחזיקה את הצופה מהשנייה הראשונה.",
@@ -263,7 +263,7 @@
     "platformFollowers": {
       "youtube": 94600,
       "instagram": 2800,
-      "tiktok": 20600
+      "tiktok": 20500
     },
     "audience": {
       "age": "12-28",
@@ -320,10 +320,10 @@
     "category": "גיימינג ומיינקראפט",
     "bio": "יוצר תוכן גיימינג ומיינקראפט, מהוותיקים בישראל.",
     "imageUrl": "/talents/photos/teamblast.jpg",
-    "totalFollowers": 110601,
+    "totalFollowers": 110608,
     "platformFollowers": {
       "youtube": 102000,
-      "tiktok": 5885,
+      "tiktok": 5892,
       "instagram": 2716
     },
     "audience": {
@@ -384,11 +384,11 @@
     "category": "חינוך ולייף סטייל ",
     "bio": " יוצרת תוכן מובילה עם קהל נאמן, האחות הגדולה של היוטיוב משתתפת המרוץ למיליון 2024, מתמחה בלייף סטייל, חינוך, אופנה , אוכל ועוד.",
     "imageUrl": "/talents/MichalMatzov.png",
-    "totalFollowers": 929200,
+    "totalFollowers": 929300,
     "platformFollowers": {
       "youtube": 458000,
       "instagram": 104000,
-      "tiktok": 367200
+      "tiktok": 367300
     },
     "audience": {
       "age": "12-30",
@@ -456,10 +456,10 @@
     "category": "גיימינג ותוכן",
     "bio": "בן 22, יוצא 8200, מהיוטיוברים המובילים בישראל. מפעיל את ערוצי FireWolf ו-FireWolf2 עם תוכן גיימינג ווידאו.",
     "imageUrl": "/talents/Firewolf.png",
-    "totalFollowers": 408300,
+    "totalFollowers": 408200,
     "platformFollowers": {
       "youtube": 319000,
-      "tiktok": 64000,
+      "tiktok": 63900,
       "instagram": 25300
     },
     "audience": {
@@ -493,10 +493,10 @@
     "category": "קולנוע ובידור",
     "bio": "יוצר תוכן בתחום הקולנוע והבידור עם מעל 4 שנות ניסיון ביצירת ולוגים וסרטונים.",
     "imageUrl": "/talents/Israel Galitsky.png",
-    "totalFollowers": 182230,
+    "totalFollowers": 182320,
     "platformFollowers": {
-      "youtube": 6630,
-      "tiktok": 159200,
+      "youtube": 6620,
+      "tiktok": 159300,
       "instagram": 16400
     },
     "audience": {
