@@ -72,9 +72,9 @@
     "category": "קומדיה ובידור",
     "bio": "אחד מיוצרי התוכן הבולטים והייחודיים ברשת. בזכות הומור חד, דמות בלתי נשכחת ושפה אותנטית ונטולת פילטרים, הוא בנה סביבו קהילה גדולה ונאמנה שמתחברת לתוכן שלו ומגיבה אליו בעוצמה רבה. קורנליוס מביא לכל שיתוף פעולה נוכחות, קריאייטיב ואופי שקשה לפספס, והופך מסרים מסחריים לתוכן מצחיק, טבעי ומעורר שיח ברשת.",
     "imageUrl": "/talents/photos/cornelius.jpg",
-    "totalFollowers": 378233,
+    "totalFollowers": 378133,
     "platformFollowers": {
-      "youtube": 16400,
+      "youtube": 16300,
       "tiktok": 270900,
       "instagram": 90933
     },
@@ -169,9 +169,9 @@
     "category": "תעלומות ופשע אמיתי",
     "bio": "משפיען אפל של מסתורין. סיפורי פשע אמיתי, תעלומות בלתי פתורות, רוצחים סדרתיים, קונספירציות אפלות, ודברים מוזרים מהעולם שאנחנו חיים בו. בערוץ תמצאו תיעודים אמיתיים, מקרים מצמררים, סיפורים שאולי רצו שאנשים ישכחו...",
     "imageUrl": "/talents/photos/blackbeard.jpg",
-    "totalFollowers": 196971,
+    "totalFollowers": 196871,
     "platformFollowers": {
-      "youtube": 89000,
+      "youtube": 88900,
       "tiktok": 89100,
       "instagram": 18871
     },
@@ -199,9 +199,9 @@
     "category": "גיימינג ותוכן כללי",
     "bio": "יוצר תוכן גיימינג וכללי, מתמחה בסרטונים קצרים.",
     "imageUrl": "/talents/photos/barastri.jpg",
-    "totalFollowers": 179496,
+    "totalFollowers": 178496,
     "platformFollowers": {
-      "youtube": 137000,
+      "youtube": 136000,
       "tiktok": 36700,
       "instagram": 5796
     },
@@ -228,10 +228,10 @@
     "category": "תוכן כללי ופופ קולטור",
     "bio": "עומר יוצר תוכן כללי ומגוון, עם התמחות בעבר בגיימינג שגדלה לתחומי אקטואליה ופופ קולטור.",
     "imageUrl": "/talents/yt/goldenshow.jpg",
-    "totalFollowers": 127627,
+    "totalFollowers": 127727,
     "platformFollowers": {
       "youtube": 89400,
-      "tiktok": 29500,
+      "tiktok": 29600,
       "instagram": 8727
     },
     "audience": {
@@ -254,14 +254,14 @@
   },
   {
     "id": "10",
-    "totalFollowers": 117900,
+    "totalFollowers": 117800,
     "name": "סטינגר ישראל",
     "category": "גיימינג",
     "bio": "סטינגר ישראל הוא יוצר תוכן וגיימר בולט בזירת הגיימינג הישראלית, המוכר בזכות אנרגיה גבוהה, קצב מהיר וחיבור אותנטי לקהילה הצעירה.\nהתוכן שלו משלב גיימפליי תחרותי, אתגרים, ריאקשנים ושיתופי פעולה – עם דגש על הומור חד ועריכה דינמית שמחזיקה את הצופה מהשנייה הראשונה.",
     "imageUrl": "/talents/yt/stinger.jpg",
     "main": true,
     "platformFollowers": {
-      "youtube": 94600,
+      "youtube": 94500,
       "instagram": 2800,
       "tiktok": 20500
     },
@@ -320,10 +320,10 @@
     "category": "גיימינג ומיינקראפט",
     "bio": "יוצר תוכן גיימינג ומיינקראפט, מהוותיקים בישראל.",
     "imageUrl": "/talents/photos/teamblast.jpg",
-    "totalFollowers": 110603,
+    "totalFollowers": 110610,
     "platformFollowers": {
       "youtube": 102000,
-      "tiktok": 5887,
+      "tiktok": 5894,
       "instagram": 2716
     },
     "audience": {
@@ -349,9 +349,9 @@
     "category": "גיימינג",
     "bio": "בת 20, יוצרת תוכן גיימינג עם קהל מעורב, מתמקדת בקשר לקהילה וסטרימינג ייחודי.",
     "imageUrl": "/talents/photos/cinnaminaa.jpg",
-    "totalFollowers": 106700,
+    "totalFollowers": 106600,
     "platformFollowers": {
-      "youtube": 32400,
+      "youtube": 32300,
       "instagram": 4000,
       "tiktok": 70300
     },
@@ -384,11 +384,11 @@
     "category": "חינוך ולייף סטייל ",
     "bio": " יוצרת תוכן מובילה עם קהל נאמן, האחות הגדולה של היוטיוב משתתפת המרוץ למיליון 2024, מתמחה בלייף סטייל, חינוך, אופנה , אוכל ועוד.",
     "imageUrl": "/talents/MichalMatzov.png",
-    "totalFollowers": 929300,
+    "totalFollowers": 929400,
     "platformFollowers": {
       "youtube": 458000,
       "instagram": 104000,
-      "tiktok": 367300
+      "tiktok": 367400
     },
     "audience": {
       "age": "12-30",
@@ -421,11 +421,11 @@
     "category": "גיימינג ושורטים",
     "bio": "יוטיובר גיימר בן 22, מתמחה בגיימינג וקרוס-פלטפורם סטרימינג. מוביל בבראול סטארס.",
     "imageUrl": "/talents/GalCohen.png",
-    "totalFollowers": 434200,
+    "totalFollowers": 434100,
     "platformFollowers": {
       "youtube": 325000,
       "instagram": 20600,
-      "tiktok": 88600
+      "tiktok": 88500
     },
     "engagement": "5.8%",
     "audience": {
