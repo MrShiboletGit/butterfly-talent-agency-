@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T08:13:58.072253",
+  "generated_at": "2026-09-19T08:02:33.466919",
   "video_results": [
     {
       "url": "https://www.tiktok.com/@galcohenyt/video/7540251397405560084",
@@ -567,8 +567,8 @@
       "stored_views": 24500,
       "stored_likes": 903,
       "live_views": null,
-      "live_likes": 905,
-      "error": null,
+      "live_likes": null,
+      "error": "No metrics found in embed",
       "views_diff_pct": null
     },
     {
@@ -618,7 +618,7 @@
       "stored_likes": 692,
       "live_views": null,
       "live_likes": null,
-      "error": "ERROR: [TikTok] 7552510400206474497: Unable to download webpage: HTTPSConnectionPool(host='www.tiktok.com', port=443): Read timed out. (read timeout=20.0) (caused by TransportError(\"HTTPSConnectionPool(host='www.tiktok.com', port=443): Read timed out. (read timeout=20.0)\"))",
+      "error": "ERROR: [TikTok] 7552510400206474497: Unexpected response from webpage request; please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U",
       "views_diff_pct": null
     },
     {
@@ -768,9 +768,9 @@
       "platform": "youtube",
       "url": "https://www.youtube.com/@BenKeysar",
       "stored_followers": 481000,
-      "live_followers": null,
-      "error": "ERROR: UC7aJn60oixGKRvvQdzlpMMg page 1: Unable to ",
-      "diff_pct": null
+      "live_followers": 481000,
+      "error": null,
+      "diff_pct": 0.0
     },
     {
       "talent_name": "בן קיסר (Ben Keysar)",
@@ -795,9 +795,9 @@
       "platform": "youtube",
       "url": "https://www.youtube.com/@SHIB",
       "stored_followers": 279000,
-      "live_followers": null,
-      "error": "ERROR: UCojsJ_jkaD5tBK-W47EH6DQ page 3: Unable to ",
-      "diff_pct": null
+      "live_followers": 279000,
+      "error": null,
+      "diff_pct": 0.0
     },
     {
       "talent_name": "מר שיבולת (שי בן בסט)",
@@ -822,9 +822,9 @@
       "platform": "youtube",
       "url": "https://www.youtube.com/channel/UCiW0DnQFoaKENY1XJMEBvBg",
       "stored_followers": 16300,
-      "live_followers": null,
-      "error": "ERROR: UCiW0DnQFoaKENY1XJMEBvBg page 1: Unable to ",
-      "diff_pct": null
+      "live_followers": 16700,
+      "error": null,
+      "diff_pct": 2.4539877300613497
     },
     {
       "talent_name": "קורנליוס האיום (קורנליוס אביעד)",
@@ -849,9 +849,9 @@
       "platform": "youtube",
       "url": "https://www.youtube.com/rainbowqueen",
       "stored_followers": 210000,
-      "live_followers": null,
-      "error": "ERROR: UCsQcHhLqysgHCH5eix_csQg page 1: Unable to ",
-      "diff_pct": null
+      "live_followers": 210000,
+      "error": null,
+      "diff_pct": 0.0
     },
     {
       "talent_name": "מיטל ריינבו קווין",
@@ -876,9 +876,9 @@
       "platform": "youtube",
       "url": "https://www.youtube.com/@2BOF",
       "stored_followers": 179000,
-      "live_followers": null,
-      "error": "ERROR: UC8cEbBDnVF4MhAjKyDrrJ7Q page 17: Unable to",
-      "diff_pct": null
+      "live_followers": 179000,
+      "error": null,
+      "diff_pct": 0.0
     },
     {
       "talent_name": "דוד ששון (2BOF)",
@@ -903,18 +903,18 @@
       "platform": "youtube",
       "url": "https://www.youtube.com/@blackbeardplus",
       "stored_followers": 88900,
-      "live_followers": null,
-      "error": "ERROR: UCxzqBZ7mJsKKsjcpW03RKVw page 1: Unable to ",
-      "diff_pct": null
+      "live_followers": 89200,
+      "error": null,
+      "diff_pct": 0.3374578177727784
     },
     {
       "talent_name": "בלאקבירד (מוטי וקנין)",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@motiblackbeard",
-      "stored_followers": 89100,
-      "live_followers": 89300,
+      "stored_followers": 89300,
+      "live_followers": 89400,
       "error": null,
-      "diff_pct": 0.22446689113355783
+      "diff_pct": 0.11198208286674133
     },
     {
       "talent_name": "בלאקבירד (מוטי וקנין)",
@@ -929,10 +929,10 @@
       "talent_name": "בר אסטרי (Bar Astri)",
       "platform": "youtube",
       "url": "https://www.youtube.com/@BarAstri",
-      "stored_followers": 136000,
+      "stored_followers": 137000,
       "live_followers": 137000,
       "error": null,
-      "diff_pct": 0.7352941176470588
+      "diff_pct": 0.0
     },
     {
       "talent_name": "בר אסטרי (Bar Astri)",
@@ -1011,18 +1011,18 @@
       "platform": "youtube",
       "url": "https://youtube.com/@omer_yaron",
       "stored_followers": 45300,
-      "live_followers": 45300,
+      "live_followers": 45400,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": 0.22075055187637968
     },
     {
       "talent_name": "עומר ירון",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@omeryaron_",
-      "stored_followers": 55800,
+      "stored_followers": 55700,
       "live_followers": 55700,
       "error": null,
-      "diff_pct": -0.17921146953405018
+      "diff_pct": 0.0
     },
     {
       "talent_name": "עומר ירון",
@@ -1046,10 +1046,10 @@
       "talent_name": "דניאל טימבלאסט (TeamBlast)",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@teamblast",
-      "stored_followers": 5894,
-      "live_followers": 5907,
+      "stored_followers": 5907,
+      "live_followers": 5910,
       "error": null,
-      "diff_pct": 0.22056328469630132
+      "diff_pct": 0.050787201625190445
     },
     {
       "talent_name": "דניאל טימבלאסט (TeamBlast)",
@@ -1064,10 +1064,10 @@
       "talent_name": "מינה (CinnaMinaa)",
       "platform": "youtube",
       "url": "https://youtube.com/@cinnaminaa",
-      "stored_followers": 32300,
+      "stored_followers": 32400,
       "live_followers": 32400,
       "error": null,
-      "diff_pct": 0.30959752321981426
+      "diff_pct": 0.0
     },
     {
       "talent_name": "מינה (CinnaMinaa)",
@@ -1101,9 +1101,9 @@
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@michalmatzov",
       "stored_followers": 367400,
-      "live_followers": 367400,
+      "live_followers": 367500,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": 0.027218290691344585
     },
     {
       "talent_name": "מיכל מצוב",
@@ -1173,18 +1173,18 @@
       "platform": "youtube",
       "url": "https://www.youtube.com/@israelgalitsky",
       "stored_followers": 6630,
-      "live_followers": 6630,
+      "live_followers": 6620,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": -0.1508295625942685
     },
     {
       "talent_name": "ישראל גליצקי",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@israel_galitsky",
-      "stored_followers": 159400,
-      "live_followers": 159500,
+      "stored_followers": 159500,
+      "live_followers": 159600,
       "error": null,
-      "diff_pct": 0.06273525721455457
+      "diff_pct": 0.06269592476489029
     },
     {
       "talent_name": "ישראל גליצקי",
