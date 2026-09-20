@@ -5,10 +5,10 @@
     "category": "תוכן מיינסטרים וויראלי",
     "bio": "מיוצרי התוכן המיינסטרים הגדולים בישראל, עם קהל של מעל 850 אלף עוקבים. שנים של תוכן ויראלי שמייצר טרנדים ומגיע למיליוני צפיות, מתוך היכרות עמוקה עם האלגוריתם ועם מה שמזיז את הקהל הישראלי. טכנולוגיה וגאדג'טים הם תחום נוסף בארגז הכלים שלו.",
     "imageUrl": "/talents/photos/benkeysar.jpg",
-    "totalFollowers": 861100,
+    "totalFollowers": 861000,
     "platformFollowers": {
       "youtube": 481000,
-      "tiktok": 209100,
+      "tiktok": 209000,
       "instagram": 171000
     },
     "audience": {
@@ -72,9 +72,9 @@
     "category": "קומדיה ובידור",
     "bio": "אחד מיוצרי התוכן הבולטים והייחודיים ברשת. בזכות הומור חד, דמות בלתי נשכחת ושפה אותנטית ונטולת פילטרים, הוא בנה סביבו קהילה גדולה ונאמנה שמתחברת לתוכן שלו ומגיבה אליו בעוצמה רבה. קורנליוס מביא לכל שיתוף פעולה נוכחות, קריאייטיב ואופי שקשה לפספס, והופך מסרים מסחריים לתוכן מצחיק, טבעי ומעורר שיח ברשת.",
     "imageUrl": "/talents/photos/cornelius.jpg",
-    "totalFollowers": 378533,
+    "totalFollowers": 378633,
     "platformFollowers": {
-      "youtube": 16700,
+      "youtube": 16800,
       "tiktok": 270900,
       "instagram": 90933
     },
@@ -169,9 +169,9 @@
     "category": "תעלומות ופשע אמיתי",
     "bio": "משפיען אפל של מסתורין. סיפורי פשע אמיתי, תעלומות בלתי פתורות, רוצחים סדרתיים, קונספירציות אפלות, ודברים מוזרים מהעולם שאנחנו חיים בו. בערוץ תמצאו תיעודים אמיתיים, מקרים מצמררים, סיפורים שאולי רצו שאנשים ישכחו...",
     "imageUrl": "/talents/photos/blackbeard.jpg",
-    "totalFollowers": 197471,
+    "totalFollowers": 195971,
     "platformFollowers": {
-      "youtube": 89200,
+      "youtube": 87700,
       "tiktok": 89400,
       "instagram": 18871
     },
@@ -199,9 +199,9 @@
     "category": "גיימינג ותוכן כללי",
     "bio": "יוצר תוכן גיימינג וכללי, מתמחה בסרטונים קצרים.",
     "imageUrl": "/talents/photos/barastri.jpg",
-    "totalFollowers": 179496,
+    "totalFollowers": 178496,
     "platformFollowers": {
-      "youtube": 137000,
+      "youtube": 136000,
       "tiktok": 36700,
       "instagram": 5796
     },
@@ -228,9 +228,9 @@
     "category": "תוכן כללי ופופ קולטור",
     "bio": "עומר יוצר תוכן כללי ומגוון, עם התמחות בעבר בגיימינג שגדלה לתחומי אקטואליה ופופ קולטור.",
     "imageUrl": "/talents/yt/goldenshow.jpg",
-    "totalFollowers": 127727,
+    "totalFollowers": 127427,
     "platformFollowers": {
-      "youtube": 89400,
+      "youtube": 89100,
       "tiktok": 29600,
       "instagram": 8727
     },
@@ -254,14 +254,14 @@
   },
   {
     "id": "10",
-    "totalFollowers": 117800,
+    "totalFollowers": 117900,
     "name": "סטינגר ישראל",
     "category": "גיימינג",
     "bio": "סטינגר ישראל הוא יוצר תוכן וגיימר בולט בזירת הגיימינג הישראלית, המוכר בזכות אנרגיה גבוהה, קצב מהיר וחיבור אותנטי לקהילה הצעירה.\nהתוכן שלו משלב גיימפליי תחרותי, אתגרים, ריאקשנים ושיתופי פעולה – עם דגש על הומור חד ועריכה דינמית שמחזיקה את הצופה מהשנייה הראשונה.",
     "imageUrl": "/talents/yt/stinger.jpg",
     "main": true,
     "platformFollowers": {
-      "youtube": 94500,
+      "youtube": 94600,
       "instagram": 2800,
       "tiktok": 20500
     },
@@ -283,9 +283,9 @@
     "category": "מדע וטכנולוגיה",
     "bio": "עומר בן 22, יוצר כריזמטי בתחום המדע והטכנולוגיה, רקע בצילום ובימוי, לשעבר ביחידת הסרטה בצה\"ל, יוצר תוכן ויראלי בעברית ואנגלית.",
     "imageUrl": "/talents/yt/omeryaron.jpg",
-    "totalFollowers": 113700,
+    "totalFollowers": 113400,
     "platformFollowers": {
-      "youtube": 45400,
+      "youtube": 45100,
       "tiktok": 55700,
       "instagram": 12600
     },
@@ -320,10 +320,10 @@
     "category": "גיימינג ומיינקראפט",
     "bio": "יוצר תוכן גיימינג ומיינקראפט, מהוותיקים בישראל.",
     "imageUrl": "/talents/photos/teamblast.jpg",
-    "totalFollowers": 110626,
+    "totalFollowers": 110621,
     "platformFollowers": {
       "youtube": 102000,
-      "tiktok": 5910,
+      "tiktok": 5905,
       "instagram": 2716
     },
     "audience": {
@@ -349,9 +349,9 @@
     "category": "גיימינג",
     "bio": "בת 20, יוצרת תוכן גיימינג עם קהל מעורב, מתמקדת בקשר לקהילה וסטרימינג ייחודי.",
     "imageUrl": "/talents/photos/cinnaminaa.jpg",
-    "totalFollowers": 106700,
+    "totalFollowers": 106600,
     "platformFollowers": {
-      "youtube": 32400,
+      "youtube": 32300,
       "instagram": 4000,
       "tiktok": 70300
     },
@@ -493,10 +493,10 @@
     "category": "קולנוע ובידור",
     "bio": "יוצר תוכן בתחום הקולנוע והבידור עם מעל 4 שנות ניסיון ביצירת ולוגים וסרטונים.",
     "imageUrl": "/talents/Israel Galitsky.png",
-    "totalFollowers": 182620,
+    "totalFollowers": 182720,
     "platformFollowers": {
       "youtube": 6620,
-      "tiktok": 159600,
+      "tiktok": 159700,
       "instagram": 16400
     },
     "audience": {
