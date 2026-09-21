@@ -72,9 +72,9 @@
     "category": "קומדיה ובידור",
     "bio": "אחד מיוצרי התוכן הבולטים והייחודיים ברשת. בזכות הומור חד, דמות בלתי נשכחת ושפה אותנטית ונטולת פילטרים, הוא בנה סביבו קהילה גדולה ונאמנה שמתחברת לתוכן שלו ומגיבה אליו בעוצמה רבה. קורנליוס מביא לכל שיתוף פעולה נוכחות, קריאייטיב ואופי שקשה לפספס, והופך מסרים מסחריים לתוכן מצחיק, טבעי ומעורר שיח ברשת.",
     "imageUrl": "/talents/photos/cornelius.jpg",
-    "totalFollowers": 378633,
+    "totalFollowers": 378733,
     "platformFollowers": {
-      "youtube": 16800,
+      "youtube": 16900,
       "tiktok": 270900,
       "instagram": 90933
     },
@@ -169,10 +169,10 @@
     "category": "תעלומות ופשע אמיתי",
     "bio": "משפיען אפל של מסתורין. סיפורי פשע אמיתי, תעלומות בלתי פתורות, רוצחים סדרתיים, קונספירציות אפלות, ודברים מוזרים מהעולם שאנחנו חיים בו. בערוץ תמצאו תיעודים אמיתיים, מקרים מצמררים, סיפורים שאולי רצו שאנשים ישכחו...",
     "imageUrl": "/talents/photos/blackbeard.jpg",
-    "totalFollowers": 195971,
+    "totalFollowers": 197671,
     "platformFollowers": {
-      "youtube": 87700,
-      "tiktok": 89400,
+      "youtube": 89300,
+      "tiktok": 89500,
       "instagram": 18871
     },
     "audience": {
@@ -199,10 +199,10 @@
     "category": "גיימינג ותוכן כללי",
     "bio": "יוצר תוכן גיימינג וכללי, מתמחה בסרטונים קצרים.",
     "imageUrl": "/talents/photos/barastri.jpg",
-    "totalFollowers": 178496,
+    "totalFollowers": 179596,
     "platformFollowers": {
-      "youtube": 136000,
-      "tiktok": 36700,
+      "youtube": 137000,
+      "tiktok": 36800,
       "instagram": 5796
     },
     "audience": {
@@ -228,9 +228,9 @@
     "category": "תוכן כללי ופופ קולטור",
     "bio": "עומר יוצר תוכן כללי ומגוון, עם התמחות בעבר בגיימינג שגדלה לתחומי אקטואליה ופופ קולטור.",
     "imageUrl": "/talents/yt/goldenshow.jpg",
-    "totalFollowers": 127427,
+    "totalFollowers": 127827,
     "platformFollowers": {
-      "youtube": 89100,
+      "youtube": 89500,
       "tiktok": 29600,
       "instagram": 8727
     },
@@ -254,14 +254,14 @@
   },
   {
     "id": "10",
-    "totalFollowers": 117900,
+    "totalFollowers": 117800,
     "name": "סטינגר ישראל",
     "category": "גיימינג",
     "bio": "סטינגר ישראל הוא יוצר תוכן וגיימר בולט בזירת הגיימינג הישראלית, המוכר בזכות אנרגיה גבוהה, קצב מהיר וחיבור אותנטי לקהילה הצעירה.\nהתוכן שלו משלב גיימפליי תחרותי, אתגרים, ריאקשנים ושיתופי פעולה – עם דגש על הומור חד ועריכה דינמית שמחזיקה את הצופה מהשנייה הראשונה.",
     "imageUrl": "/talents/yt/stinger.jpg",
     "main": true,
     "platformFollowers": {
-      "youtube": 94600,
+      "youtube": 94500,
       "instagram": 2800,
       "tiktok": 20500
     },
@@ -283,10 +283,10 @@
     "category": "מדע וטכנולוגיה",
     "bio": "עומר בן 22, יוצר כריזמטי בתחום המדע והטכנולוגיה, רקע בצילום ובימוי, לשעבר ביחידת הסרטה בצה\"ל, יוצר תוכן ויראלי בעברית ואנגלית.",
     "imageUrl": "/talents/yt/omeryaron.jpg",
-    "totalFollowers": 113400,
+    "totalFollowers": 113800,
     "platformFollowers": {
-      "youtube": 45100,
-      "tiktok": 55700,
+      "youtube": 45400,
+      "tiktok": 55800,
       "instagram": 12600
     },
     "engagement": "5.2%",
@@ -320,10 +320,10 @@
     "category": "גיימינג ומיינקראפט",
     "bio": "יוצר תוכן גיימינג ומיינקראפט, מהוותיקים בישראל.",
     "imageUrl": "/talents/photos/teamblast.jpg",
-    "totalFollowers": 110621,
+    "totalFollowers": 110624,
     "platformFollowers": {
       "youtube": 102000,
-      "tiktok": 5905,
+      "tiktok": 5908,
       "instagram": 2716
     },
     "audience": {
@@ -349,9 +349,9 @@
     "category": "גיימינג",
     "bio": "בת 20, יוצרת תוכן גיימינג עם קהל מעורב, מתמקדת בקשר לקהילה וסטרימינג ייחודי.",
     "imageUrl": "/talents/photos/cinnaminaa.jpg",
-    "totalFollowers": 106600,
+    "totalFollowers": 106700,
     "platformFollowers": {
-      "youtube": 32300,
+      "youtube": 32400,
       "instagram": 4000,
       "tiktok": 70300
     },
@@ -384,11 +384,11 @@
     "category": "חינוך ולייף סטייל ",
     "bio": " יוצרת תוכן מובילה עם קהל נאמן, האחות הגדולה של היוטיוב משתתפת המרוץ למיליון 2024, מתמחה בלייף סטייל, חינוך, אופנה , אוכל ועוד.",
     "imageUrl": "/talents/MichalMatzov.png",
-    "totalFollowers": 929500,
+    "totalFollowers": 929600,
     "platformFollowers": {
       "youtube": 458000,
       "instagram": 104000,
-      "tiktok": 367500
+      "tiktok": 367600
     },
     "audience": {
       "age": "12-30",
