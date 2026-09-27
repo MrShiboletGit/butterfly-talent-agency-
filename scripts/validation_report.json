@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T08:33:40.548692",
+  "generated_at": "2026-09-27T09:11:09.674142",
   "video_results": [
     {
       "url": "https://www.tiktok.com/@galcohenyt/video/7540251397405560084",
@@ -747,7 +747,7 @@
       "stored_views": 40400,
       "stored_likes": 1130,
       "live_views": null,
-      "live_likes": 1133,
+      "live_likes": 1132,
       "error": null,
       "views_diff_pct": null
     },
@@ -821,10 +821,10 @@
       "talent_name": "קורנליוס האיום (קורנליוס אביעד)",
       "platform": "youtube",
       "url": "https://www.youtube.com/channel/UCiW0DnQFoaKENY1XJMEBvBg",
-      "stored_followers": 17000,
+      "stored_followers": 17100,
       "live_followers": 17100,
       "error": null,
-      "diff_pct": 0.5882352941176471
+      "diff_pct": 0.0
     },
     {
       "talent_name": "קורנליוס האיום (קורנליוס אביעד)",
@@ -858,9 +858,9 @@
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@rainbqueen",
       "stored_followers": 43100,
-      "live_followers": 43100,
+      "live_followers": 43200,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": 0.23201856148491878
     },
     {
       "talent_name": "מיטל ריינבו קווין",
@@ -903,18 +903,18 @@
       "platform": "youtube",
       "url": "https://www.youtube.com/@blackbeardplus",
       "stored_followers": 89500,
-      "live_followers": 89500,
+      "live_followers": 89600,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": 0.11173184357541899
     },
     {
       "talent_name": "בלאקבירד (מוטי וקנין)",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@motiblackbeard",
-      "stored_followers": 89900,
-      "live_followers": 90000,
+      "stored_followers": 90000,
+      "live_followers": 90100,
       "error": null,
-      "diff_pct": 0.11123470522803114
+      "diff_pct": 0.1111111111111111
     },
     {
       "talent_name": "בלאקבירד (מוטי וקנין)",
@@ -1046,10 +1046,10 @@
       "talent_name": "דניאל טימבלאסט (TeamBlast)",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@teamblast",
-      "stored_followers": 5924,
-      "live_followers": 5927,
+      "stored_followers": 5927,
+      "live_followers": 5926,
       "error": null,
-      "diff_pct": 0.05064145847400405
+      "diff_pct": -0.016871941960519655
     },
     {
       "talent_name": "דניאל טימבלאסט (TeamBlast)",
@@ -1092,18 +1092,18 @@
       "platform": "youtube",
       "url": "https://youtube.com/@michalmatzov",
       "stored_followers": 458000,
-      "live_followers": 458000,
+      "live_followers": 459000,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": 0.21834061135371177
     },
     {
       "talent_name": "מיכל מצוב",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@michalmatzov",
       "stored_followers": 367700,
-      "live_followers": 367700,
+      "live_followers": 367800,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": 0.027196083763937992
     },
     {
       "talent_name": "מיכל מצוב",
@@ -1127,10 +1127,10 @@
       "talent_name": "גל כהן",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@galcohenyt",
-      "stored_followers": 88500,
+      "stored_followers": 88400,
       "live_followers": 88400,
       "error": null,
-      "diff_pct": -0.11299435028248588
+      "diff_pct": 0.0
     },
     {
       "talent_name": "גל כהן",
@@ -1154,10 +1154,10 @@
       "talent_name": "רועי (Roee Firewolf)",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@roeefirewolf",
-      "stored_followers": 63900,
+      "stored_followers": 63800,
       "live_followers": 63800,
       "error": null,
-      "diff_pct": -0.1564945226917058
+      "diff_pct": 0.0
     },
     {
       "talent_name": "רועי (Roee Firewolf)",
@@ -1181,10 +1181,10 @@
       "talent_name": "ישראל גליצקי",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@israel_galitsky",
-      "stored_followers": 159900,
-      "live_followers": 160200,
+      "stored_followers": 160200,
+      "live_followers": 160400,
       "error": null,
-      "diff_pct": 0.18761726078799248
+      "diff_pct": 0.12484394506866417
     },
     {
       "talent_name": "ישראל גליצקי",
