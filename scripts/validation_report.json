@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T09:36:47.646042",
+  "generated_at": "2026-09-29T09:42:48.587601",
   "video_results": [
     {
       "url": "https://www.tiktok.com/@galcohenyt/video/7540251397405560084",
@@ -822,9 +822,9 @@
       "platform": "youtube",
       "url": "https://www.youtube.com/channel/UCiW0DnQFoaKENY1XJMEBvBg",
       "stored_followers": 17100,
-      "live_followers": 17100,
+      "live_followers": 17200,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": 0.5847953216374269
     },
     {
       "talent_name": "קורנליוס האיום (קורנליוס אביעד)",
@@ -911,10 +911,10 @@
       "talent_name": "בלאקבירד (מוטי וקנין)",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@motiblackbeard",
-      "stored_followers": 90100,
+      "stored_followers": 90200,
       "live_followers": 90200,
       "error": null,
-      "diff_pct": 0.11098779134295228
+      "diff_pct": 0.0
     },
     {
       "talent_name": "בלאקבירד (מוטי וקנין)",
@@ -956,10 +956,10 @@
       "talent_name": "עומר גולדן שואו (Golden Show)",
       "platform": "youtube",
       "url": "https://www.youtube.com/@RealGoldenShow",
-      "stored_followers": 89600,
+      "stored_followers": 89700,
       "live_followers": 89700,
       "error": null,
-      "diff_pct": 0.11160714285714285
+      "diff_pct": 0.0
     },
     {
       "talent_name": "עומר גולדן שואו (Golden Show)",
@@ -1046,10 +1046,10 @@
       "talent_name": "דניאל טימבלאסט (TeamBlast)",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@teamblast",
-      "stored_followers": 5926,
-      "live_followers": 5932,
+      "stored_followers": 5932,
+      "live_followers": 5934,
       "error": null,
-      "diff_pct": 0.10124873439082012
+      "diff_pct": 0.033715441672285906
     },
     {
       "talent_name": "דניאל טימבלאסט (TeamBlast)",
@@ -1101,9 +1101,9 @@
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@michalmatzov",
       "stored_followers": 367800,
-      "live_followers": 367800,
+      "live_followers": 368000,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": 0.0543773790103317
     },
     {
       "talent_name": "מיכל מצוב",
@@ -1181,10 +1181,10 @@
       "talent_name": "ישראל גליצקי",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@israel_galitsky",
-      "stored_followers": 160400,
+      "stored_followers": 160500,
       "live_followers": 160500,
       "error": null,
-      "diff_pct": 0.062344139650872814
+      "diff_pct": 0.0
     },
     {
       "talent_name": "ישראל גליצקי",
