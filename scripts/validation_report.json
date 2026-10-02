@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T10:01:31.298681",
+  "generated_at": "2026-10-02T09:37:36.283184",
   "video_results": [
     {
       "url": "https://www.tiktok.com/@galcohenyt/video/7540251397405560084",
@@ -27,8 +27,8 @@
       "stored_views": 0,
       "stored_likes": 85,
       "live_views": null,
-      "live_likes": 85,
-      "error": null,
+      "live_likes": null,
+      "error": "No metrics found in embed",
       "views_diff_pct": null
     },
     {
@@ -757,7 +757,7 @@
       "stored_views": 8100,
       "stored_likes": 162,
       "live_views": null,
-      "live_likes": 162,
+      "live_likes": 161,
       "error": null,
       "views_diff_pct": null
     }
@@ -776,10 +776,10 @@
       "talent_name": "בן קיסר (Ben Keysar)",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@benkeysar",
-      "stored_followers": 209000,
+      "stored_followers": 208900,
       "live_followers": 208900,
       "error": null,
-      "diff_pct": -0.04784688995215311
+      "diff_pct": 0.0
     },
     {
       "talent_name": "בן קיסר (Ben Keysar)",
@@ -821,10 +821,10 @@
       "talent_name": "קורנליוס האיום (קורנליוס אביעד)",
       "platform": "youtube",
       "url": "https://www.youtube.com/channel/UCiW0DnQFoaKENY1XJMEBvBg",
-      "stored_followers": 17300,
+      "stored_followers": 17400,
       "live_followers": 17400,
       "error": null,
-      "diff_pct": 0.5780346820809248
+      "diff_pct": 0.0
     },
     {
       "talent_name": "קורנליוס האיום (קורנליוס אביעד)",
@@ -884,10 +884,10 @@
       "talent_name": "דוד ששון (2BOF)",
       "platform": "tiktok",
       "url": "https://tiktok.com/@david_2bof",
-      "stored_followers": 20300,
+      "stored_followers": 20200,
       "live_followers": 20200,
       "error": null,
-      "diff_pct": -0.49261083743842365
+      "diff_pct": 0.0
     },
     {
       "talent_name": "דוד ששון (2BOF)",
@@ -911,10 +911,10 @@
       "talent_name": "בלאקבירד (מוטי וקנין)",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@motiblackbeard",
-      "stored_followers": 90300,
-      "live_followers": 90500,
+      "stored_followers": 90500,
+      "live_followers": 90800,
       "error": null,
-      "diff_pct": 0.22148394241417496
+      "diff_pct": 0.3314917127071823
     },
     {
       "talent_name": "בלאקבירד (מוטי וקנין)",
@@ -939,9 +939,9 @@
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@barastri",
       "stored_followers": 36800,
-      "live_followers": 36800,
+      "live_followers": 36900,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": 0.2717391304347826
     },
     {
       "talent_name": "בר אסטרי (Bar Astri)",
@@ -965,10 +965,10 @@
       "talent_name": "עומר גולדן שואו (Golden Show)",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@realgoldengames",
-      "stored_followers": 29700,
-      "live_followers": 29800,
+      "stored_followers": 29800,
+      "live_followers": 29900,
       "error": null,
-      "diff_pct": 0.33670033670033667
+      "diff_pct": 0.33557046979865773
     },
     {
       "talent_name": "עומר גולדן שואו (Golden Show)",
@@ -1046,10 +1046,10 @@
       "talent_name": "דניאל טימבלאסט (TeamBlast)",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@teamblast",
-      "stored_followers": 5932,
-      "live_followers": 5938,
+      "stored_followers": 5938,
+      "live_followers": 5943,
       "error": null,
-      "diff_pct": 0.10114632501685772
+      "diff_pct": 0.0842034355001684
     },
     {
       "talent_name": "דניאל טימבלאסט (TeamBlast)",
@@ -1065,9 +1065,9 @@
       "platform": "youtube",
       "url": "https://youtube.com/@cinnaminaa",
       "stored_followers": 32500,
-      "live_followers": 32500,
+      "live_followers": 32600,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": 0.3076923076923077
     },
     {
       "talent_name": "מינה (CinnaMinaa)",
@@ -1083,9 +1083,9 @@
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@mina_avrehanian",
       "stored_followers": 70400,
-      "live_followers": 70400,
+      "live_followers": 70500,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": 0.14204545454545456
     },
     {
       "talent_name": "מיכל מצוב",
