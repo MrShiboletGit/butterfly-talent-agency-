@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T09:37:36.283184",
+  "generated_at": "2026-10-03T09:06:43.471698",
   "video_results": [
     {
       "url": "https://www.tiktok.com/@galcohenyt/video/7540251397405560084",
@@ -27,8 +27,8 @@
       "stored_views": 0,
       "stored_likes": 85,
       "live_views": null,
-      "live_likes": null,
-      "error": "No metrics found in embed",
+      "live_likes": 85,
+      "error": null,
       "views_diff_pct": null
     },
     {
@@ -903,18 +903,18 @@
       "platform": "youtube",
       "url": "https://www.youtube.com/@blackbeardplus",
       "stored_followers": 89700,
-      "live_followers": 89700,
+      "live_followers": 89800,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": 0.11148272017837235
     },
     {
       "talent_name": "בלאקבירד (מוטי וקנין)",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@motiblackbeard",
-      "stored_followers": 90500,
-      "live_followers": 90800,
+      "stored_followers": 90800,
+      "live_followers": 90900,
       "error": null,
-      "diff_pct": 0.3314917127071823
+      "diff_pct": 0.11013215859030838
     },
     {
       "talent_name": "בלאקבירד (מוטי וקנין)",
@@ -930,18 +930,18 @@
       "platform": "youtube",
       "url": "https://www.youtube.com/@BarAstri",
       "stored_followers": 137000,
-      "live_followers": 137000,
+      "live_followers": 138000,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": 0.7299270072992701
     },
     {
       "talent_name": "בר אסטרי (Bar Astri)",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@barastri",
-      "stored_followers": 36800,
+      "stored_followers": 36900,
       "live_followers": 36900,
       "error": null,
-      "diff_pct": 0.2717391304347826
+      "diff_pct": 0.0
     },
     {
       "talent_name": "בר אסטרי (Bar Astri)",
@@ -957,18 +957,18 @@
       "platform": "youtube",
       "url": "https://www.youtube.com/@RealGoldenShow",
       "stored_followers": 89800,
-      "live_followers": 89800,
+      "live_followers": 89900,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": 0.11135857461024498
     },
     {
       "talent_name": "עומר גולדן שואו (Golden Show)",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@realgoldengames",
-      "stored_followers": 29800,
+      "stored_followers": 29900,
       "live_followers": 29900,
       "error": null,
-      "diff_pct": 0.33557046979865773
+      "diff_pct": 0.0
     },
     {
       "talent_name": "עומר גולדן שואו (Golden Show)",
@@ -1046,10 +1046,10 @@
       "talent_name": "דניאל טימבלאסט (TeamBlast)",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@teamblast",
-      "stored_followers": 5938,
-      "live_followers": 5943,
+      "stored_followers": 5943,
+      "live_followers": 5945,
       "error": null,
-      "diff_pct": 0.0842034355001684
+      "diff_pct": 0.033653037186606095
     },
     {
       "talent_name": "דניאל טימבלאסט (TeamBlast)",
@@ -1064,10 +1064,10 @@
       "talent_name": "מינה (CinnaMinaa)",
       "platform": "youtube",
       "url": "https://youtube.com/@cinnaminaa",
-      "stored_followers": 32500,
+      "stored_followers": 32600,
       "live_followers": 32600,
       "error": null,
-      "diff_pct": 0.3076923076923077
+      "diff_pct": 0.0
     },
     {
       "talent_name": "מינה (CinnaMinaa)",
@@ -1082,10 +1082,10 @@
       "talent_name": "מינה (CinnaMinaa)",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@mina_avrehanian",
-      "stored_followers": 70400,
+      "stored_followers": 70500,
       "live_followers": 70500,
       "error": null,
-      "diff_pct": 0.14204545454545456
+      "diff_pct": 0.0
     },
     {
       "talent_name": "מיכל מצוב",
@@ -1101,9 +1101,9 @@
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@michalmatzov",
       "stored_followers": 368100,
-      "live_followers": 368100,
+      "live_followers": 368200,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": 0.027166530834012496
     },
     {
       "talent_name": "מיכל מצוב",
@@ -1182,9 +1182,9 @@
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@israel_galitsky",
       "stored_followers": 160700,
-      "live_followers": 160700,
+      "live_followers": 160800,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": 0.06222775357809583
     },
     {
       "talent_name": "ישראל גליצקי",
