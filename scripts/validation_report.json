@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T10:01:28.405103",
+  "generated_at": "2026-10-07T10:06:13.672643",
   "video_results": [
     {
       "url": "https://www.tiktok.com/@galcohenyt/video/7540251397405560084",
@@ -902,10 +902,10 @@
       "talent_name": "בלאקבירד (מוטי וקנין)",
       "platform": "youtube",
       "url": "https://www.youtube.com/@blackbeardplus",
-      "stored_followers": 89800,
+      "stored_followers": 90000,
       "live_followers": 90000,
       "error": null,
-      "diff_pct": 0.22271714922048996
+      "diff_pct": 0.0
     },
     {
       "talent_name": "בלאקבירד (מוטי וקנין)",
@@ -956,19 +956,19 @@
       "talent_name": "עומר גולדן שואו (Golden Show)",
       "platform": "youtube",
       "url": "https://www.youtube.com/@RealGoldenShow",
-      "stored_followers": 90100,
-      "live_followers": 90300,
+      "stored_followers": 90300,
+      "live_followers": 90400,
       "error": null,
-      "diff_pct": 0.22197558268590456
+      "diff_pct": 0.11074197120708748
     },
     {
       "talent_name": "עומר גולדן שואו (Golden Show)",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@realgoldengames",
-      "stored_followers": 30000,
-      "live_followers": 30100,
+      "stored_followers": 30100,
+      "live_followers": 30200,
       "error": null,
-      "diff_pct": 0.33333333333333337
+      "diff_pct": 0.33222591362126247
     },
     {
       "talent_name": "עומר גולדן שואו (Golden Show)",
@@ -1011,9 +1011,9 @@
       "platform": "youtube",
       "url": "https://youtube.com/@omer_yaron",
       "stored_followers": 45500,
-      "live_followers": 45500,
+      "live_followers": 45600,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": 0.21978021978021978
     },
     {
       "talent_name": "עומר ירון",
@@ -1046,10 +1046,10 @@
       "talent_name": "דניאל טימבלאסט (TeamBlast)",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@teamblast",
-      "stored_followers": 5950,
-      "live_followers": 5947,
+      "stored_followers": 5947,
+      "live_followers": 5953,
       "error": null,
-      "diff_pct": -0.05042016806722689
+      "diff_pct": 0.10089120564990753
     },
     {
       "talent_name": "דניאל טימבלאסט (TeamBlast)",
@@ -1101,9 +1101,9 @@
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@michalmatzov",
       "stored_followers": 368300,
-      "live_followers": 368300,
+      "live_followers": 368400,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": 0.027151778441487917
     },
     {
       "talent_name": "מיכל מצוב",
@@ -1182,9 +1182,9 @@
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@israel_galitsky",
       "stored_followers": 160900,
-      "live_followers": 160900,
+      "live_followers": 161000,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": 0.06215040397762585
     },
     {
       "talent_name": "ישראל גליצקי",
