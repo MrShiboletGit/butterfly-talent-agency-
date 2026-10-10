@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T10:19:45.619578",
+  "generated_at": "2026-10-10T09:40:36.314838",
   "video_results": [
     {
       "url": "https://www.tiktok.com/@galcohenyt/video/7540251397405560084",
@@ -803,10 +803,10 @@
       "talent_name": "מר שיבולת (שי בן בסט)",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@mrshibolet",
-      "stored_followers": 116200,
-      "live_followers": 116300,
+      "stored_followers": 116300,
+      "live_followers": 116400,
       "error": null,
-      "diff_pct": 0.08605851979345956
+      "diff_pct": 0.08598452278589853
     },
     {
       "talent_name": "מר שיבולת (שי בן בסט)",
@@ -821,10 +821,10 @@
       "talent_name": "קורנליוס האיום (קורנליוס אביעד)",
       "platform": "youtube",
       "url": "https://www.youtube.com/channel/UCiW0DnQFoaKENY1XJMEBvBg",
-      "stored_followers": 17500,
+      "stored_followers": 17600,
       "live_followers": 17600,
       "error": null,
-      "diff_pct": 0.5714285714285714
+      "diff_pct": 0.0
     },
     {
       "talent_name": "קורנליוס האיום (קורנליוס אביעד)",
@@ -884,10 +884,10 @@
       "talent_name": "דוד ששון (2BOF)",
       "platform": "tiktok",
       "url": "https://tiktok.com/@david_2bof",
-      "stored_followers": 20200,
-      "live_followers": 20300,
+      "stored_followers": 20300,
+      "live_followers": 20200,
       "error": null,
-      "diff_pct": 0.49504950495049505
+      "diff_pct": -0.49261083743842365
     },
     {
       "talent_name": "דוד ששון (2BOF)",
@@ -902,19 +902,19 @@
       "talent_name": "בלאקבירד (מוטי וקנין)",
       "platform": "youtube",
       "url": "https://www.youtube.com/@blackbeardplus",
-      "stored_followers": 90100,
+      "stored_followers": 90200,
       "live_followers": 90200,
       "error": null,
-      "diff_pct": 0.11098779134295228
+      "diff_pct": 0.0
     },
     {
       "talent_name": "בלאקבירד (מוטי וקנין)",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@motiblackbeard",
-      "stored_followers": 91100,
+      "stored_followers": 91200,
       "live_followers": 91200,
       "error": null,
-      "diff_pct": 0.10976948408342481
+      "diff_pct": 0.0
     },
     {
       "talent_name": "בלאקבירד (מוטי וקנין)",
@@ -939,9 +939,9 @@
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@barastri",
       "stored_followers": 36900,
-      "live_followers": 36900,
+      "live_followers": 37000,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": 0.27100271002710025
     },
     {
       "talent_name": "בר אסטרי (Bar Astri)",
@@ -956,10 +956,10 @@
       "talent_name": "עומר גולדן שואו (Golden Show)",
       "platform": "youtube",
       "url": "https://www.youtube.com/@RealGoldenShow",
-      "stored_followers": 90500,
-      "live_followers": 90600,
+      "stored_followers": 90600,
+      "live_followers": 90700,
       "error": null,
-      "diff_pct": 0.11049723756906078
+      "diff_pct": 0.11037527593818984
     },
     {
       "talent_name": "עומר גולדן שואו (Golden Show)",
@@ -1011,9 +1011,9 @@
       "platform": "youtube",
       "url": "https://youtube.com/@omer_yaron",
       "stored_followers": 45500,
-      "live_followers": 45500,
+      "live_followers": 45600,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": 0.21978021978021978
     },
     {
       "talent_name": "עומר ירון",
@@ -1046,10 +1046,10 @@
       "talent_name": "דניאל טימבלאסט (TeamBlast)",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@teamblast",
-      "stored_followers": 5955,
-      "live_followers": 5978,
+      "stored_followers": 5978,
+      "live_followers": 6001,
       "error": null,
-      "diff_pct": 0.38623005877413935
+      "diff_pct": 0.38474406155904983
     },
     {
       "talent_name": "דניאל טימבלאסט (TeamBlast)",
@@ -1082,10 +1082,10 @@
       "talent_name": "מינה (CinnaMinaa)",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@mina_avrehanian",
-      "stored_followers": 70500,
+      "stored_followers": 70400,
       "live_followers": 70400,
       "error": null,
-      "diff_pct": -0.14184397163120568
+      "diff_pct": 0.0
     },
     {
       "talent_name": "מיכל מצוב",
