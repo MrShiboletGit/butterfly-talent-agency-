@@ -855,11 +855,11 @@
     "description": "קמפיין קידום סרט חדש - סופרמן בקולנוע בסוף יולי",
     "category": "קמפיין קולנוע",
     "kpis": {
-      "views": 2656772,
-      "engagement": 23387,
+      "views": 2717942,
+      "engagement": 23933,
       "shares": 119,
-      "reach": 2656772,
-      "impressions": 2656772
+      "reach": 2717942,
+      "impressions": 2717942
     },
     "talents": [
       "3",
@@ -877,8 +877,8 @@
         "type": "short-form-video",
         "description": "YouTube Shorts - קידום סרט סופרמן בקולנוע",
         "platform": "youtube",
-        "views": 530802,
-        "likes": 9738,
+        "views": 591972,
+        "likes": 10284,
         "comments": 2910,
         "talent": "3"
       },

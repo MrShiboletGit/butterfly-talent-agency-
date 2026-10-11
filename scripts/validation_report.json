@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T09:40:36.314838",
+  "generated_at": "2026-10-11T09:55:13.575905",
   "video_results": [
     {
       "url": "https://www.tiktok.com/@galcohenyt/video/7540251397405560084",
@@ -436,10 +436,10 @@
       "platform": "youtube",
       "stored_views": 530802,
       "stored_likes": 9738,
-      "live_views": null,
-      "live_likes": null,
-      "error": "ERROR: [youtube] Em0PnE3HG6c: Sign in to confirm y",
-      "views_diff_pct": null
+      "live_views": 591972,
+      "live_likes": 10284,
+      "error": null,
+      "views_diff_pct": 11.524071122565477
     },
     {
       "url": "https://www.tiktok.com/@roeefirewolf/video/7525110938639355154",
@@ -803,10 +803,10 @@
       "talent_name": "מר שיבולת (שי בן בסט)",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@mrshibolet",
-      "stored_followers": 116300,
-      "live_followers": 116400,
-      "error": null,
-      "diff_pct": 0.08598452278589853
+      "stored_followers": 116400,
+      "live_followers": null,
+      "error": "Could not find follower count",
+      "diff_pct": null
     },
     {
       "talent_name": "מר שיבולת (שי בן בסט)",
@@ -858,9 +858,9 @@
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@rainbqueen",
       "stored_followers": 43200,
-      "live_followers": 43200,
-      "error": null,
-      "diff_pct": 0.0
+      "live_followers": null,
+      "error": "Could not find follower count",
+      "diff_pct": null
     },
     {
       "talent_name": "מיטל ריינבו קווין",
@@ -884,10 +884,10 @@
       "talent_name": "דוד ששון (2BOF)",
       "platform": "tiktok",
       "url": "https://tiktok.com/@david_2bof",
-      "stored_followers": 20300,
-      "live_followers": 20200,
-      "error": null,
-      "diff_pct": -0.49261083743842365
+      "stored_followers": 20200,
+      "live_followers": null,
+      "error": "Could not find follower count",
+      "diff_pct": null
     },
     {
       "talent_name": "דוד ששון (2BOF)",
@@ -903,18 +903,18 @@
       "platform": "youtube",
       "url": "https://www.youtube.com/@blackbeardplus",
       "stored_followers": 90200,
-      "live_followers": 90200,
+      "live_followers": 90300,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": 0.11086474501108648
     },
     {
       "talent_name": "בלאקבירד (מוטי וקנין)",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@motiblackbeard",
       "stored_followers": 91200,
-      "live_followers": 91200,
-      "error": null,
-      "diff_pct": 0.0
+      "live_followers": null,
+      "error": "Could not find follower count",
+      "diff_pct": null
     },
     {
       "talent_name": "בלאקבירד (מוטי וקנין)",
@@ -938,10 +938,10 @@
       "talent_name": "בר אסטרי (Bar Astri)",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@barastri",
-      "stored_followers": 36900,
-      "live_followers": 37000,
-      "error": null,
-      "diff_pct": 0.27100271002710025
+      "stored_followers": 37000,
+      "live_followers": null,
+      "error": "Could not find follower count",
+      "diff_pct": null
     },
     {
       "talent_name": "בר אסטרי (Bar Astri)",
@@ -956,19 +956,19 @@
       "talent_name": "עומר גולדן שואו (Golden Show)",
       "platform": "youtube",
       "url": "https://www.youtube.com/@RealGoldenShow",
-      "stored_followers": 90600,
-      "live_followers": 90700,
+      "stored_followers": 90700,
+      "live_followers": 90800,
       "error": null,
-      "diff_pct": 0.11037527593818984
+      "diff_pct": 0.11025358324145534
     },
     {
       "talent_name": "עומר גולדן שואו (Golden Show)",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@realgoldengames",
       "stored_followers": 30200,
-      "live_followers": 30200,
-      "error": null,
-      "diff_pct": 0.0
+      "live_followers": null,
+      "error": "Could not find follower count",
+      "diff_pct": null
     },
     {
       "talent_name": "עומר גולדן שואו (Golden Show)",
@@ -1002,27 +1002,27 @@
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@stingeril",
       "stored_followers": 20500,
-      "live_followers": 20500,
-      "error": null,
-      "diff_pct": 0.0
+      "live_followers": null,
+      "error": "Could not find follower count",
+      "diff_pct": null
     },
     {
       "talent_name": "עומר ירון",
       "platform": "youtube",
       "url": "https://youtube.com/@omer_yaron",
-      "stored_followers": 45500,
+      "stored_followers": 45600,
       "live_followers": 45600,
       "error": null,
-      "diff_pct": 0.21978021978021978
+      "diff_pct": 0.0
     },
     {
       "talent_name": "עומר ירון",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@omeryaron_",
       "stored_followers": 55700,
-      "live_followers": 55700,
-      "error": null,
-      "diff_pct": 0.0
+      "live_followers": null,
+      "error": "Could not find follower count",
+      "diff_pct": null
     },
     {
       "talent_name": "עומר ירון",
@@ -1046,10 +1046,10 @@
       "talent_name": "דניאל טימבלאסט (TeamBlast)",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@teamblast",
-      "stored_followers": 5978,
-      "live_followers": 6001,
-      "error": null,
-      "diff_pct": 0.38474406155904983
+      "stored_followers": 6001,
+      "live_followers": null,
+      "error": "Could not find follower count",
+      "diff_pct": null
     },
     {
       "talent_name": "דניאל טימבלאסט (TeamBlast)",
@@ -1083,9 +1083,9 @@
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@mina_avrehanian",
       "stored_followers": 70400,
-      "live_followers": 70400,
-      "error": null,
-      "diff_pct": 0.0
+      "live_followers": null,
+      "error": "Could not find follower count",
+      "diff_pct": null
     },
     {
       "talent_name": "מיכל מצוב",
@@ -1101,9 +1101,9 @@
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@michalmatzov",
       "stored_followers": 368500,
-      "live_followers": 368500,
-      "error": null,
-      "diff_pct": 0.0
+      "live_followers": null,
+      "error": "Could not find follower count",
+      "diff_pct": null
     },
     {
       "talent_name": "מיכל מצוב",
@@ -1128,9 +1128,9 @@
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@galcohenyt",
       "stored_followers": 88300,
-      "live_followers": 88300,
-      "error": null,
-      "diff_pct": 0.0
+      "live_followers": null,
+      "error": "Could not find follower count",
+      "diff_pct": null
     },
     {
       "talent_name": "גל כהן",
@@ -1155,9 +1155,9 @@
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@roeefirewolf",
       "stored_followers": 63700,
-      "live_followers": 63700,
-      "error": null,
-      "diff_pct": 0.0
+      "live_followers": null,
+      "error": "Could not find follower count",
+      "diff_pct": null
     },
     {
       "talent_name": "רועי (Roee Firewolf)",
@@ -1182,9 +1182,9 @@
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@israel_galitsky",
       "stored_followers": 161000,
-      "live_followers": 161000,
-      "error": null,
-      "diff_pct": 0.0
+      "live_followers": null,
+      "error": "Could not find follower count",
+      "diff_pct": null
     },
     {
       "talent_name": "ישראל גליצקי",
