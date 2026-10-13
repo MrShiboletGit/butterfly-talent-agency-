@@ -20,7 +20,9 @@ import { fileURLToPath } from 'node:url';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const DIST = join(ROOT, 'dist');
-const SITE = 'https://butterfly-talent.com';
+// The bare domain 307-redirects to www; point previews at www directly so
+// crawlers fetch images without a redirect hop.
+const SITE = 'https://www.butterfly-talent.com';
 const BRAND = 'Butterfly Talent Agency';
 const DEFAULT_IMAGE = { path: '/og/default.jpg', width: 1200, height: 630 };
 
@@ -48,6 +50,9 @@ function setMeta(html, attr, key, value) {
 
 function render(template, { title, description, url, image, card }) {
   let html = template.replace(/<title>[\s\S]*?<\/title>/, `<title>${escapeAttr(title)}</title>`);
+  // The template's canonical points at the homepage; left as-is it would tell
+  // search engines every detail page is a duplicate of it.
+  html = html.replace(/<link\s+rel="canonical"\s+href="[^"]*"\s*\/?>/, `<link rel="canonical" href="${escapeAttr(url)}" />`);
   const desc = rtlSafe(description);
   const imageUrl = `${SITE}${encodeURI(image.path)}`;
   const tags = [
