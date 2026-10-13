@@ -6,6 +6,7 @@ import Footer from '../components/Footer';
 import talentsData from '../data/talents.json';
 import campaignsData from '../data/campaigns.json';
 import clientsData from '../data/clients.json';
+import { usePageTitle } from '../hooks/usePageTitle';
 
 // Custom TikTok icon component
 const TikTokIcon = ({ size = 24 }: { size?: number }) => (
@@ -18,6 +19,7 @@ const TalentPage = () => {
   const { id } = useParams<{ id: string }>();
   const navigate = useNavigate();
   const talent = talentsData.find(t => t.id === id);
+  usePageTitle(talent?.name);
   const [isImageModalOpen, setIsImageModalOpen] = useState(false);
 
   // Escape closes the lightbox, and the page behind it stops scrolling while open.

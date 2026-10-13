@@ -6,7 +6,7 @@
   "homepage": "https://MrShiboletGit.github.io/butterfly-talent-agency-",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build && node scripts/prerender-meta.mjs",
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
     "typecheck": "tsc -p tsconfig.app.json --noEmit",

@@ -4,6 +4,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import clientsData from '../data/clients.json';
 import campaignsData from '../data/campaigns.json';
+import { usePageTitle } from '../hooks/usePageTitle';
 
 interface Client {
   id: string;
@@ -36,6 +37,7 @@ const ClientPage = () => {
   const { id } = useParams<{ id: string }>();
   
   const client = clientsData.find(c => c.id === id) as Client;
+  usePageTitle(client?.name);
   const clientCampaigns = campaignsData.filter(c => c.clientId === id);
 
   const formatNumber = (num: number) => {

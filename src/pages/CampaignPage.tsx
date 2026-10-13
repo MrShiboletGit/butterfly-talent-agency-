@@ -6,6 +6,7 @@ import ContentCarousel from '../components/ContentCarousel';
 import campaignsData from '../data/campaigns.json';
 import clientsData from '../data/clients.json';
 import talentsData from '../data/talents.json';
+import { usePageTitle } from '../hooks/usePageTitle';
 
 interface Campaign {
   id: string;
@@ -50,6 +51,7 @@ const CampaignPage = () => {
   
   const campaign = campaignsData.find(c => c.id === id) as Campaign;
   const client = clientsData.find(c => c.id === campaign?.clientId);
+  usePageTitle(campaign?.title);
   const campaignTalents = talentsData.filter(t => campaign?.talents.includes(t.id));
 
   const formatNumber = (num: number) => {
