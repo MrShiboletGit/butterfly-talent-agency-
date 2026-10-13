@@ -379,6 +379,34 @@
     "main": true
   },
   {
+    "id": "18",
+    "name": "טום דוגמא (Tom Dugma)",
+    "category": "הומור ולייף סטייל",
+    "bio": "בן 33, תל אביבי במקור מנהריה, רווק, יוצר תוכן והייטקיסט. טום מביא לעולם התוכן שילוב של הומור, ציניות, חיי רווקות, קריירה והחיים בתל אביב, עם תוכן קליל, חד ומאוד relatable. החיבור בין עולם ההייטק לחיים האישיים והיומיומיים שלו מאפשר לו להשתלב בצורה טבעית במגוון רחב של מותגים וקמפיינים בתחומי לייף סטייל, טכנולוגיה, פיננסים, רכב, תקשורת, אופנה, צרכנות, אוכל ובילויים.",
+    "imageUrl": "/talents/photos/tomdugma.jpg",
+    "totalFollowers": 36407,
+    "platformFollowers": {
+      "tiktok": 20800,
+      "instagram": 15607
+    },
+    "audience": {
+      "age": "20-40",
+      "gender": "50% נשים, 50% גברים"
+    },
+    "socialMedia": {
+      "tiktok": "https://www.tiktok.com/@tomdugma",
+      "instagram": "https://www.instagram.com/tom.dugma"
+    },
+    "previousCollaborations": [],
+    "strengths": [
+      "#HUMOR",
+      "#LIFESTYLE",
+      "#TECHNOLOGY",
+      "#RELATABLE"
+    ],
+    "main": true
+  },
+  {
     "id": "1",
     "name": "מיכל מצוב",
     "category": "חינוך ולייף סטייל ",
