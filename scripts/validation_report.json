@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T10:21:12.551060",
+  "generated_at": "2026-10-14T08:38:22.838586",
   "video_results": [
     {
       "url": "https://www.tiktok.com/@galcohenyt/video/7540251397405560084",
@@ -803,10 +803,10 @@
       "talent_name": "מר שיבולת (שי בן בסט)",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@mrshibolet",
-      "stored_followers": 116700,
+      "stored_followers": 116800,
       "live_followers": 116800,
       "error": null,
-      "diff_pct": 0.08568980291345331
+      "diff_pct": 0.0
     },
     {
       "talent_name": "מר שיבולת (שי בן בסט)",
@@ -938,10 +938,10 @@
       "talent_name": "בר אסטרי (Bar Astri)",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@barastri",
-      "stored_followers": 37000,
+      "stored_followers": 36900,
       "live_followers": 36900,
       "error": null,
-      "diff_pct": -0.2702702702702703
+      "diff_pct": 0.0
     },
     {
       "talent_name": "בר אסטרי (Bar Astri)",
@@ -956,10 +956,10 @@
       "talent_name": "עומר גולדן שואו (Golden Show)",
       "platform": "youtube",
       "url": "https://www.youtube.com/@RealGoldenShow",
-      "stored_followers": 91000,
-      "live_followers": 91100,
+      "stored_followers": 91100,
+      "live_followers": 91200,
       "error": null,
-      "diff_pct": 0.10989010989010989
+      "diff_pct": 0.10976948408342481
     },
     {
       "talent_name": "עומר גולדן שואו (Golden Show)",
@@ -1046,10 +1046,10 @@
       "talent_name": "דניאל טימבלאסט (TeamBlast)",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@teamblast",
-      "stored_followers": 6006,
-      "live_followers": 6002,
+      "stored_followers": 6002,
+      "live_followers": 6008,
       "error": null,
-      "diff_pct": -0.0666000666000666
+      "diff_pct": 0.09996667777407531
     },
     {
       "talent_name": "דניאל טימבלאסט (TeamBlast)",
@@ -1118,10 +1118,10 @@
       "talent_name": "מיכל מצוב",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@michalmatzov",
-      "stored_followers": 368500,
+      "stored_followers": 368600,
       "live_followers": 368600,
       "error": null,
-      "diff_pct": 0.027137042062415198
+      "diff_pct": 0.0
     },
     {
       "talent_name": "מיכל מצוב",
@@ -1145,10 +1145,10 @@
       "talent_name": "גל כהן",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@galcohenyt",
-      "stored_followers": 88300,
+      "stored_followers": 88200,
       "live_followers": 88200,
       "error": null,
-      "diff_pct": -0.11325028312570783
+      "diff_pct": 0.0
     },
     {
       "talent_name": "גל כהן",
@@ -1190,19 +1190,19 @@
       "talent_name": "ישראל גליצקי",
       "platform": "youtube",
       "url": "https://www.youtube.com/@israelgalitsky",
-      "stored_followers": 6620,
+      "stored_followers": 6610,
       "live_followers": 6610,
       "error": null,
-      "diff_pct": -0.1510574018126888
+      "diff_pct": 0.0
     },
     {
       "talent_name": "ישראל גליצקי",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@israel_galitsky",
       "stored_followers": 161400,
-      "live_followers": 161400,
+      "live_followers": 161500,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": 0.061957868649318466
     },
     {
       "talent_name": "ישראל גליצקי",
