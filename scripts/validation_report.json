@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T08:14:34.937842",
+  "generated_at": "2026-10-16T08:08:57.078507",
   "video_results": [
     {
       "url": "https://www.tiktok.com/@galcohenyt/video/7540251397405560084",
@@ -27,8 +27,8 @@
       "stored_views": 0,
       "stored_likes": 85,
       "live_views": null,
-      "live_likes": 85,
-      "error": null,
+      "live_likes": null,
+      "error": "No metrics found in embed",
       "views_diff_pct": null
     },
     {
@@ -117,8 +117,8 @@
       "stored_views": 20300,
       "stored_likes": 1616,
       "live_views": null,
-      "live_likes": 1551,
-      "error": null,
+      "live_likes": null,
+      "error": "No metrics found in embed",
       "views_diff_pct": null
     },
     {
@@ -157,8 +157,8 @@
       "stored_views": 12000,
       "stored_likes": 296,
       "live_views": null,
-      "live_likes": 294,
-      "error": null,
+      "live_likes": null,
+      "error": "No metrics found in embed",
       "views_diff_pct": null
     },
     {
@@ -177,8 +177,8 @@
       "stored_views": 15000,
       "stored_likes": 188,
       "live_views": null,
-      "live_likes": 183,
-      "error": null,
+      "live_likes": null,
+      "error": "No metrics found in embed",
       "views_diff_pct": null
     },
     {
@@ -187,8 +187,8 @@
       "stored_views": 15000,
       "stored_likes": 572,
       "live_views": null,
-      "live_likes": 571,
-      "error": null,
+      "live_likes": null,
+      "error": "No metrics found in embed",
       "views_diff_pct": null
     },
     {
@@ -267,8 +267,8 @@
       "stored_views": 13000,
       "stored_likes": 45,
       "live_views": null,
-      "live_likes": 46,
-      "error": null,
+      "live_likes": null,
+      "error": "No metrics found in embed",
       "views_diff_pct": null
     },
     {
@@ -297,8 +297,8 @@
       "stored_views": 18000,
       "stored_likes": 283,
       "live_views": null,
-      "live_likes": 284,
-      "error": null,
+      "live_likes": null,
+      "error": "No metrics found in embed",
       "views_diff_pct": null
     },
     {
@@ -307,8 +307,8 @@
       "stored_views": 20000,
       "stored_likes": 254,
       "live_views": null,
-      "live_likes": 252,
-      "error": null,
+      "live_likes": null,
+      "error": "No metrics found in embed",
       "views_diff_pct": null
     },
     {
@@ -377,8 +377,8 @@
       "stored_views": 25000,
       "stored_likes": 490,
       "live_views": null,
-      "live_likes": 494,
-      "error": null,
+      "live_likes": null,
+      "error": "No metrics found in embed",
       "views_diff_pct": null
     },
     {
@@ -567,8 +567,8 @@
       "stored_views": 24500,
       "stored_likes": 903,
       "live_views": null,
-      "live_likes": 903,
-      "error": null,
+      "live_likes": null,
+      "error": "No metrics found in embed",
       "views_diff_pct": null
     },
     {
@@ -747,8 +747,8 @@
       "stored_views": 40400,
       "stored_likes": 1130,
       "live_views": null,
-      "live_likes": 1132,
-      "error": null,
+      "live_likes": null,
+      "error": "No metrics found in embed",
       "views_diff_pct": null
     },
     {
@@ -757,8 +757,8 @@
       "stored_views": 8100,
       "stored_likes": 162,
       "live_views": null,
-      "live_likes": 161,
-      "error": null,
+      "live_likes": null,
+      "error": "No metrics found in embed",
       "views_diff_pct": null
     }
   ],
@@ -776,10 +776,10 @@
       "talent_name": "בן קיסר (Ben Keysar)",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@benkeysar",
-      "stored_followers": 208900,
-      "live_followers": 208800,
+      "stored_followers": 208800,
+      "live_followers": 208900,
       "error": null,
-      "diff_pct": -0.04786979415988511
+      "diff_pct": 0.047892720306513405
     },
     {
       "talent_name": "בן קיסר (Ben Keysar)",
@@ -794,19 +794,19 @@
       "talent_name": "מר שיבולת (שי בן בסט)",
       "platform": "youtube",
       "url": "https://www.youtube.com/@SHIB",
-      "stored_followers": 279000,
+      "stored_followers": 280000,
       "live_followers": 280000,
       "error": null,
-      "diff_pct": 0.35842293906810035
+      "diff_pct": 0.0
     },
     {
       "talent_name": "מר שיבולת (שי בן בסט)",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@mrshibolet",
-      "stored_followers": 116800,
-      "live_followers": 116900,
+      "stored_followers": 116900,
+      "live_followers": 117000,
       "error": null,
-      "diff_pct": 0.08561643835616438
+      "diff_pct": 0.0855431993156544
     },
     {
       "talent_name": "מר שיבולת (שי בן בסט)",
@@ -821,10 +821,10 @@
       "talent_name": "קורנליוס האיום (קורנליוס אביעד)",
       "platform": "youtube",
       "url": "https://www.youtube.com/channel/UCiW0DnQFoaKENY1XJMEBvBg",
-      "stored_followers": 17600,
+      "stored_followers": 17700,
       "live_followers": 17700,
       "error": null,
-      "diff_pct": 0.5681818181818182
+      "diff_pct": 0.0
     },
     {
       "talent_name": "קורנליוס האיום (קורנליוס אביעד)",
@@ -902,10 +902,10 @@
       "talent_name": "בלאקבירד (מוטי וקנין)",
       "platform": "youtube",
       "url": "https://www.youtube.com/@blackbeardplus",
-      "stored_followers": 90300,
-      "live_followers": 90400,
+      "stored_followers": 90400,
+      "live_followers": 90500,
       "error": null,
-      "diff_pct": 0.11074197120708748
+      "diff_pct": 0.11061946902654868
     },
     {
       "talent_name": "בלאקבירד (מוטי וקנין)",
@@ -957,9 +957,9 @@
       "platform": "youtube",
       "url": "https://www.youtube.com/@RealGoldenShow",
       "stored_followers": 91200,
-      "live_followers": 91200,
+      "live_followers": 91300,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": 0.10964912280701754
     },
     {
       "talent_name": "עומר גולדן שואו (Golden Show)",
@@ -1046,10 +1046,10 @@
       "talent_name": "דניאל טימבלאסט (TeamBlast)",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@teamblast",
-      "stored_followers": 6008,
-      "live_followers": 6020,
+      "stored_followers": 6020,
+      "live_followers": 6027,
       "error": null,
-      "diff_pct": 0.1997336884154461
+      "diff_pct": 0.11627906976744186
     },
     {
       "talent_name": "דניאל טימבלאסט (TeamBlast)",
@@ -1091,10 +1091,10 @@
       "talent_name": "טום דוגמא (Tom Dugma)",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@tomdugma",
-      "stored_followers": 20800,
+      "stored_followers": 20900,
       "live_followers": 20900,
       "error": null,
-      "diff_pct": 0.4807692307692308
+      "diff_pct": 0.0
     },
     {
       "talent_name": "טום דוגמא (Tom Dugma)",
@@ -1172,10 +1172,10 @@
       "talent_name": "רועי (Roee Firewolf)",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@roeefirewolf",
-      "stored_followers": 63700,
+      "stored_followers": 63600,
       "live_followers": 63600,
       "error": null,
-      "diff_pct": -0.15698587127158556
+      "diff_pct": 0.0
     },
     {
       "talent_name": "רועי (Roee Firewolf)",
