@@ -72,7 +72,7 @@ export function ClientsMarquee() {
       </div>
       <div className="center-row">
         <Link className="btn btn-ghost" to="/campaigns">
-          לקמפיינים שלנו
+          קמפיינים נבחרים
         </Link>
       </div>
     </section>
