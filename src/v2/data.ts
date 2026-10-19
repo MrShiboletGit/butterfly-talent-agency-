@@ -206,9 +206,6 @@ export const GROUPS: { key: string; label: string; test: (t: Talent) => boolean 
 
 export const CONTACT = {
   email: 'contact@butterfly-talent.com',
-  // Web3Forms delivers the contact form to the address above. The key is public
-  // by design: it can only send to that inbox, never read from it.
-  web3formsKey: '6440f375-9d9d-4eb4-8e68-19864ace075e',
   phoneDisplay: '+972-50-914-5461',
   phoneIntl: '972509145461',
   instagram: 'https://www.instagram.com/butterfly___agency',

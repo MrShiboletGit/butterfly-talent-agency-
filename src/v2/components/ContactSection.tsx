@@ -1,5 +1,6 @@
 import { useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
+import { sendContactEmail } from '@/lib/web3forms';
 import { CONTACT, fmtK, sumPF, whatsappUrl } from '../data';
 import { usePicked } from '../picked';
 import { gsap, useGsap } from '../a11y';
@@ -106,30 +107,19 @@ export default function ContactSection({ heading = true }: { heading?: boolean }
     }
     sending.current = true;
     setStatus('sending');
-    const abort = new AbortController();
-    const timer = setTimeout(() => abort.abort(), 15000);
     try {
-      const res = await fetch('https://api.web3forms.com/submit', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
-        signal: abort.signal,
-        body: JSON.stringify({
-          access_key: CONTACT.web3formsKey,
-          subject: talents.length ? `התעניינות בטאלנטים: ${names}` : `פנייה חדשה מהאתר - ${form.name.trim()}`,
-          from_name: 'אתר Butterfly',
-          name: form.name.trim(),
-          email: form.email.trim(),
-          replyto: form.email.trim(),
-          טלפון: form.phone.trim() || '-',
-          'חברה / מותג': form.company.trim() || '-',
-          'טאלנטים שמעניינים אותם': lineup || '-',
-          'על הקמפיין': form.message.trim() || '-',
-          // Web3Forms drops anything that ticked the hidden box: bots fill every field.
-          botcheck: botRef.current?.checked ?? false,
-        }),
+      await sendContactEmail({
+        subject: talents.length ? `התעניינות בטאלנטים: ${names}` : `פנייה חדשה מהאתר - ${form.name.trim()}`,
+        name: form.name.trim(),
+        email: form.email.trim(),
+        replyto: form.email.trim(),
+        טלפון: form.phone.trim() || '-',
+        'חברה / מותג': form.company.trim() || '-',
+        'טאלנטים שמעניינים אותם': lineup || '-',
+        'על הקמפיין': form.message.trim() || '-',
+        // Web3Forms drops anything that ticked the hidden box: bots fill every field.
+        botcheck: botRef.current?.checked ?? false,
       });
-      const data = await res.json().catch(() => ({}));
-      if (!res.ok || !data.success) throw new Error(data.message || `HTTP ${res.status}`);
       setStatus('sent');
       setForm({ name: '', company: '', phone: '', email: '', message: '', consent: false });
       clear();
@@ -137,7 +127,6 @@ export default function ContactSection({ heading = true }: { heading?: boolean }
       console.error('Contact form failed to send:', err);
       setStatus('error');
     } finally {
-      clearTimeout(timer);
       sending.current = false;
     }
   };

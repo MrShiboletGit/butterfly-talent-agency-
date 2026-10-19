@@ -1,9 +1,9 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Mail, Phone, MapPin, Send } from 'lucide-react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import { sendEmail } from '@/integrations/core';
+import { sendContactEmail } from '@/lib/web3forms';
 
 interface LocationState {
   talentName?: string;
@@ -23,6 +23,10 @@ const ContactPage = () => {
     privacyPolicy: false
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
+  // A ref, not isSubmitting: a double-click fires both submits before React
+  // re-renders, and each would send the message.
+  const sendingRef = useRef(false);
+  const botRef = useRef<HTMLInputElement>(null);
   const [submitStatus, setSubmitStatus] = useState<'idle' | 'success' | 'error'>('idle');
 
   useEffect(() => {
@@ -57,26 +61,25 @@ const ContactPage = () => {
       return;
     }
     
+    if (sendingRef.current) return;
+    sendingRef.current = true;
     setIsSubmitting(true);
     setSubmitStatus('idle');
 
     try {
-      await sendEmail({
-        to: 'contact@butterfly-talent.com',
-        subject: state?.talentName 
+      // Through Web3Forms: the Superdev sendEmail this used has had only
+      // placeholder settings since the site moved to Vercel, so it always failed.
+      await sendContactEmail({
+        subject: state?.talentName
           ? `התעניינות בטאלנט: ${state.talentName}`
           : `פנייה חדשה מהאתר - ${formData.name}`,
-        body: `
-          פנייה חדשה מהאתר:
-          
-          שם: ${formData.name}
-          אימייל: ${formData.email}
-          טלפון: ${formData.phone}
-          חברה: ${formData.company}
-          
-          הודעה:
-          ${formData.message}
-        `
+        name: formData.name,
+        email: formData.email,
+        replyto: formData.email,
+        טלפון: formData.phone || '-',
+        חברה: formData.company || '-',
+        הודעה: formData.message,
+        botcheck: botRef.current?.checked ?? false,
       });
 
       setSubmitStatus('success');
@@ -92,6 +95,7 @@ const ContactPage = () => {
       console.error('Error sending email:', error);
       setSubmitStatus('error');
     } finally {
+      sendingRef.current = false;
       setIsSubmitting(false);
     }
   };
@@ -272,6 +276,10 @@ const ContactPage = () => {
                       של האתר אשר לינק אליה נמצא בתחתית כל עמוד.
                     </label>
                   </div>
+
+                  {/* Hidden from people, keyboards and screen readers; bots tick it and
+                      Web3Forms drops their message. */}
+                  <input ref={botRef} type="checkbox" name="botcheck" tabIndex={-1} autoComplete="off" aria-hidden="true" style={{ display: 'none' }} />
 
                   {/* Result sits beside the button rather than ~760px above it, where
                       submitting looked like it did nothing. */}
