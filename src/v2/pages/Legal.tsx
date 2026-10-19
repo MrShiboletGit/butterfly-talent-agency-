@@ -1,20 +1,20 @@
 /**
- * The legal pages. The privacy policy is v1's text, verbatim. The terms of use
- * are new (v1 never had them, though its privacy policy refers to them) and the
- * accessibility statement was rewritten for v2: both are drafts awaiting the
- * business's details and a lawyer's review.
+ * The legal pages. The privacy policy is v1's text (with the site's main phone
+ * number). The terms of use are new for v2 (v1 never had them, though its
+ * privacy policy refers to them) and the accessibility statement was rewritten
+ * to match v2; a lawyer should still review both.
  */
-import type { ReactNode } from 'react';
 import { Link } from 'react-router-dom';
 import { CONTACT } from '../data';
 import { PageHeader } from '../components/chrome';
 import { usePageTitle } from '@/hooks/usePageTitle';
 
 /**
- * A detail only the business can supply. Deliberately loud, so nobody can miss
- * one before v2 goes live: search the repo for <Fill> to find them all.
+ * The accessibility coordinator named in the statement, as Israeli regulations
+ * expect. Reached through the email and phone listed with the name. If this is
+ * ever emptied, the line is left out rather than shown blank.
  */
-const Fill = ({ children }: { children: ReactNode }) => <mark className="fill">{children}</mark>;
+const ACCESSIBILITY_COORDINATOR = 'נתי לוי';
 
 export function PrivacyPage() {
   usePageTitle('מדיניות פרטיות');
@@ -335,9 +335,11 @@ export function AccessibilityPage() {
               העמוד, תיאור הבעיה, והדפדפן וטכנולוגיית הסיוע שבהם השתמשת.
             </p>
             <div className="box">
-              <p>
-                <strong>רכז/ת הנגישות:</strong> <Fill>[שם רכז/ת הנגישות]</Fill>
-              </p>
+              {ACCESSIBILITY_COORDINATOR && (
+                <p>
+                  <strong>רכז/ת הנגישות:</strong> {ACCESSIBILITY_COORDINATOR}
+                </p>
+              )}
               <p>
                 <strong>דואר אלקטרוני:</strong> <a href={`mailto:${CONTACT.email}`} dir="ltr">{CONTACT.email}</a>
               </p>
