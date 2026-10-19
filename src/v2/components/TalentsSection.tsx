@@ -4,6 +4,7 @@ import { GROUPS, PLATFORM_META, PLATFORMS, ROSTER, fmtK, type Platform, type Tal
 import { usePicked } from '../picked';
 import { ScrollTrigger, gsap, useA11y, useGsap } from '../a11y';
 import { PlusIcon, SearchIcon } from './icons';
+import { TalentPhoto } from './chrome';
 
 type SortKey = 'total' | Platform;
 const SORTS: { key: SortKey; label: string }[] = [
@@ -49,7 +50,7 @@ function TalentCard({ t, sort, visible }: { t: Talent; sort: SortKey; visible: b
             : undefined
         }
       >
-        <img src={t.img} alt="" loading="lazy" decoding="async" />
+        <TalentPhoto t={t} alt="" loading="lazy" />
         {/* Opens the profile over the page; the URL is the talent's own, so it can be shared. */}
         <Link className="card-open" to={`/talent/${t.id}`} state={{ bg: location }} aria-label={`הפרופיל של ${t.name}`} />
         {t.cat && <span className="cat">{t.cat}</span>}

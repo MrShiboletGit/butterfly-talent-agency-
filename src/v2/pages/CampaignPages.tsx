@@ -1,7 +1,7 @@
 import { Link, useParams } from 'react-router-dom';
 import { CAMPAIGNS, PLATFORM_META, campaignById, clientById, fmtK, talentById, type Talent } from '../data';
 import { CampaignCard, ContentCard } from '../components/Campaigns';
-import { ClientLogo, CtaBand, PageHeader } from '../components/chrome';
+import { ClientLogo, CtaBand, PageHeader, TalentPhoto } from '../components/chrome';
 import { usePageTitle } from '@/hooks/usePageTitle';
 import NotFound from './NotFound';
 
@@ -118,7 +118,7 @@ export function CampaignPage() {
             <div className="mini-grid">
               {talents.map((t) => (
                 <Link key={t.id} className="mini" to={`/talent/${t.id}`}>
-                  <img src={t.img} alt="" />
+                  <TalentPhoto t={t} alt="" loading="lazy" />
                   <span>
                     <b>{t.name}</b>
                     <small>

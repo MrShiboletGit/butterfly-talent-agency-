@@ -4,6 +4,7 @@ import { CONTACT, fmtK, sumPF, whatsappUrl } from '../data';
 import { usePicked } from '../picked';
 import { gsap, useGsap } from '../a11y';
 import { ChatIcon, MailIcon } from './icons';
+import { TalentPhoto } from './chrome';
 
 type Field = 'name' | 'company' | 'phone' | 'email' | 'message';
 
@@ -131,7 +132,7 @@ export default function ContactSection({ heading = true }: { heading?: boolean }
                 {talents.length ? (
                   talents.map((t) => (
                     <span className="pill" key={t.id}>
-                      <img src={t.img} alt="" />
+                      <TalentPhoto t={t} alt="" />
                       {t.name}
                       <button type="button" onClick={() => toggle(t.id, false)} aria-label={`הסרת ${t.name}`}>
                         ×

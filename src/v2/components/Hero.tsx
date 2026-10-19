@@ -63,9 +63,15 @@ function Wings({ heroRef }: { heroRef: React.RefObject<HTMLElement> }) {
     const mouse = { x: -9999, y: -9999 };
     const t0 = performance.now() - (motionOK ? 0 : 9000);
     const sample = sampleMark(window.innerWidth < 700);
+    // A weak machine spends most of each frame here, so "lite" draws half the
+    // particles at a capped resolution and half the frame rate. It starts on for
+    // low-core or low-memory devices and switches on by itself if frames run long.
+    const cores = navigator.hardwareConcurrency || 8;
+    const memory = (navigator as Navigator & { deviceMemory?: number }).deviceMemory || 8;
+    let lite = cores <= 4 || memory <= 4;
 
     const layout = () => {
-      const DPR = Math.min(window.devicePixelRatio || 1, 2);
+      const DPR = Math.min(window.devicePixelRatio || 1, lite ? 1 : 1.5);
       W = cv.clientWidth;
       H = cv.clientHeight;
       cv.width = W * DPR;
@@ -79,7 +85,7 @@ function Wings({ heroRef }: { heroRef: React.RefObject<HTMLElement> }) {
       cy = mob ? 84 + tH / 2 : H * 0.5;
       // On phones the copy sits under the butterfly; this pads it clear.
       hero.style.setProperty('--top', `${Math.round(84 + tH + 28)}px`);
-      const max = mob ? 1100 : 2200;
+      const max = (mob ? 1100 : 2200) / (lite ? 2 : 1);
       const pts = sample.pts.length > max ? sample.pts.filter((_, i) => i % Math.ceil(sample.pts.length / max) === 0) : sample.pts;
       const old = P;
       const half = (sample.ow * scale) / 2;
@@ -147,10 +153,21 @@ function Wings({ heroRef }: { heroRef: React.RefObject<HTMLElement> }) {
     };
 
     // Only animate while the hero is on screen; a still frame needs no loop at all.
+    let frame = 0;
+    let slow = 0;
+    let last = 0;
     const loop = (now: number) => {
       raf = 0;
       if (!visible) return;
-      draw(now);
+      frame++;
+      // Frames 30-150 (after the page settles): if a third of them miss 60fps by
+      // a margin, this device can't afford the full butterfly.
+      if (!lite && frame > 30 && frame <= 150 && last && now - last > 24 && ++slow > 40) {
+        lite = true;
+        layout();
+      }
+      last = now;
+      if (!lite || frame % 2 === 0) draw(now);
       raf = requestAnimationFrame(loop);
     };
     const start = () => {

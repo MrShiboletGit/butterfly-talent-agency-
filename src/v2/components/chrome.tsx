@@ -1,7 +1,7 @@
 /** The frame around every v2 page: nav, footer, the lineup dock and the accessibility menu. */
-import { useEffect, useRef, useState, type ReactNode } from 'react';
+import { useEffect, useRef, useState, type ImgHTMLAttributes, type ReactNode } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { CONTACT, PLATFORMS, fmtFull, fmtK, sumPF, whatsappUrl, type Client, type PlatformCounts } from '../data';
+import { CONTACT, PLATFORMS, cardImage, fmtFull, fmtK, sumPF, whatsappUrl, type Client, type PlatformCounts, type Talent } from '../data';
 import { usePicked } from '../picked';
 import { countTo, useA11y, type A11ySettings } from '../a11y';
 import { AccessibilityIcon, ArrowBack, ButterflyMark } from './icons';
@@ -196,7 +196,7 @@ export function Dock() {
       <div ref={dockRef} className={`dock${show ? ' show' : ''}`} role="region" aria-label="הרכב הקמפיין" aria-hidden={!show}>
         <div className="faces">
           {talents.slice(0, 5).map((t) => (
-            <img key={t.id} src={t.img} alt="" />
+            <TalentPhoto key={t.id} t={t} alt="" />
           ))}
         </div>
         <div className="dock-txt">
@@ -310,6 +310,12 @@ export function A11yWidget() {
       </p>
     </>
   );
+}
+
+/** A talent's photo at card size, or the original when no card-sized copy was built. */
+export function TalentPhoto({ t, ...img }: { t: Talent } & ImgHTMLAttributes<HTMLImageElement>) {
+  const [src, setSrc] = useState(() => cardImage(t.img));
+  return <img decoding="async" {...img} src={src} onError={() => src !== t.img && setSrc(t.img)} />;
 }
 
 /** A client logo on its white tile, falling back to the name when a remote logo is gone. */

@@ -120,6 +120,14 @@ export const clientById = (id: string) => CLIENTS.find((c) => c.id === id);
 export const CAMPAIGNS = campaignsJson as unknown as Campaign[];
 export const campaignById = (id: string) => CAMPAIGNS.find((c) => c.id === id);
 
+/**
+ * The 640px copy of a talent photo that scripts/card-images.mjs writes at build
+ * time (keep the two paths in step). Only built sites have them, so the dev
+ * server keeps using the original; callers fall back to it if a copy is missing.
+ */
+export const cardImage = (src: string) =>
+  import.meta.env.PROD && src.startsWith('/') ? `/card${src.replace(/\.[a-z0-9]+$/i, '')}.webp` : src;
+
 export const sumPF = (list: Talent[]) =>
   list.reduce(
     (acc, t) => {
