@@ -1,4 +1,4 @@
-import { useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { CLIENTS, ROSTER, type Client } from '../data';
 import { gsap, useA11y, useGsap } from '../a11y';
@@ -21,20 +21,41 @@ export function Ticker() {
   );
 }
 
+// The narrowest a tile gets (phones: 140px + 16px spacing), so the estimate errs toward enough.
+const MIN_TILE = 156;
+
 /** A showcase only: the logos deliberately lead nowhere, there is no clients page in v2. */
 function Lane({ clients, reverse }: { clients: Client[]; reverse?: boolean }) {
   const { motionOK } = useA11y();
+  const [screen, setScreen] = useState(() => window.innerWidth);
+  useEffect(() => {
+    const onResize = () => setScreen(window.innerWidth);
+    window.addEventListener('resize', onResize);
+    return () => window.removeEventListener('resize', onResize);
+  }, []);
+
+  // The loop slides one copy of the row out as an identical one slides in, so a
+  // copy must be at least a screen wide or a gap opens at its end (as it did on
+  // wide monitors). Repeat the logos until it is, and stretch the duration to match
+  // so the speed doesn't change.
+  const reps = motionOK ? Math.max(1, Math.ceil((screen + 200) / (clients.length * MIN_TILE))) : 1;
+  const copy = Array.from({ length: reps }, (_, r) => clients.map((c) => ({ c, r }))).flat();
+  const duration = (reverse ? 70 : 60) * reps;
+
   return (
-    <div className={`lane${reverse ? ' rev' : ''}${motionOK ? '' : ' still'}`}>
-      {clients.map((c) => (
-        <span key={c.id} className="logo-tile">
+    <div
+      className={`lane${reverse ? ' rev' : ''}${motionOK ? '' : ' still'}`}
+      style={motionOK ? { animationDuration: `${duration}s` } : undefined}
+    >
+      {/* Screen readers get each logo once; every repeat is only there for the loop. */}
+      {copy.map(({ c, r }) => (
+        <span key={`a${r}-${c.id}`} className="logo-tile" aria-hidden={r > 0 || undefined}>
           <ClientLogo client={c} />
         </span>
       ))}
-      {/* The second copy only completes the loop, so screen readers skip it. */}
       {motionOK &&
-        clients.map((c) => (
-          <span key={`dup-${c.id}`} className="logo-tile" aria-hidden="true">
+        copy.map(({ c, r }) => (
+          <span key={`b${r}-${c.id}`} className="logo-tile" aria-hidden="true">
             <ClientLogo client={c} />
           </span>
         ))}
