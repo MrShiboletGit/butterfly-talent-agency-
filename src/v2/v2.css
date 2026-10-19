@@ -233,7 +233,6 @@ html.v2-html:has(dialog[open]) { overflow: hidden; }
 .v2 .svc p { margin: 0; color: var(--muted); font-weight: 300; max-width: 30ch; position: relative; }
 
 /* ───── CONTACT ───── */
-.v2 #contact { scroll-margin-top: 84px; }
 .v2 .contact { border-radius: 32px; border: 1px solid var(--line);
   background: radial-gradient(800px 400px at 15% 0%, rgba(122, 74, 255, .28), transparent 60%), radial-gradient(700px 380px at 95% 100%, rgba(244, 174, 146, .18), transparent 60%), var(--deep);
   display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr); gap: 48px; padding: clamp(28px, 5vw, 64px); overflow: hidden; position: relative; }
@@ -420,13 +419,6 @@ html.v2-html:has(dialog[open]) { overflow: hidden; }
 .v2 .mini b { display: block; font-size: 1.0625rem; }
 .v2 .mini small { color: var(--muted); font-size: .8125rem; }
 
-.v2 .client-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 18px; }
-.v2 .client-card { display: grid; gap: 12px; text-decoration: none; }
-.v2 .client-card .logo-tile { width: 100%; height: 130px; margin: 0; }
-.v2 .client-card .logo-tile img { max-height: 64px; }
-.v2 .client-card:hover .logo-tile, .v2 .client-card:focus-visible .logo-tile { transform: translateY(-4px) rotate(-1deg); box-shadow: 0 16px 40px -16px rgba(244, 174, 146, .6); }
-.v2 .client-card:hover .logo-tile img, .v2 .client-card:focus-visible .logo-tile img { filter: none; opacity: 1; }
-.v2 .client-card > span:last-child { text-align: center; font-size: .9375rem; color: var(--soft); }
 .v2 .client-hero { width: 200px; height: 120px; border-radius: 22px; background: #F7F5FF; color: #1A134B; display: grid; place-items: center; padding: 20px 28px; margin-bottom: 26px; }
 .v2 .client-hero img { max-height: 80px; max-width: 100%; object-fit: contain; }
 
@@ -501,7 +493,6 @@ html.a11y-still .v2 .card-in { transform: none !important; }
 /* ───── RESPONSIVE ───── */
 @media (max-width: 1080px) {
   .v2 .talents { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-  .v2 .client-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .v2 .camp-grid, .v2 .content-grid, .v2 .mini-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .v2 .kpis { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
@@ -532,7 +523,6 @@ html.a11y-still .v2 .card-in { transform: none !important; }
   .v2 .sorter { margin-inline-start: 0; }
   .v2 .tp { grid-template-columns: 1fr; }
   .v2 .tp-img { position: relative; top: 0; max-height: 72svh; aspect-ratio: 4 / 5; }
-  .v2 .client-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 @media (max-width: 640px) {
   .v2 .camp-grid, .v2 .content-grid, .v2 .mini-grid { grid-template-columns: 1fr; }
@@ -557,6 +547,5 @@ html.a11y-still .v2 .card-in { transform: none !important; }
   .v2 .nav .btn { padding: 10px 16px; font-size: .875rem; }
   .v2 .logo-tile { width: 140px; height: 76px; padding: 12px 16px; }
   .v2 .logo-tile img { max-height: 40px; }
-  .v2 .client-card .logo-tile { height: 100px; }
   .v2 .kpi { padding: 18px 16px; }
 }

@@ -119,7 +119,7 @@ export function Footer() {
             <ul>
               <li><Link to="/#talents">טאלנטים</Link></li>
               <li><Link to="/campaigns">קמפיינים</Link></li>
-              <li><Link to="/clients">לקוחות</Link></li>
+              <li><Link to="/#clients">לקוחות</Link></li>
               <li><Link to="/#contact">צור קשר</Link></li>
               <li><Link to="/accessibility">הצהרת נגישות</Link></li>
               <li><Link to="/privacy">מדיניות פרטיות</Link></li>

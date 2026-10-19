@@ -1,38 +1,11 @@
-import { Link, useParams } from 'react-router-dom';
-import { CAMPAIGNS, CLIENTS, clientById } from '../data';
+import { useParams } from 'react-router-dom';
+import { CAMPAIGNS, clientById } from '../data';
 import { CampaignCard } from '../components/Campaigns';
 import { ClientLogo, CtaBand, PageHeader } from '../components/chrome';
 import { usePageTitle } from '@/hooks/usePageTitle';
 import NotFound from './NotFound';
 
-export function ClientsPage() {
-  usePageTitle('הלקוחות שלנו');
-  return (
-    <>
-      <PageHeader eyebrow="Clients" title="הלקוחות שלנו">
-        <p>
-          מותגים מובילים שבחרו לעבוד איתנו על קמפיינים דיגיטליים מוצלחים. כל לקוח מספר סיפור של שיתוף פעולה, יצירתיות ותוצאות מדהימות.
-        </p>
-      </PageHeader>
-      <section className="sub-sec" style={{ paddingTop: 0 }}>
-        <div className="wrap">
-          <div className="client-grid">
-            {CLIENTS.map((c) => (
-              <Link key={c.id} className="client-card" to={`/client/${c.id}`}>
-                <span className="logo-tile">
-                  <ClientLogo client={c} />
-                </span>
-                <span>{c.name}</span>
-              </Link>
-            ))}
-          </div>
-        </div>
-      </section>
-      <CtaBand title="רוצים להיות הלקוח הבא שלנו?" />
-    </>
-  );
-}
-
+/** A client's campaigns. Reached from a campaign page; v2 has no list of all clients. */
 export function ClientPage() {
   const { id = '' } = useParams();
   const client = clientById(id);
@@ -42,7 +15,7 @@ export function ClientPage() {
 
   return (
     <>
-      <PageHeader eyebrow="Client" title={client.name} back={{ to: '/clients', label: 'לכל הלקוחות' }}>
+      <PageHeader eyebrow="Client" title={client.name} back={{ to: '/campaigns', label: 'לכל הקמפיינים' }}>
         <div className="client-hero" style={{ marginTop: 22 }}>
           <ClientLogo client={client} />
         </div>

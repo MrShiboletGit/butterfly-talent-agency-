@@ -21,21 +21,22 @@ export function Ticker() {
   );
 }
 
+/** A showcase only: the logos deliberately lead nowhere, there is no clients page in v2. */
 function Lane({ clients, reverse }: { clients: Client[]; reverse?: boolean }) {
   const { motionOK } = useA11y();
   return (
     <div className={`lane${reverse ? ' rev' : ''}${motionOK ? '' : ' still'}`}>
       {clients.map((c) => (
-        <Link key={c.id} className="logo-tile" to={`/client/${c.id}`} title={c.name}>
+        <span key={c.id} className="logo-tile">
           <ClientLogo client={c} />
-        </Link>
+        </span>
       ))}
-      {/* The second copy only completes the loop: skipped by screen readers and Tab. */}
+      {/* The second copy only completes the loop, so screen readers skip it. */}
       {motionOK &&
         clients.map((c) => (
-          <Link key={`dup-${c.id}`} className="logo-tile" to={`/client/${c.id}`} aria-hidden="true" tabIndex={-1}>
+          <span key={`dup-${c.id}`} className="logo-tile" aria-hidden="true">
             <ClientLogo client={c} />
-          </Link>
+          </span>
         ))}
     </div>
   );
@@ -70,9 +71,6 @@ export function ClientsMarquee() {
         <Lane clients={CLIENTS.slice(half)} reverse />
       </div>
       <div className="center-row">
-        <Link className="btn btn-ghost" to="/clients">
-          צפה בכל הלקוחות
-        </Link>
         <Link className="btn btn-ghost" to="/campaigns">
           לקמפיינים שלנו
         </Link>

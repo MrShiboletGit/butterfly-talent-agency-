@@ -1,5 +1,5 @@
-import { useEffect, type ReactNode } from 'react';
-import { Route, Routes, useLocation, useNavigationType, type Location } from 'react-router-dom';
+import { useEffect, useRef, type ReactNode } from 'react';
+import { Navigate, Route, Routes, useLocation, useNavigationType, type Location } from 'react-router-dom';
 import './v2.css';
 import { A11yProvider, useMotionOK } from './a11y';
 import { PickedProvider } from './picked';
@@ -7,7 +7,7 @@ import { A11yWidget, Dock, Footer, Nav } from './components/chrome';
 import Home from './pages/Home';
 import { ProfileDialog, TalentPage, TalentsPage } from './pages/TalentPages';
 import { CampaignPage, CampaignsPage } from './pages/CampaignPages';
-import { ClientPage, ClientsPage } from './pages/ClientPages';
+import { ClientPage } from './pages/ClientPages';
 import { AccessibilityPage, PrivacyPage } from './pages/Legal';
 import NotFound, { ContactPage } from './pages/NotFound';
 
@@ -56,18 +56,47 @@ function ScrollManager() {
   const navType = useNavigationType();
   const motionOK = useMotionOK();
   const overlay = Boolean((location.state as { bg?: Location } | null)?.bg);
+  const first = useRef(true);
+  const prevPath = useRef(location.pathname);
 
   useEffect(() => {
-    if (navType === 'POP' || overlay) return;
+    const initial = first.current;
+    const samePage = !initial && prevPath.current === location.pathname;
+    first.current = false;
+    prevPath.current = location.pathname;
+    if (overlay) return;
+    // A page opened straight at /#section is a POP too, but nothing scrolled it:
+    // the browser looked for the section before React had rendered it.
+    if (navType === 'POP' && !(initial && location.hash)) return;
     if (!location.hash) {
       window.scrollTo(0, 0);
       return;
     }
     const id = decodeURIComponent(location.hash.slice(1));
-    const raf = requestAnimationFrame(() =>
-      document.getElementById(id)?.scrollIntoView({ behavior: motionOK ? 'smooth' : 'auto', block: 'start' }),
-    );
-    return () => cancelAnimationFrame(raf);
+    const go = (smooth: boolean) =>
+      document.getElementById(id)?.scrollIntoView({ behavior: smooth ? 'smooth' : 'auto', block: 'start' });
+
+    let cancelled = false;
+    // Glide within a page; arriving from another page, jump straight there.
+    const raf = initial ? 0 : requestAnimationFrame(() => go(motionOK && samePage));
+
+    // While the page is still loading, ScrollTrigger re-measures it on the load
+    // event and late fonts shift the layout, either of which can leave the section
+    // off target. Settle on it once more then, unless the visitor took over.
+    const stop = () => (cancelled = true);
+    const settle = () => document.fonts.ready.then(() => requestAnimationFrame(() => !cancelled && go(false)));
+    if (document.readyState === 'complete') {
+      if (initial) settle();
+    } else {
+      window.addEventListener('load', settle, { once: true });
+      for (const ev of ['wheel', 'touchstart', 'keydown'] as const) window.addEventListener(ev, stop, { once: true, passive: true });
+    }
+    return () => {
+      cancelled = true;
+      cancelAnimationFrame(raf);
+      window.removeEventListener('load', settle);
+      for (const ev of ['wheel', 'touchstart', 'keydown'] as const) window.removeEventListener(ev, stop);
+    };
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [location.key]);
 
@@ -111,7 +140,8 @@ export default function V2App({ adminPanel }: { adminPanel: ReactNode }) {
             <Route path="/talent/:id" element={<TalentPage />} />
             <Route path="/campaigns" element={<CampaignsPage />} />
             <Route path="/campaign/:id" element={<CampaignPage />} />
-            <Route path="/clients" element={<ClientsPage />} />
+            {/* No list of all clients in v2; old links land on the logo strip instead. */}
+            <Route path="/clients" element={<Navigate to={{ pathname: '/', hash: '#clients' }} replace />} />
             <Route path="/client/:id" element={<ClientPage />} />
             <Route path="/contact" element={<ContactPage />} />
             <Route path="/accessibility" element={<AccessibilityPage />} />

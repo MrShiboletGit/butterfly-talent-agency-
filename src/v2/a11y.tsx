@@ -1,4 +1,4 @@
-import { createContext, useCallback, useContext, useEffect, useMemo, useState, type ReactNode } from 'react';
+import { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState, type ReactNode } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
@@ -78,6 +78,7 @@ export function A11yProvider({ children }: { children: ReactNode }) {
     return () => q.removeEventListener('change', onChange);
   }, []);
 
+  const applied = useRef(false);
   useEffect(() => {
     const root = document.documentElement;
     for (const key of Object.keys(CLASS) as (keyof A11ySettings)[]) root.classList.toggle(CLASS[key], settings[key]);
@@ -86,8 +87,10 @@ export function A11yProvider({ children }: { children: ReactNode }) {
     } catch {
       /* private mode: settings just won't persist */
     }
-    // Text size and fonts move every trigger point.
-    requestAnimationFrame(() => ScrollTrigger.refresh());
+    // Text size and fonts move every trigger point. Not on first load, where
+    // ScrollTrigger measures anyway and a refresh would interrupt a /#section jump.
+    if (applied.current) requestAnimationFrame(() => ScrollTrigger.refresh());
+    applied.current = true;
   }, [settings]);
 
   useEffect(
