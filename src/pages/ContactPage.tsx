@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { useLocation } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import { Mail, Phone, MapPin, Send } from 'lucide-react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
@@ -260,14 +260,15 @@ const ContactPage = () => {
                     />
                     <label htmlFor="privacyPolicy" className="text-sm text-gray-700 leading-relaxed cursor-pointer">
                       אני מאשר/ת שהפרטים שמסרתי בטופס ישמשו לצורך יצירת קשר בלבד, בהתאם ל{' '}
-                      <a 
-                        href="/privacy" 
-                        target="_blank" 
+                      {/* A router Link so the backup copy under /v1 opens its own privacy page. */}
+                      <Link
+                        to="/privacy"
+                        target="_blank"
                         rel="noopener noreferrer"
                         className="text-primary hover:underline font-medium"
                       >
                         מדיניות הפרטיות
-                      </a>{' '}
+                      </Link>{' '}
                       של האתר אשר לינק אליה נמצא בתחתית כל עמוד.
                     </label>
                   </div>

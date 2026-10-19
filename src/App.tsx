@@ -21,8 +21,77 @@ import { AuthProvider } from "./contexts/AuthContext";
 
 // Lazy load AdminPanel to prevent it from affecting the main site
 const AdminPanel = lazy(() => import("./pages/AdminPanel"));
+// The redesigned site ships as its own chunk, so v1 visitors never download it.
+const V2App = lazy(() => import("./v2/V2App"));
 
 const queryClient = new QueryClient();
+
+/**
+ * Two versions of the site live side by side. Each one is always reachable under
+ * its own prefix (/v1, /v2) and one of them also serves the bare domain.
+ * Flipping MAIN_SITE is the whole cutover: the other version keeps working under
+ * its prefix as a backup.
+ *
+ * The prefix becomes the router's basename, so every in-app link of a version
+ * stays inside that version without either site knowing where it is mounted.
+ */
+const MAIN_SITE: "v1" | "v2" = "v1";
+const PREFIXES = ["/v1", "/v2"] as const;
+
+function currentPrefix() {
+  const { pathname } = window.location;
+  return PREFIXES.find((p) => pathname === p || pathname.startsWith(`${p}/`)) ?? "";
+}
+
+// ?v2 on the bare domain is a shortcut into the new site's preview.
+function redirectQueryShortcut(prefix: string) {
+  if (prefix) return;
+  const params = new URLSearchParams(window.location.search);
+  if (!params.has("v2")) return;
+  params.delete("v2");
+  const { pathname, hash } = window.location;
+  const query = params.toString();
+  window.location.replace(`/v2${pathname === "/" ? "" : pathname}${query ? `?${query}` : ""}${hash}`);
+}
+
+const prefix = currentPrefix();
+redirectQueryShortcut(prefix);
+const site = prefix === "/v1" ? "v1" : prefix === "/v2" ? "v2" : MAIN_SITE;
+
+const adminPanel = (
+  <Suspense fallback={<div className="min-h-screen flex items-center justify-center">Loading...</div>}>
+    <AdminPanel />
+  </Suspense>
+);
+
+const V1Routes = () => (
+  <>
+    <ScrollToTop />
+    {/* Skip to content link for keyboard users */}
+    <a href="#main-content" className="skip-link">
+      דלג לתוכן הראשי
+    </a>
+    <AccessibilityWidget />
+    <div id="main-content" tabIndex={-1}>
+    <Routes>
+      <Route path="/" element={<Index />} />
+      <Route path="/talents" element={<TalentsPage />} />
+      <Route path="/talent/:id" element={<TalentPage />} />
+      <Route path="/campaigns" element={<CampaignsPage />} />
+      <Route path="/campaign/:id" element={<CampaignPage />} />
+      <Route path="/clients" element={<ClientsPage />} />
+      <Route path="/client/:id" element={<ClientPage />} />
+      <Route path="/contact" element={<ContactPage />} />
+      <Route path="/accessibility" element={<Accessibility />} />
+      <Route path="/privacy" element={<PrivacyPage />} />
+      {/* Hidden admin panel - not linked in navigation */}
+      <Route path="/panel" element={adminPanel} />
+      {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+      <Route path="*" element={<NotFound />} />
+    </Routes>
+    </div>
+  </>
+);
 
 const App = () => (
   <QueryClientProvider client={queryClient}>
@@ -30,35 +99,14 @@ const App = () => (
       <TooltipProvider>
         <Toaster />
         <Sonner />
-        <BrowserRouter>
-          <ScrollToTop />
-          {/* Skip to content link for keyboard users */}
-          <a href="#main-content" className="skip-link">
-            דלג לתוכן הראשי
-          </a>
-          <AccessibilityWidget />
-          <div id="main-content" tabIndex={-1}>
-          <Routes>
-            <Route path="/" element={<Index />} />
-            <Route path="/talents" element={<TalentsPage />} />
-            <Route path="/talent/:id" element={<TalentPage />} />
-            <Route path="/campaigns" element={<CampaignsPage />} />
-            <Route path="/campaign/:id" element={<CampaignPage />} />
-            <Route path="/clients" element={<ClientsPage />} />
-            <Route path="/client/:id" element={<ClientPage />} />
-            <Route path="/contact" element={<ContactPage />} />
-            <Route path="/accessibility" element={<Accessibility />} />
-            <Route path="/privacy" element={<PrivacyPage />} />
-            {/* Hidden admin panel - not linked in navigation */}
-            <Route path="/panel" element={
-              <Suspense fallback={<div className="min-h-screen flex items-center justify-center">Loading...</div>}>
-                <AdminPanel />
-              </Suspense>
-            } />
-            {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
-            <Route path="*" element={<NotFound />} />
-          </Routes>
-          </div>
+        <BrowserRouter basename={prefix || undefined}>
+          {site === "v2" ? (
+            <Suspense fallback={<div style={{ minHeight: "100vh", background: "#07061A" }} />}>
+              <V2App adminPanel={adminPanel} />
+            </Suspense>
+          ) : (
+            <V1Routes />
+          )}
         </BrowserRouter>
       </TooltipProvider>
     </AuthProvider>
