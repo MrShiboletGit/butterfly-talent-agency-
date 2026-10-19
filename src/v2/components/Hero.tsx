@@ -220,6 +220,10 @@ function Wings({ heroRef }: { heroRef: React.RefObject<HTMLElement> }) {
   return <canvas ref={canvasRef} className="wings" aria-hidden="true" />;
 }
 
+// The nav drops in with the very first page only; replaying it on every return
+// to the home page made the bar blink.
+let navIntroPlayed = false;
+
 export default function Hero() {
   const heroRef = useRef<HTMLElement>(null);
   const reachNRef = useRef<HTMLDivElement>(null);
@@ -245,14 +249,15 @@ export default function Hero() {
     () => {
       const tl = gsap.timeline({ defaults: { ease: 'expo.out' } });
       const navWrap = document.querySelector('.v2 .nav .wrap');
-      if (navWrap) tl.from(navWrap, { y: -20, opacity: 0, duration: 0.8, clearProps: 'all' });
+      if (navWrap && !navIntroPlayed) tl.from(navWrap, { y: -20, opacity: 0, duration: 0.8, clearProps: 'all' });
+      navIntroPlayed = true;
       tl.from('h1 .ln > span', { yPercent: 110, duration: 1.2, stagger: 0.1 }, '-=.5')
         .from('.hero-copy .eyebrow', { opacity: 0, x: 20, duration: 0.8 }, '<')
         .from('.lede, .cta-row', { y: 24, opacity: 0, duration: 1, stagger: 0.1 }, '-=.8')
         .from('.reach', { y: 40, opacity: 0, duration: 1.1, onStart: fillReach }, '-=.8');
+      // Drift only, no fade: a fading line of copy drops below readable contrast.
       gsap.to('.hero-copy', {
         yPercent: -18,
-        opacity: 0.2,
         ease: 'none',
         scrollTrigger: { trigger: heroRef.current, start: 'top top', end: 'bottom top', scrub: true },
       });
@@ -266,7 +271,7 @@ export default function Hero() {
       <div className="grid-floor" aria-hidden="true" />
       <div className="wrap">
         <div className="hero-copy">
-          <span className="eyebrow">
+          <span className="eyebrow" lang="en">
             <i />
             Butterfly Talent Agency
           </span>
@@ -292,12 +297,13 @@ export default function Hero() {
       </div>
       <aside className="reach" aria-label="טווח החשיפה של כל הטאלנטים">
         <div className="reach-h">
-          <span>Total reach</span>
-          <span>Updated daily</span>
+          <span lang="en">Total reach</span>
         </div>
-        <div className="reach-n" ref={reachNRef} dir="ltr">
+        {/* The counter is decoration while it runs; screen readers get the final figure. */}
+        <div className="reach-n" ref={reachNRef} dir="ltr" aria-hidden="true">
           {motionOK ? '0' : fmtFull(ROSTER_REACH.total)}
         </div>
+        <p className="sr-only">{fmtFull(ROSTER_REACH.total)} עוקבים בסך הכל</p>
         <div ref={splitRef}>
           <SplitBar pf={zero} />
         </div>

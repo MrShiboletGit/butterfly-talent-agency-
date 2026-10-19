@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 import {
   CONTENT_TYPE_LABEL,
@@ -15,11 +15,12 @@ import { CommentIcon, EyeIcon, HeartIcon, PlatformIcon, PlayIcon } from './icons
 
 export function CampaignCard({ c }: { c: Campaign }) {
   const client = clientById(c.clientId);
-  const names = c.talents.map((id) => talentById(id)?.name ?? id);
+  // Talents or clients deleted in the panel are skipped rather than shown as ids.
+  const names = c.talents.map((id) => talentById(id)?.name).filter(Boolean) as string[];
   return (
     <Link className="camp-card" to={`/campaign/${c.id}`}>
       <div className="camp-logo">
-        {client ? <ClientLogo client={client} /> : <span className="logo-name">{c.clientId}</span>}
+        {client && <ClientLogo client={client} />}
         {c.category && <span className="cat">{c.category}</span>}
       </div>
       <div className="camp-body">
@@ -43,11 +44,12 @@ export function CampaignCard({ c }: { c: Campaign }) {
           <span>
             <b dir="ltr">{fmtK(c.kpis.views)}</b> צפיות
           </span>
-          <span className="plats" aria-label={`פלטפורמות: ${c.platforms.map((p) => PLATFORM_META[p]?.label ?? p).join(', ')}`}>
+          <span className="plats">
             {c.platforms.map((p) =>
               PLATFORM_META[p] ? (
                 <span key={p} className="plat" style={{ color: PLATFORM_META[p].color }}>
                   <PlatformIcon platform={p} />
+                  <span className="sr-only">{PLATFORM_META[p].label}</span>
                 </span>
               ) : null,
             )}
@@ -75,6 +77,11 @@ const PLATFORM_BG: Record<string, string> = {
  */
 export function ContentCard({ item }: { item: ContentItem }) {
   const [active, setActive] = useState(false);
+  const frameRef = useRef<HTMLIFrameElement>(null);
+  // The play button is replaced by the player; hand focus to the player.
+  useEffect(() => {
+    if (active) frameRef.current?.focus();
+  }, [active]);
   const src = embedUrl(item.url, item.platform);
   const meta = PLATFORM_META[item.platform];
   const talent = item.talent ? talentById(item.talent) : undefined;
@@ -86,6 +93,7 @@ export function ContentCard({ item }: { item: ContentItem }) {
       <div className="embed-media">
         {active && src ? (
           <iframe
+            ref={frameRef}
             src={src}
             title={item.description || `${label} ${talent?.name ?? ''}`}
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

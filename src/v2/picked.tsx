@@ -19,10 +19,20 @@ const PickedContext = createContext<PickedContextValue | null>(null);
 
 const known = new Set(ALL_TALENTS.map((t) => t.id));
 
+function parse(raw: string | null): string[] {
+  try {
+    const saved = JSON.parse(raw || '[]');
+    // A Set: a tampered list with repeats would otherwise show a talent twice and
+    // count their reach twice.
+    return Array.isArray(saved) ? [...new Set(saved.map(String).filter((id) => known.has(id)))] : [];
+  } catch {
+    return [];
+  }
+}
+
 function load(): string[] {
   try {
-    const saved = JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]');
-    return Array.isArray(saved) ? saved.map(String).filter((id) => known.has(id)) : [];
+    return parse(localStorage.getItem(STORAGE_KEY));
   } catch {
     return [];
   }
@@ -30,6 +40,16 @@ function load(): string[] {
 
 export function PickedProvider({ children }: { children: ReactNode }) {
   const [ids, setIds] = useState<string[]>(load);
+
+  // Another tab changed the lineup: take its version, or this tab's next change
+  // would write over the talent picked there.
+  useEffect(() => {
+    const onStorage = (e: StorageEvent) => {
+      if (e.key === STORAGE_KEY) setIds(parse(e.newValue));
+    };
+    window.addEventListener('storage', onStorage);
+    return () => window.removeEventListener('storage', onStorage);
+  }, []);
 
   useEffect(() => {
     try {

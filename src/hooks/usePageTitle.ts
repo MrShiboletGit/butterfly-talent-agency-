@@ -12,9 +12,12 @@ export const SITE_TITLE = 'Butterfly Talent Agency - סוכנות המשפיענ
  */
 export function usePageTitle(name?: string) {
   useEffect(() => {
+    // Hand back whatever title was there before, not always the site title: a
+    // profile closing over the talents page should leave "הטאלנטים שלנו".
+    const previous = document.title;
     document.title = name ? `${name} | Butterfly Talent Agency` : SITE_TITLE;
     return () => {
-      document.title = SITE_TITLE;
+      document.title = previous;
     };
   }, [name]);
 }

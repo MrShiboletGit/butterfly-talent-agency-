@@ -30,6 +30,7 @@ export function Nav() {
   const [open, setOpen] = useState(false);
   const [spy, setSpy] = useState<string | null>(null);
   const navRef = useRef<HTMLElement>(null);
+  const burgerRef = useRef<HTMLButtonElement>(null);
   const isHome = pathname === '/';
 
   useEffect(() => {
@@ -52,7 +53,12 @@ export function Nav() {
   useEffect(() => setOpen(false), [pathname]);
   useEffect(() => {
     if (!open) return;
-    const onKey = (e: KeyboardEvent) => e.key === 'Escape' && setOpen(false);
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key !== 'Escape') return;
+      setOpen(false);
+      // The focused link is about to be hidden; put focus back on the button.
+      if (navRef.current?.contains(document.activeElement)) burgerRef.current?.focus();
+    };
     const onDown = (e: PointerEvent) => !navRef.current?.contains(e.target as Node) && setOpen(false);
     window.addEventListener('keydown', onKey);
     window.addEventListener('pointerdown', onDown);
@@ -73,19 +79,10 @@ export function Nav() {
             Butterfly<small>TALENT AGENCY</small>
           </span>
         </Link>
-        <ul id="v2-menu">
-          {NAV_ITEMS.map((item) => (
-            <li key={item.key}>
-              <Link to={item.to} aria-current={current === item.key ? 'page' : undefined} onClick={() => setOpen(false)}>
-                {item.label}
-              </Link>
-            </li>
-          ))}
-        </ul>
-        <Link className="btn btn-hot" to="/#contact">
-          בואו נדבר
-        </Link>
+        {/* Before the list, so on phones Tab goes from the button straight into the
+            menu it opens. CSS keeps it at the far end visually. */}
         <button
+          ref={burgerRef}
           className="burger"
           type="button"
           aria-label={open ? 'סגירת תפריט' : 'פתיחת תפריט'}
@@ -95,6 +92,23 @@ export function Nav() {
         >
           <span />
         </button>
+        <ul id="v2-menu">
+          {NAV_ITEMS.map((item) => (
+            <li key={item.key}>
+              <Link
+                to={item.to}
+                // A section of the home page is a "location"; a page of its own is a "page".
+                aria-current={current === item.key ? (isHome ? 'location' : 'page') : undefined}
+                onClick={() => setOpen(false)}
+              >
+                {item.label}
+              </Link>
+            </li>
+          ))}
+        </ul>
+        <Link className="btn btn-hot" to="/#contact">
+          בואו נדבר
+        </Link>
       </div>
     </nav>
   );
@@ -115,7 +129,7 @@ export function Footer() {
             <p>סוכנות הטאלנטים המובילה בישראל למשפיעני רשת</p>
           </div>
           <div>
-            <h4>קישורים מהירים</h4>
+            <h2>קישורים מהירים</h2>
             <ul>
               <li><Link to="/#talents">טאלנטים</Link></li>
               <li><Link to="/campaigns">קמפיינים</Link></li>
@@ -127,7 +141,7 @@ export function Footer() {
             </ul>
           </div>
           <div>
-            <h4>עקבו ודברו איתנו</h4>
+            <h2>עקבו ודברו איתנו</h2>
             <ul>
               <li><a href={CONTACT.instagram} target="_blank" rel="noopener noreferrer">Instagram</a></li>
               <li><a href={`mailto:${CONTACT.email}`} dir="ltr">{CONTACT.email}</a></li>
@@ -165,6 +179,7 @@ export function Dock() {
   const numRef = useRef<HTMLElement>(null);
   const dockRef = useRef<HTMLDivElement>(null);
   const [formInView, setFormInView] = useState(false);
+  const [announcement, setAnnouncement] = useState('');
   const reach = sumPF(talents);
   // The dock exists to lead to the contact form, so it steps aside once the form
   // is on screen instead of covering its fields.
@@ -184,12 +199,34 @@ export function Dock() {
     dockRef.current?.closest('.v2')?.classList.toggle('has-dock', show);
   }, [show]);
 
+  // Announced when the lineup changes, not each time the dock hides and returns.
+  const firstCount = useRef(true);
   useEffect(() => {
-    const tween = countTo(numRef.current, reach.total, { duration: 0.8, format: fmtFull, motionOK });
+    if (firstCount.current) {
+      firstCount.current = false;
+      return;
+    }
+    setAnnouncement(
+      talents.length ? `${talents.length} טאלנטים בהרכב, טווח חשיפה ${fmtK(reach.total)} עוקבים` : 'ההרכב התרוקן',
+    );
+  }, [talents.length, reach.total]);
+
+  // On the narrowest phones the full figure (2,158,233) doesn't fit beside the
+  // button; the short form (2.16M) does.
+  const [narrow, setNarrow] = useState(() => window.matchMedia('(max-width: 400px)').matches);
+  useEffect(() => {
+    const q = window.matchMedia('(max-width: 400px)');
+    const onChange = () => setNarrow(q.matches);
+    q.addEventListener('change', onChange);
+    return () => q.removeEventListener('change', onChange);
+  }, []);
+
+  useEffect(() => {
+    const tween = countTo(numRef.current, reach.total, { duration: 0.8, format: narrow ? fmtK : fmtFull, motionOK });
     return () => {
       tween?.kill();
     };
-  }, [reach.total, motionOK]);
+  }, [reach.total, motionOK, narrow]);
 
   return (
     <>
@@ -200,20 +237,31 @@ export function Dock() {
           ))}
         </div>
         <div className="dock-txt">
-          <b ref={numRef} dir="ltr">0</b>
+          <b ref={numRef} dir="ltr" aria-hidden="true">0</b>
+          <span className="sr-only">{fmtFull(reach.total)}</span>
           <small>{talents.length} טאלנטים · עוקבים משולב</small>
         </div>
         <SplitBar pf={reach} />
         <Link className="btn btn-hot" to="/#contact" tabIndex={show ? undefined : -1}>
           שליחת ההרכב
         </Link>
-        <button className="dock-x" type="button" onClick={clear} aria-label="ניקוי ההרכב" tabIndex={show ? undefined : -1}>
+        <button
+          className="dock-x"
+          type="button"
+          onClick={() => {
+            clear();
+            // The dock hides with the button in it; don't leave focus nowhere.
+            document.getElementById('main')?.focus({ preventScroll: true });
+          }}
+          aria-label="ניקוי ההרכב"
+          tabIndex={show ? undefined : -1}
+        >
           ×
         </button>
       </div>
       {/* One calm announcement per change, instead of the counter's every frame. */}
       <p className="sr-only" aria-live="polite">
-        {show ? `${talents.length} טאלנטים בהרכב, טווח חשיפה ${fmtK(reach.total)} עוקבים` : ''}
+        {announcement}
       </p>
     </>
   );
@@ -271,7 +319,20 @@ export function A11yWidget() {
       </button>
       {open && (
         <div ref={panelRef} id="v2-a11y" className="a11y-panel" role="dialog" aria-labelledby="v2-a11y-title">
-          <h2 id="v2-a11y-title">הגדרות נגישות</h2>
+          <div className="a11y-head">
+            <h2 id="v2-a11y-title">הגדרות נגישות</h2>
+            <button
+              type="button"
+              className="a11y-close"
+              aria-label="סגירת תפריט הנגישות"
+              onClick={() => {
+                setOpen(false);
+                btnRef.current?.focus();
+              }}
+            >
+              ×
+            </button>
+          </div>
           <div className="a11y-opts">
             {A11Y_OPTIONS.map(({ key, label }) => (
               <button
@@ -279,10 +340,7 @@ export function A11yWidget() {
                 type="button"
                 className="a11y-opt"
                 aria-pressed={settings[key]}
-                onClick={() => {
-                  toggle(key);
-                  setAnnounce(`${label} ${settings[key] ? 'כובה' : 'הופעל'}`);
-                }}
+                onClick={() => toggle(key)}
               >
                 <span>{label}</span>
                 <small aria-hidden="true">{settings[key] ? 'פועל' : 'כבוי'}</small>
@@ -315,6 +373,7 @@ export function A11yWidget() {
 /** A talent's photo at card size, or the original when no card-sized copy was built. */
 export function TalentPhoto({ t, ...img }: { t: Talent } & ImgHTMLAttributes<HTMLImageElement>) {
   const [src, setSrc] = useState(() => cardImage(t.img));
+  if (!t.img) return null;
   return <img decoding="async" {...img} src={src} onError={() => src !== t.img && setSrc(t.img)} />;
 }
 
@@ -345,7 +404,9 @@ export function PageHeader({
             {back.label}
           </Link>
         )}
-        <span className="k">{eyebrow}</span>
+        <span className="k" lang={/^[ -~·]+$/.test(eyebrow) ? 'en' : undefined}>
+          {eyebrow}
+        </span>
         <h1>{title}</h1>
         {children}
       </div>

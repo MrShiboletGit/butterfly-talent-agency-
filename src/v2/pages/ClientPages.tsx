@@ -9,7 +9,7 @@ import NotFound from './NotFound';
 export function ClientPage() {
   const { id = '' } = useParams();
   const client = clientById(id);
-  usePageTitle(client?.name);
+  usePageTitle(client ? client.name : 'לקוח לא נמצא');
   if (!client) return <NotFound title="לקוח לא נמצא" />;
   const campaigns = CAMPAIGNS.filter((c) => c.clientId === client.id);
 

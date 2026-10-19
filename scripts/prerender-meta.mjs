@@ -45,14 +45,16 @@ const truncate = (s, max = 160) => {
 function setMeta(html, attr, key, value) {
   const tag = `<meta ${attr}="${key}" content="${escapeAttr(value)}" />`;
   const re = new RegExp(`<meta\\s+${attr}="${key}"\\s+content="[^"]*"\\s*/?>`);
-  return re.test(html) ? html.replace(re, tag) : html.replace('</head>', `    ${tag}\n  </head>`);
+  // Replacement functions, not strings: a bio containing "$&" or "$'" would
+  // otherwise be read as a replacement pattern and splice page HTML into the tag.
+  return re.test(html) ? html.replace(re, () => tag) : html.replace('</head>', () => `    ${tag}\n  </head>`);
 }
 
 function render(template, { title, description, url, image, card }) {
-  let html = template.replace(/<title>[\s\S]*?<\/title>/, `<title>${escapeAttr(title)}</title>`);
+  let html = template.replace(/<title>[\s\S]*?<\/title>/, () => `<title>${escapeAttr(title)}</title>`);
   // The template's canonical points at the homepage; left as-is it would tell
   // search engines every detail page is a duplicate of it.
-  html = html.replace(/<link\s+rel="canonical"\s+href="[^"]*"\s*\/?>/, `<link rel="canonical" href="${escapeAttr(url)}" />`);
+  html = html.replace(/<link\s+rel="canonical"\s+href="[^"]*"\s*\/?>/, () => `<link rel="canonical" href="${escapeAttr(url)}" />`);
   const desc = rtlSafe(description);
   const imageUrl = `${SITE}${encodeURI(image.path)}`;
   const tags = [

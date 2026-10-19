@@ -33,6 +33,8 @@ export default function ProfileBody({
   const age = parseAge(t.age);
   const gender = parseGender(t.gender);
   const Name = headingLevel;
+  // The blocks sit one level under the name: h2 on the full page, h3 in the dialog.
+  const Sub = headingLevel === 'h1' ? 'h2' : 'h3';
 
   // Count the total up and grow the bars once the profile is on screen.
   useEffect(() => {
@@ -63,13 +65,14 @@ export default function ProfileBody({
       </div>
       {t.bio && <p className="bio">{t.bio}</p>}
       <div className="blk">
-        <h3>סה"כ עוקבים</h3>
-        <div className="big-total" dir="ltr" ref={totalRef}>
+        <Sub>סה"כ עוקבים</Sub>
+        <div className="big-total" dir="ltr" ref={totalRef} aria-hidden="true">
           {motionOK ? '0' : fmtFull(t.total)}
         </div>
+        <p className="sr-only">{fmtFull(t.total)}</p>
       </div>
       <div className="blk">
-        <h3>פירוט לפי פלטפורמה</h3>
+        <Sub>פירוט לפי פלטפורמה</Sub>
         <div className="bars" ref={barsRef}>
           {PLATFORMS.filter((p) => t.pf[p] > 0).map((p) => {
             const meta = PLATFORM_META[p];
@@ -97,9 +100,9 @@ export default function ProfileBody({
         <div className="two">
           {age && (
             <div className="blk">
-              <h3>
+              <Sub>
                 גילאי הקהל · <bdi dir="ltr">{t.age}</bdi>
-              </h3>
+              </Sub>
               <div className="age" dir="ltr" aria-hidden="true">
                 <div className="rail" />
                 <div className="band" style={{ left: `${agePos(age[0])}%`, width: `${agePos(age[1]) - agePos(age[0])}%` }} />
@@ -115,7 +118,7 @@ export default function ProfileBody({
           )}
           {gender && (
             <div className="blk">
-              <h3>מגדר</h3>
+              <Sub>מגדר</Sub>
               <div className="gender" aria-hidden="true">
                 <i style={{ flex: gender.male, background: 'var(--lilac)' }} />
                 <i style={{ flex: gender.female, background: 'var(--peach)' }} />
@@ -134,7 +137,7 @@ export default function ProfileBody({
       )}
       {t.tags.length > 0 && (
         <div className="blk">
-          <h3>תחומי התמחות</h3>
+          <Sub>תחומי התמחות</Sub>
           <div className="tags" dir="ltr">
             {t.tags.map((tag) => (
               <span key={tag}>{tag}</span>
@@ -153,7 +156,7 @@ export default function ProfileBody({
         >
           התעניינות בשיתוף פעולה
         </button>
-        <button className="btn btn-ghost" type="button" aria-pressed={picked} onClick={() => toggle(t.id)}>
+        <button className="btn btn-ghost" type="button" onClick={() => toggle(t.id)}>
           {picked ? 'בהרכב ✓' : 'הוספה להרכב +'}
         </button>
         {inDialog && (

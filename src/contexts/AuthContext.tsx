@@ -38,9 +38,18 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
 
   // Check for existing session on mount
   useEffect(() => {
-    const storedToken = localStorage.getItem(AUTH_STORAGE_KEY);
-    const storedUser = localStorage.getItem(USER_STORAGE_KEY);
-    
+    // This provider wraps both versions of the whole site, so a throw here blanks
+    // every page. Reading storage throws when the visitor blocks site data.
+    let storedToken: string | null = null;
+    let storedUser: string | null = null;
+    try {
+      storedToken = localStorage.getItem(AUTH_STORAGE_KEY);
+      storedUser = localStorage.getItem(USER_STORAGE_KEY);
+    } catch {
+      setIsLoading(false);
+      return;
+    }
+
     if (storedToken && storedUser) {
       try {
         const parsedUser = JSON.parse(storedUser) as User;

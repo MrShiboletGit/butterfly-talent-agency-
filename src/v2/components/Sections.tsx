@@ -38,6 +38,7 @@ function Lane({ clients, reverse }: { clients: Client[]; reverse?: boolean }) {
   // copy must be at least a screen wide or a gap opens at its end (as it did on
   // wide monitors). Repeat the logos until it is, and stretch the duration to match
   // so the speed doesn't change.
+  if (!clients.length) return null;
   const reps = motionOK ? Math.max(1, Math.ceil((screen + 200) / (clients.length * MIN_TILE))) : 1;
   const copy = Array.from({ length: reps }, (_, r) => clients.map((c) => ({ c, r }))).flat();
   const duration = (reverse ? 70 : 60) * reps;
@@ -81,7 +82,7 @@ export function ClientsMarquee() {
       <div className="wrap">
         <div className="sec-h">
           <div>
-            <span className="k">Clients</span>
+            <span className="k" lang="en">Clients</span>
             <h2>הלקוחות שלנו</h2>
             <p>מותגים מובילים שבחרו לעבוד איתנו</p>
           </div>
@@ -161,7 +162,7 @@ export function Services() {
       <div className="wrap">
         <div className="sec-h">
           <div>
-            <span className="k">Services</span>
+            <span className="k" lang="en">Services</span>
             <h2>השירותים שלנו</h2>
             <p>אנחנו מציעים פתרונות שיווק מקיפים עם המשפיענים הטובים ביותר</p>
           </div>

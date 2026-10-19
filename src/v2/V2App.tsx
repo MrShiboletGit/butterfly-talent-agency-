@@ -1,6 +1,7 @@
-import { useEffect, useRef, type ReactNode } from 'react';
+import { Component, useEffect, useRef, type ReactNode } from 'react';
 import { Navigate, Route, Routes, useLocation, useNavigationType, type Location } from 'react-router-dom';
 import './v2.css';
+import { whatsappUrl } from './data';
 import { A11yProvider, useMotionOK } from './a11y';
 import { PickedProvider } from './picked';
 import { A11yWidget, Dock, Footer, Nav } from './components/chrome';
@@ -47,6 +48,19 @@ function useDocumentSetup() {
 }
 
 /**
+ * Focus follows the scroll: keyboard and screen-reader users land on the section
+ * or page they asked for instead of staying on the link. Prefers the section's
+ * heading, which names where they are; neither is a control, so -1 keeps them out
+ * of the Tab order.
+ */
+function focusTarget(el: HTMLElement | null) {
+  if (!el) return;
+  const target = el.matches('h1, h2') ? el : el.querySelector<HTMLElement>('h1, h2') ?? el;
+  if (!target.hasAttribute('tabindex')) target.setAttribute('tabindex', '-1');
+  target.focus({ preventScroll: true });
+}
+
+/**
  * New pages start at the top, and /#section links scroll to their section, even
  * when they arrive from another page. Back/Forward and the profile dialog
  * opening or closing leave the scroll position alone.
@@ -64,17 +78,29 @@ function ScrollManager() {
     const samePage = !initial && prevPath.current === location.pathname;
     first.current = false;
     prevPath.current = location.pathname;
-    if (overlay) return;
+    // Closing a profile in place returns to the page exactly where it was.
+    if (overlay || (location.state as { keepScroll?: boolean } | null)?.keepScroll) return;
     // A page opened straight at /#section is a POP too, but nothing scrolled it:
     // the browser looked for the section before React had rendered it.
     if (navType === 'POP' && !(initial && location.hash)) return;
     if (!location.hash) {
       window.scrollTo(0, 0);
+      // A new page: start reading from its top, as a full page load would.
+      if (!initial) focusTarget(document.getElementById('main'));
       return;
     }
-    const id = decodeURIComponent(location.hash.slice(1));
-    const go = (smooth: boolean) =>
-      document.getElementById(id)?.scrollIntoView({ behavior: smooth ? 'smooth' : 'auto', block: 'start' });
+    // A truncated or hand-typed hash ("#%") makes decodeURIComponent throw.
+    let id = location.hash.slice(1);
+    try {
+      id = decodeURIComponent(id);
+    } catch {
+      /* use it as typed */
+    }
+    const go = (smooth: boolean) => {
+      const el = document.getElementById(id);
+      el?.scrollIntoView({ behavior: smooth ? 'smooth' : 'auto', block: 'start' });
+      if (!initial) focusTarget(el);
+    };
 
     let cancelled = false;
     // Glide within a page; arriving from another page, jump straight there.
@@ -103,21 +129,61 @@ function ScrollManager() {
   return null;
 }
 
+/**
+ * A page that throws (most likely on malformed data) shows a short message with
+ * the way out, instead of blanking the whole site. Resets when the visitor moves on.
+ */
+class PageBoundary extends Component<{ resetKey: string; children: ReactNode }, { failed: boolean }> {
+  state = { failed: false };
+  static getDerivedStateFromError() {
+    return { failed: true };
+  }
+  componentDidCatch(error: unknown) {
+    console.error('v2 page failed to render:', error);
+  }
+  componentDidUpdate(prev: { resetKey: string }) {
+    if (prev.resetKey !== this.props.resetKey && this.state.failed) this.setState({ failed: false });
+  }
+  render() {
+    if (!this.state.failed) return this.props.children;
+    return (
+      <header className="page-h">
+        <div className="wrap">
+          <h1>משהו השתבש בטעינת הדף</h1>
+          <p>אפשר לחזור לדף הבית, או לכתוב לנו ישירות.</p>
+          <div className="cta-row" style={{ marginTop: 24 }}>
+            <a className="btn btn-hot" href="/">
+              לדף הבית
+            </a>
+            <a className="btn btn-ghost" href={whatsappUrl()} target="_blank" rel="noopener noreferrer">
+              וואטסאפ
+            </a>
+          </div>
+        </div>
+      </header>
+    );
+  }
+}
+
 function Shell({ children }: { children: ReactNode }) {
   useDocumentSetup();
+  const { pathname } = useLocation();
   return (
     <div className="v2" dir="rtl" lang="he">
       <a className="skip" href="#main">
         דלג לתוכן הראשי
       </a>
+      {/* Early in the Tab order, so the way to stop the motion or enlarge the text
+          is a few keystrokes away rather than seventy. It sits fixed in a corner,
+          so its place in the DOM doesn't move it on screen. */}
+      <A11yWidget />
       <ScrollManager />
       <Nav />
       <main id="main" tabIndex={-1}>
-        {children}
+        <PageBoundary resetKey={pathname}>{children}</PageBoundary>
       </main>
       <Footer />
       <Dock />
-      <A11yWidget />
     </div>
   );
 }
@@ -128,7 +194,7 @@ export default function V2App({ adminPanel }: { adminPanel: ReactNode }) {
   const bg = (location.state as { bg?: Location } | null)?.bg;
 
   // The admin panel keeps its own look, whichever version serves the domain.
-  if (location.pathname === '/panel') return <>{adminPanel}</>;
+  if (location.pathname.replace(/\/+$/, '') === '/panel') return <>{adminPanel}</>;
 
   return (
     <A11yProvider>

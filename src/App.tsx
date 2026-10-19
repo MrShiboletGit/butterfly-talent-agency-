@@ -22,7 +22,31 @@ import { AuthProvider } from "./contexts/AuthContext";
 // Lazy load AdminPanel to prevent it from affecting the main site
 const AdminPanel = lazy(() => import("./pages/AdminPanel"));
 // The redesigned site ships as its own chunk, so v1 visitors never download it.
-const V2App = lazy(() => import("./v2/V2App"));
+// If a deploy lands between loading the page and loading that chunk, the old
+// chunk's URL is gone; reload once to pick up the new build instead of a blank page.
+const V2_RELOAD_KEY = "v2-chunk-reloaded";
+const V2App = lazy(() =>
+  import("./v2/V2App").then((mod) => {
+    try {
+      sessionStorage.removeItem(V2_RELOAD_KEY);
+    } catch {
+      /* storage blocked */
+    }
+    return mod;
+  }).catch((error) => {
+    const key = V2_RELOAD_KEY;
+    try {
+      if (!sessionStorage.getItem(key)) {
+        sessionStorage.setItem(key, "1");
+        window.location.reload();
+        return new Promise<never>(() => {});
+      }
+    } catch {
+      /* storage blocked: fall through to the error */
+    }
+    throw error;
+  }),
+);
 
 const queryClient = new QueryClient();
 
@@ -58,6 +82,15 @@ const prefix = currentPrefix();
 redirectQueryShortcut(prefix);
 const site = prefix === "/v1" ? "v1" : prefix === "/v2" ? "v2" : MAIN_SITE;
 
+// v1 and the admin panel use toasts; v2 doesn't, so it doesn't get their (empty,
+// English-labelled) notification regions on every page.
+const toasters = (
+  <>
+    <Toaster />
+    <Sonner />
+  </>
+);
+
 const adminPanel = (
   <Suspense fallback={<div className="min-h-screen flex items-center justify-center">Loading...</div>}>
     <AdminPanel />
@@ -66,6 +99,7 @@ const adminPanel = (
 
 const V1Routes = () => (
   <>
+    {toasters}
     <ScrollToTop />
     {/* Skip to content link for keyboard users */}
     <a href="#main-content" className="skip-link">
@@ -97,12 +131,17 @@ const App = () => (
   <QueryClientProvider client={queryClient}>
     <AuthProvider>
       <TooltipProvider>
-        <Toaster />
-        <Sonner />
         <BrowserRouter basename={prefix || undefined}>
           {site === "v2" ? (
             <Suspense fallback={<div style={{ minHeight: "100vh", background: "#07061A" }} />}>
-              <V2App adminPanel={adminPanel} />
+              <V2App
+                adminPanel={
+                  <>
+                    {toasters}
+                    {adminPanel}
+                  </>
+                }
+              />
             </Suspense>
           ) : (
             <V1Routes />

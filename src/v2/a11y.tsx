@@ -45,8 +45,11 @@ const STORAGE_KEY = 'bf-v2-a11y';
 
 function load(): A11ySettings {
   try {
-    const saved = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}');
-    return { ...DEFAULT_A11Y, ...saved };
+    const saved = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}') ?? {};
+    // Only real booleans count, so a stray value can't switch a setting on.
+    const settings = { ...DEFAULT_A11Y };
+    for (const key of Object.keys(DEFAULT_A11Y) as (keyof A11ySettings)[]) if (saved[key] === true) settings[key] = true;
+    return settings;
   } catch {
     return DEFAULT_A11Y;
   }

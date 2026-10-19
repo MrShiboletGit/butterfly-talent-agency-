@@ -78,6 +78,13 @@ type RawTalent = (typeof talentsJson)[number] & {
   strengths?: string[];
 };
 
+// The JSON is edited by hand on GitHub as well as by the admin panel, so every
+// field is read defensively: a malformed value should cost one detail, never the
+// page. Numbers may arrive as strings, possibly with thousands separators.
+const num = (v: unknown) => Number(String(v ?? '').replace(/,/g, '')) || 0;
+const str = (v: unknown) => (typeof v === 'string' ? v : v == null ? '' : String(v));
+const strList = (v: unknown) => (Array.isArray(v) ? v.filter((x) => typeof x === 'string') : []);
+
 const splitName = (full: string) => {
   const m = full.trim().match(/^(.*?)\s*\(([^)]+)\)\s*$/);
   return m ? { name: m[1].trim(), sub: m[2].trim() } : { name: full.trim(), sub: '' };
@@ -85,26 +92,28 @@ const splitName = (full: string) => {
 
 const toTalent = (raw: RawTalent): Talent => {
   const pf: PlatformCounts = {
-    youtube: Number(raw.platformFollowers?.youtube) || 0,
-    instagram: Number(raw.platformFollowers?.instagram) || 0,
-    tiktok: Number(raw.platformFollowers?.tiktok) || 0,
+    youtube: num(raw.platformFollowers?.youtube),
+    instagram: num(raw.platformFollowers?.instagram),
+    tiktok: num(raw.platformFollowers?.tiktok),
   };
-  const { name, sub } = splitName(raw.name);
+  const fullName = str(raw.name);
+  const { name, sub } = splitName(fullName);
   return {
-    id: String(raw.id),
+    id: str(raw.id),
     name,
     sub,
-    fullName: raw.name,
-    cat: (raw.category || '').trim(),
-    bio: raw.bio || '',
-    img: raw.imageUrl,
-    total: Number(raw.totalFollowers) || pf.youtube + pf.instagram + pf.tiktok,
+    fullName,
+    cat: str(raw.category).trim(),
+    bio: str(raw.bio),
+    img: str(raw.imageUrl),
+    total: num(raw.totalFollowers) || pf.youtube + pf.instagram + pf.tiktok,
     pf,
-    age: raw.audience?.age || '',
-    gender: raw.audience?.gender || '',
-    tags: raw.strengths || [],
-    social: raw.socialMedia || {},
-    main: Boolean(raw.main),
+    age: str(raw.audience?.age),
+    gender: str(raw.audience?.gender),
+    tags: strList(raw.strengths),
+    social: raw.socialMedia && typeof raw.socialMedia === 'object' ? raw.socialMedia : {},
+    // Strictly true: a string "false" must not put someone on the roster.
+    main: raw.main === true,
   };
 };
 
@@ -114,19 +123,41 @@ export const ALL_TALENTS: Talent[] = (talentsJson as RawTalent[]).map(toTalent);
 export const ROSTER: Talent[] = ALL_TALENTS.filter((t) => t.main).sort((a, b) => b.total - a.total);
 export const talentById = (id: string) => ALL_TALENTS.find((t) => t.id === id);
 
-export const CLIENTS: Client[] = clientsJson.map((c) => ({ id: c.id, name: c.name, logo: c.logoUrl }));
+export const CLIENTS: Client[] = clientsJson.map((c) => ({ id: str(c.id), name: str(c.name), logo: str(c.logoUrl) }));
 export const clientById = (id: string) => CLIENTS.find((c) => c.id === id);
 
-export const CAMPAIGNS = campaignsJson as unknown as Campaign[];
+type RawCampaign = Partial<Omit<Campaign, 'kpis'>> & { kpis?: Partial<Record<keyof Campaign['kpis'], unknown>> };
+
+export const CAMPAIGNS: Campaign[] = (campaignsJson as unknown as RawCampaign[]).map((c) => ({
+  ...c,
+  id: str(c.id),
+  title: str(c.title),
+  clientId: str(c.clientId),
+  description: str(c.description),
+  category: str(c.category),
+  kpis: {
+    views: num(c.kpis?.views),
+    engagement: num(c.kpis?.engagement),
+    shares: num(c.kpis?.shares),
+    reach: num(c.kpis?.reach),
+    impressions: num(c.kpis?.impressions),
+  },
+  talents: strList(c.talents),
+  platforms: strList(c.platforms) as Platform[],
+  startDate: str(c.startDate),
+  endDate: str(c.endDate),
+  content: Array.isArray(c.content) ? c.content.filter((x) => x && typeof x.url === 'string') : [],
+}));
 export const campaignById = (id: string) => CAMPAIGNS.find((c) => c.id === id);
 
 /**
  * The 640px copy of a talent photo that scripts/card-images.mjs writes at build
- * time (keep the two paths in step). Only built sites have them, so the dev
- * server keeps using the original; callers fall back to it if a copy is missing.
+ * time (keep the two paths in step). The original extension stays in the name,
+ * so a.png and a.jpg can't overwrite each other's copy. Only built sites have
+ * them, so the dev server keeps using the original; callers fall back to it if
+ * a copy is missing.
  */
-export const cardImage = (src: string) =>
-  import.meta.env.PROD && src.startsWith('/') ? `/card${src.replace(/\.[a-z0-9]+$/i, '')}.webp` : src;
+export const cardImage = (src: string) => (import.meta.env.PROD && src.startsWith('/') ? `/card${src}.webp` : src);
 
 export const sumPF = (list: Talent[]) =>
   list.reduce(
@@ -140,9 +171,9 @@ export const sumPF = (list: Talent[]) =>
 
 export const ROSTER_REACH = sumPF(ROSTER);
 
-/** 3,156,388 → "3.16M", 444,100 → "444K". */
+/** 3,156,388 → "3.16M", 444,100 → "444K". From 999,500 up it's "1M", never "1000K". */
 export const fmtK = (n: number) =>
-  n >= 1e6
+  n >= 999_500
     ? `${(n / 1e6).toFixed(2).replace(/\.?0+$/, '')}M`
     : n >= 1e3
       ? `${Math.round(n / 1e3)}K`

@@ -20,8 +20,9 @@ const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const DIST = join(ROOT, 'dist');
 const WIDTH = 640;
 
-// Keep in step with cardImage() in src/v2/data.ts.
-const cardPath = (src) => `/card${src.replace(/\.[a-z0-9]+$/i, '')}.webp`;
+// Keep in step with cardImage() in src/v2/data.ts. The original extension stays
+// in the name so a.png and a.jpg get separate copies.
+const cardPath = (src) => `/card${src}.webp`;
 
 let sharp;
 try {
@@ -35,7 +36,7 @@ try {
 const talents = JSON.parse(readFileSync(join(ROOT, 'src', 'data', 'talents.json'), 'utf8'));
 const counts = { made: 0, skipped: 0, failed: 0 };
 
-for (const src of new Set(talents.map((t) => t.imageUrl).filter(Boolean))) {
+for (const src of new Set(talents.map((t) => t.imageUrl).filter((v) => typeof v === 'string' && v.startsWith('/')))) {
   const input = join(DIST, src);
   if (/^https?:/i.test(src) || !existsSync(input)) {
     counts.skipped++;

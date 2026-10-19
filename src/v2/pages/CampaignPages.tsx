@@ -8,8 +8,9 @@ import NotFound from './NotFound';
 export function CampaignsPage() {
   usePageTitle('הקמפיינים שלנו');
   const totalViews = CAMPAIGNS.reduce((s, c) => s + (c.kpis?.views || 0), 0);
-  const brands = new Set(CAMPAIGNS.map((c) => c.clientId)).size;
-  const talents = new Set(CAMPAIGNS.flatMap((c) => c.talents)).size;
+  // Counted from what still exists, so deleted talents and clients drop out.
+  const brands = new Set(CAMPAIGNS.map((c) => c.clientId).filter((id) => clientById(id))).size;
+  const talents = new Set(CAMPAIGNS.flatMap((c) => c.talents).filter((id) => talentById(id))).size;
   return (
     <>
       <PageHeader eyebrow="Campaigns" title="הקמפיינים שלנו">
@@ -25,6 +26,7 @@ export function CampaignsPage() {
             <div className="kpi"><b dir="ltr">{brands}</b><span>מותגים</span></div>
             <div className="kpi"><b dir="ltr">{talents}</b><span>טאלנטים שהשתתפו</span></div>
           </div>
+          <h2 className="sr-only">כל הקמפיינים</h2>
           <div className="camp-grid">
             {CAMPAIGNS.map((c) => (
               <CampaignCard key={c.id} c={c} />
@@ -40,7 +42,7 @@ export function CampaignsPage() {
 export function CampaignPage() {
   const { id = '' } = useParams();
   const c = campaignById(id);
-  usePageTitle(c?.title);
+  usePageTitle(c ? c.title : 'קמפיין לא נמצא');
   if (!c) return <NotFound title="קמפיין לא נמצא" />;
   const client = clientById(c.clientId);
   const talents = c.talents.map(talentById).filter(Boolean) as Talent[];
@@ -73,7 +75,7 @@ export function CampaignPage() {
             {c.kpis.engagement ? (
               <div className="kpi"><b dir="ltr">{fmtK(c.kpis.engagement)}</b><span>מעורבות</span></div>
             ) : null}
-            <div className="kpi"><b dir="ltr">{c.talents.length}</b><span>טאלנטים</span></div>
+            <div className="kpi"><b dir="ltr">{talents.length}</b><span>טאלנטים</span></div>
             <div className="kpi">
               <b dir="ltr">{c.platforms.length}</b>
               <span>פלטפורמות · {c.platforms.map((p) => PLATFORM_META[p]?.label ?? p).join(', ')}</span>
@@ -103,8 +105,8 @@ export function CampaignPage() {
           <div className="wrap">
             <h2 className="sub-h">תוכן הקמפיין</h2>
             <div className="content-grid">
-              {content.map((item) => (
-                <ContentCard key={item.url} item={item} />
+              {content.map((item, i) => (
+                <ContentCard key={`${i}-${item.url}`} item={item} />
               ))}
             </div>
           </div>

@@ -4,6 +4,7 @@ import { GROUPS, PLATFORM_META, PLATFORMS, ROSTER, fmtK, type Platform, type Tal
 import { usePicked } from '../picked';
 import { ScrollTrigger, gsap, useA11y, useGsap } from '../a11y';
 import { PlusIcon, SearchIcon } from './icons';
+import { markProfileOpenedHere } from '../profileHistory';
 import { TalentPhoto } from './chrome';
 
 type SortKey = 'total' | Platform;
@@ -52,13 +53,19 @@ function TalentCard({ t, sort, visible }: { t: Talent; sort: SortKey; visible: b
       >
         <TalentPhoto t={t} alt="" loading="lazy" />
         {/* Opens the profile over the page; the URL is the talent's own, so it can be shared. */}
-        <Link className="card-open" to={`/talent/${t.id}`} state={{ bg: location }} aria-label={`הפרופיל של ${t.name}`} />
+        <Link
+          className="card-open"
+          to={`/talent/${t.id}`}
+          state={{ bg: location }}
+          onClick={markProfileOpenedHere}
+          aria-label={`הפרופיל של ${t.name}`}
+        />
         {t.cat && <span className="cat">{t.cat}</span>}
         <button
           className="add"
           type="button"
           aria-pressed={picked}
-          aria-label={picked ? `הסרת ${t.name} מההרכב` : `הוספת ${t.name} להרכב`}
+          aria-label={`${t.name} בהרכב הקמפיין`}
           onClick={(e) => {
             toggle(t.id);
             if (!picked && motionOK)
@@ -107,12 +114,14 @@ export default function TalentsSection({ withSearch = false, asPage = false }: {
     if (motionOK && gridRef.current) {
       const m = new Map<string, DOMRect>();
       gridRef.current.querySelectorAll<HTMLElement>('.card').forEach((el) => {
+        // Measure first: a card still sliding from the last change starts its next
+        // slide from where it is on screen, not from where it was headed.
+        m.set(el.dataset.id!, el.getBoundingClientRect());
         // A card still waiting for its scroll entrance may be about to move into
         // view; finish it now or it would arrive invisible.
         gsap.killTweensOf(el);
         gsap.set(el, { clearProps: 'opacity,transform' });
         el.setAttribute('data-in', '');
-        m.set(el.dataset.id!, el.getBoundingClientRect());
       });
       firstRects.current = m;
     }
@@ -169,7 +178,7 @@ export default function TalentsSection({ withSearch = false, asPage = false }: {
         {!asPage && (
           <div className="sec-h">
             <div>
-              <span className="k" dir="ltr" style={{ textAlign: 'right' }}>
+              <span className="k" dir="ltr" lang="en" style={{ textAlign: 'right' }}>
                 Roster · {new Date().getFullYear()}
               </span>
               <h2>הטאלנטים שלנו</h2>
@@ -222,6 +231,9 @@ export default function TalentsSection({ withSearch = false, asPage = false }: {
         <p className="hint">
           לחצו על <b>+</b> כדי להוסיף טאלנט להרכב הקמפיין. טווח החשיפה מתעדכן מיד.
         </p>
+        {/* On the talents page the page title is the h1; this keeps the cards' h3
+            names from jumping a level. */}
+        {asPage && <h2 className="sr-only">רשימת הטאלנטים</h2>}
         <p className="sr-only" aria-live="polite">
           {`מוצגים ${visibleCount} טאלנטים`}
         </p>

@@ -1,5 +1,6 @@
 import { useLayoutEffect, useRef } from 'react';
-import { Link, useNavigate, useParams } from 'react-router-dom';
+import { Link, useLocation, useNavigate, useParams, type Location } from 'react-router-dom';
+import { profileOpenedHere } from '../profileHistory';
 import { CAMPAIGNS, talentById } from '../data';
 import TalentsSection from '../components/TalentsSection';
 import ProfileBody from '../components/Profile';
@@ -25,7 +26,7 @@ export function TalentsPage() {
 export function TalentPage() {
   const { id = '' } = useParams();
   const t = talentById(id);
-  usePageTitle(t?.name);
+  usePageTitle(t ? t.name : 'המשפיען לא נמצא');
   if (!t) return <NotFound title="המשפיען לא נמצא" />;
   const campaigns = CAMPAIGNS.filter((c) => c.talents?.includes(t.id));
 
@@ -70,8 +71,12 @@ export function TalentPage() {
 export function ProfileDialog() {
   const { id = '' } = useParams();
   const navigate = useNavigate();
+  const location = useLocation();
+  const bg = (location.state as { bg?: Location } | null)?.bg;
   const t = talentById(id);
   const ref = useRef<HTMLDialogElement>(null);
+  const openedAt = useRef(0);
+  const pressedOnBackdrop = useRef(false);
   usePageTitle(t?.name);
 
   // A layout effect, so the listener is gone before React removes the dialog when
@@ -83,13 +88,19 @@ export function ProfileDialog() {
     // focus back by itself; keyboard users return to the card they came from.
     const opener = document.activeElement as HTMLElement | null;
     if (!dlg.open) dlg.showModal();
-    // Escape, the × and a backdrop click all close the dialog; closing goes Back.
-    const onClose = () => navigate(-1);
+    openedAt.current = performance.now();
+    // Escape, the × and a backdrop click all close the dialog; closing goes Back,
+    // or, for a dialog restored by a refresh, back to its page in place.
+    const onClose = () =>
+      profileOpenedHere() || !bg
+        ? navigate(-1)
+        : navigate({ pathname: bg.pathname, search: bg.search, hash: '' }, { replace: true, state: { keepScroll: true } });
     dlg.addEventListener('close', onClose);
     return () => {
       dlg.removeEventListener('close', onClose);
       requestAnimationFrame(() => opener?.isConnected && opener.focus({ preventScroll: true }));
     };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [navigate, id]);
 
   if (!t) return null;
@@ -98,8 +109,13 @@ export function ProfileDialog() {
       ref={ref}
       className="pro-dlg"
       aria-labelledby={`pro-name-${t.id}`}
+      // The backdrop closes the dialog only for a real click on it: not the second
+      // half of the double-click that opened it, and not a text selection that
+      // started inside the profile and was released outside.
+      onPointerDown={(e) => (pressedOnBackdrop.current = e.target === e.currentTarget)}
       onClick={(e) => {
-        if (e.target === e.currentTarget) e.currentTarget.close();
+        const onBackdrop = e.target === e.currentTarget && pressedOnBackdrop.current;
+        if (onBackdrop && performance.now() - openedAt.current > 400) e.currentTarget.close();
       }}
     >
       <div className="pro">

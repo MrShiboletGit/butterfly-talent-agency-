@@ -14,7 +14,6 @@ function CopyButton({ value, label }: { value: string; label: string }) {
     <button
       className="copy"
       type="button"
-      aria-label={`העתקת ${label}`}
       onClick={async () => {
         try {
           await navigator.clipboard.writeText(value);
@@ -25,7 +24,8 @@ function CopyButton({ value, label }: { value: string; label: string }) {
         }
       }}
     >
-      {done ? 'הועתק' : 'העתקה'}
+      <span aria-live="polite">{done ? 'הועתק' : 'העתקה'}</span>
+      <span className="sr-only"> {label}</span>
     </button>
   );
 }
@@ -84,7 +84,7 @@ export default function ContactSection({ heading = true }: { heading?: boolean }
           <div>
             <span className="eyebrow">
               <i />
-              Let's talk
+              <span lang="en">Let's talk</span>
             </span>
             {heading ? <h2>מוכנים<br />להתחיל?</h2> : <h2>בואו נתחיל לעבוד יחד</h2>}
             <p className="lede">בואו ניצור יחד את הקמפיין הבא שלכם עם המשפיענים הטובים ביותר בישראל</p>
@@ -134,7 +134,19 @@ export default function ContactSection({ heading = true }: { heading?: boolean }
                     <span className="pill" key={t.id}>
                       <TalentPhoto t={t} alt="" />
                       {t.name}
-                      <button type="button" onClick={() => toggle(t.id, false)} aria-label={`הסרת ${t.name}`}>
+                      <button
+                        type="button"
+                        onClick={(e) => {
+                          // The button removes itself; keep keyboard focus in the list.
+                          const pill = e.currentTarget.closest('.pill');
+                          const next = (pill?.nextElementSibling ?? pill?.previousElementSibling)?.querySelector('button');
+                          toggle(t.id, false);
+                          requestAnimationFrame(() =>
+                            (next ?? document.querySelector<HTMLElement>('.picked .none a'))?.focus(),
+                          );
+                        }}
+                        aria-label={`הסרת ${t.name}`}
+                      >
                         ×
                       </button>
                     </span>
