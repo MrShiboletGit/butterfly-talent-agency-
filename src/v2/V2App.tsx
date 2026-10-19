@@ -8,7 +8,7 @@ import Home from './pages/Home';
 import { ProfileDialog, TalentPage, TalentsPage } from './pages/TalentPages';
 import { CampaignPage, CampaignsPage } from './pages/CampaignPages';
 import { ClientPage } from './pages/ClientPages';
-import { AccessibilityPage, PrivacyPage } from './pages/Legal';
+import { AccessibilityPage, PrivacyPage, TermsPage } from './pages/Legal';
 import NotFound, { ContactPage } from './pages/NotFound';
 
 const FONTS_HREF =
@@ -146,6 +146,7 @@ export default function V2App({ adminPanel }: { adminPanel: ReactNode }) {
             <Route path="/contact" element={<ContactPage />} />
             <Route path="/accessibility" element={<AccessibilityPage />} />
             <Route path="/privacy" element={<PrivacyPage />} />
+            <Route path="/terms" element={<TermsPage />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
           {bg && (

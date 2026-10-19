@@ -123,6 +123,7 @@ export function Footer() {
               <li><Link to="/#contact">צור קשר</Link></li>
               <li><Link to="/accessibility">הצהרת נגישות</Link></li>
               <li><Link to="/privacy">מדיניות פרטיות</Link></li>
+              <li><Link to="/terms">תנאי שימוש</Link></li>
             </ul>
           </div>
           <div>

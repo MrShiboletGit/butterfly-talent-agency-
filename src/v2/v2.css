@@ -440,6 +440,7 @@ html.v2-html:has(dialog[open]) { overflow: hidden; }
 .v2 .prose a { color: var(--peach); }
 .v2 .prose .box { border: 1px solid var(--line); border-radius: 16px; padding: 18px 20px; background: rgba(255, 255, 255, .03); margin: 14px 0; }
 .v2 .prose .box p:last-child { margin: 0; }
+.v2 .prose mark.fill { background: rgba(244, 174, 146, .14); color: var(--peach); border: 1px dashed var(--peach); border-radius: 6px; padding: 0 6px; font-weight: 500; }
 .v2 .prose .updated { margin-top: 40px; padding-top: 18px; border-top: 1px solid var(--line); font-size: .875rem; color: var(--muted); }
 
 /* ───── ACCESSIBILITY MENU ───── */
