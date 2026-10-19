@@ -100,7 +100,7 @@ export function PrivacyPage() {
                 <strong>דוא"ל:</strong> <a href="mailto:contact@butterfly-talent.com" dir="ltr">contact@butterfly-talent.com</a>
               </p>
               <p>
-                <strong>טלפון:</strong> <bdi dir="ltr">0507822986</bdi>
+                <strong>טלפון:</strong> <bdi dir="ltr">{CONTACT.phoneDisplay}</bdi>
               </p>
             </div>
             <p className="updated">

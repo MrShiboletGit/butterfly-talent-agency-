@@ -182,7 +182,7 @@ const PrivacyPage: React.FC = () => {
               
               <div className="space-y-2">
                 <p><strong>דוא"ל:</strong> contact@butterfly-talent.com</p>
-                <p><strong>טלפון:</strong> 0507822986</p>
+                <p><strong>טלפון:</strong> <bdi dir="ltr">+972-50-914-5461</bdi></p>
               </div>
             </section>
 
