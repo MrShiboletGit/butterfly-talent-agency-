@@ -1,13 +1,11 @@
 import { useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { sendEmail } from '@/integrations/core';
 import { CONTACT, fmtK, sumPF, whatsappUrl } from '../data';
 import { usePicked } from '../picked';
 import { gsap, useGsap } from '../a11y';
 import { ChatIcon, MailIcon } from './icons';
 
-type Field = 'name' | 'company' | 'phone' | 'email' | 'message' | 'consent';
-const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+type Field = 'name' | 'company' | 'phone' | 'email' | 'message';
 
 function CopyButton({ value, label }: { value: string; label: string }) {
   const [done, setDone] = useState(false);
@@ -32,16 +30,17 @@ function CopyButton({ value, label }: { value: string; label: string }) {
 }
 
 /**
- * "Let's talk". WhatsApp is the main way in: the form fills a ready message and
- * the visitor just hits send. Email remains for anyone who prefers it, sent the
- * same way v1's contact page sends it and with the same privacy consent.
+ * "Let's talk". The form writes the message; the visitor sends it themselves,
+ * from WhatsApp (the main way in) or from their own email app.
+ *
+ * v1 posted the form through the Superdev email integration, but the site's
+ * build has carried placeholder Superdev settings since it moved off that
+ * platform, so every submission failed. Handing off to the visitor's own app
+ * needs no server or keys and cannot fail on our side.
  */
 export default function ContactSection({ heading = true }: { heading?: boolean }) {
-  const { talents, toggle, clear } = usePicked();
-  const [form, setForm] = useState({ name: '', company: '', phone: '', email: '', message: '', consent: false });
-  const [errors, setErrors] = useState<Partial<Record<Field, string>>>({});
-  const [status, setStatus] = useState<'idle' | 'sending' | 'sent' | 'error'>('idle');
-  const formRef = useRef<HTMLFormElement>(null);
+  const { talents, toggle } = usePicked();
+  const [form, setForm] = useState({ name: '', company: '', phone: '', email: '', message: '' });
   const sectionRef = useRef<HTMLElement>(null);
 
   useGsap(
@@ -55,87 +54,27 @@ export default function ContactSection({ heading = true }: { heading?: boolean }
     [],
   );
 
-  const set = (k: Field, v: string | boolean) => {
-    setForm((f) => ({ ...f, [k]: v }));
-    if (errors[k]) setErrors((e) => ({ ...e, [k]: undefined }));
-    if (status === 'sent' || status === 'error') setStatus('idle');
-  };
+  const set = (k: Field, v: string) => setForm((f) => ({ ...f, [k]: v }));
 
   const reach = sumPF(talents);
-  const lineup = talents.length ? `${talents.map((t) => t.name).join(', ')} (טווח חשיפה ${fmtK(reach.total)})` : '';
-
-  const waText = [
-    'היי, הגעתי מהאתר של Butterfly.',
+  const names = talents.map((t) => t.name).join(', ');
+  const lines = [
     form.name.trim() && `שם: ${form.name.trim()}`,
     form.company.trim() && `חברה: ${form.company.trim()}`,
     form.phone.trim() && `טלפון: ${form.phone.trim()}`,
     form.email.trim() && `אימייל: ${form.email.trim()}`,
-    lineup && `טאלנטים שמעניינים אותנו: ${lineup}`,
+    talents.length && `טאלנטים שמעניינים אותנו: ${names} (טווח חשיפה ${fmtK(reach.total)})`,
     form.message.trim() && `על הקמפיין: ${form.message.trim()}`,
-  ]
-    .filter(Boolean)
-    .join('\n');
+  ].filter(Boolean) as string[];
 
-  const validateForEmail = () => {
-    const e: Partial<Record<Field, string>> = {};
-    if (!form.name.trim()) e.name = 'נא למלא שם';
-    if (!form.email.trim()) e.email = 'נא למלא אימייל כדי שנוכל לחזור אליכם';
-    else if (!EMAIL_RE.test(form.email.trim())) e.email = 'כתובת האימייל לא תקינה';
-    if (!form.message.trim() && !talents.length) e.message = 'ספרו לנו בקצרה על הקמפיין';
-    if (!form.consent) e.consent = 'יש לאשר את מדיניות הפרטיות כדי לשלוח במייל';
-    return e;
-  };
+  const waText = ['היי, הגעתי מהאתר של Butterfly.', ...lines].join('\n');
+  const mailSubject = talents.length
+    ? `התעניינות בטאלנטים: ${names}`
+    : `פנייה מהאתר${form.name.trim() ? ` - ${form.name.trim()}` : ''}`;
+  const mailBody = ['היי, הגעתי מהאתר של Butterfly.', '', ...lines].join('\r\n');
+  const mailHref = `mailto:${CONTACT.email}?subject=${encodeURIComponent(mailSubject)}&body=${encodeURIComponent(mailBody)}`;
 
-  const onSubmit = async (ev: React.FormEvent) => {
-    ev.preventDefault();
-    const e = validateForEmail();
-    setErrors(e);
-    const first = Object.keys(e)[0] as Field | undefined;
-    if (first) {
-      formRef.current?.querySelector<HTMLElement>(`[name="${first}"]`)?.focus();
-      return;
-    }
-    setStatus('sending');
-    try {
-      await sendEmail({
-        to: CONTACT.email,
-        subject: talents.length
-          ? `התעניינות בטאלנטים: ${talents.map((t) => t.name).join(', ')}`
-          : `פנייה חדשה מהאתר - ${form.name.trim()}`,
-        body: `
-          פנייה חדשה מהאתר:
-
-          שם: ${form.name.trim()}
-          אימייל: ${form.email.trim()}
-          טלפון: ${form.phone.trim()}
-          חברה: ${form.company.trim()}
-          ${lineup ? `טאלנטים שמעניינים אותם: ${lineup}` : ''}
-
-          הודעה:
-          ${form.message.trim()}
-        `,
-      });
-      setStatus('sent');
-      setForm({ name: '', company: '', phone: '', email: '', message: '', consent: false });
-      clear();
-    } catch (err) {
-      console.error('Error sending email:', err);
-      setStatus('error');
-    }
-  };
-
-  const fieldProps = (k: Field) => ({
-    name: k,
-    id: `f-${k}`,
-    'aria-invalid': errors[k] ? true : undefined,
-    'aria-describedby': errors[k] ? `f-${k}-err` : undefined,
-  });
-  const err = (k: Field) =>
-    errors[k] ? (
-      <span className="err" id={`f-${k}-err`}>
-        {errors[k]}
-      </span>
-    ) : null;
+  const input = (k: Field) => ({ name: k, id: `f-${k}`, value: form[k], onChange: (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => set(k, e.target.value) });
 
   return (
     <section id="contact" ref={sectionRef} style={{ paddingTop: heading ? 20 : 0 }}>
@@ -166,43 +105,23 @@ export default function ContactSection({ heading = true }: { heading?: boolean }
             </div>
           </div>
 
-          <form className="lead" ref={formRef} onSubmit={onSubmit} noValidate aria-label="פנייה ל-Butterfly">
+          {/* Nothing is submitted from here; both actions are links carrying the message. */}
+          <form className="lead" onSubmit={(e) => e.preventDefault()} aria-label="פנייה ל-Butterfly">
             <div className="field">
-              <label htmlFor="f-name">
-                שם מלא <span className="req" aria-hidden="true">*</span>
-              </label>
-              <input {...fieldProps('name')} autoComplete="name" value={form.name} onChange={(e) => set('name', e.target.value)} />
-              {err('name')}
+              <label htmlFor="f-name">שם מלא</label>
+              <input {...input('name')} autoComplete="name" />
             </div>
             <div className="field">
               <label htmlFor="f-company">חברה / מותג</label>
-              <input {...fieldProps('company')} autoComplete="organization" value={form.company} onChange={(e) => set('company', e.target.value)} />
+              <input {...input('company')} autoComplete="organization" />
             </div>
             <div className="field">
               <label htmlFor="f-phone">טלפון</label>
-              <input
-                {...fieldProps('phone')}
-                type="tel"
-                inputMode="tel"
-                autoComplete="tel"
-                dir="ltr"
-                style={{ textAlign: 'right' }}
-                value={form.phone}
-                onChange={(e) => set('phone', e.target.value)}
-              />
+              <input {...input('phone')} type="tel" inputMode="tel" autoComplete="tel" dir="ltr" style={{ textAlign: 'right' }} />
             </div>
             <div className="field">
               <label htmlFor="f-email">אימייל</label>
-              <input
-                {...fieldProps('email')}
-                type="email"
-                autoComplete="email"
-                dir="ltr"
-                style={{ textAlign: 'right' }}
-                value={form.email}
-                onChange={(e) => set('email', e.target.value)}
-              />
-              {err('email')}
+              <input {...input('email')} type="email" autoComplete="email" dir="ltr" style={{ textAlign: 'right' }} />
             </div>
             <div className="field full" role="group" aria-labelledby="f-picked-l">
               <span className="label" id="f-picked-l">
@@ -228,46 +147,21 @@ export default function ContactSection({ heading = true }: { heading?: boolean }
             </div>
             <div className="field full">
               <label htmlFor="f-message">על מה הקמפיין?</label>
-              <textarea
-                {...fieldProps('message')}
-                placeholder="מוצר, קהל יעד, תאריכים, תקציב משוער"
-                value={form.message}
-                onChange={(e) => set('message', e.target.value)}
-              />
-              {err('message')}
-            </div>
-            <div className="field full">
-              <label className="consent" htmlFor="f-consent">
-                <input
-                  {...fieldProps('consent')}
-                  type="checkbox"
-                  checked={form.consent}
-                  onChange={(e) => set('consent', e.target.checked)}
-                />
-                <span>
-                  אני מאשר/ת שהפרטים שמסרתי בטופס ישמשו לצורך יצירת קשר בלבד, בהתאם ל
-                  <Link to="/privacy" target="_blank" rel="noopener noreferrer">
-                    מדיניות הפרטיות
-                  </Link>{' '}
-                  של האתר.
-                </span>
-              </label>
-              {err('consent')}
-            </div>
-            <div className="status" aria-live="polite" role="status">
-              {status === 'sent' && <p className="ok">ההודעה נשלחה בהצלחה! נחזור אליכם בהקדם.</p>}
-              {status === 'error' && <p className="bad">אירעה שגיאה בשליחת ההודעה. אפשר לנסות שוב או לשלוח בוואטסאפ.</p>}
+              <textarea {...input('message')} placeholder="מוצר, קהל יעד, תאריכים, תקציב משוער" />
             </div>
             <div className="form-foot">
               <a className="btn btn-wa" href={whatsappUrl(waText)} target="_blank" rel="noopener noreferrer">
                 <ChatIcon />
                 שליחה בוואטסאפ
               </a>
-              <button className="btn btn-ghost" type="submit" disabled={status === 'sending'}>
+              <a className="btn btn-ghost" href={mailHref}>
                 <MailIcon />
-                {status === 'sending' ? 'שולח...' : 'שליחה במייל'}
-              </button>
-              <small>בוואטסאפ הפרטים נכנסים להודעה מוכנה, ונשאר רק ללחוץ שלח. שליחה במייל דורשת שם, אימייל ואישור מדיניות הפרטיות.</small>
+                שליחה במייל
+              </a>
+              <small>
+                הפרטים נכנסים להודעה מוכנה בוואטסאפ או בתוכנת הדואר שלכם, ונשאר רק ללחוץ שלח. הפרטים ישמשו ליצירת קשר בלבד, בהתאם
+                ל<Link to="/privacy">מדיניות הפרטיות</Link>.
+              </small>
             </div>
           </form>
         </div>
