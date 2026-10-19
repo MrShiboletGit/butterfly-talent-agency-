@@ -24,7 +24,9 @@ const DIST = join(ROOT, 'dist');
 // crawlers fetch images without a redirect hop.
 const SITE = 'https://www.butterfly-talent.com';
 const BRAND = 'Butterfly Talent Agency';
-const DEFAULT_IMAGE = { path: '/og/default.jpg', width: 1200, height: 630 };
+// The ?v= changes whenever the card is redesigned, so WhatsApp and others fetch
+// the new image instead of one they cached under the old address.
+const DEFAULT_IMAGE = { path: '/og/default.jpg?v=2', width: 1200, height: 630 };
 
 const readJson = (name) => JSON.parse(readFileSync(join(ROOT, 'src', 'data', name), 'utf8'));
 
