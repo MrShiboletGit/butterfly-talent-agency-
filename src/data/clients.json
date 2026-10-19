@@ -2,96 +2,96 @@
   {
     "id": "samsung",
     "name": "סמסונג",
-    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Samsung_wordmark.svg"
+    "logoUrl": "/clients/samsung.svg"
   },
   {
     "id": "nintendo",
     "name": "נינטנדו",
-    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Nintendo.svg"
+    "logoUrl": "/clients/nintendo.svg"
   },
   {
     "id": "paramount",
     "name": "Paramount(Ananey)",
-    "logoUrl": "/clients/paramount-ananey.png"
+    "logoUrl": "/clients/paramount.webp"
   },
   {
     "id": "google",
     "name": "גוגל",
-    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg"
+    "logoUrl": "/clients/google.svg"
   },
   {
     "id": "moviez",
     "name": "מוביז",
-    "logoUrl": "https://moviz.co.il/wp-content/uploads/2022/07/LOGO-MOVIZ-e1657026490982.png"
+    "logoUrl": "/clients/moviez.webp"
   },
   {
     "id": "elbit",
     "name": "אלביט מערכות",
-    "logoUrl": "https://upload.wikimedia.org/wikipedia/he/thumb/1/14/%D7%90%D7%9C%D7%91%D7%99%D7%98_%D7%9E%D7%A2%D7%A8%D7%9B%D7%95%D7%AA_2008.svg/330px-%D7%90%D7%9C%D7%91%D7%99%D7%98_%D7%9E%D7%A2%D7%A8%D7%9B%D7%95%D7%AA_2008.svg.png"
+    "logoUrl": "/clients/elbit.webp"
   },
   {
     "id": "education-ministry",
     "name": "משרד החינוך",
-    "logoUrl": "/clients/education-ministry.jpg"
+    "logoUrl": "/clients/education-ministry.webp"
   },
   {
     "id": "israel-post",
     "name": "דואר ישראל",
-    "logoUrl": "https://upload.wikimedia.org/wikipedia/he/thumb/6/6d/DoarIsrael.svg/330px-DoarIsrael.svg.png"
+    "logoUrl": "/clients/israel-post.webp"
   },
   {
     "id": "kashcash",
     "name": "kashcash",
-    "logoUrl": "https://yt3.googleusercontent.com/RXF-ZuEIxdYeXi80Oab8WEVkEARJncATFAVJF_0fjK2ceu46gwoNfh51mfrO7uffTsMYpXRHPQ=s900-c-k-c0x00ffffff-no-rj"
+    "logoUrl": "/clients/kashcash.webp"
   },
   {
     "id": "tadiran",
     "name": "Tadiran",
-    "logoUrl": "https://upload.wikimedia.org/wikipedia/he/thumb/7/7b/Logo-tadiran-.png/330px-Logo-tadiran-.png"
+    "logoUrl": "/clients/tadiran.webp"
   },
   {
     "id": "hashmal",
     "name": "מחסני חשמל",
-    "logoUrl": "https://yt3.googleusercontent.com/ytc/AIdro_kokHOMCLL73X_xXUeSd4b0CD34S7JyH_uDXP3kwTsEI4E=s900-c-k-c0x00ffffff-no-rj"
+    "logoUrl": "/clients/hashmal.webp"
   },
   {
     "id": "yedioth-books",
     "name": "ידיעות ספרים",
-    "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSc6WlNDMCuCJZ5mRxgSGkv0-jkLJj3C5ASYA&s"
+    "logoUrl": "/clients/yedioth-books.webp"
   },
   {
     "id": "glorious-gaming",
     "name": "Glorious Gaming",
-    "logoUrl": "https://image-cdn.jambuntech.dev/XAbQ8ZDoDDIwKZU3eIrLqKdjustuhxayV2jNrPwG/400x/filters:format(webp)/tk-file/glorious_logo_58531f527bd64a62142611fef75d50c0.png"
+    "logoUrl": "/clients/glorious-gaming.webp"
   },
   {
     "id": "logitech-israel",
     "name": "לוג'יטק ישראל",
-    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Logitech_logo.png"
+    "logoUrl": "/clients/logitech-israel.webp"
   },
   {
     "id": "sweetweet",
     "name": "סוויטוויט",
-    "logoUrl": "https://media.licdn.com/dms/image/v2/C4E0BAQHVWW4PVk8EFQ/company-logo_200_200/company-logo_200_200/0/1660645296331/sweetweet_logo?e=2147483647&v=beta&t=Hk3heT_fo2DaL7p3ng_40awpFL4CShgbnnOtd93joRI"
+    "logoUrl": "/clients/sweetweet.webp"
   },
   {
     "id": "cerave",
     "name": "CeraVe",
-    "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsC7oLhe599QECYHR62W1TbktgXuEOKE5OZA&s"
+    "logoUrl": "/clients/cerave.webp"
   },
   {
     "id": "ministry-transport",
     "name": "משרד התחבורה",
-    "logoUrl": "https://upload.wikimedia.org/wikipedia/he/thumb/a/a3/Israeli_Ministry_of_Transport_and_Road_Safety_Symbol.svg/250px-Israeli_Ministry_of_Transport_and_Road_Safety_Symbol.svg.png"
+    "logoUrl": "/clients/ministry-transport.webp"
   },
   {
     "id": "iai",
     "name": "התעשייה האווירית",
-    "logoUrl": "https://upload.wikimedia.org/wikipedia/he/thumb/c/c7/IAI_logo_2025.jpg/250px-IAI_logo_2025.jpg"
+    "logoUrl": "/clients/iai.webp"
   },
   {
     "id": "client-swag4",
     "name": "פרימור",
-    "logoUrl": "https://media.getmood.io/warehouse/dynamic/349740.png"
+    "logoUrl": "/clients/client-swag4.webp"
   }
 ]
