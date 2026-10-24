@@ -1278,11 +1278,11 @@
     "description": "קמפיין קידום מוצלח עבור משרד התחבורה עם מיכל מצוב",
     "category": "קמפיין ציבורי",
     "kpis": {
-      "views": 168548,
-      "engagement": 8164,
+      "views": 170114,
+      "engagement": 8134,
       "shares": 591,
-      "reach": 168548,
-      "impressions": 168548
+      "reach": 170114,
+      "impressions": 170114
     },
     "talents": [
       "1"
@@ -1310,8 +1310,8 @@
         "type": "short-form-video",
         "description": "YouTube Shorts - מיכל מצוב משרד התחבורה",
         "platform": "youtube",
-        "views": 94448,
-        "likes": 1976,
+        "views": 96014,
+        "likes": 1946,
         "comments": 95,
         "talent": "1"
       }
