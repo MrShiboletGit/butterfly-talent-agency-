@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T08:46:07.806655",
+  "generated_at": "2026-10-27T08:53:58.040605",
   "video_results": [
     {
       "url": "https://www.tiktok.com/@galcohenyt/video/7540251397405560084",
@@ -902,10 +902,10 @@
       "talent_name": "בלאקבירד (מוטי וקנין)",
       "platform": "youtube",
       "url": "https://www.youtube.com/@blackbeardplus",
-      "stored_followers": 90900,
+      "stored_followers": 91000,
       "live_followers": 91000,
       "error": null,
-      "diff_pct": 0.11001100110011
+      "diff_pct": 0.0
     },
     {
       "talent_name": "בלאקבירד (מוטי וקנין)",
@@ -957,18 +957,18 @@
       "platform": "youtube",
       "url": "https://www.youtube.com/@RealGoldenShow",
       "stored_followers": 92000,
-      "live_followers": 92000,
+      "live_followers": 92100,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": 0.10869565217391304
     },
     {
       "talent_name": "עומר גולדן שואו (Golden Show)",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@realgoldengames",
       "stored_followers": 30400,
-      "live_followers": 30400,
+      "live_followers": 30500,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": 0.3289473684210526
     },
     {
       "talent_name": "עומר גולדן שואו (Golden Show)",
@@ -1046,10 +1046,10 @@
       "talent_name": "דניאל טימבלאסט (TeamBlast)",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@teamblast",
-      "stored_followers": 6066,
-      "live_followers": 6065,
+      "stored_followers": 6065,
+      "live_followers": 6062,
       "error": null,
-      "diff_pct": -0.016485328058028353
+      "diff_pct": -0.049464138499587806
     },
     {
       "talent_name": "דניאל טימבלאסט (TeamBlast)",
@@ -1083,9 +1083,9 @@
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@mina_avrehanian",
       "stored_followers": 70400,
-      "live_followers": 70400,
+      "live_followers": 70300,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": -0.14204545454545456
     },
     {
       "talent_name": "טום דוגמא (Tom Dugma)",
@@ -1145,10 +1145,10 @@
       "talent_name": "גל כהן",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@galcohenyt",
-      "stored_followers": 88300,
-      "live_followers": 88500,
+      "stored_followers": 88500,
+      "live_followers": 88700,
       "error": null,
-      "diff_pct": 0.22650056625141565
+      "diff_pct": 0.22598870056497175
     },
     {
       "talent_name": "גל כהן",
@@ -1173,9 +1173,9 @@
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@roeefirewolf",
       "stored_followers": 63600,
-      "live_followers": 63600,
+      "live_followers": 63500,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": -0.15723270440251574
     },
     {
       "talent_name": "רועי (Roee Firewolf)",
