@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T09:33:49.135180",
+  "generated_at": "2026-10-29T09:39:04.020970",
   "video_results": [
     {
       "url": "https://www.tiktok.com/@galcohenyt/video/7540251397405560084",
@@ -46,10 +46,10 @@
       "platform": "youtube",
       "stored_views": 265049,
       "stored_likes": 4862,
-      "live_views": null,
-      "live_likes": null,
-      "error": "ERROR: [youtube] 45CVAns8rXc: Sign in to confirm y",
-      "views_diff_pct": null
+      "live_views": 337956,
+      "live_likes": 5374,
+      "error": null,
+      "views_diff_pct": 27.50698927368147
     },
     {
       "url": "https://www.youtube.com/shorts/f0vXHfwAFeU",
@@ -794,19 +794,19 @@
       "talent_name": "מר שיבולת (שי בן בסט)",
       "platform": "youtube",
       "url": "https://www.youtube.com/@SHIB",
-      "stored_followers": 281000,
+      "stored_followers": 282000,
       "live_followers": 282000,
       "error": null,
-      "diff_pct": 0.3558718861209964
+      "diff_pct": 0.0
     },
     {
       "talent_name": "מר שיבולת (שי בן בסט)",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@mrshibolet",
-      "stored_followers": 117200,
-      "live_followers": 117400,
+      "stored_followers": 117400,
+      "live_followers": 117600,
       "error": null,
-      "diff_pct": 0.17064846416382254
+      "diff_pct": 0.17035775127768313
     },
     {
       "talent_name": "מר שיבולת (שי בן בסט)",
@@ -822,9 +822,9 @@
       "platform": "youtube",
       "url": "https://www.youtube.com/channel/UCiW0DnQFoaKENY1XJMEBvBg",
       "stored_followers": 18000,
-      "live_followers": 18000,
+      "live_followers": 18100,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": 0.5555555555555556
     },
     {
       "talent_name": "קורנליוס האיום (קורנליוס אביעד)",
@@ -858,9 +858,9 @@
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@rainbqueen",
       "stored_followers": 43200,
-      "live_followers": 43200,
+      "live_followers": 43100,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": -0.23148148148148145
     },
     {
       "talent_name": "מיטל ריינבו קווין",
@@ -902,19 +902,19 @@
       "talent_name": "בלאקבירד (מוטי וקנין)",
       "platform": "youtube",
       "url": "https://www.youtube.com/@blackbeardplus",
-      "stored_followers": 91000,
+      "stored_followers": 91100,
       "live_followers": 91100,
       "error": null,
-      "diff_pct": 0.10989010989010989
+      "diff_pct": 0.0
     },
     {
       "talent_name": "בלאקבירד (מוטי וקנין)",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@motiblackbeard",
-      "stored_followers": 91500,
+      "stored_followers": 91600,
       "live_followers": 91600,
       "error": null,
-      "diff_pct": 0.1092896174863388
+      "diff_pct": 0.0
     },
     {
       "talent_name": "בלאקבירד (מוטי וקנין)",
@@ -956,10 +956,10 @@
       "talent_name": "עומר גולדן שואו (Golden Show)",
       "platform": "youtube",
       "url": "https://www.youtube.com/@RealGoldenShow",
-      "stored_followers": 92100,
+      "stored_followers": 92200,
       "live_followers": 92200,
       "error": null,
-      "diff_pct": 0.10857763300760044
+      "diff_pct": 0.0
     },
     {
       "talent_name": "עומר גולדן שואו (Golden Show)",
@@ -1046,10 +1046,10 @@
       "talent_name": "דניאל טימבלאסט (TeamBlast)",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@teamblast",
-      "stored_followers": 6062,
-      "live_followers": 6066,
+      "stored_followers": 6066,
+      "live_followers": 6074,
       "error": null,
-      "diff_pct": 0.06598482349059716
+      "diff_pct": 0.13188262446422683
     },
     {
       "talent_name": "דניאל טימבלאסט (TeamBlast)",
@@ -1145,10 +1145,10 @@
       "talent_name": "גל כהן",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@galcohenyt",
-      "stored_followers": 88700,
+      "stored_followers": 88800,
       "live_followers": 88800,
       "error": null,
-      "diff_pct": 0.11273957158962795
+      "diff_pct": 0.0
     },
     {
       "talent_name": "גל כהן",
