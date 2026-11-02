@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T10:20:34.407844",
+  "generated_at": "2026-11-02T10:49:39.859277",
   "video_results": [
     {
       "url": "https://www.tiktok.com/@galcohenyt/video/7540251397405560084",
@@ -821,10 +821,10 @@
       "talent_name": "קורנליוס האיום (קורנליוס אביעד)",
       "platform": "youtube",
       "url": "https://www.youtube.com/channel/UCiW0DnQFoaKENY1XJMEBvBg",
-      "stored_followers": 18300,
-      "live_followers": 18500,
+      "stored_followers": 18500,
+      "live_followers": 18700,
       "error": null,
-      "diff_pct": 1.092896174863388
+      "diff_pct": 1.0810810810810811
     },
     {
       "talent_name": "קורנליוס האיום (קורנליוס אביעד)",
@@ -885,9 +885,9 @@
       "platform": "tiktok",
       "url": "https://tiktok.com/@david_2bof",
       "stored_followers": 20300,
-      "live_followers": 20300,
+      "live_followers": 20200,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": -0.49261083743842365
     },
     {
       "talent_name": "דוד ששון (2BOF)",
@@ -903,24 +903,51 @@
       "platform": "youtube",
       "url": "https://www.youtube.com/@blackbeardplus",
       "stored_followers": 91200,
-      "live_followers": 91200,
+      "live_followers": 91300,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": 0.10964912280701754
     },
     {
       "talent_name": "בלאקבירד (מוטי וקנין)",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@motiblackbeard",
       "stored_followers": 91700,
-      "live_followers": 91700,
+      "live_followers": 91800,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": 0.10905125408942204
     },
     {
       "talent_name": "בלאקבירד (מוטי וקנין)",
       "platform": "instagram",
       "url": "https://www.instagram.com/motiblackbeard",
       "stored_followers": 18871,
+      "live_followers": null,
+      "error": "Profile followers require login",
+      "diff_pct": null
+    },
+    {
+      "talent_name": "שלומי בן עטר (המרתף)",
+      "platform": "youtube",
+      "url": "https://www.youtube.com/@martef",
+      "stored_followers": 124000,
+      "live_followers": 124000,
+      "error": null,
+      "diff_pct": 0.0
+    },
+    {
+      "talent_name": "שלומי בן עטר (המרתף)",
+      "platform": "tiktok",
+      "url": "https://www.tiktok.com/@hamartef",
+      "stored_followers": 62800,
+      "live_followers": 62800,
+      "error": null,
+      "diff_pct": 0.0
+    },
+    {
+      "talent_name": "שלומי בן עטר (המרתף)",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/shlomibenatar",
+      "stored_followers": 8657,
       "live_followers": null,
       "error": "Profile followers require login",
       "diff_pct": null
@@ -1046,10 +1073,10 @@
       "talent_name": "דניאל טימבלאסט (TeamBlast)",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@teamblast",
-      "stored_followers": 6078,
+      "stored_followers": 6077,
       "live_followers": 6077,
       "error": null,
-      "diff_pct": -0.016452780519907863
+      "diff_pct": 0.0
     },
     {
       "talent_name": "דניאל טימבלאסט (TeamBlast)",
@@ -1083,9 +1110,9 @@
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@mina_avrehanian",
       "stored_followers": 70300,
-      "live_followers": 70300,
+      "live_followers": 70200,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": -0.1422475106685633
     },
     {
       "talent_name": "טום דוגמא (Tom Dugma)",
@@ -1119,9 +1146,9 @@
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@michalmatzov",
       "stored_followers": 368900,
-      "live_followers": 368900,
+      "live_followers": 369000,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": 0.02710761724044456
     },
     {
       "talent_name": "מיכל מצוב",
@@ -1200,9 +1227,9 @@
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@israel_galitsky",
       "stored_followers": 161900,
-      "live_followers": 161900,
+      "live_followers": 162000,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": 0.06176652254478073
     },
     {
       "talent_name": "ישראל גליצקי",
