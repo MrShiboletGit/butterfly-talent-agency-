@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T10:37:28.514059",
+  "generated_at": "2026-11-12T10:54:59.646314",
   "video_results": [
     {
       "url": "https://www.tiktok.com/@galcohenyt/video/7540251397405560084",
@@ -225,7 +225,7 @@
       "url": "https://www.tiktok.com/@michalmatzov/video/7527310366653598984?_r=1&_t=ZS-8yYyPcptRRZ",
       "platform": "tiktok",
       "stored_views": 120000,
-      "stored_likes": 6665,
+      "stored_likes": 6667,
       "live_views": 120000,
       "live_likes": 6667,
       "error": null,
@@ -235,7 +235,7 @@
       "url": "https://www.tiktok.com/@michalmatzov/video/7527310366653598984?_r=1&_t=ZS-8yYyPcptRRZ",
       "platform": "tiktok",
       "stored_views": 120000,
-      "stored_likes": 6665,
+      "stored_likes": 6667,
       "live_views": 120000,
       "live_likes": 6667,
       "error": null,
@@ -287,7 +287,7 @@
       "stored_views": 1700000,
       "stored_likes": 5123,
       "live_views": 1700000,
-      "live_likes": 5123,
+      "live_likes": 5124,
       "error": null,
       "views_diff_pct": 0.0
     },
@@ -377,7 +377,7 @@
       "stored_views": 25000,
       "stored_likes": 490,
       "live_views": null,
-      "live_likes": 494,
+      "live_likes": 493,
       "error": null,
       "views_diff_pct": null
     },
@@ -794,19 +794,19 @@
       "talent_name": "מר שיבולת (שי בן בסט)",
       "platform": "youtube",
       "url": "https://www.youtube.com/@SHIB",
-      "stored_followers": 285000,
-      "live_followers": 286000,
+      "stored_followers": 286000,
+      "live_followers": 287000,
       "error": null,
-      "diff_pct": 0.3508771929824561
+      "diff_pct": 0.34965034965034963
     },
     {
       "talent_name": "מר שיבולת (שי בן בסט)",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@mrshibolet",
-      "stored_followers": 118000,
-      "live_followers": 118100,
+      "stored_followers": 118100,
+      "live_followers": 118400,
       "error": null,
-      "diff_pct": 0.0847457627118644
+      "diff_pct": 0.2540220152413209
     },
     {
       "talent_name": "מר שיבולת (שי בן בסט)",
@@ -821,10 +821,10 @@
       "talent_name": "קורנליוס האיום (קורנליוס אביעד)",
       "platform": "youtube",
       "url": "https://www.youtube.com/channel/UCiW0DnQFoaKENY1XJMEBvBg",
-      "stored_followers": 19600,
-      "live_followers": 19700,
+      "stored_followers": 19700,
+      "live_followers": 19800,
       "error": null,
-      "diff_pct": 0.5102040816326531
+      "diff_pct": 0.5076142131979695
     },
     {
       "talent_name": "קורנליוס האיום (קורנליוס אביעד)",
@@ -902,10 +902,10 @@
       "talent_name": "בלאקבירד (מוטי וקנין)",
       "platform": "youtube",
       "url": "https://www.youtube.com/@blackbeardplus",
-      "stored_followers": 92300,
-      "live_followers": 92400,
+      "stored_followers": 92400,
+      "live_followers": 92500,
       "error": null,
-      "diff_pct": 0.10834236186348861
+      "diff_pct": 0.10822510822510822
     },
     {
       "talent_name": "בלאקבירד (מוטי וקנין)",
@@ -939,9 +939,9 @@
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@hamartef",
       "stored_followers": 63000,
-      "live_followers": 63000,
+      "live_followers": 63100,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": 0.15873015873015872
     },
     {
       "talent_name": "שלומי בן עטר (המרתף)",
@@ -983,19 +983,19 @@
       "talent_name": "עומר גולדן שואו (Golden Show)",
       "platform": "youtube",
       "url": "https://www.youtube.com/@RealGoldenShow",
-      "stored_followers": 93500,
-      "live_followers": 93700,
+      "stored_followers": 93700,
+      "live_followers": 94100,
       "error": null,
-      "diff_pct": 0.21390374331550802
+      "diff_pct": 0.42689434364994666
     },
     {
       "talent_name": "עומר גולדן שואו (Golden Show)",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@realgoldengames",
       "stored_followers": 30600,
-      "live_followers": 30600,
+      "live_followers": 30700,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": 0.32679738562091504
     },
     {
       "talent_name": "עומר גולדן שואו (Golden Show)",
@@ -1073,10 +1073,10 @@
       "talent_name": "דניאל טימבלאסט (TeamBlast)",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@teamblast",
-      "stored_followers": 6126,
-      "live_followers": 6134,
+      "stored_followers": 6134,
+      "live_followers": 6139,
       "error": null,
-      "diff_pct": 0.1305909239307868
+      "diff_pct": 0.08151287903488752
     },
     {
       "talent_name": "דניאל טימבלאסט (TeamBlast)",
@@ -1091,10 +1091,10 @@
       "talent_name": "מינה (CinnaMinaa)",
       "platform": "youtube",
       "url": "https://youtube.com/@cinnaminaa",
-      "stored_followers": 33000,
+      "stored_followers": 33100,
       "live_followers": 33100,
       "error": null,
-      "diff_pct": 0.30303030303030304
+      "diff_pct": 0.0
     },
     {
       "talent_name": "מינה (CinnaMinaa)",
@@ -1118,10 +1118,10 @@
       "talent_name": "טום דוגמא (Tom Dugma)",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@tomdugma",
-      "stored_followers": 21100,
+      "stored_followers": 21200,
       "live_followers": 21200,
       "error": null,
-      "diff_pct": 0.47393364928909953
+      "diff_pct": 0.0
     },
     {
       "talent_name": "טום דוגמא (Tom Dugma)",
@@ -1146,9 +1146,9 @@
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@michalmatzov",
       "stored_followers": 369300,
-      "live_followers": 369300,
+      "live_followers": 369400,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": 0.027078256160303276
     },
     {
       "talent_name": "מיכל מצוב",
@@ -1217,19 +1217,19 @@
       "talent_name": "ישראל גליצקי",
       "platform": "youtube",
       "url": "https://www.youtube.com/@israelgalitsky",
-      "stored_followers": 6590,
+      "stored_followers": 6600,
       "live_followers": 6600,
       "error": null,
-      "diff_pct": 0.15174506828528073
+      "diff_pct": 0.0
     },
     {
       "talent_name": "ישראל גליצקי",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@israel_galitsky",
       "stored_followers": 162300,
-      "live_followers": 162300,
+      "live_followers": 162400,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": 0.06161429451632779
     },
     {
       "talent_name": "ישראל גליצקי",
