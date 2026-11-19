@@ -93,5 +93,10 @@
     "id": "client-swag4",
     "name": "פרימור",
     "logoUrl": "/clients/client-swag4.webp"
+  },
+  {
+    "id": "technion",
+    "name": "הטכניון",
+    "logoUrl": "/clients/technion.svg"
   }
 ]
