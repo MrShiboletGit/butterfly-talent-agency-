@@ -539,11 +539,11 @@
     "description": "קמפיין דיגיטלי מוצלח עבור אפליקציית Jooba - פלטפורמת מסחר לנוער",
     "category": "קמפיין דיגיטלי",
     "kpis": {
-      "views": 375200,
+      "views": 375400,
       "engagement": 16871,
       "shares": 1416,
-      "reach": 375200,
-      "impressions": 375200
+      "reach": 375400,
+      "impressions": 375400
     },
     "talents": [
       "1",
@@ -583,7 +583,7 @@
         "type": "short-form-video",
         "description": "סרטון TikTok - Jooba אפליקציית מסחר לנוער",
         "platform": "tiktok",
-        "views": 120200,
+        "views": 120300,
         "likes": 6672,
         "comments": 355,
         "saves": 1605,
@@ -595,7 +595,7 @@
         "type": "short-form-video",
         "description": "סרטון TikTok נוסף - Jooba אפליקציית מסחר לנוער",
         "platform": "tiktok",
-        "views": 120200,
+        "views": 120300,
         "likes": 6672,
         "comments": 48,
         "saves": 249,
@@ -1122,7 +1122,7 @@
     "category": "קמפיין קולנוע",
     "kpis": {
       "views": 719684,
-      "engagement": 21771,
+      "engagement": 21772,
       "shares": 0,
       "reach": 719684,
       "impressions": 719684
@@ -1155,7 +1155,7 @@
         "description": "TikTok - עומר ירון לזמן את הרוע 4 בכורה",
         "platform": "tiktok",
         "views": 403200,
-        "likes": 9290,
+        "likes": 9291,
         "comments": 253,
         "saves": 868,
         "talent": "8"
