@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T11:23:44.185092",
+  "generated_at": "2026-11-20T11:11:01.264604",
   "video_results": [
     {
       "url": "https://www.tiktok.com/@galcohenyt/video/7540251397405560084",
@@ -224,22 +224,22 @@
     {
       "url": "https://www.tiktok.com/@michalmatzov/video/7527310366653598984?_r=1&_t=ZS-8yYyPcptRRZ",
       "platform": "tiktok",
-      "stored_views": 120200,
+      "stored_views": 120300,
       "stored_likes": 6672,
       "live_views": 120300,
-      "live_likes": 6672,
+      "live_likes": 6673,
       "error": null,
-      "views_diff_pct": 0.08319467554076539
+      "views_diff_pct": 0.0
     },
     {
       "url": "https://www.tiktok.com/@michalmatzov/video/7527310366653598984?_r=1&_t=ZS-8yYyPcptRRZ",
       "platform": "tiktok",
-      "stored_views": 120200,
+      "stored_views": 120300,
       "stored_likes": 6672,
       "live_views": 120300,
-      "live_likes": 6672,
+      "live_likes": 6673,
       "error": null,
-      "views_diff_pct": 0.08319467554076539
+      "views_diff_pct": 0.0
     },
     {
       "url": "https://www.tiktok.com/@galcohenyt/video/7522490053461806343?_r=1&_t=ZS-8xh6Rcpzek5",
@@ -336,10 +336,10 @@
       "platform": "tiktok",
       "stored_views": 337300,
       "stored_likes": 722,
-      "live_views": 337300,
-      "live_likes": 722,
+      "live_views": 337400,
+      "live_likes": 723,
       "error": null,
-      "views_diff_pct": 0.0
+      "views_diff_pct": 0.029647198339756892
     },
     {
       "url": "https://www.youtube.com/shorts/TY7ridcwMdo",
@@ -555,11 +555,11 @@
       "url": "https://www.tiktok.com/@omeryaron_/video/7546155126982069522",
       "platform": "tiktok",
       "stored_views": 403200,
-      "stored_likes": 9290,
-      "live_views": 403200,
+      "stored_likes": 9291,
+      "live_views": 403300,
       "live_likes": 9291,
       "error": null,
-      "views_diff_pct": 0.0
+      "views_diff_pct": 0.0248015873015873
     },
     {
       "url": "https://www.instagram.com/reel/DOI_704DS-U/?igsh=MmVybXo3cnFtdmt6",
@@ -795,18 +795,18 @@
       "platform": "youtube",
       "url": "https://www.youtube.com/@SHIB",
       "stored_followers": 290000,
-      "live_followers": 290000,
+      "live_followers": 291000,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": 0.3448275862068966
     },
     {
       "talent_name": "מר שיבולת (שי בן בסט)",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@mrshibolet",
       "stored_followers": 118600,
-      "live_followers": 118600,
+      "live_followers": 120100,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": 1.2647554806070826
     },
     {
       "talent_name": "מר שיבולת (שי בן בסט)",
@@ -821,10 +821,10 @@
       "talent_name": "קורנליוס האיום (קורנליוס אביעד)",
       "platform": "youtube",
       "url": "https://www.youtube.com/channel/UCiW0DnQFoaKENY1XJMEBvBg",
-      "stored_followers": 19900,
-      "live_followers": 20000,
+      "stored_followers": 20000,
+      "live_followers": 20100,
       "error": null,
-      "diff_pct": 0.5025125628140703
+      "diff_pct": 0.5
     },
     {
       "talent_name": "קורנליוס האיום (קורנליוס אביעד)",
@@ -902,19 +902,19 @@
       "talent_name": "בלאקבירד (מוטי וקנין)",
       "platform": "youtube",
       "url": "https://www.youtube.com/@blackbeardplus",
-      "stored_followers": 92800,
+      "stored_followers": 92900,
       "live_followers": 92900,
       "error": null,
-      "diff_pct": 0.10775862068965517
+      "diff_pct": 0.0
     },
     {
       "talent_name": "בלאקבירד (מוטי וקנין)",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@motiblackbeard",
       "stored_followers": 92800,
-      "live_followers": 92800,
+      "live_followers": 92900,
       "error": null,
-      "diff_pct": 0.0
+      "diff_pct": 0.10775862068965517
     },
     {
       "talent_name": "בלאקבירד (מוטי וקנין)",
@@ -938,10 +938,10 @@
       "talent_name": "שלומי בן עטר (המרתף)",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@hamartef",
-      "stored_followers": 63600,
+      "stored_followers": 64100,
       "live_followers": 64100,
       "error": null,
-      "diff_pct": 0.7861635220125787
+      "diff_pct": 0.0
     },
     {
       "talent_name": "שלומי בן עטר (המרתף)",
@@ -965,10 +965,10 @@
       "talent_name": "בר אסטרי (Bar Astri)",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@barastri",
-      "stored_followers": 36900,
+      "stored_followers": 37000,
       "live_followers": 37000,
       "error": null,
-      "diff_pct": 0.27100271002710025
+      "diff_pct": 0.0
     },
     {
       "talent_name": "בר אסטרי (Bar Astri)",
@@ -983,19 +983,19 @@
       "talent_name": "עומר גולדן שואו (Golden Show)",
       "platform": "youtube",
       "url": "https://www.youtube.com/@RealGoldenShow",
-      "stored_followers": 95000,
-      "live_followers": 95100,
+      "stored_followers": 95100,
+      "live_followers": 95200,
       "error": null,
-      "diff_pct": 0.10526315789473684
+      "diff_pct": 0.10515247108307045
     },
     {
       "talent_name": "עומר גולדן שואו (Golden Show)",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@realgoldengames",
-      "stored_followers": 30800,
+      "stored_followers": 30900,
       "live_followers": 30900,
       "error": null,
-      "diff_pct": 0.3246753246753247
+      "diff_pct": 0.0
     },
     {
       "talent_name": "עומר גולדן שואו (Golden Show)",
@@ -1028,10 +1028,10 @@
       "talent_name": "סטינגר ישראל",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@stingeril",
-      "stored_followers": 20500,
+      "stored_followers": 20400,
       "live_followers": 20400,
       "error": null,
-      "diff_pct": -0.4878048780487805
+      "diff_pct": 0.0
     },
     {
       "talent_name": "עומר ירון",
@@ -1073,10 +1073,10 @@
       "talent_name": "דניאל טימבלאסט (TeamBlast)",
       "platform": "tiktok",
       "url": "https://www.tiktok.com/@teamblast",
-      "stored_followers": 6205,
-      "live_followers": 6206,
+      "stored_followers": 6206,
+      "live_followers": 6209,
       "error": null,
-      "diff_pct": 0.016116035455278004
+      "diff_pct": 0.048340315823396714
     },
     {
       "talent_name": "דניאל טימבלאסט (TeamBlast)",
