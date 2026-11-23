@@ -539,11 +539,11 @@
     "description": "קמפיין דיגיטלי מוצלח עבור אפליקציית Jooba - פלטפורמת מסחר לנוער",
     "category": "קמפיין דיגיטלי",
     "kpis": {
-      "views": 375400,
+      "views": 375600,
       "engagement": 16875,
       "shares": 1416,
-      "reach": 375400,
-      "impressions": 375400
+      "reach": 375600,
+      "impressions": 375600
     },
     "talents": [
       "1",
@@ -583,7 +583,7 @@
         "type": "short-form-video",
         "description": "סרטון TikTok - Jooba אפליקציית מסחר לנוער",
         "platform": "tiktok",
-        "views": 120300,
+        "views": 120400,
         "likes": 6674,
         "comments": 355,
         "saves": 1605,
@@ -595,7 +595,7 @@
         "type": "short-form-video",
         "description": "סרטון TikTok נוסף - Jooba אפליקציית מסחר לנוער",
         "platform": "tiktok",
-        "views": 120300,
+        "views": 120400,
         "likes": 6674,
         "comments": 48,
         "saves": 249,
